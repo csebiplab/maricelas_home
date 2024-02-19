@@ -16,7 +16,7 @@ footer * {
   @apply max-w-7xl mx-auto px-2;
 }
 a {
-  @apply text-primary underline-offset-2 hover:underline decoration-primary-700;
+  @apply text-primary underline-offset-2 hover:underline decoration-primary-700 select-none;
 }
 .bar {
   @apply h-[2px] w-40 bg-primary;
@@ -73,4 +73,13 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* My utility classe */
+
+@media only screen and (min-width: 2100px) {
+  .custom-container {
+    max-width: 1536px;
+    margin: 0 auto;
+  }
 }
