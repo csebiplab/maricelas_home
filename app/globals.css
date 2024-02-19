@@ -18,6 +18,11 @@ footer * {
 a {
   @apply text-primary underline-offset-2 hover:underline decoration-primary-700 select-none;
 }
+
+img {
+  @apply select-none;
+}
+
 .bar {
   @apply h-[2px] w-40 bg-primary;
 }
