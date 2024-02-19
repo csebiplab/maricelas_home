@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@material-tailwind/react";
-import React from "react";
+import { FcCalculator } from "react-icons/fc";
 
 const HeroSection = () => {
   return (
@@ -16,8 +16,11 @@ const HeroSection = () => {
           Best cleaning services in Houston and Texas.
         </p>
         <div className="flex justify-center md:justify-start">
-          <Button href="/contact-us" className="btn !text-sm rounded-none">
-            Get an Estimate
+          <Button
+            className="btn !text-sm rounded-none flex items-center gap-x-2"
+          >
+            <FcCalculator className="w-4 h-4" />
+            <span className="text-primary-50 capitalize">Get an Estimate</span>
           </Button>
         </div>
       </div>

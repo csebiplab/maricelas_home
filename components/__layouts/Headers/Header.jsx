@@ -12,15 +12,28 @@ import { FaCanadianMapleLeaf, FaPhone } from "react-icons/fa";
 import MaricelasHomeLogo from "@/assets/MaricelasMagnificence_logo1.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import Image from "next/image";
+import { FcCalculator } from "react-icons/fc";
 
 const menu = [
   {
-    name: "Home",
-    url: "/",
+    name: "Commercial Cleaning",
+    url: "/commercial-cleaning",
   },
   {
-    name: "Concrete delivery",
-    url: "/concrete-delivery",
+    name: "Residential Cleaning",
+    url: "/residential-cleaning",
+  },
+  {
+    name: "Deep Clean",
+    url: "/deep-clean",
+  },
+  {
+    name: "How It Works",
+    url: "/how-it-works",
+  },
+  {
+    name: "Gallery",
+    url: "/gallery",
   },
 ];
 
@@ -45,6 +58,12 @@ const Header = () => {
               className="text-dark text-sm font-normal mx-3 hover:underline"
             >
               Blogs
+            </Link>
+            <Link
+              href={"/careers"}
+              className="text-dark text-sm font-normal mx-3 hover:underline"
+            >
+              Careers
             </Link>
             <Link
               href={"/testimonials"}
@@ -85,31 +104,34 @@ const Header = () => {
             {contacts.phone}
           </span>
         </Link>
-        <nav className="flex-grow hidden lg:block ml-5">
+        <nav className="flex-grow hidden lg:block">
           {menu.map((item, key) => (
             <Link
               href={item.url}
               key={key}
-              className="text-lg text-dark hover:text-primary py-2 px-3 duration-200"
+              className="text-sm text-dark hover:text-primary py-2 xl:px-1 2xl:px-2 duration-200"
             >
               {item.name}
             </Link>
           ))}
         </nav>
         <nav className="gap-2 items-center hidden lg:flex">
-          <a
+          <Link
             href="tel:+1 (647) 539-6755"
-            className="flex items-center justify-center gap-2 py-2 px-3 group"
+            className="flex items-center justify-center gap-2 py-2 pl-1 group"
           >
-            <span className="h-9 w-9 rounded-full justify-center items-center bg-dark-50/10 flex group-hover:bg-dark">
-              <FaPhone className="inline-block h-4 w-4 fill-dark group-hover:fill-white" />
+            <span className="h-5 w-5 rounded-full justify-center items-center bg-dark-50/10 flex group-hover:bg-dark">
+              <FaPhone className="inline-block h-3 w-3 fill-dark group-hover:fill-white" />
             </span>
             <span className="text-sm font-bold text-primary">
               {contacts.phone}
             </span>
-          </a>
-          <Button href="/contact-us" className="btn !text-sm rounded-none">
-            Get an Estimate
+          </Link>
+          <Button
+            className="btn !text-sm rounded-none flex items-center gap-x-2"
+          >
+            <FcCalculator className="w-4 h-4" />
+            <span className="text-primary-50 capitalize">Get an Estimate</span>
           </Button>
         </nav>
         <IconButton
@@ -175,8 +197,11 @@ const Header = () => {
               {contacts.phone}
             </span>
           </a>
-          <Button href="/contact-us" className="btn !text-sm rounded-none">
-            Get an Estimate
+          <Button
+            className="btn !text-sm rounded-none flex items-center gap-x-2"
+          >
+            <FcCalculator className="w-4 h-4" />
+            <span className="text-primary-50 capitalize">Get an Estimate</span>
           </Button>
         </nav>
       </Drawer>
