@@ -12,6 +12,10 @@ footer * {
   @apply text-white;
 }
 
+section {
+  @apply mb-16
+}
+
 .container {
   @apply max-w-7xl mx-auto px-2;
 }

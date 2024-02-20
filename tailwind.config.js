@@ -103,7 +103,8 @@ module.exports = withMT({
                 pageBg: "#F5F8FA",
             },
             spacing: {
-                '24' : "6.5rem"
+                '24': "6.5rem",
+                "1": "2px"
             },
         },
     },
