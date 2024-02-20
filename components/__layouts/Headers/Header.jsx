@@ -86,7 +86,7 @@ const Header = () => {
         <Link href="/">
           <Image
             src={MaricelasHomeLogo}
-            alt="Lavish Lux Brand Image"
+            alt="Maricela's Home"
             width={130}
             height={24.5}
             priority={true}
