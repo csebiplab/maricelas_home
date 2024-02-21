@@ -5,7 +5,7 @@ import { FcCalculator } from "react-icons/fc";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex flex-col-reverse md:flex-row justify-center custom-container gap-x-16">
+    <div className="relative flex flex-col-reverse md:flex-row justify-center custom-container gap-x-16 mb-16">
       <div className="flex flex-col justify-center px-4 xl:px-0 xl:pl-32 md:py-24 absolute top-1/4 md:static">
         <h1 className="font-bold text-3xl md:text-5xl mb-4 md:mb-6 leading-tight text-center md:text-left">
           Commercial & Residential

@@ -37,7 +37,6 @@ const clients = [
     logo: HomeAdviserLogo,
     desc: "Top Customer Support and Project Management...",
   },
-  
 ];
 
 const OurClients = () => {
@@ -50,7 +49,7 @@ const OurClients = () => {
             <br />
             <span>You Can Trust</span>
           </h2>
-          <h6 className="my-5 font-normal">
+          <h6 className="mt-5 font-normal">
             Houston's Cleaning Company Of Choices -{" "}
             <Link
               href="/"
@@ -59,7 +58,9 @@ const OurClients = () => {
               See Our Reviews
             </Link>
           </h6>
-          <BorderBottom classProps={"flex justify-center"} />
+          <BorderBottom
+            classProps={{ child: "w-24", parrent: "flex justify-center" }}
+          />
         </div>
         <div className="mt-12 flex justify-center px-40">
           <div className="flex items-center flex-wrap md:flex-nowrap gap-12">
