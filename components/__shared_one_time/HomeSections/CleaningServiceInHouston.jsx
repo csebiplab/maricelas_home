@@ -2,6 +2,8 @@ import BorderBottom from "@/components/__ui/BorderBottom";
 import Image from "next/image";
 import MaricelasWorker from "@/assets/maricelas_worker.png";
 import { CiSquareRemove } from "react-icons/ci";
+import { LuCheckSquare } from "react-icons/lu";
+
 
 const userCleaningExperiences = [
   {
@@ -66,7 +68,7 @@ const CleaningServiceInHouston = () => {
                       key={item.id}
                       className="flex items-center gap-y-3 font-medium"
                     >
-                      <CiSquareRemove className="mr-1 font-medium" />{" "}
+                      <CiSquareRemove className="mr-2 font-medium" />{" "}
                       {item.text}
                     </li>
                   ))}
@@ -80,7 +82,7 @@ const CleaningServiceInHouston = () => {
                       key={item.id}
                       className="flex items-center gap-y-3 font-medium"
                     >
-                      <CiSquareRemove className="mr-1 font-medium" />{" "}
+                      <LuCheckSquare className="mr-2 font-medium border" />{" "}
                       {item.text}
                     </li>
                   ))}
