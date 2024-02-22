@@ -16,11 +16,9 @@ const HeroSection = () => {
           Best cleaning services in Houston and Texas.
         </p>
         <div className="flex justify-center md:justify-start">
-          <Button
-            className="btn !text-sm rounded-none flex items-center gap-x-2"
-          >
+          <Button className="btn !text-sm rounded-none flex items-center gap-x-2">
             <FcCalculator className="w-4 h-4" />
-            <span className="text-primary-50 capitalize">Get an Estimate</span>
+            <span className="text-white capitalize">Get an Estimate</span>
           </Button>
         </div>
       </div>
