@@ -20,7 +20,7 @@ section {
   @apply max-w-7xl mx-auto px-2;
 }
 a {
-  @apply text-primary underline-offset-2 hover:underline decoration-primary-700 select-none;
+  @apply text-white underline-offset-2 hover:underline decoration-white select-none;
 }
 
 img {

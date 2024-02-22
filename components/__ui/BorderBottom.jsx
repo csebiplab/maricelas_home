@@ -4,7 +4,7 @@ const BorderBottom = ({ classProps }) => {
   return (
     <div className={`${classProps?.parrent} mt-5`}>
       <div
-        className={`${classProps?.child} border-b h-2 bg-secondary-50 border-secondary-600`}
+        className={`${classProps?.child} border-b h-1 bg-secondary-300 border-secondary-600`}
       />
     </div>
   );
