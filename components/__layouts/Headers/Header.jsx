@@ -131,7 +131,7 @@ const Header = () => {
             className="btn !text-sm rounded-none flex items-center gap-x-2"
           >
             <FcCalculator className="w-4 h-4" />
-            <span className="text-primary-50 capitalize">Get an Estimate</span>
+            <span className="capitalize text-white">Get an Estimate</span>
           </Button>
         </nav>
         <IconButton
