@@ -36,6 +36,24 @@ const menu = [
     url: "/gallery",
   },
 ];
+const smallHeaderMenus = [
+  {
+    name: "Blogs",
+    url: "/commercial-cleaning",
+  },
+  {
+    name: "Careers",
+    url: "/residential-cleaning",
+  },
+  {
+    name: "Testimonials",
+    url: "/deep-clean",
+  },
+  {
+    name: " Contact Us",
+    url: "/how-it-works",
+  },
+];
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -53,30 +71,15 @@ const Header = () => {
             Commercial & Residential Cleaning Services in Houston
           </h6>
           <div className="md:flex md:flex-row justify-end items-center hidden">
-            <Link
-              href={"/blog"}
-              className="text-dark text-sm font-normal mx-3 hover:underline"
-            >
-              Blogs
-            </Link>
-            <Link
-              href={"/careers"}
-              className="text-dark text-sm font-normal mx-3 hover:underline"
-            >
-              Careers
-            </Link>
-            <Link
-              href={"/testimonials"}
-              className="text-dark text-sm font-normal mx-3 hover:underline"
-            >
-              Testimonials
-            </Link>
-            <Link
-              href={"/contact-us"}
-              className="text-dark text-sm font-normal mx-3 hover:underline"
-            >
-              Contact Us
-            </Link>
+            {smallHeaderMenus.map((link, i) => (
+              <Link
+                key={i}
+                href={"/blog"}
+                className="text-dark text-sm font-medium ml-6 hover:underline decoration-primary-50"
+              >
+                {link.name}
+              </Link>
+            ))}
           </div>
         </nav>
       </header>
@@ -109,7 +112,7 @@ const Header = () => {
             <Link
               href={item.url}
               key={key}
-              className="text-sm text-dark hover:text-primary py-2 xl:px-1 2xl:px-2 duration-200"
+              className="text-sm x3l-font-20px font-medium text-dark-700 hover:text-primary py-2 xl:px-1 2xl:px-2 duration-200"
             >
               {item.name}
             </Link>
@@ -127,9 +130,7 @@ const Header = () => {
               {contacts.phone}
             </span>
           </Link>
-          <Button
-            className="btn !text-sm rounded-none flex items-center gap-x-2"
-          >
+          <Button className="btn !text-sm rounded-none flex items-center gap-x-2">
             <FcCalculator className="w-4 h-4" />
             <span className="capitalize text-white">Get an Estimate</span>
           </Button>
@@ -197,9 +198,7 @@ const Header = () => {
               {contacts.phone}
             </span>
           </a>
-          <Button
-            className="btn !text-sm rounded-none flex items-center gap-x-2"
-          >
+          <Button className="btn !text-sm rounded-none flex items-center gap-x-2">
             <FcCalculator className="w-4 h-4" />
             <span className="text-primary-50 capitalize">Get an Estimate</span>
           </Button>

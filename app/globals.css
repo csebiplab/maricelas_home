@@ -84,7 +84,13 @@ img {
   background: #555;
 }
 
-/* My utility classe */
+/* My custom utility classes & Media queries */
+
+@media screen and (min-width: 1600px) {
+  .x3l-font-20px {
+    font-size: 1.25rem;
+  }
+}
 
 @media only screen and (min-width: 2100px) {
   .custom-container {
