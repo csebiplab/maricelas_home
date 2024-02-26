@@ -44,11 +44,11 @@ const OurClients = () => {
     <div>
       <div>
         <div className="text-center">
-          <h2>
+          <h3 className="text-3xl font-semibold">
             <span>Commercial & Residential Cleaning Services</span>
             <br />
             <span>You Can Trust</span>
-          </h2>
+          </h3>
           <h6 className="mt-5 font-normal">
             Houston's Cleaning Company Of Choices -{" "}
             <Link

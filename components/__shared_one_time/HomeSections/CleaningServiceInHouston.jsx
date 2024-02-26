@@ -4,7 +4,6 @@ import MaricelasWorker from "@/assets/maricelas_worker.png";
 import { CiSquareRemove } from "react-icons/ci";
 import { LuCheckSquare } from "react-icons/lu";
 
-
 const userCleaningExperiences = [
   {
     id: 1,
@@ -31,19 +30,22 @@ const userCleaningExperiences = [
 const CleaningServiceInHouston = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex justify-center flex-wrap md:flex-nowrap w-11/12 gap-10 md:gap-16 md:px-10">
+      <div className="flex justify-center flex-wrap md:flex-nowrap w-full gap-10 md:gap-16 md:px-10">
         <Image
           src={MaricelasWorker}
           alt="Maricela"
-          width={420}
-          height={280}
+          width={450}
+          height={300}
           loading="lazy"
-          className=""
+          className="md:pl-10"
+          style={{height: "450px"}}
         />
         <div>
-          {" "}
-          <div className="">
-            <h3 className="font-semibold">Cleaning Services In Houston</h3>
+          <div className="w-full">
+            <h3 className="font-semibold text-3xl">
+              Welcome to Our Commercial & Residential Cleaning Services in
+              Houston
+            </h3>
 
             <BorderBottom
               classProps={{ child: "w-24", parrent: "flex justify-start mt-4" }}
@@ -52,13 +54,19 @@ const CleaningServiceInHouston = () => {
           <div className="mt-5">
             <div>
               {" "}
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Doloremque enim blanditiis pariatur recusandae sunt aperiam
-              voluptatum aut ducimus quos commodi?
+              Welcome to Maricela's Cleaning Magnificence, a company of
+              commercial & residential cleaning services in Houston. Our current
+              focus is on catering to both commercial and residential clients in
+              Houston, Texas. We aim to provide our clients with comprehensive
+              and high-quality services that meet their specific needs and
+              requirements. Our team is composed of skilled professionals with
+              extensive experience in the industry, and we are committed to
+              delivering exceptional results that exceed our client’s
+              expectations.
             </div>
-            <h3 className="font-semibold my-5">
+            <h4 className="font-semibold my-5">
               Why Choose Maricela's Cleaning Magnificence Services?
-            </h3>
+            </h4>
             <div className="flex justify-between flex-wrap md:flex-nowrap">
               <div>
                 <h6 className="font-semibold my-4">User Cleaning Experience</h6>
@@ -75,7 +83,9 @@ const CleaningServiceInHouston = () => {
                 </ul>
               </div>
               <div>
-                <h6 className="font-semibold my-4">Maricela's Cleaning Magnificance</h6>
+                <h6 className="font-semibold my-4">
+                  Maricela's Cleaning Magnificance
+                </h6>
                 <ul>
                   {userCleaningExperiences?.map((item) => (
                     <li
