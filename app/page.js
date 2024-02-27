@@ -2,7 +2,9 @@ import CleaningServiceInHouston from "@/components/__shared_one_time/HomeSection
 import CommercialNResidentialCleaningService from "@/components/__shared_one_time/HomeSections/CommercialNResidentialCleaningService";
 import { FaqAccordion } from "@/components/__shared_one_time/HomeSections/FaqAccordion";
 import HeroSection from "@/components/__shared_one_time/HomeSections/HeroSection";
+import HowDoesCleaningCompanyWorks from "@/components/__shared_one_time/HomeSections/HowDoesCleaningCompanyWorks";
 import OurClients from "@/components/__shared_one_time/HomeSections/OurClients";
+// import CSBGIMG3 from "@/assets/cs3.jpg"
 
 export default function Home() {
   return (
@@ -18,6 +20,10 @@ export default function Home() {
         <section>
           <CommercialNResidentialCleaningService />
         </section>
+        <section>
+          <HowDoesCleaningCompanyWorks />
+        </section>
+
         <section>
           <FaqAccordion />
         </section>
