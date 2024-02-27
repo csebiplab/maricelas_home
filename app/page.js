@@ -6,6 +6,7 @@ import { FaqAccordion } from "@/components/__shared_one_time/HomeSections/FaqAcc
 import HeroSection from "@/components/__shared_one_time/HomeSections/HeroSection";
 import HowDoesCleaningCompanyWorks from "@/components/__shared_one_time/HomeSections/HowDoesCleaningCompanyWorks";
 import OurClients from "@/components/__shared_one_time/HomeSections/OurClients";
+import OurOtherCleaningService from "@/components/__shared_one_time/HomeSections/OurOtherCleaningService";
 // import CSBGIMG3 from "@/assets/cs3.jpg"
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
         </section>
         <section>
           <CleaningServiceCost />
+        </section>
+        <section>
+          <OurOtherCleaningService />
         </section>
 
         <div className="mb-16">
