@@ -13,7 +13,7 @@ footer * {
 }
 
 section {
-  @apply mb-16 container px-5 md:px-[70px];
+  @apply mb-16 container px-5 md:px-0;
 }
 
 .container {
