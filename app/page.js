@@ -1,4 +1,5 @@
 import CleaningServiceInHouston from "@/components/__shared_one_time/HomeSections/CleaningServiceInHouston";
+import CommercialNResidentialCleaningService from "@/components/__shared_one_time/HomeSections/CommercialNResidentialCleaningService";
 import { FaqAccordion } from "@/components/__shared_one_time/HomeSections/FaqAccordion";
 import HeroSection from "@/components/__shared_one_time/HomeSections/HeroSection";
 import OurClients from "@/components/__shared_one_time/HomeSections/OurClients";
@@ -13,6 +14,9 @@ export default function Home() {
         </section>
         <section>
           <CleaningServiceInHouston />
+        </section>
+        <section>
+          <CommercialNResidentialCleaningService />
         </section>
         <section>
           <FaqAccordion />

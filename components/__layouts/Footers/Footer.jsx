@@ -68,7 +68,7 @@ const footerLinks = {
 
 const Footer = () => {
   return (
-    <footer className={`bg-primary mt-16 container-custom`}>
+    <footer className={`bg-primary mt-16 custom-container`}>
       <div className="container mx-auto px-5 py-8 md:px-16">
         <div className="flex md:block justify-center">
           <div className="flex flex-col md:flex-row justify-center md:justify-between gap-y-4 md:gap-0">

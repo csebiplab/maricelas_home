@@ -62,7 +62,7 @@ const OurClients = () => {
             classProps={{ child: "w-24", parrent: "flex justify-center" }}
           />
         </div>
-        <div className="mt-12 flex justify-center px-40">
+        <div className="mt-12 flex justify-center">
           <div className="flex items-center flex-wrap md:flex-nowrap gap-12">
             {clients.map((client) => (
               <div key={client.id}>

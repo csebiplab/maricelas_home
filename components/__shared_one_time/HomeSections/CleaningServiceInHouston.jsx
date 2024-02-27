@@ -30,17 +30,17 @@ const userCleaningExperiences = [
 const CleaningServiceInHouston = () => {
   return (
     <div className="flex justify-center">
-      <div className="flex justify-center flex-wrap md:flex-nowrap w-full gap-10 md:gap-16 md:px-10">
+      <div className="flex justify-center flex-wrap md:flex-nowrap w-full gap-6">
         <Image
           src={MaricelasWorker}
           alt="Maricela"
           width={450}
           height={300}
           loading="lazy"
-          className="md:pl-10"
+          className=""
           style={{height: "450px"}}
         />
-        <div>
+        <div className="">
           <div className="w-full">
             <h3 className="font-semibold text-3xl">
               Welcome to Our Commercial & Residential Cleaning Services in
