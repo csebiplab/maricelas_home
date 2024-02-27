@@ -1,3 +1,4 @@
+import CleanedWithUs from "@/components/__shared_one_time/HomeSections/CleanedWithUs";
 import CleaningServiceInHouston from "@/components/__shared_one_time/HomeSections/CleaningServiceInHouston";
 import CommercialNResidentialCleaningService from "@/components/__shared_one_time/HomeSections/CommercialNResidentialCleaningService";
 import { FaqAccordion } from "@/components/__shared_one_time/HomeSections/FaqAccordion";
@@ -23,6 +24,9 @@ export default function Home() {
         <section>
           <HowDoesCleaningCompanyWorks />
         </section>
+        <div className="mb-16">
+          <CleanedWithUs />
+        </div>
 
         <section>
           <FaqAccordion />
