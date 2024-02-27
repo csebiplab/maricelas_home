@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Maricela's Home",
-  description: "Maricela's Home",
+  description: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
 };
 
 export default function RootLayout({ children }) {

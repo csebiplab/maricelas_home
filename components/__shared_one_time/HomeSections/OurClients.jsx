@@ -53,7 +53,7 @@ const OurClients = () => {
             Houston's Cleaning Company Of Choices -{" "}
             <Link
               href="/"
-              className="underline hover:no-underline hover:text-secondary-600"
+              className="underline decoration-primary-600 hover:no-underline text-primary-50 hover:text-primary-600"
             >
               See Our Reviews
             </Link>
