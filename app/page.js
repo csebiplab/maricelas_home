@@ -2,6 +2,7 @@ import CleanedWithUs from "@/components/__shared_one_time/HomeSections/CleanedWi
 import CleaningServiceCost from "@/components/__shared_one_time/HomeSections/CleaningServiceCost";
 import CleaningServiceInHouston from "@/components/__shared_one_time/HomeSections/CleaningServiceInHouston";
 import CommercialNResidentialCleaningService from "@/components/__shared_one_time/HomeSections/CommercialNResidentialCleaningService";
+import ConsiderationsOfHiringACleaningCompany from "@/components/__shared_one_time/HomeSections/ConsiderationsOfHiringACleaningCompany";
 import { FaqAccordion } from "@/components/__shared_one_time/HomeSections/FaqAccordion";
 import HeroSection from "@/components/__shared_one_time/HomeSections/HeroSection";
 import HowDoesCleaningCompanyWorks from "@/components/__shared_one_time/HomeSections/HowDoesCleaningCompanyWorks";
@@ -31,6 +32,9 @@ export default function Home() {
         </section>
         <section>
           <OurOtherCleaningService />
+        </section>
+        <section>
+          <ConsiderationsOfHiringACleaningCompany />
         </section>
 
         <div className="mb-16">
