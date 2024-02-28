@@ -12,12 +12,21 @@ footer * {
   @apply text-white;
 }
 
+section {
+  @apply mb-16 container px-5 md:px-[64px];
+}
+
 .container {
   @apply max-w-7xl mx-auto px-2;
 }
 a {
-  @apply text-primary underline-offset-2 hover:underline decoration-primary-700;
+  @apply text-white underline-offset-2 hover:underline decoration-white select-none;
 }
+
+img {
+  @apply select-none;
+}
+
 .bar {
   @apply h-[2px] w-40 bg-primary;
 }
@@ -73,4 +82,23 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* My custom utility classes & Media queries */
+.custom-container {
+  width: 100%;
+  @apply mx-auto;
+}
+
+@media only screen and (min-width: 1600px) {
+  .x3l-font-20px {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .custom-container {
+    max-width: 1600px;
+    @apply mx-auto;
+  }
 }
