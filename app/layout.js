@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/__layouts/Headers/Header";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
+import { Suspense } from "react";
 
 const openSans = Open_Sans({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -16,9 +17,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={montserrat.className || openSans.className}>
-        <>
+        <Suspense>
           <RoutingProgressBar />
-        </>
+        </Suspense>
         <>
           <Header />
         </>
