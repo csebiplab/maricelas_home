@@ -8,11 +8,12 @@ import {
 } from "@material-tailwind/react";
 import Link from "next/link";
 import { useState } from "react";
-import { FaCanadianMapleLeaf, FaPhone } from "react-icons/fa";
-import MaricelasHomeLogo from "@/assets/MaricelasMagnificence_logo1.png";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { FaPhone } from "react-icons/fa";
 import Image from "next/image";
 import { FcCalculator } from "react-icons/fc";
+import UpperNavbar from "./UpperNav";
+import "./Header.css";
+import { UtilsModule } from "@/utils/nav-menus";
 
 const menu = [
   {
@@ -36,24 +37,6 @@ const menu = [
     url: "/gallery",
   },
 ];
-const smallHeaderMenus = [
-  {
-    name: "Blogs",
-    url: "/commercial-cleaning",
-  },
-  {
-    name: "Careers",
-    url: "/residential-cleaning",
-  },
-  {
-    name: "Testimonials",
-    url: "/deep-clean",
-  },
-  {
-    name: " Contact Us",
-    url: "/how-it-works",
-  },
-];
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -61,89 +44,67 @@ const Header = () => {
   const closeDrawer = () => setOpen(false);
 
   return (
-    <>
-      <header className="custom-container">
-        <nav className="w-11/12 md:w-10/12 mx-auto py-3 flex justify-center md:justify-between items-center">
-          <h6 className=" text-dark text-sm font-medium text-center md:text-left flex items-center gap-x-1 uppercase">
-            <span className="">
-              <FaCanadianMapleLeaf className="w-5 h-5" />
-            </span>
-            Commercial & Residential Cleaning Services in Houston
-          </h6>
-          <div className="md:flex md:flex-row justify-end items-center hidden">
-            {smallHeaderMenus.map((link, i) => (
-              <Link
-                key={i}
-                href={"/blog"}
-                className="text-dark text-sm font-medium ml-6 hover:underline decoration-primary-50"
-              >
-                {link.name}
-              </Link>
-            ))}
+    <header>
+      <>
+        <UpperNavbar />
+      </>
+
+      <nav className="container py-[5px] main__header">
+        <div className="flex items-center justify-between">
+          <div className="w-[135px] h-[67px]">
+            <Image
+              src="/assets/images/brand.png"
+              width={135}
+              height={67}
+              alt="brand"
+              className="w-full h-full"
+            />
           </div>
-        </nav>
-      </header>
-      <header
-        className={`sticky top-0 bg-white z-[1000] shadow shadow-dark-50/10 custom-container px-5 md:px-24 mx-auto gap-2 py-2 flex items-center justify-between`}
-      >
-        <Link href="/">
-          <Image
-            src={MaricelasHomeLogo}
-            alt="Maricela's Home"
-            width={130}
-            height={24.5}
-            priority={true}
-            className={`h-20 w-44 select-none hover:no-underlines`}
-          />
-        </Link>
-        <Link
-          href="tel:+"
-          className="flex items-center justify-center gap-2 py-2 px-3 group  lg:hidden"
-        >
-          <span className="h-9 w-9 rounded-full justify-center items-center bg-dark-50/10 flex group-hover:bg-dark">
-            <FaPhone className="inline-block h-4 w-4 fill-dark group-hover:fill-white" />
-          </span>
-          <span className="text-sm font-bold text-primary">
-            {contacts.phone}
-          </span>
-        </Link>
-        <nav className="flex-grow hidden lg:block">
-          {menu.map((item, key) => (
-            <Link
-              href={item.url}
-              key={key}
-              className="text-sm x3l-font-20px font-medium text-dark-700 hover:text-primary py-2 xl:px-1 2xl:px-2 duration-200"
-            >
-              {item.name}
-            </Link>
-          ))}
-        </nav>
-        <nav className="gap-2 items-center hidden lg:flex">
-          <Link
-            href="tel:+1 (647) 539-6755"
-            className="flex items-center justify-center gap-2 py-2 pl-1 group"
-          >
-            <span className="h-5 w-5 rounded-full justify-center items-center bg-dark-50/10 flex group-hover:bg-dark">
-              <FaPhone className="inline-block h-3 w-3 fill-dark group-hover:fill-white" />
-            </span>
-            <span className="text-sm font-bold text-primary">
-              {contacts.phone}
-            </span>
-          </Link>
-          <Button className="btn !text-sm rounded-none flex items-center gap-x-2">
-            <FcCalculator className="w-4 h-4" />
-            <span className="capitalize text-white">Get an Estimate</span>
-          </Button>
-        </nav>
-        <IconButton
-          aria-label="icon-button"
-          variant="text"
-          className="block p-4 !text-white rounded-none  lg:hidden"
-          onClick={openDrawer}
-        >
-          <GiHamburgerMenu className="w-6 h-6" />
-        </IconButton>
-      </header>
+          <div className="hidden lg:block">
+            <ul className="flex items-center gap-x-8 xl:gap-x-10 2xl:gap-x-[75px]">
+              {UtilsModule.navMenus.map(({ mainMenu, url }, index) => (
+                <li key={index}>
+                  <Link
+                    href={url}
+                    className={`text-[17px] text-dark`}
+                  >
+                    {mainMenu}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8">
+            <div className="flex items-center gap-2">
+              <Image
+                src="/assets/images/phone-call.png"
+                width={24}
+                height={24}
+                alt="Phone"
+                className="w-[24px] h-[24px]"
+              />
+              <div className="">
+                <span className="text-base block">Quick Contact</span>
+                <Link
+                  href="/"
+                  className="text-primary font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
+                >
+                  (832) 8204035
+                </Link>
+              </div>
+            </div>
+            <div className="block lg:hidden">
+              <Image
+                src="/assets/icons/menu.png"
+                width={22}
+                height={22}
+                alt="Menu"
+                className="w-[22px] h-[22px]"
+              />
+            </div>
+          </div>
+        </div>
+      </nav>
       <Drawer open={open} onClose={closeDrawer} className="p-4">
         <div className="mb-6 flex items-center justify-between">
           <Typography variant="h5" color="blue-gray">
@@ -204,7 +165,7 @@ const Header = () => {
           </Button>
         </nav>
       </Drawer>
-    </>
+    </header>
   );
 };
 
