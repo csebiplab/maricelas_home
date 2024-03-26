@@ -1,4 +1,5 @@
 "use client";
+import { UtilsModule } from "@/utils/nav-menus";
 import { contacts, site_info } from "@/utils/siteInfo";
 import {
   Button,
@@ -6,14 +7,13 @@ import {
   IconButton,
   Typography,
 } from "@material-tailwind/react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaPhone } from "react-icons/fa";
-import Image from "next/image";
 import { FcCalculator } from "react-icons/fc";
-import UpperNavbar from "./UpperNav";
 import "./Header.css";
-import { UtilsModule } from "@/utils/nav-menus";
+import UpperNavbar from "./UpperNav";
 
 const menu = [
   {

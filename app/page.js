@@ -11,7 +11,7 @@ import MessageFromManagerSection from "@/components/__shared_one_time/HomeSectio
 import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
 import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/OurWorkingProcessSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
-import RatingNReveiwSection from "@/components/__shared_one_time/HomeSections/RatingNReveiwSection";
+import RatingNReveiwSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
 import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUsSection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
 import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
