@@ -78,12 +78,12 @@ img {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 100px;
-  background: #888;
+  @apply bg-primary-300
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  @apply bg-primary
 }
 
 /* Big screen size Media Query */
