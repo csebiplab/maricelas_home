@@ -21,7 +21,7 @@ const OurWorkingProcessSection = () => {
             <div className="w-full card-sd bg-[#fff]">
               <Image
                 src={work1}
-                width={221}
+                width={215}
                 height={148}
                 alt=""
                 className="w-full"
@@ -38,7 +38,7 @@ const OurWorkingProcessSection = () => {
             <div className="w-full card-sd bg-[#fff]">
               <Image
                 src={work2}
-                width={221}
+                width={215}
                 height={148}
                 alt=""
                 className="w-full"
@@ -55,7 +55,7 @@ const OurWorkingProcessSection = () => {
             <div className="w-full card-sd bg-[#fff]">
               <Image
                 src={work3}
-                width={221}
+                width={215}
                 height={148}
                 alt=""
                 className="w-full"
@@ -72,7 +72,7 @@ const OurWorkingProcessSection = () => {
             <div className="w-full card-sd bg-[#fff]">
               <Image
                 src={work4}
-                width={221}
+                width={215}
                 height={148}
                 alt=""
                 className="w-full"
@@ -89,7 +89,7 @@ const OurWorkingProcessSection = () => {
             <div className="w-full card-sd bg-[#fff]">
               <Image
                 src={work5}
-                width={221}
+                width={215}
                 height={148}
                 alt=""
                 className="w-full"
@@ -106,7 +106,7 @@ const OurWorkingProcessSection = () => {
             <div className="w-full card-sd bg-[#fff]">
               <Image
                 src={work6}
-                width={221}
+                width={215}
                 height={148}
                 alt=""
                 className="w-full"
