@@ -1,8 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import React from 'react';
 import contactImg from '../../../public/assets/random/contactus.png'
-
 import { FaMapLocationDot } from "react-icons/fa6";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
