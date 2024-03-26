@@ -17,5 +17,19 @@
 }
 
 .footer-bottom-bg {
-  background: linear-gradient(90deg, #062524 0%, #188b89 100%);
+  background: #880769;
 }
+
+/* Footer Classes */
+.footer-link {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem; /* Equivalent to text-lg in Tailwind CSS */
+}
+
+/* Select None for Images */
+img {
+  user-select: none;
+}
+
