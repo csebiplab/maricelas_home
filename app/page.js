@@ -6,7 +6,7 @@ import CostForServicesSection from "@/components/__shared_one_time/HomeSections/
 import DifferentApproachForWorkSection from "@/components/__shared_one_time/HomeSections/DifferentApproachForWorkSection";
 import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
-import HeroSection from "@/components/__shared_one_time/HomeSections/HeroSection";
+import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManagerSection";
 import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
 import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/OurWorkingProcessSection";
@@ -22,7 +22,9 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <div className="custom-container">
-        <HeroSection />
+        <div>
+          <HomeBanner />
+        </div>
         <section>
           <RatingNReveiwSection />
         </section>
