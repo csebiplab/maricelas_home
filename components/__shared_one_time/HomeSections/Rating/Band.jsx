@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Brand = () => {
   return (
-   <div className="md:mt-[20px] mt-2">
+   <div className="md:mt-[18px] mt-2">
      <div className="pt-4 grid grid-cols-2 md:grid-cols-6 lg:gap-3 gap-2">
       <div className="lg:px-2 md:px-1 lg:py-[14px] md:py-[5px]  text-center">
         <Image

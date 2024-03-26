@@ -1,25 +1,20 @@
 "use client";
 import Link from "next/link";
 // import { usePathname } from "next/navigation";
-import { FaMapMarkedAlt } from "react-icons/fa";
-import { HiMailOpen } from "react-icons/hi";
-import { MdOutlineAddIcCall } from "react-icons/md";
-import home from "@/public/assets/footer/home.png";
-import google from "@/public/assets/footer/google.png";
-import three from "@/public/assets/footer/three.png";
+import gokundo from "@/public/assets/footer/Gokundu-logo(white and green) 1.png";
 import gaf from "@/public/assets/footer/gaf.png";
-import LOGO from "@/public/assets/footer/easylogo.png";
-import { MdKeyboardDoubleArrowRight } from "react-icons/md";
+import google from "@/public/assets/footer/google.png";
+import home from "@/public/assets/footer/home.png";
+import three from "@/public/assets/footer/three.png";
+import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-import gokundo from "@/public/assets/footer/Gokundu-logo(white and green) 1.png";
+import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
 import Image from "next/image";
 
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import "./footer.css";
 
 const Footer = () => {
