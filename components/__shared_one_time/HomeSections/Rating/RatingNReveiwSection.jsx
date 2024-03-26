@@ -115,7 +115,7 @@ const RatingNReviewSection = () => {
 
          
         </div>
-        <div className="md:mt-[25px] mt-0">
+        <div className="md:mt-[25px] mt-[10px]">
          <Achievement/>
          </div>
       </div>
