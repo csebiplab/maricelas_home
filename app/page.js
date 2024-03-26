@@ -9,7 +9,7 @@ import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/G
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManagerSection";
 import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
-import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/OurWorkingProcessSection";
+import OurWorkingProcessSection from "@/components/__shared_one_time/WorkingProcess/OurWorkingProcessSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
 import RatingNReveiwSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
 import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUsSection";
