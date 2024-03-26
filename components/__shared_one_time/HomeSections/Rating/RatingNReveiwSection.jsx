@@ -2,14 +2,16 @@
 "use client";
 import vector from "@/public/assets/icons/vector.png";
 import Rating from "./Rating";
+import "./Rating.css";
 import RatingProgressBar from "./RatingProgressBar";
 const RatingNReviewSection = () => {
   return (
-    <div className="bg-[#fff]">
-      <div className="lg:w-[87.95%] md:w-full mx-auto container">
-        <div className="lg:w-[980px] md:w-full mx-auto">
-          <div className="rating p-6 rounded-[8px]">
-            <h2 className="lg:text-2xl md:text-lg lg:leading-[36px] mb-3">
+    <div className="-mt-0 md:-mt-[138px]">
+      <div className="lg:w-[87.95%] md:w-full mx-auto">
+        <div className="lg:w-[980px] md:w-full mx-auto bg-[#fff] rating-box">
+
+          <div className="p-6 rounded-[8px]">
+            <h2 className="text-[12px] md:text-lg lg:text-2xl lg:leading-[36px] mb-3">
               Ratings
             </h2>
             <div className="md:flex justify-between gap-5">
