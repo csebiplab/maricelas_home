@@ -2,6 +2,7 @@
 "use client";
 import vector from "@/public/assets/icons/vector.png";
 import Achievement from "./Achievement";
+import Brand from "./Band";
 import Rating from "./Rating";
 import "./Rating.css";
 import RatingProgressBar from "./RatingProgressBar";
@@ -119,7 +120,7 @@ const RatingNReviewSection = () => {
          <Achievement/>
          </div>
       </div>
-      {/* <Brand /> */}
+      <Brand />
     </div>
   );
 };
