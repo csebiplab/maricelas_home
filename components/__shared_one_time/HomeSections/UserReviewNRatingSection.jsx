@@ -1,7 +1,10 @@
-import React from "react";
+import ReviewSlider from "./ReviewSwipper/ReviewSlider/ReviewSlider";
 
 const UserReviewNRatingSection = () => {
-  return <div>UserReviewNRatingSection UserReviewNRatingSection</div>;
+  return <div>
+    <ReviewSlider/>
+   
+  </div>;
 };
 
 export default UserReviewNRatingSection;
