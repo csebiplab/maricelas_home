@@ -34,31 +34,33 @@ const Footer = () => {
   ];
 
   return (
-    <div className="">
-      <div className="footer__bg bg-blend-multiply bg-[#54042C] lg:px-[35px] xs:px-[20px] !text-white">
-        <section>
-          <footer
-            className="z-50 2xl:pt-[95px] lg:pt-[70px] pt-[50px] text-white "
-          >
+    <footer className="border-2 border-red-500">
+      <div className="container footer__bg bg-blend-multiply !bg-primary lg:px-[35px] xs:px-[20px] !text-white">
+        <div>
+          <div className="z-50 2xl:pt-[95px] lg:pt-[70px] pt-[50px] text-white ">
             <div className="">
-              <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-7 gap-10 ">
-
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
                 <div className=" lg:col-span-2 md:col-span-1 items-center">
                   {/* <div className="lg:h-[128px] xs:h-[76px] lg:w-[128px] xs:w-[76px]">
                     <Image src={LOGO} height={"128px"} width={"128px"} alt="" className="" />
 
                   </div> */}
                   <div>
-                    <h4 className=" lg:text-[25px] text-[20px]">We Are Maricela's Cleaning Magnificence</h4>
+                    <h4 className=" lg:text-[25px] text-[20px]">
+                      We Are Maricela's Cleaning Magnificence
+                    </h4>
                     <p className="text-white lg:pt-6 pt-2 mb-2 ml-2 lg:text-[13px] xs:text-[10px] ">
-
-                      We work with a passion of taking challenges and creating new ones in advertising sector.
+                      We work with a passion of taking challenges and creating
+                      new ones in advertising sector.
                     </p>
                   </div>
 
                   <div className="lg:mt-[35px]">
                     <h4 className=" lg:text-[25px] text-[20px]">Open Hours:</h4>
-                    <p>Mon – Sat: 8 am – 5 pm, <br />Sunday: CLOSED</p>
+                    <p>
+                      Mon – Sat: 8 am – 5 pm, <br />
+                      Sunday: CLOSED
+                    </p>
                   </div>
 
                   <div className=" flex gap-8 mt-8">
@@ -70,7 +72,6 @@ const Footer = () => {
                 </div>
 
                 <div className=" lg:col-span-5 md:col-span-2 grid sm:grid-cols-7 xs:grid-cols-5 lg:gap-10 gap-3">
-
                   {/* news line */}
                   <div className="sm:col-span-2 xs:col-span-1 ">
                     <h3 className="font-semibold text-white  lg:text-[20px]  xs:text-[15px] lg:mb-10 md:mb-5 mb-3 ">
@@ -197,29 +198,41 @@ const Footer = () => {
                     <ul className=" ">
                       <li>
                         <a
-                          href=""
-                          className="footer-link flex gap-4 items-center lg:text-[16px]  xs:text-[8px]  text-white"
+                          href="/"
+                          className="footer-link flex gap-4 items-center text-[8px] lg:text-[16px] text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
                           13809 Hollow Canyon Lane Rosharon, TX 77583
                         </a>
                       </li>
-                      <li className=" lg:py-8 xs:py-[12px]">
+                      <li className="py-2 lg:py-4">
                         <a
                           href="tel:+1 (646) 683-4612"
-                          className="footer-link items-center lg:text-[16px] xs:text-[8px]  text-white"
+                          className="footer-link items-center text-[8px] lg:text-[16px] text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                          (832)8204035
+                          (832) 8204035
                         </a>
                       </li>
                       <li>
                         <a
                           href="mailto:rhconusa@gmail.com"
-                          className="footer-link items-center lg:text-[16px] xs:text-[8px]  text-white"
+                          className="footer-link items-center text-white"
                         >
-                          <IoIosMail className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                          maricela.maldonado@maricelasmagnificence.com
+                          <Image
+                            src="/assets/icons/email.png"
+                            width={21}
+                            height={21}
+                            className="w-[21 px] h-[21px]"
+                          />
+                          <span className="hidden 3xl:block text-base text-wrap">
+                            maricela.maldonado@maricelasmagnificence.com
+                          </span>
+                          <span className="block 3xl:hidden text-[8px] sm:text-xs">
+                            maricela.maldonado@
+                            <br />
+                            maricelasmagnificence.com
+                          </span>
                         </a>
                       </li>
                       <div>
@@ -229,7 +242,7 @@ const Footer = () => {
                               <div key={i} className=" col-span-1">
                                 <img
                                   src={fIcon.img.src}
-                                  className=" lg:h-auto lg:w-auto "
+                                  className="lg:h-auto lg:w-auto "
                                 ></img>
                               </div>
                             ))}
@@ -238,7 +251,6 @@ const Footer = () => {
                       </div>
                     </ul>
                   </div>
-
                 </div>
 
                 {/* This section show when screen sm or xs */}
@@ -256,23 +268,27 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-
-          </footer>
-        </section>
+          </div>
+        </div>
       </div>
 
       {/* creater company credit */}
-      <div className="  footer-bottom-bg    ">
-        <section className=" grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
+      <div className="container footer-bottom-bg    ">
+        <div className=" grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
           <div className=" lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
             <p className=" lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}
               <b className="text-white">WEBSITE DESIGN AND SEO BY :-</b>{" "}
             </p>
-            <Image src={gokundo} alt="gokundo" width={150} height={30} className=" ml-2 " />
+            <Image
+              src={gokundo}
+              alt="gokundo"
+              width={150}
+              height={30}
+              className=" ml-2 "
+            />
           </div>
           <div className=" lg:col-span-3 lg:block hidden ">
             <p className=" 2xl:text-[16px] lg:text-[14px] text-[12px]  text-white">
@@ -285,9 +301,9 @@ const Footer = () => {
               <li className="text-white  "> Privacy Policy </li>
             </ul>
           </div>
-        </section>
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
