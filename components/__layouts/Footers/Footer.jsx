@@ -34,7 +34,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="border-2 border-red-500">
+    <footer className="">
       <div className="container footer__bg bg-blend-multiply !bg-primary lg:px-[35px] xs:px-[20px] !text-white">
         <div>
           <div className="z-50 2xl:pt-[95px] lg:pt-[70px] pt-[50px] text-white ">
