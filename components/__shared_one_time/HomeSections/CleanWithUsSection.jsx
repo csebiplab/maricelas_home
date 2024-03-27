@@ -1,6 +1,7 @@
 import React from "react";
 import joinusImg from "../../../public/assets/random/withus 1.png"
 import Image from "next/image";
+import Heading from "@/ui/Heading";
 
 const CleanWithUsSection = () => {
   return <div>
@@ -11,7 +12,9 @@ const CleanWithUsSection = () => {
         </div>
         <div className=" flex justify-center items-center col-span-2 lg:ml-[55px] ml-[35px]">
           <div>
-            <p>join us </p>
+            <div>
+              <Heading text={"With Us"}></Heading>
+            </div>
             <p className="lg:text-[32px] text-[20px] font-semibold lg:mb-[25px] mb-[15px]">Get Your Commercial & Residential Area Cleaned With Us</p>
             <p className="lg:text-[16px] text-[14px] lg:leading-[32px] leading-[20px] text-justify ">Transform your commercial and residential spaces into pristine havens with our professional cleaning services in Houston, TX. Our dedicated team utilizes state-of-the-art equipment and eco-friendly cleaning products to ensure a thorough and safe cleaning experience. Whether it's deep cleaning carpets, sanitizing surfaces, or tackling tough stains, we are committed to exceeding your expectations. Say goodbye to dirt, dust, and grime, and hello to a fresh, welcoming environment. Contact us today to schedule your cleaning appointment and let us bring cleanliness and comfort back to your space.</p>
           </div>
