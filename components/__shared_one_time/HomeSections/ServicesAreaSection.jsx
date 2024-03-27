@@ -53,7 +53,7 @@ const ServicesAreaSection = () => {
 
   return <div>
     <div>
-      <div className="  ">
+      <div className=" custom-container ">
         <div className="">
           <div className=" 2xl:py-[55px] py-[30px] md:mx-0   mx-[30px] ">
 
@@ -70,7 +70,7 @@ const ServicesAreaSection = () => {
 
             {/* //   ======================= map Card ==================// */}
             <div className="hidden sm:block">
-              <div className="  grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[10px] gap-[10px] ">
+              <div className="  grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] ">
                 {
                   maps.map((area => <>
                     <div className={`col-span-1 relative rounded-xl overflow-hidden ${area.id % 2 === 0 ? '' : 'mt-8'}`}>

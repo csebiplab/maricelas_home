@@ -14,8 +14,9 @@ import RatingNReveiwSection from "@/components/__shared_one_time/HomeSections/Ra
 import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUsSection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
 import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
-import WhyChooseUsSection from "@/components/__shared_one_time/HomeSections/WhyChooseUsSection";
+
 import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
+import WhyChooseUsSection from "@/components/__shared_one_time/WhyChooseUs/WhyChooseUsSection";
 
 
 export default function Home() {
@@ -31,9 +32,9 @@ export default function Home() {
         <section>
           <AboutUsSection />
         </section>
-        <section>
+        <div>
           <WhyChooseUsSection />
-        </section>
+        </div>
         <section>
           <CleaningServicesSection />
         </section>
@@ -58,15 +59,15 @@ export default function Home() {
         <section>
           <UserReviewNRatingSection />
         </section>
-        <section>
+        <div>
           <ProjectGallerySection />
-        </section>
+        </div>
         <section>
           <ReasonWhyHireUsSection />
         </section>
-        <section>
+        <div>
           <ServicesAreaSection />
-        </section>
+        </div>
         <section>
           <FaqSection />
         </section>
