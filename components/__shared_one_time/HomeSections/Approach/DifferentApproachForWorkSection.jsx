@@ -11,7 +11,7 @@ const DifferentApproachForWorkSection = () => {
         
         <div className="md:text-start text-center md:me-4 me-0">
         <Heading text={'Different Approach For Work'} />
-        <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">Our Approach To Cleaning Service Is Different</h2>
+        <h2 className="2xl:text-[32px] md:text-[24px] text-[18px] md:pb-0 pb-[20px] font-semibold text-[#1F1F1F]">Our Approach To Cleaning Service Is Different</h2>
         <p className="lg:py-[10px] py-1 lg:text-base text-xs">Welcome to a cleaning service experience like no other. At Maricela's Cleaning Magnificence, our approach to cleaning transcends the ordinary.</p>
         <div className="flex lg:gap-5 md:gap-3 md:justify-start justify-center mt-2">
     
