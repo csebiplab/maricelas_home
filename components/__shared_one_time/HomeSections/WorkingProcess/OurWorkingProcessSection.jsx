@@ -5,6 +5,7 @@ import work4 from "@/public/assets/images/working4.png";
 import work5 from "@/public/assets/images/working5.png";
 import work6 from "@/public/assets/images/working6.png";
 
+import Heading from "@/ui/Heading";
 import Image from "next/image";
 import "./WorkingProcess.css";
 
@@ -13,7 +14,7 @@ const OurWorkingProcessSection = () => {
   return <div className="bg lg:px-[35px] xs:px-[20px]">
     <div className="lg:py-[44px] md:py-6 py-3">
       <div className="md:text-start text-center">
-        <p className="text-sm md:text-base text-[#1F1F1F]">Our Working Process</p>
+      <Heading text={'Our Working Process'} />
         <h2 className="text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">How Does Our Cleaning Company Work?</h2>
         <p className="lg:py-[10px] py-2">Certainly! Here's a breakdown of how our cleaning company operates:</p>
       </div>
