@@ -14,23 +14,23 @@ export const SwiperNavButtons = () => {
       <>
         <div className="flex lg:gap-8 md:gap-3 items-center justify-center lg:py-6 md:py-3">
           {/* ========= first line ======== */}
-          <div className="lg:w-[330px] md:w-[220px] h-0.5 bg-black hidden md:block"></div>
+          <div className="lg:w-[330px] md:w-[220px] h-0.5 bg-[#880769] hidden md:block"></div>
           <div className="flex lg:gap-5 md:gap-3">
             <button
               onClick={() => swiper.slidePrev()}
-              className="p-3 rounded-full border-2 hover:text-white hover:bg-black"
+              className="p-3 rounded-full border-2  hover:text-white hover:bg-[#880769]"
             >
-              <FaChevronLeft />
+              <FaChevronLeft fill="#880769" />
             </button>
             <button
               onClick={() => swiper.slideNext()}
-              className="text-white hover:text-black hover:bg-white border-2 p-3 bg-black rounded-full"
+              className=" hover:text-black hover:bg-white border-2 p-3 bg-[#880769] rounded-full"
             >
-              <FaChevronRight />
+              <FaChevronRight fill="#ffffff"/>
             </button>
           </div>
           {/* =============== second line ============= */}
-          <div className="lg:w-[330px] md:w-[220px] h-0.5 bg-black hidden md:block"></div>
+          <div className="lg:w-[330px] md:w-[220px] h-0.5 bg-[#880769] hidden md:block"></div>
         </div>
       </>
     </div>
