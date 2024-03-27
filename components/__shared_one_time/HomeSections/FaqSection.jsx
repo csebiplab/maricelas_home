@@ -5,6 +5,7 @@ import faqImg from "../../../public/assets/random/faq.png";
 import { IoCaretDown } from "react-icons/io5";
 
 import Image from "next/image";
+import Heading from "@/ui/Heading";
 
 const FaqSection = () => {
   
@@ -77,17 +78,17 @@ const FaqSection = () => {
           </div>
 
           <div>
-            {/* <div>
+            <div>
               <div className="   flex flex-col  ">
-                <HeadingIcon text={headingIconText.faq__IconText} />
+                <Heading text={"Frequently Asked Questions (FAQ)"} />
 
                 <div>
-                  <p className="5xl:text-[36px] lg:text-[25px]  text-[20px] lg:mb-8 mb-5">
-                    Pool Installation Services in Toronto
+                  <p className="5xl:text-[32px] lg:text-[24px]  text-[18px] lg:mb-8 mb-5 font-semibold">
+                  FAQ for Residential and Commercial Cleaning Services in Houston
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
             <div className="">
               {faqQuestionsNAns.map((ques, idx) => (
                 <div key={idx}>
