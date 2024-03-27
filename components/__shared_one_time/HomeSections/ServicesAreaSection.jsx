@@ -1,4 +1,5 @@
 "use client";
+import Heading from "@/ui/Heading";
 import React, { useState } from "react";
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
@@ -54,16 +55,16 @@ const ServicesAreaSection = () => {
       <div className="  ">
         <div className="">
           <div className=" 2xl:py-[55px] py-[30px] md:mx-0   mx-[30px] ">
-            {/* <div className="mx-auto   flex flex-col items-center justify-center">
-              <HeadingIcon text={headingIconText.map__IconTxt} />
-
+            <div className="mx-auto   flex flex-col items-center justify-center">
+              <Heading text={"Service Area"}></Heading>
               <div>
-                <p className="lg:text-[36px] md:text-[20px]   text-[16px] lg:mb-12 mb-5 text-center">
-                  Serving the Greater Toronto Horseshoe Area for all your pool's
-                  needs.
-                </p>
+                <h4 className="lg:text-[36px] md:text-[20px]   text-[16px] lg:mb-12 mb-5 text-center ">
+                  Maricela's Cleaning Magnificenc Service Area
+                </h4>
               </div>
-            </div> */}
+            </div>
+
+
 
             {/* //   ======================= map Card ==================// */}
             <div className="hidden sm:block">
@@ -82,11 +83,11 @@ const ServicesAreaSection = () => {
                           referrerPolicy="no-referrer-when-downgrade"
                           className="rounded-xl"
                         ></iframe>
-                        <div className="absolute rounded-xl inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+                        {/* <div className="absolute rounded-xl inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
                           <button className="bg-white py-2 px-4 rounded-lg shadow-md text-gray-800 hover:bg-gray-200 transition duration-300">
                             Visit Map
                           </button>
-                        </div>
+                        </div> */}
                         <p className="text-base py-4 px-10 bg-[#188B89] text-center lg:text-[18px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
                           {area?.location}
                         </p>
