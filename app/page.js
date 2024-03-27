@@ -71,9 +71,9 @@ export default function Home() {
         <section>
           <FaqSection />
         </section>
-        <section>
+        <div>
           <GiveUsFeedbackSection />
-        </section>
+        </div>
         <section>
           <CleanWithUsSection />
         </section>
