@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { useSwiper } from "swiper/react";
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
