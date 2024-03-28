@@ -6,7 +6,7 @@ const Achievement = () => {
     <>
       <div className="lg:w-[980px] md:w-full mx-auto">
       <div className="flex gap-2 xs:mt-5 md:mt-3 lg:mt-4">
-          <div className="bg-[#fff] md:w-[180px] md:h-[147.98px] md:flex-0 flex-1 my-class rounded-[8px] pt-[31.25px] text-center">
+          <div className="bg-[#fff] md:w-[180px] md:h-[147.98px] md:flex-0  my-class rounded-[8px] pt-[31.25px] text-center">
             <h2 className="lg:text-[38px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 ">
               98%
             </h2>
@@ -14,7 +14,7 @@ const Achievement = () => {
               Recommended
             </p>
           </div>
-          <div className="bg-[#fff] md:w-[180px] md:h-[147.98px] md:flex-0 flex-1 my-class rounded-[8px] pt-[31.25px] text-center">
+          <div className="bg-[#fff] md:w-[180px] md:h-[147.98px] md:flex-0  my-class rounded-[8px] pt-[31.25px] text-center">
             <h2 className="lg:text-[38px] font-bold text-lg lg:leading-[47.25px] xs:mb-0 md:mb-[5px]">
               4
             </h2>
