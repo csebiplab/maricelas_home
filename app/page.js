@@ -62,9 +62,9 @@ export default function Home() {
         <div>
           <ProjectGallerySection />
         </div>
-        <section>
+        <div>
           <ReasonWhyHireUsSection />
-        </section>
+        </div>
         <div>
           <ServicesAreaSection />
         </div>

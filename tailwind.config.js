@@ -81,6 +81,9 @@ module.exports = withMT({
                     300: "#535455",
                     400: "#333333",
                 },
+                gray: {
+                    DEFAULT: "#D9D9D9",
+                },
             },
             spacing: {
                 '24': "6.5rem",
