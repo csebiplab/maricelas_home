@@ -22,7 +22,7 @@ import WhyChooseUsSection from "@/components/__shared_one_time/WhyChooseUs/WhyCh
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <div className="custom-container">
+      <div className="">
         <div>
           <HomeBanner />
         </div>
@@ -38,9 +38,9 @@ export default function Home() {
         <section>
           <CleaningServicesSection />
         </section>
-        <section>
+        <div>
           <BestServicesSection />
-        </section>
+        </div>
         <section>
           <MessageFromManagerSection />
         </section>
@@ -68,15 +68,15 @@ export default function Home() {
         <div>
           <ServicesAreaSection />
         </div>
-        <section>
+        <div>
           <FaqSection />
-        </section>
+        </div>
         <div>
           <GiveUsFeedbackSection />
         </div>
-        <section>
+        <div>
           <CleanWithUsSection />
-        </section>
+        </div>
       </div>
     </main>
   );

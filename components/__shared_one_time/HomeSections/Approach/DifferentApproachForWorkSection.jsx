@@ -6,7 +6,8 @@ import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 const DifferentApproachForWorkSection = () => {
   return (
-    <div className="lg:px-[35px] xs:px-[20px]">
+   <div className="custom-container">
+     <div className="3xl:py-[120px] lg:py-[100px] py-[60px]">
       <div className="grid md:grid-cols-4 grid-cols-2 gap-2 lg:gap-3 text-center pt-5 lg:pt-6 ">
         
         <div className="md:text-start text-center md:me-4 me-0">
@@ -79,6 +80,7 @@ const DifferentApproachForWorkSection = () => {
             
           </div>
     </div>
+   </div>
   );
 };
 

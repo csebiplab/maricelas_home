@@ -1,6 +1,6 @@
 "use client";
 import Heading from "@/ui/Heading";
-import React, { useState } from "react";
+import { useState } from "react";
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
@@ -73,7 +73,7 @@ const ServicesAreaSection = () => {
               <div className="  grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] ">
                 {
                   maps.map((area => <>
-                    <div className={`col-span-1 relative rounded-xl overflow-hidden ${area.id % 2 === 0 ? '' : 'mt-8'}`}>
+                    <div className={`col-span-1 relative rounded-xl overflow-hidden ${area.id % 2 === 0 ? '' : '2xl:mt-8'}`}>
                       <div className="shadow-md p-0 relative">
 
                         <iframe
@@ -102,32 +102,13 @@ const ServicesAreaSection = () => {
 
               </div>
               {/* next prev button design for lg screen */}
-              <div>
-                <div className="flex gap-8 mt-10 items-center justify-center py-5">
-                  {/* ========= first line ======== */}
-                  <div className="w-[330px] h-0.5  bg-[#049E43] ">
 
-                  </div>
-
-                  <div className="flex gap-5">
-                    {/* onClick={handlePrev} */}
-                    <button className="p-3 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#049E43] hover:fill-white' /></button>
-                    {/* onClick={handleNext} */}
-                    <button className=" hover:text-white bg-active hover:bg-[#049E43] border-2 p-3  rounded-full  border-[#049E43]  "><FaChevronRight className='fill-[#049E43] hover:fill-white' /></button>
-
-                  </div>
-                  {/* =============== second line ============= */}
-                  <div className="w-[330px] h-0.5 bg-[#049E43] ">
-
-                  </div>
-                </div>
-              </div>
             </div>
 
             {/* when xs screen show this type of layout */}
             <div className="sm:hidden block">
               <div className="  flex justify-center items-center mt-4">
-                <button onClick={prevMap} className="p-1 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#049E43] hover:fill-white' /></button>
+                <button onClick={prevMap} className=" hidden p-1 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#049E43] hover:fill-white' /></button>
 
                 <div className="px-[45px]">
                   <div className="col-span-1 relative rounded-xl overflow-hidden">
@@ -153,11 +134,30 @@ const ServicesAreaSection = () => {
                   </div>
                 </div>
 
-                <button onClick={nextMap} className=" hover:text-white bg-active hover:bg-[#049E43] border-2 p-1  rounded-full  border-[#049E43]  "><FaChevronRight className='fill-[#049E43] hover:fill-white' /></button>
+                <button onClick={nextMap} className=" hidden hover:text-white bg-active hover:bg-[#049E43] border-2 p-1  rounded-full  border-[#049E43]  "><FaChevronRight className='fill-[#049E43] hover:fill-white' /></button>
               </div>
             </div>
 
+            <div>
+              <div className="flex gap-8 mt-10 items-center justify-center py-5">
+                {/* ========= first line ======== */}
+                <div className="w-[330px] h-0.5  bg-[#049E43] ">
 
+                </div>
+
+                <div className="flex gap-5">
+                  {/* onClick={handlePrev} */}
+                  <button onClick={prevMap} className="p-3 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#049E43] hover:fill-white' /></button>
+                  {/* onClick={handleNext} */}
+                  <button onClick={nextMap} className=" hover:text-white bg-active hover:bg-[#049E43] border-2 p-3  rounded-full  border-[#049E43]  "><FaChevronRight className='fill-[#049E43] hover:fill-white' /></button>
+
+                </div>
+                {/* =============== second line ============= */}
+                <div className="w-[330px] h-0.5 bg-[#049E43] ">
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

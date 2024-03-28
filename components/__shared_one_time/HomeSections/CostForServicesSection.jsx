@@ -3,11 +3,12 @@ import cost2 from "@/public/assets/images/cost2.png";
 import Heading from "@/ui/Heading";
 import Image from "next/image";
 const CostForServicesSection = () => {
-  return <div className="lg:px-[35px] xs:px-[20px]">
+  return <div className="custom-container">
+  <div className="3xl:py-[120px] lg:py-[100px] py-[60px]">
     
     <Heading text={'Cost For Services'} />
     
-      <div className="flex items-center justify-between gap-2 md:gap-3 lg:gap-[27px]">
+      <div className="flex items-center gap-2 lg:gap-[27px]">
       <div className="md:text-start text-center md:w-1/2">
         
         <h2 className="2xl:text-[32px] md:text-[20px] text-[18px] md:pb-0 pb-[20px] font-semibold text-[#1F1F1F]">How Much Does Commercial & Residential Cleaning Service Cost</h2>
@@ -53,8 +54,8 @@ Ultimately, the best way to determine the cost of cleaning services for either c
             
       </div>
       </div>
-
-  </div>;
+      </div>
+  </div>
 };
 
 export default CostForServicesSection;

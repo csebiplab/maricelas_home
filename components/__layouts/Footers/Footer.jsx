@@ -6,6 +6,7 @@ import gaf from "@/public/assets/footer/gaf.png";
 import google from "@/public/assets/footer/google.png";
 import home from "@/public/assets/footer/home.png";
 import three from "@/public/assets/footer/three.png";
+import star from "../../../public/assets/random/star.png"
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
@@ -35,9 +36,14 @@ const Footer = () => {
 
   return (
     <footer className="">
-      <div className="container footer__bg bg-blend-multiply !bg-primary lg:px-[35px] xs:px-[20px] !text-white">
-        <div>
-          <div className="z-50 2xl:pt-[95px] lg:pt-[70px] pt-[50px] text-white ">
+      <div className=" footer__bg bg-blend-multiply !bg-[#54042C] lg:px-[35px] xs:px-[20px] !text-white relative">
+
+        <div className=" absolute top-10 4xl:ml-[100px] 2xl:block hidden ">
+          <Image src={star} height={100} width={100} />
+        </div>
+
+        <div className="container">
+          <div className="z-50 2xl:py-[95px] lg:pt-[70px] pt-[50px] text-white ">
             <div className="">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
                 <div className=" lg:col-span-2 md:col-span-1 items-center">
@@ -71,9 +77,9 @@ const Footer = () => {
                   </div>
                 </div>
 
-                <div className=" lg:col-span-5 md:col-span-2 grid sm:grid-cols-7 xs:grid-cols-5 lg:gap-10 gap-3">
+                <div className=" lg:col-span-5 md:col-span-2 grid sm:grid-cols-7 grid-cols-1 lg:gap-10 gap-3">
                   {/* news line */}
-                  <div className="sm:col-span-2 xs:col-span-1 ">
+                  <div className="sm:col-span-2  ">
                     <h3 className="font-semibold text-white  lg:text-[20px]  xs:text-[15px] lg:mb-10 md:mb-5 mb-3 ">
                       {" "}
                       News{" "}
@@ -128,7 +134,7 @@ const Footer = () => {
                   </div>
 
                   {/* services line */}
-                  <div className=" sm:col-span-2 xs:col-span-2 ">
+                  <div className=" sm:col-span-2  ">
                     <h3 className="font-semibold text-white lg:text-[20px] xs:text-[15px]  lg:mb-10 md:mb-5 mb-3 ">
                       Ours Services
                     </h3>
@@ -191,7 +197,7 @@ const Footer = () => {
                   </div>
 
                   {/* contact line  */}
-                  <div className=" sm:col-span-3 xs:col-span-2 items-center">
+                  <div className=" sm:col-span-3  items-center">
                     <h3 className="font-semibold text-white   lg:text-[20px] xs:text-[15px] lg:mb-10 md:mb-5 mb-3">
                       Contact Us
                     </h3>
@@ -268,15 +274,41 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
+
+
+
+              </div>
+
+              {/* terms */}
+              <div className="lg:hidden block py-8" >
+                <div className="flex justify-center items-center text-center">
+                  <div className=" ">
+                    <div>
+                      <p> © All Copyright 2024 by Maricela's Cleaning Magnificence</p>
+                    </div>
+                    <div className="flex gap-5 justify-center items-center text-center">
+                      <p>Terms & Condition </p>
+                      <p>Privacy Policy</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
+
+
+        </div>
+
+        <div className=" absolute right-10 bottom-10 mr-[185px] 2xl:block hidden">
+          <Image src={star} height={100} width={100} />
         </div>
       </div>
 
+
       {/* creater company credit */}
-      <div className="container footer-bottom-bg    ">
-        <div className=" grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
+      <div className=" footer-bottom-bg    ">
+        <div className="container grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
           <div className=" lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
             <p className=" lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}
@@ -303,6 +335,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+
     </footer>
   );
 };
