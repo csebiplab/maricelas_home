@@ -6,6 +6,7 @@ import gaf from "@/public/assets/footer/gaf.png";
 import google from "@/public/assets/footer/google.png";
 import home from "@/public/assets/footer/home.png";
 import three from "@/public/assets/footer/three.png";
+import star from "../../../public/assets/random/star.png"
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
@@ -35,10 +36,14 @@ const Footer = () => {
 
   return (
     <footer className="">
-      <div className=" footer__bg bg-blend-multiply !bg-[#54042C] lg:px-[35px] xs:px-[20px] !text-white">
+      <div className=" footer__bg bg-blend-multiply !bg-[#54042C] lg:px-[35px] xs:px-[20px] !text-white relative">
+
+        <div className=" absolute top-10 4xl:ml-[100px] 2xl:block hidden ">
+          <Image src={star} height={100} width={100} />
+        </div>
 
         <div className="container">
-          <div className="z-50 2xl:pt-[95px] lg:pt-[70px] pt-[50px] text-white ">
+          <div className="z-50 2xl:py-[95px] lg:pt-[70px] pt-[50px] text-white ">
             <div className="">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
                 <div className=" lg:col-span-2 md:col-span-1 items-center">
@@ -290,6 +295,13 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
+
+
+        </div>
+
+        <div className=" absolute right-10 bottom-10 mr-[185px] 2xl:block hidden">
+          <Image src={star} height={100} width={100} />
         </div>
       </div>
 
@@ -323,6 +335,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+
     </footer>
   );
 };
