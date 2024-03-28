@@ -1,8 +1,7 @@
-import React from "react";
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
-import faqImg from "../../../public/assets/random/faq.png";
 import { IoCaretDown } from "react-icons/io5";
+import faqImg from "../../../public/assets/random/faq.png";
 
 import Image from "next/image";
 import Heading from "@/ui/Heading";

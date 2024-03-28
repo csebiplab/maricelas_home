@@ -1,6 +1,7 @@
 import app1 from "@/public/assets/images/app1.png";
 import app2 from "@/public/assets/images/app2.png";
 import app3 from "@/public/assets/images/app3.png";
+import Heading from "@/ui/Heading";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 const DifferentApproachForWorkSection = () => {
@@ -9,9 +10,9 @@ const DifferentApproachForWorkSection = () => {
       <div className="grid md:grid-cols-4 grid-cols-2 gap-2 lg:gap-3 text-center pt-5 lg:pt-6 ">
         
         <div className="md:text-start text-center md:me-4 me-0">
-        <p className="text-sm md:text-base text-[#1F1F1F]">Different Approach For Work</p>
-        <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">Our Approach To Cleaning Service Is Different</h2>
-        <p className="lg:py-[10px] py-2">Welcome to a cleaning service experience like no other. At Maricela's Cleaning Magnificence, our approach to cleaning transcends the ordinary.</p>
+        <Heading text={'Different Approach For Work'} />
+        <h2 className="2xl:text-[32px] md:text-[24px] text-[18px] md:pb-0 pb-[20px] font-semibold text-[#1F1F1F]">Our Approach To Cleaning Service Is Different</h2>
+        <p className="lg:py-[10px] py-1 lg:text-base text-xs">Welcome to a cleaning service experience like no other. At Maricela's Cleaning Magnificence, our approach to cleaning transcends the ordinary.</p>
         <div className="flex lg:gap-5 md:gap-3 md:justify-start justify-center mt-2">
     
           <button className="p-3 rounded-full border-2  hover:text-white hover:bg-[#880769]"><FaChevronLeft fill="#880769" /></button>
