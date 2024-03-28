@@ -1,6 +1,6 @@
 "use client";
 import Heading from "@/ui/Heading";
-import React, { useState } from "react";
+import { useState } from "react";
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
