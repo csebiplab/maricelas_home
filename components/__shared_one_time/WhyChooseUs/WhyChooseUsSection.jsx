@@ -72,7 +72,7 @@ const WhyChooseUsSection = () => {
 
   return <div>
     <div className="bg-[#C477B126]">
-      <div className=" custom-container  grid lg:grid-cols-4 col-span-1 ">
+      <div className=" custom-container grid lg:grid-cols-4 col-span-1 ">
         {/* image */}
         <div className=" lg:col-span-1 order-2 mx-[20px] lg:block hidden ">
           <Image src={whychoose} width={360} height={660} className="  bottom-0" />
