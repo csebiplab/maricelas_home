@@ -155,7 +155,7 @@ const OurOtherServicesSection = () => {
           {!isChecked &&
             <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-5 gap-y-8'>
               {services.map((service, index) => (
-                <div key={index} className='col-span-1 border-2 rounded border-black'>
+                <div key={index} className='col-span-1 border-2 rounded border-[#C477B1]'>
                   <div className="mx-auto rounded-lg shadow-lg bg-white relative">
                     <div className=" py-7 ">
                       <p className='mt-4 py-5  mx-auto text-center lg:text-[20px]  text-xs'>{service.title} </p>
