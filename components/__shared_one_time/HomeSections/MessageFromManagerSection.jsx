@@ -16,12 +16,19 @@ const MessageFromManagerSection = () => {
               />
         </div>
 
+        <div className="flex items-center">
+        <h2 className="w-[400px] text-xl text-black inline-block font-semibold bg-[#FBCD22] py-3 text-center rounded-tr-[10px] rounded-tl-[10px] transform -rotate-90 ">
+                  Message From Manager
+                </h2>
+        </div>
         {/* ============== text section ============= */}
         <div className="md:w-1/2">
-          <div className="flex justify-between">
+        
+          <div className="flex justify-between lg:gap-4 gap-2">
+            
           <div>
-          <h2 className="lg:text-[32px] text-lg font-semibold lg:leading-[45px] md:mb-[5px] xs:mb-0 text-[#000]">Your best option for Cleaning services</h2>
-          <p>Dear valued customers,<br/>As the General Manager of our cleaning services, I want to ensure that you receive nothing but</p><br/>
+          <h2 className="lg:text-[32px] text-lg font-semibold lg:leading-8 md:mb-[5px] xs:mb-0 text-[#000]">Your best option for Cleaning services</h2>
+          <p className="text-xs lg:text-base mt-2 lg:mt-[15px] text-[#111]">Dear valued customers,<br/>As the General Manager of our cleaning services, I want to ensure that you receive nothing but</p><br/>
           <p>
           the best experience when it comes to maintaining the cleanliness and hygiene of your spaces. At our company, we take great pride in our commitment to excellence and customer satisfaction.
 With years of industry expertise and a dedicated team of professionals, we guarantee top-notch cleaning services tailored to meet your specific need.

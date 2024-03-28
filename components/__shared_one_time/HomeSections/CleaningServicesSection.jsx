@@ -28,7 +28,7 @@ const CleaningServicesSection = () => {
           {/* image2 */}
           
        
-        <div className="lg:w-[183.329px] md:w-full md:h-1/2 lg:h-[169.493px] md:h-full bg-[#880769] mx-auto card-sd text-center flex flex-col justify-center items-center mt-2 lg:mt-4 p-2">
+        <div className="lg:w-[183.329px] md:w-full md:h-1/2 lg:h-[169.493px] bg-[#880769] mx-auto card-sd text-center flex flex-col justify-center items-center mt-2 lg:mt-4 p-2">
                 <h2 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-[#fff]">10+</h2>
                 <p className="lg:text-lg text-base font-semibold lg:leading-[22.5px] mt-1 text-white">Successful Years</p>
               </div>
