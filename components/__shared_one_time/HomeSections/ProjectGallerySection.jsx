@@ -37,7 +37,7 @@ const ProjectGallerySection = () => {
     GalImg4,
     GalImg5,
     GalImg1,
-   
+
   ];
 
   const galImgs2 = [
@@ -47,7 +47,7 @@ const ProjectGallerySection = () => {
     GalImg14,
     GalImg15,
     GalImg16,
- 
+
   ];
 
   return <div>
@@ -81,8 +81,12 @@ const ProjectGallerySection = () => {
           allowTouchMove={false}
           breakpoints={{
             0: {
-              slidesPerView: 5,
+              slidesPerView: 3,
               spaceBetween: 10,
+            },
+            750: {
+              slidesPerView: 5,
+              spaceBetween: 10
             }
           }}
 
@@ -130,8 +134,12 @@ const ProjectGallerySection = () => {
           allowTouchMove={false}
           breakpoints={{
             0: {
-              slidesPerView: 5,
+              slidesPerView: 3,
               spaceBetween: 10,
+            },
+            750: {
+              slidesPerView: 5,
+              spaceBetween: 10
             }
           }}
         // ,
