@@ -50,9 +50,9 @@ export default function Home() {
         <section>
           <DifferentApproachForWorkSection />
         </section>
-        <section>
+        <div>
           <OurOtherServicesSection />
-        </section>
+        </div>
         <section>
           <CostForServicesSection />
         </section>
