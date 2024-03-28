@@ -38,9 +38,9 @@ export default function Home() {
         <section>
           <CleaningServicesSection />
         </section>
-        <section>
+        <div>
           <BestServicesSection />
-        </section>
+        </div>
         <section>
           <MessageFromManagerSection />
         </section>
