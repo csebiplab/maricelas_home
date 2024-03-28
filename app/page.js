@@ -44,9 +44,9 @@ export default function Home() {
         <section>
           <MessageFromManagerSection />
         </section>
-        <section>
+        <div>
           <OurWorkingProcessSection />
-        </section>
+        </div>
         <section>
           <DifferentApproachForWorkSection />
         </section>
