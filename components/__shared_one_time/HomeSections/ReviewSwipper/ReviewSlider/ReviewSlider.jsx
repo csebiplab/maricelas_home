@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/virtual";
 import { SwiperNavButtons } from "./SwiperSliderButton";
 
+import Heading from "@/ui/Heading";
 import "./ReviewSlider.css";
 
 const reviews=[
@@ -91,7 +92,7 @@ const ReviewSlider = () => {
       </Swiper>
       
       <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-4/12">
-        <p className="text-sm md:text-base text-[#1F1F1F]">Review</p>
+      <Heading text={'Review'} />
         <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">Here’s what to expect when you hire us as your Cleaning Services in Houston</h2>
         
         

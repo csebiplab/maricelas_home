@@ -1,10 +1,9 @@
-import React from "react";
-import xImg from "../../../public/assets/exPool/x.png";
-import rImg from "../../../public/assets/exPool/r.png";
-import "./ourexpert.css";
 import Heading from "@/ui/Heading";
-import whychoose from "../../../public/assets/random/whychoose.png"
 import Image from "next/image";
+import rImg from "../../../public/assets/exPool/r.png";
+import xImg from "../../../public/assets/exPool/x.png";
+import whychoose from "../../../public/assets/random/whychoose.png";
+import "./ourexpert.css";
 
 
 const WhyChooseUsSection = () => {
