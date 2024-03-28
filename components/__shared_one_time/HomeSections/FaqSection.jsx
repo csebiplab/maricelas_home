@@ -3,8 +3,8 @@
 import { IoCaretDown } from "react-icons/io5";
 import faqImg from "../../../public/assets/random/faq.png";
 
-import Image from "next/image";
 import Heading from "@/ui/Heading";
+import Image from "next/image";
 
 const FaqSection = () => {
   

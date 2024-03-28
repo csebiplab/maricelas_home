@@ -4,14 +4,11 @@ import person3 from "@/public/assets/images/person3.png";
 import Heading from "@/ui/Heading";
 import Image from "next/image";
 const AboutUsSection = () => {
-  return <div>
-    
-    
-    <div className="flex justify-between gap-2 md:gap-3 lg:gap-[56px]">
+  return <div className="custom-container">
+    <div className="flex gap-2 md:gap-3 lg:gap-[56px] 3xl:py-[120px] lg:py-[100px] py-[60px]">
       {/* ============= Images Section Start ========== */}
       <div className="flex gap-2 lg:gap-[14px]">
         {/* ============ Images one ========= */}
-        
         <div>
         <Image
                 src={person1}
