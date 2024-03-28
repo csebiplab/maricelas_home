@@ -11,7 +11,7 @@ import MessageFromManagerSection from "@/components/__shared_one_time/HomeSectio
 import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
 import RatingNReveiwSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
-import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUsSection";
+import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
 import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
 
@@ -44,9 +44,9 @@ export default function Home() {
         <section>
           <MessageFromManagerSection />
         </section>
-        <section>
+        <div>
           <OurWorkingProcessSection />
-        </section>
+        </div>
         <section>
           <DifferentApproachForWorkSection />
         </section>
@@ -62,9 +62,9 @@ export default function Home() {
         <div>
           <ProjectGallerySection />
         </div>
-        <section>
+        <div>
           <ReasonWhyHireUsSection />
-        </section>
+        </div>
         <div>
           <ServicesAreaSection />
         </div>
