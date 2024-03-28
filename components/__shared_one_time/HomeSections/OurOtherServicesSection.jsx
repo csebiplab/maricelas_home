@@ -151,6 +151,7 @@ const OurOtherServicesSection = () => {
           </label>
         </div>
 
+
         <div className='lg:my-10 my-5'>
           {!isChecked &&
             <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-5 gap-y-8'>
