@@ -5,7 +5,7 @@ import Heading from "@/ui/Heading";
 import Image from "next/image";
 const AboutUsSection = () => {
   return (
-    <div className="custom-container">
+    <div className="">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-2 md:gap-3 3xl:gap-[56px] lg:gap-[30px] 3xl:py-[120px] lg:py-[100px] py-[60px]">
         {/* ============= Images Section Start ========== */}
         <div className="flex gap-2 lg:gap-[14px]">
@@ -34,7 +34,7 @@ const AboutUsSection = () => {
               width={320}
               height={222}
               alt="person3"
-              className="h-full lg:max-h-[222px] w-[500px] !lg:w-[320px] !lg:h-[222px] mt-2 lg:mt-[13px] border border-red-700"
+              className="h-full lg:max-h-[222px] w-[500px] !lg:w-[320px] !lg:h-[222px] mt-2 lg:mt-[13px]"
             />
           </div>
         </div>
