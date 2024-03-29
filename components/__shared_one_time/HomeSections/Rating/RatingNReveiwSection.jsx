@@ -1,4 +1,3 @@
-
 "use client";
 import vector from "@/public/assets/icons/vector.png";
 import Achievement from "./Achievement";
@@ -8,10 +7,9 @@ import "./Rating.css";
 import RatingProgressBar from "./RatingProgressBar";
 const RatingNReviewSection = () => {
   return (
-    <div className="-mt-0 md:-mt-[138px]">
+    <div className="mt-7 md:-mt-[138px]">
       <div className="lg:w-[87.95%] md:w-full mx-auto">
-        <div className="lg:w-[980px] md:w-full mx-auto bg-[#fff] rating-box">
-
+        <div className="w-full xl:w-[980px] mx-auto bg-[#fff] rating-box  border border-red-500">
           <div className="p-6 rounded-[8px]">
             <h2 className="text-[12px] md:text-lg lg:text-2xl lg:leading-[36px] mb-3">
               Ratings
@@ -90,18 +88,21 @@ const RatingNReviewSection = () => {
                   </div>
                   <div className="flex my-[15px] gap-[8px]">
                     <div className="w-[68px] h-[24px] border-2 bg-[#EAEAEA] py-[5px] px-[19px]">
-                    <h5 className="font-semibold text-[#000] text-[8px]  leading-[12px] text-center">
-                      Quality
-                    </h5>
+                      <h5 className="font-semibold text-[#000] text-[8px]  leading-[12px] text-center">
+                        Quality
+                      </h5>
                     </div>
                     <div className="w-[56px] h-[24px] border-2 bg-[#EAEAEA] py-[5px] px-[19px]">
-                    <h5 className="font-semibold text-[#000] text-[8px]  leading-[12px] text-center">
-                    Value
-                    </h5>
+                      <h5 className="font-semibold text-[#000] text-[8px]  leading-[12px] text-center">
+                        Value
+                      </h5>
                     </div>
                   </div>
                   <div className="w-[132px] h-[24px] border-2 bg-[#EAEAEA] ">
-                   <h5 className="text-[#000] font-semibold text-[8px] py-[5px] px-[32px] text-center leading-[12px]"> Customer Service</h5>
+                    <h5 className="text-[#000] font-semibold text-[8px] py-[5px] px-[32px] text-center leading-[12px]">
+                      {" "}
+                      Customer Service
+                    </h5>
                   </div>
                 </div>
               </div>
@@ -113,12 +114,10 @@ const RatingNReviewSection = () => {
               by HomeAdvisor.
             </p>
           </div>
-
-         
         </div>
         <div className="md:mt-[25px] mt-[10px]">
-         <Achievement/>
-         </div>
+          <Achievement />
+        </div>
       </div>
       <Brand />
     </div>
