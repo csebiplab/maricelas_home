@@ -74,7 +74,7 @@ const WhyChooseUsSection = () => {
             src={whychoose}
             width={360}
             height={658}
-            className="w-[360px] h-[680px]"
+            className="w-[360px] h-[664px]"
           />
         </div>
 
