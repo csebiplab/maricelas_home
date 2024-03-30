@@ -7,6 +7,7 @@ import google from "@/public/assets/footer/google.png";
 import home from "@/public/assets/footer/home.png";
 import three from "@/public/assets/footer/three.png";
 import star from "../../../public/assets/random/star.png"
+import companyLogo from "../../../public/assets/footer/logo.png"
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
@@ -36,14 +37,19 @@ const Footer = () => {
 
   return (
     <footer className="">
-      <div className=" footer__bg bg-blend-multiply !bg-[#54042C] lg:px-[35px] xs:px-[20px] !text-white relative">
-
+      <div className=" footer__bg bg-blend-multiply  lg:px-[35px] xs:px-[20px] !text-white relative">
+        {/* star img */}
         <div className=" absolute top-10 4xl:ml-[100px] 2xl:block hidden ">
           <Image src={star} height={100} width={100} />
         </div>
 
-        <div className="container">
-          <div className="z-50 2xl:py-[95px] lg:pt-[70px] pt-[50px] text-white ">
+        {/* company logo */}
+        <div className=" absolute -top-20 left-1/2   ">
+          <Image src={companyLogo} height={182} width={182}  />
+        </div>
+
+        <div className="container  ">
+          <div className="z-100 2xl:pt-[160px]  lg:pt-[120px] pt-[80px] 2xl:pb-[65px] pb-[50px] text-white ">
             <div className="">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
                 <div className=" lg:col-span-2 md:col-span-1 items-center">
@@ -55,7 +61,7 @@ const Footer = () => {
                     <h4 className=" lg:text-[25px] text-[20px]">
                       We Are Maricela's Cleaning Magnificence
                     </h4>
-                    <p className="text-white lg:pt-6 pt-2 mb-2 ml-2 lg:text-[13px] xs:text-[10px] ">
+                    <p className="text-white lg:pt-6 pt-2 mb-2 ml-2 lg:text-[13px] text-[10px] ">
                       We work with a passion of taking challenges and creating
                       new ones in advertising sector.
                     </p>
