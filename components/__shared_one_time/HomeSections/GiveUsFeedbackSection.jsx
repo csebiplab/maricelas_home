@@ -1,14 +1,8 @@
-import React from "react";
 import Image from "next/image";
-import contactImg from "../../../public/assets/random/contactus.png";
-import { FaMapLocationDot } from "react-icons/fa6";
-import { FaPhoneVolume } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaLocationArrow, FaMapLocationDot, FaPhoneVolume, FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-import { FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaLocationArrow } from "react-icons/fa6";
+import contactImg from "../../../public/assets/random/contactus.png";
 
 const GiveUsFeedbackSection = () => {
   return (
