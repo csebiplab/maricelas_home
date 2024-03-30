@@ -38,7 +38,7 @@ const usualPool = [
   },
 ];
 
-const easyPool = [
+const benefits = [
   {
     title: "Start to finish customer support",
   },
@@ -88,7 +88,7 @@ const WhyChooseUsSection = () => {
               Why Choose Maricela's Cleaning Magnificence Cleaning Services?
             </p>
 
-            <p className="text-[14px] 2xl:text-base mb-[25px]">
+            <p className="text-sm 2xl:text-base mb-[25px]">
               Maricela's Cleaning Magnificence stands out as a premier choice
               for commercial & residential cleaning services in Houston due to
               our unwavering commitment to excellence and customer
@@ -97,21 +97,21 @@ const WhyChooseUsSection = () => {
           </div>
 
           {/* 2 card */}
-          <div className=" grid sm:grid-cols-2 2xl:gap-[15px] gap-[10px] ">
+          <div className="grid sm:grid-cols-2 gap-5 md:gap-4">
             <div className="bg-white border shadow rounded-lg">
-              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white 2xl:text-[16px] text-[14px]  rounded-t-lg">
+              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white 2xl:text-[16px] text-sm  rounded-t-lg">
                 Usual Cleaner Experience
               </h2>
-              <div className="  grid grid-cols-2 3xl:py-[16px] py-[10px]  3xl:px-[25px] px-[20px] 2xl:text-[14px] lg:text-[12px] text-[8px]   ">
+              <div className="grid grid-cols-2 py-4 px-5 3xl:px-[25px] text-[8px] lg:text-xs 2xl:text-sm">
                 {usualPool.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex  gap-4 items-center 3xl:mb-[40px] mb-[20px]    leading-none  "
+                    className="flex gap-x-4 items-center mb-6 md:mb-9 leading-none  "
                   >
                     <img
                       src={xImg.src}
                       className="2xl:h-[14px] 2xl:w-[14px] h-[8px] w-[8px] "
-                    ></img>
+                    />
                     <p>{usual.title}</p>
                   </div>
                 ))}
@@ -119,19 +119,19 @@ const WhyChooseUsSection = () => {
             </div>
 
             <div className="bg-white border shadow rounded-lg ">
-              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white 2xl:text-[16px] text-[14px] rounded-t-lg">
+              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white 2xl:text-[16px] text-sm rounded-t-lg">
                 Usual Cleaner Experience
               </h2>
-              <div className="  grid grid-cols-2 3xl:py-[16px] py-[10px] 3xl:px-[25px] px-[20px] 2xl:text-[14px] lg:text-[12px] text-[8px] ">
-                {easyPool.map((usual, idx) => (
+              <div className="grid grid-cols-2 py-4 px-5 3xl:px-[25px] text-[8px] lg:text-xs 2xl:text-sm">
+                {benefits.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex  gap-4 items-center 3xl:mb-[40px] mb-[20px]  leading-none "
+                    className="flex gap-x-4 items-center mb-6 md:mb-9 leading-none "
                   >
                     <img
                       src={rImg.src}
                       className="2xl:h-[14px] 2xl:w-[14px] h-[8px] w-[8px] "
-                    ></img>
+                    />
                     <p className="">{usual.title}</p>
                   </div>
                 ))}
