@@ -1,6 +1,6 @@
 "use client";
+
 import React from "react";
-import Image from "next/image";
 import { useState } from "react";
 import Brick from "../../../public/assets/services/Brick.png";
 import Brown from "../../../public/assets/services/Brown.png";
@@ -11,65 +11,64 @@ import Plumbing from "../../../public/assets/services/Plumbing.png";
 import Power from "../../../public/assets/services/Power.png";
 import Sheetrock from "../../../public/assets/services/Sheetrock.png";
 import bathroom from "../../../public/assets/services/bithrom.png";
-// import Pointing2 from '../../../public/assets/services/painting.png'
 import Roofing from "../../../public/assets/services/roofing.png";
 import Water from "../../../public/assets/services/water.png";
 import Heading from "@/ui/Heading";
 
-const OurOtherServicesSection = () => {
-  const services = [
-    {
-      title: "Professional cleaning & janitorial services",
-      img: bathroom,
-    },
-    {
-      title: "Construction and remodeling Clean-ups",
-      img: Sheetrock,
-    },
-    {
-      title: "Offices cleaning",
-      img: Plastering,
-    },
-    {
-      title: "Restaurants cleaning",
-      img: Plumbing,
-    },
-    {
-      title: "Showrooms cleaning",
-      img: Kitchen,
-    },
-    {
-      title: " Medical offices cleaning",
-      img: Painting,
-    },
-  ];
-  const services2 = [
-    {
-      title: "Roofing",
-      img: Roofing,
-    },
-    {
-      title: "Pointing",
-      img: Painting,
-    },
-    {
-      title: "Water Proofing",
-      img: Water,
-    },
-    {
-      title: "Brown Stone Repair",
-      img: Brown,
-    },
-    {
-      title: "Brick Works",
-      img: Brick,
-    },
-    {
-      title: " Power Wash",
-      img: Power,
-    },
-  ];
+const services = [
+  {
+    title: "Professional cleaning & janitorial services",
+    img: bathroom,
+  },
+  {
+    title: "Construction and remodeling Clean-ups",
+    img: Sheetrock,
+  },
+  {
+    title: "Offices cleaning",
+    img: Plastering,
+  },
+  {
+    title: "Restaurants cleaning",
+    img: Plumbing,
+  },
+  {
+    title: "Showrooms cleaning",
+    img: Kitchen,
+  },
+  {
+    title: " Medical offices cleaning",
+    img: Painting,
+  },
+];
+const services2 = [
+  {
+    title: "Roofing",
+    img: Roofing,
+  },
+  {
+    title: "Pointing",
+    img: Painting,
+  },
+  {
+    title: "Water Proofing",
+    img: Water,
+  },
+  {
+    title: "Brown Stone Repair",
+    img: Brown,
+  },
+  {
+    title: "Brick Works",
+    img: Brick,
+  },
+  {
+    title: " Power Wash",
+    img: Power,
+  },
+];
 
+const OurOtherServicesSection = () => {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleCheckboxChange = () => {
@@ -82,15 +81,18 @@ const OurOtherServicesSection = () => {
         <div className="container lg:py-28 py-14">
           <div className="grid grid-cols-1  lg:grid-cols-2 lg:gap-40 gap-4  p-5 items-end text-sm ">
             <div className="  ">
-              <div className=" flex items-center py-5">
+              <div className="flex justify-center lg:justify-normal items-center py-5">
                 <Heading text={"Other Services"}></Heading>
               </div>
-              <h2 className=" lg:text-[32px] text-[20px]">
+              <h2 className="hidden lg:block lg:text-[32px] text-[20px]">
                 Our Other <br /> Cleaning Services <br /> in Houston
+              </h2>
+              <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
+                Our Other Cleaning Services in Houston
               </h2>
             </div>
 
-            <div className=" ">
+            <div className="hidden lg:block">
               <h6 className="xl:text-[16px] text-[14px]">
                 Commercial Cleaning
               </h6>
@@ -155,9 +157,9 @@ const OurOtherServicesSection = () => {
                 {services.map((service, index) => (
                   <div
                     key={index}
-                    className="col-span-1 border-2 rounded border-[#C477B1]"
+                    className="col-span-1 border-2 rounded border-[#C477B1] h-full"
                   >
-                    <div className="mx-auto rounded-lg shadow-lg bg-white relative">
+                    <div className="mx-auto rounded-lg shadow-lg h-full relative bg-white">
                       <div className=" py-7 ">
                         <p className="mt-4 py-5  mx-auto text-center lg:text-[20px]  text-xs">
                           {service.title}{" "}
