@@ -41,9 +41,9 @@ export default function Home() {
         <div>
           <BestServicesSection />
         </div>
-        <section>
+        <div>
           <MessageFromManagerSection />
-        </section>
+        </div>
         <div>
           <OurWorkingProcessSection />
         </div>
