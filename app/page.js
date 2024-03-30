@@ -56,9 +56,9 @@ export default function Home() {
         <section>
           <CostForServicesSection />
         </section>
-        <section>
+        <div>
           <UserReviewNRatingSection />
-        </section>
+        </div>
         <div>
           <ProjectGallerySection />
         </div>
