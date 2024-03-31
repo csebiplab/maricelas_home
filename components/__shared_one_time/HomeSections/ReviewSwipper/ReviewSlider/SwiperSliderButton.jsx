@@ -26,7 +26,7 @@ export const SwiperNavButtons = () => {
               onClick={() => swiper.slideNext()}
               className=" hover:text-black hover:bg-white border-2 p-3 bg-[#880769] rounded-full"
             >
-              <FaChevronRight fill="#ffffff"/>
+              <FaChevronRight fill="#ffffff" />
             </button>
           </div>
           {/* =============== second line ============= */}
