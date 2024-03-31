@@ -63,12 +63,14 @@ const reviews = [
 
 const ReviewSlider = () => {
   return (
-    <div className="md:flex">
+    <div className="md:flex px-[30px] md:px-0 py-[44px]">
 
       {/* ============ For mobile view ========== */}
-      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 md:hidden">
+      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-5/12 md:hidden mt-[7px] md:mt-0">
+        <div className="flex justify-center md:justify-start">
         <Heading text={"Review"} />
-        <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">
+        </div>
+        <h2 className="md:leading-8 text-[18px] md:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
           Here’s what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
@@ -83,31 +85,31 @@ const ReviewSlider = () => {
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide
             key={i}
-            className={`text-center py-5 lg:py-10 pr-[21px]`}
+            className={`text-center py-4 lg:py-10 pr-[21px]`}
           >
-            <div className="w-full card-sd py-1 md:py-[5px] bg-[#fff] ">
+            <div className="w-full card-sd p-[14px] bg-[#fff] ">
               <Image
                 src={google}
                 width={89.92}
                 height={51}
                 alt="google"
-                className="my-1 ml-2"
+                className="mb-2"
               />
               <Image
                 src={star}
                 width={97}
                 height={13.9}
                 alt="google"
-                className="ml-3"
+                className=""
               />
-              <div className="text-start md:p-2 lg:p-3">
-                <p className="lg:text-[12px] text-xs text-black lg:leading-6">
+              <div className="text-start">
+                <p className="text-[8px] md:text-[12px] mt-4  text-black leading-[22px] md:leading-6">
                   {reviewText}
                 </p>
-                <h6 className="font-semibold lg:text-sm text-xs py-1">
+                <h6 className="font-semibold lg:text-sm text-xs mt-2">
                   {author}
                 </h6>
-                <p className="text-[#4A4A4A] lg:text-sm text-xs">{address}</p>
+                <p className="text-[#4A4A4A] text-[8px]">{address}</p>
               </div>
             </div>
           </SwiperSlide>
