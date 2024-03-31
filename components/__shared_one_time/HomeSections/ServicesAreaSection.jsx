@@ -7,39 +7,43 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 
 const ServicesAreaSection = () => {
+  
   const maps = [
     {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369104.4793833133!2d-79.70773178910238!3d43.71826384376133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192683290!5m2!1sen!2sbd",
-      location: "Toronto",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105616.14243920908!2d-118.21421188801828!3d34.18458537159454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c2dc38330b51%3A0x52b41161ad18f4a!2sPasadena%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883258041!5m2!1sen!2sbd",
+      location: "Pasadena",
       id: 1
     },
     {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182566.4045222721!2d-79.8305378187556!3d44.35926624980187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882aa3371ad7206d%3A0x1d2e0f00a84b535a!2sBarrie%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192803692!5m2!1sen!2sbd",
-      location: "Barrie",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110382.52849587286!2d-95.60011001737466!3d30.167022177844384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473147c603385b%3A0xf1a4808e67c3df5d!2sThe%20Woodlands%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883313053!5m2!1sen!2sbd",
+      location: "The Woodlands",
       id: 2
     },
     {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92145.91175852313!2d-79.66673983224095!3d43.80274774858379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b257a9ad0b911%3A0xecea3dfb3abd0ac2!2sWoodbridge%2C%20Vaughan%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192847430!5m2!1sen!2sbd",
-      location: "Woodbridge",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222140.2634423594!2d-95.49933366309385!3d29.547194515403586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86405890a6fe33a9%3A0xcabb7507f4a5ccee!2sPearland%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883395532!5m2!1sen!2sbd",
+      location: "Pearland",
       id: 3
     },
+
     {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d183980.1257805948!2d-79.5931173754818!3d43.90369790797781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2a4936291733%3A0x5201760ad6b142ed!2sRichmond%20Hill%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192914194!5m2!1sen!2sbd",
-      location: "Richmond ",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221701.96435837896!2d-95.11757207013959!3d29.746015955925888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f5e6cced440eb%3A0xe34e3fbdb4961080!2sBaytown%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883506297!5m2!1sen!2sbd",
+      location: "Baytown ",
       id: 4
     },
     {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d183980.1257805948!2d-79.5931173754818!3d43.90369790797781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2a4936291733%3A0x5201760ad6b142ed!2sRichmond%20Hill%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192914194!5m2!1sen!2sbd",
-      location: "Richmond ",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222136.41936009756!2d-95.70143476271718!3d29.548943556517443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e1ec4548c89d%3A0xb8c5da032c46!2sMissouri%20City%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883646468!5m2!1sen!2sbd",
+      location: "Missouri City  ",
       id: 5
     },
     {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d183980.1257805948!2d-79.5931173754818!3d43.90369790797781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2a4936291733%3A0x5201760ad6b142ed!2sRichmond%20Hill%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sbd!4v1711192914194!5m2!1sen!2sbd",
-      location: "Richmond ",
+      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222140.2634423594!2d-95.49933366309384!3d29.547194515403586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86405890a6fe33a9%3A0xcabb7507f4a5ccee!2sPearland%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883718612!5m2!1sen!2sbd",
+      location: "Pearland",
       id: 6
     },
   ];
 
+
+  // this state and code for only small screen
   const [currentMap, setCurrentMap] = useState(0);
 
   const nextMap = () => {
@@ -49,7 +53,7 @@ const ServicesAreaSection = () => {
   const prevMap = () => {
     setCurrentMap((prev) => (prev === 0 ? maps.length - 1 : prev - 1));
   };
-
+  // this state and code for only small screen
 
   return <div>
     <div>
@@ -90,25 +94,20 @@ const ServicesAreaSection = () => {
                             Visit Map
                           </button>
                         </div> */}
-                        <p className="text-base py-4 px-10 bg-[#188B89] text-center lg:text-[18px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
+                        <p className="text-base py-4 px-10 bg-[#880769] text-center lg:text-[18px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
                           {area?.location}
                         </p>
                       </div>
                     </div>
                   </>))
                 }
-
-
-
               </div>
-              {/* next prev button design for lg screen */}
-
             </div>
 
             {/* when xs screen show this type of layout */}
             <div className="sm:hidden block">
               <div className="  flex justify-center items-center mt-4">
-                <button onClick={prevMap} className=" hidden p-1 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#049E43] hover:fill-white' /></button>
+                <button onClick={prevMap} className=" hidden p-1 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#880769] hover:fill-white' /></button>
 
                 <div className="px-[45px]">
                   <div className="col-span-1 relative rounded-xl overflow-hidden">
@@ -127,37 +126,39 @@ const ServicesAreaSection = () => {
                           Visit Map
                         </button>
                       </div>
-                      <p className="text-base py-2 px-10 bg-[#188B89] text-center md:text-[18px]   text-[16px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
+                      <p className="text-base py-2 px-10 bg-[#880769] text-center md:text-[18px]   text-[16px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
                         {maps[currentMap].location}
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <button onClick={nextMap} className=" hidden hover:text-white bg-active hover:bg-[#049E43] border-2 p-1  rounded-full  border-[#049E43]  "><FaChevronRight className='fill-[#049E43] hover:fill-white' /></button>
+                <button onClick={nextMap} className=" hidden hover:text-white bg-active hover:bg-[#880769] border-2 p-1  rounded-full  border-[#880769]  "><FaChevronRight className='fill-[#880769] hover:fill-white' /></button>
               </div>
             </div>
 
+            {/* next prev button */}
             <div>
               <div className="flex gap-8 mt-10 items-center justify-center py-5">
                 {/* ========= first line ======== */}
-                <div className="w-[330px] h-0.5  bg-[#049E43] ">
+                <div className="w-[330px] h-0.5  bg-[#880769] ">
 
                 </div>
 
                 <div className="flex gap-5">
                   {/* onClick={handlePrev} */}
-                  <button onClick={prevMap} className="p-3 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#049E43] hover:fill-white' /></button>
+                  <button onClick={prevMap} className="p-3 rounded-full border-2 border-[#880769] hover:text-white hover:bg-[#880769]  "><FaChevronLeft className='fill-[#880769] hover:fill-white' /></button>
                   {/* onClick={handleNext} */}
-                  <button onClick={nextMap} className=" hover:text-white bg-active hover:bg-[#049E43] border-2 p-3  rounded-full  border-[#049E43]  "><FaChevronRight className='fill-[#049E43] hover:fill-white' /></button>
+                  <button onClick={nextMap} className=" hover:text-white bg-active hover:bg-[#880769] border-2 p-3  rounded-full  border-[#880769]  "><FaChevronRight className='fill-[#880769] hover:fill-white' /></button>
 
                 </div>
                 {/* =============== second line ============= */}
-                <div className="w-[330px] h-0.5 bg-[#049E43] ">
+                <div className="w-[330px] h-0.5 bg-[#880769] ">
 
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
