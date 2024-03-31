@@ -51,11 +51,11 @@ const MessageFromManagerSection = () => {
             <div className="lg:col-span-3 items-center">
               <div className="flex justify-between lg:gap-4 gap-2">
                 {/* ============ Vertical Text ========= */}
-                <div className="flex items-center">
-                  <h2 className="md:w-[498px] text-xl text-black inline-block font-semibold bg-[#FBCD22] py-3 text-center rounded-tr-[10px] rounded-tl-[10px] transform -rotate-90 ">
-                    Message From Manager
-                  </h2>
-                </div>
+                <div class="flex items-center">
+  <h2 class="md:h-[498px] h-[88px] text-xl text-black inline-block font-semibold bg-[#FBCD22] py-3 text-center rounded-tr-[10px] rounded-tl-[10px] vertical-text">
+    Message From Manager
+  </h2>
+</div>
 
                 <div>
                   <h2 className="lg:text-[32px] text-lg font-semibold lg:leading-8 md:mb-[5px] xs:mb-0 text-[#000]">

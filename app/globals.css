@@ -81,6 +81,13 @@ img {
   @apply bg-primary-300;
 }
 
+/* ========== vertical Text ========== */
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  white-space: nowrap;
+}
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-primary;
