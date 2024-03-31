@@ -68,7 +68,7 @@ module.exports = withMT({
                 },
                 warning: {
                     DEFAULT: "#FBCC21",
-                    50: "#FBCC21",
+                    50: "#FBCD22",
                 },
                 danger: {
                     DEFAULT: "#DC0000",

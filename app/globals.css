@@ -65,6 +65,10 @@ img {
   }
 }
 
+.bg__box {
+  background: rgba(196, 119, 177, 0.15);
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }

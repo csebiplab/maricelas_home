@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         {/* company logo */}
-        <div className=" absolute -top-20 left-1/2   ">
+        <div className=" absolute lg:-top-20 -top-10 left-1/2 lg:-ml-[90px] -ml-[50px] lg:w-auto lg:h-auto w-[100px] h-[100px]  ">
           <Image src={companyLogo} height={182} width={182}  />
         </div>
 

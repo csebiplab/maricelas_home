@@ -22,7 +22,7 @@ const OurWorkingProcessSection = () => {
             Certainly! Here's a breakdown of how our cleaning company operates:
           </p>
         </div>
-        <div className="grid md:grid-cols-6 grid-cols-2 gap-2 lg:gap-3 text-center pt-5 lg:pt-6 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 lg:gap-3 text-center pt-5 lg:pt-6 ">
           <div className="w-full card-sd bg-[#fff]">
             <Image
               src={work1}

@@ -7,7 +7,7 @@ import CostForServicesSection from "@/components/__shared_one_time/HomeSections/
 import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
-import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManagerSection";
+import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
 import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
 import RatingNReveiwSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
@@ -56,9 +56,9 @@ export default function Home() {
         <section>
           <CostForServicesSection />
         </section>
-        <section>
+        <div>
           <UserReviewNRatingSection />
-        </section>
+        </div>
         <div>
           <ProjectGallerySection />
         </div>
