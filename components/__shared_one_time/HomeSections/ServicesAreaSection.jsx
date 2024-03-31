@@ -142,7 +142,6 @@ const ServicesAreaSection = () => {
               <div className="flex gap-8 mt-10 items-center justify-center py-5">
                 {/* ========= first line ======== */}
                 <div className="w-[330px] h-0.5  bg-[#880769] ">
-
                 </div>
 
                 <div className="flex gap-5">
