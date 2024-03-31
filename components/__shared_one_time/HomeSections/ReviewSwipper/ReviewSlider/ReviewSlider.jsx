@@ -63,7 +63,17 @@ const reviews = [
 
 const ReviewSlider = () => {
   return (
-    <div className="flex">
+    <div className="md:flex">
+
+      {/* ============ For mobile view ========== */}
+      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 md:hidden">
+        <Heading text={"Review"} />
+        <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">
+          Here’s what to expect when you hire us as your Cleaning Services in
+          Houston
+        </h2>
+      </div>
+      
       <Swiper
         // spaceBetween={21}
         // slidesPerView={3}
@@ -92,16 +102,12 @@ const ReviewSlider = () => {
               />
               <div className="text-start md:p-2 lg:p-3">
                 <p className="lg:text-[12px] text-xs text-black lg:leading-6">
-                  They Are Professional and do great job cleaning the house!!! I
-                  Locked myself out of my house the other day and they were the
-                  only ones with a key. They were kind enough to drive over to
-                  unlock their door. That speaks volumes!!! They really care
-                  about their clients.
+                  {reviewText}
                 </p>
                 <h6 className="font-semibold lg:text-sm text-xs py-1">
-                  Lisa Silva
+                  {author}
                 </h6>
-                <p className="text-[#4A4A4A] lg:text-sm text-xs">North York</p>
+                <p className="text-[#4A4A4A] lg:text-sm text-xs">{address}</p>
               </div>
             </div>
           </SwiperSlide>
@@ -110,7 +116,8 @@ const ReviewSlider = () => {
         <SwiperNavButtons />
       </Swiper>
 
-      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-4/12">
+          {/* =========== For desktop view ========= */}
+      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 hidden md:block">
         <Heading text={"Review"} />
         <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">
           Here’s what to expect when you hire us as your Cleaning Services in
