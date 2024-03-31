@@ -87,7 +87,7 @@ const ReviewSlider = () => {
             key={i}
             className={`text-center py-4 lg:py-10 pr-[21px]`}
           >
-            <div className="w-full card-sd p-[14px] bg-[#fff] ">
+            <div className="w-[370px] md:w-full h-[250px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto">
               <Image
                 src={google}
                 width={89.92}
@@ -103,7 +103,7 @@ const ReviewSlider = () => {
                 className=""
               />
               <div className="text-start">
-                <p className="text-[8px] md:text-[12px] mt-4  text-black leading-[22px] md:leading-6">
+                <p className="text-[10px] md:text-[12px] mt-4  text-black leading-[22px] md:leading-6">
                   {reviewText}
                 </p>
                 <h6 className="font-semibold lg:text-sm text-xs mt-2">
