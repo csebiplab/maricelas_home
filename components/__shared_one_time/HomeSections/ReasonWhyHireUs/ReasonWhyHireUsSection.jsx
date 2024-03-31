@@ -60,16 +60,9 @@ const ReasonWhyHireUsSection = () => {
           {reasons?.map(({ title, img, details }, index) => (
             <div
               key={index}
-              className="w-[260px] h-[190px] bg-white rounded-md py-[11px] relative"
+              className="w-full h-full md:w-[260px] md:h-[190px] bg-white rounded-md py-[11px] relative"
             >
               <div className="absolute top-0 left-0 z-10">
-                {/* <Image
-                  src="/assets/benefits/elip-left.png"
-                  alt="Icon"
-                  width={40}
-                  height={40}
-                  className="w-10 h-10"
-                /> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="65"
@@ -96,13 +89,6 @@ const ReasonWhyHireUsSection = () => {
                 </svg>
               </div>
               <div className="absolute top-0 right-0 z-10">
-                {/* <Image
-                  src="/assets/benefits/elip-right.png"
-                  alt="Icon"
-                  width={40}
-                  height={40}
-                  className="w-10 h-10"
-                /> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="68"
