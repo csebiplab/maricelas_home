@@ -5,7 +5,7 @@ import "./MessageFromManeger.css";
 
 const MessageFromManagerSection = () => {
   return (
-    <div className="custom-container">
+    <div className="custom-container px-5 lg:px-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-[49px] my-[120px]">
         <div className="border border-red-500 relative">
           <div className="w-full lg:w-[410px] h-[332px] lg:absolute right-0 top-[18%] bg-white 2xl:my-16 my-8 border border-red-700 shadow-md rounded-md  z-50">

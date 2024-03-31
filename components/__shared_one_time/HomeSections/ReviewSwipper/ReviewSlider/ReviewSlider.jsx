@@ -13,6 +13,15 @@ import { SwiperNavButtons } from "./SwiperSliderButton";
 import Heading from "@/ui/Heading";
 import "./ReviewSlider.css";
 
+const breakpoints = {
+  0: {
+    slidesPerView: 1,
+  },
+  768: {
+    slidesPerView: 3,
+  },
+};
+
 const reviews = [
   {
     reviewText:
@@ -57,8 +66,9 @@ const ReviewSlider = () => {
     <div className="flex">
       <Swiper
         // spaceBetween={21}
-        slidesPerView={3}
+        // slidesPerView={3}
         modules={[Navigation]}
+        breakpoints={breakpoints}
       >
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide
