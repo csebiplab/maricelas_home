@@ -11,55 +11,49 @@ const FaqSection = () => {
   const faqQuestionsNAns = [
     {
       id: 1,
-      question: "What types of pools do you install?",
+      question: "What services do you offer?",
       answer:
-        "We specialize in installing a variety of pools, including in-ground, above-ground, fiberglass, and vinyl liner pools.",
+        "We provide comprehensive cleaning services for both commercial and residential properties. Our services include general cleaning, deep cleaning, sanitization, carpet cleaning, window washing, and more.",
     },
     {
       id: 2,
-      question: "How long does the installation process take?",
+      question: "Do you offer customizable cleaning plans?",
       answer:
         "Our main office is located in Brooklyn NY. However, we operate in Brooklyn, Queens, Manhattan, Bronx, and Staten Island.",
     },
     {
       id: 3,
       question:
-        "Do you handle all aspects of the installation, including permits and pool inspections?",
+        "Do you provide your cleaning equipment and supplies?",
       answer:
         "Yes, RH Construction USA Inc. is a fully licensed and insured company. We adhere to all necessary regulations and standards to ensure the safety and satisfaction of our clients.",
     },
     {
       id: 4,
       question:
-        "Can you customize the design of the pool to suit our preferences and backyard space?",
+        "How often can I schedule cleaning services?",
       answer:
         "Safety is our top priority at RH Construction USA Inc. We have strict safety protocols in place and provide regular training to our staff to ensure compliance with safety regulations and standards.",
     },
     {
       id: 5,
-      question: "What maintenance services do you provide post-installation?",
+      question: "What measures do you take to ensure security and confidentiality?",
       answer:
         "Yes, we can assist you with obtaining the necessary permits for your construction project. Our team is familiar with the permit process and will work closely with local authorities to ensure all requirements are met.",
     },
     {
       id: 6,
-      question: "Are your installation technicians licensed and insured?",
+      question: "How do I request a quote for cleaning services?",
       answer:
         "Yes, we can assist you with obtaining the necessary permits for your construction project. Our team is familiar with the permit process and will work closely with local authorities to ensure all requirements are met.",
     },
     {
       id: 7,
       question:
-        "What sets your company apart from others offering pool installation services?",
+        "What if I'm not satisfied with the cleaning service?",
       answer:
         "You can contact us by phone, by email, or through the contact form on our website. Our team is available to assist you with any further inquiries or questions you may have.",
-    },
-    {
-      id: 8,
-      question: "How can we get started with the pool installation process?",
-      answer:
-        "You can contact us by phone, by email, or through the contact form on our website. Our team is available to assist you with any further inquiries or questions you may have.",
-    },
+    }
   ];
 
   return <div>
@@ -78,7 +72,7 @@ const FaqSection = () => {
 
           <div>
             <div>
-              <div className="   flex flex-col  ">
+              <div className="flex flex-col">
                 <Heading text={"Frequently Asked Questions (FAQ)"} />
 
                 <div>

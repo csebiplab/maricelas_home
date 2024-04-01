@@ -86,7 +86,11 @@ const OurOtherServicesSection = () => {
                 <Heading text={"Other Services"}></Heading>
               </div>
               <h2 className="hidden lg:block lg:text-[32px] text-[20px]">
+
                 Our Other <br className=" hidden lg:block" /> Cleaning Services <br className=" hidden lg:block"  /> in Houston
+              </h2>
+              <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
+                Our Other Cleaning Services in Houston
               </h2>
               <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
                 Our Other Cleaning Services in Houston
@@ -161,7 +165,9 @@ const OurOtherServicesSection = () => {
                 {services.map((service, index) => (
                   <div
                     key={index}
+
                     className="col-span-1 border-4 rounded border-[#C477B1] h-full bg-white"
+
                   >
                     <div className="mx-auto rounded-lg shadow-lg h-full relative bg-white">
                       <div className=" py-7 ">
