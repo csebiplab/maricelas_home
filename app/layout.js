@@ -1,12 +1,12 @@
 import Header from "@/components/__layouts/Headers/Header";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
-import { Montserrat, Open_Sans } from "next/font/google";
+import { Montserrat, Open_Sans, Roboto_Slab } from "next/font/google";
 import { Suspense } from "react";
 import Footer from "../components/__layouts/Footers/Footer";
 import "./globals.css";
 
-const openSans = Open_Sans({ subsets: ["latin"] });
-const montserrat = Montserrat({ subsets: ["latin"] });
+const openSans = Roboto_Slab({ subsets: ["latin"] });
+// const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Maricela's Home",
@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={montserrat.className || openSans.className}>
+      <body className={openSans.className}>
         <Suspense>
           <RoutingProgressBar />
         </Suspense>
