@@ -12,7 +12,7 @@ const UpperNavbar = () => {
             alt="map"
             className="w-[16px] h-[17px]"
           />
-          <p className="text-[16px] font-bold text-white">
+          <p className="text-[10px]  xl:text-[16px] font-bold text-white">
             Best Cleaning Company in Huston
           </p>
         </div>
