@@ -8,7 +8,7 @@ const HomeBanner = () => {
           <h1 className="text-white title text-3xl xl:text-4xl 2xl:text-[42px] 4xl:text-[45px]">
             Commercial & Residential Cleaning Services in Houston
           </h1>
-          <p className="mt-8 leading-10 text-white text-2xl font-normal lg:px-20">
+          <p className="mt-8 leading-10 text-white text-[20px] font-normal lg:px-20">
             Best commercial & residential cleaning services in Houston, we pride
             ourselves on delivering meticulous cleanliness and unparalleled
             customer satisfaction.
