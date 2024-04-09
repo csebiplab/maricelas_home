@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import google from "@/public/assets/icons/google.png";
 import star from "@/public/assets/icons/star.png";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/virtual";
@@ -87,7 +88,7 @@ const ReviewSlider = () => {
             key={i}
             className={`text-center py-4 lg:py-10 pr-[21px]`}
           >
-            <div className="w-[370px] md:w-full h-[250px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto">
+            <div className= " w-[370px] md:w-full h-[250px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto" >
               <Image
                 src={google}
                 width={89.92}
@@ -116,9 +117,10 @@ const ReviewSlider = () => {
         ))}
 
         <SwiperNavButtons />
+
       </Swiper>
 
-          {/* =========== For desktop view ========= */}
+      {/* =========== For desktop view ========= */}
       <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 hidden md:block">
         <Heading text={"Review"} />
         <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">
