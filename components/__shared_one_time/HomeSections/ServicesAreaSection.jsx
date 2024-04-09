@@ -4,13 +4,11 @@ import { useState } from "react";
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-import Image from "next/image";
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/virtual";
-import { SwiperNavButtons } from "../../__shared_one_time/HomeSections/ReviewSwipper/ReviewSlider/SwiperSliderButton";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // i need to work no services section using swiper................................................................................................................................................................................................................................................................................................................................................................................
 
@@ -82,9 +80,9 @@ const ServicesAreaSection = () => {
             {/* //   ======================= map Card ==================// */}
             <div className="block">
               <Swiper
-              slidesPerView={3}
+              slidesPerView={6}
               modules={[Navigation]}
-              className="  grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] ">
+              className="grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] ">
                 {
                   maps.map((area => <>
                     <SwiperSlide className={`col-span-1 relative rounded-xl overflow-hidden ${area.id % 2 === 0 ? '' : '2xl:mt-8'}`}>
