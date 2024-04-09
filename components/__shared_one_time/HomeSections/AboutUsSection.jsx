@@ -8,13 +8,13 @@ const AboutUsSection = () => {
     <div className="">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-2 md:gap-3 3xl:gap-[56px] lg:gap-[30px] 3xl:py-[120px] lg:py-[100px] py-[60px]">
         {/* ============= Images Section Start ========== */}
-        <div className="flex gap-2 lg:gap-[14px]">
+        <div className="flex gap-2 border-2 border-red-500">
           {/* ============ Images one ========= */}
-          <div className="w-full h-full hidden lg:block">
+          <div className="hidden lg:block">
             <Image
               src={person1}
               width={320}
-              height={372}
+              height={382}
               alt="person1"
               className="!max-w-[320px] !max-h-[372px]"
             />
@@ -34,7 +34,7 @@ const AboutUsSection = () => {
               width={320}
               height={222}
               alt="person3"
-              className="h-full lg:max-h-[222px] w-[500px] !lg:w-[320px] !lg:h-[222px] mt-2 lg:mt-[13px]"
+              className="h-full lg:max-h-[222px] w-[500px] !lg:w-[320px] !lg:h-[222px] mt-2 "
             />
           </div>
         </div>
@@ -48,7 +48,7 @@ const AboutUsSection = () => {
           <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F]">
             Welcome to Our Commercial & Residential Cleaning Services in Houston
           </h2>
-          <p className="text-xs lg:text-base mt-[15px] lg:mt-[25px] lg:leading-[32px]">
+          <p className="text-xs lg:text-base mt-[15px] lg:leading-[32px]">
             Welcome to Maricela's Cleaning Magnificence, a company of commercial
             & residential cleaning services in Houston. Our current focus is on
             catering to both commercial and residential clients in Houston,
