@@ -45,14 +45,14 @@ const RatingNReviewSection = () => {
                     <img src={vector.src} className="w-[22px] h-[24px] ms-3" />
                   </div>
                   <div className="flex justify-center">
-                    <h5 className="me-4 border-2 bg-[#EAEAEA] font-semibold text-[#000] text-sm px-2">
+                    <h5 className="me-4 border-2 bg-[#EAEAEA] font-semibold text-[#000] text-xs md:text-sm px-2">
                       Quality
                     </h5>
-                    <h5 className="border-2 bg-[#EAEAEA] font-semibold text-[#000] text-sm px-2">
+                    <h5 className="border-2 bg-[#EAEAEA] font-semibold text-[#000] text-xs md:text-sm px-2">
                       Value
                     </h5>
                   </div>
-                  <h5 className="border-2 bg-[#EAEAEA] text-[#000] font-semibold text-sm px-2 text-center mt-2 md:w-9/12 lg:w-8/12 mx-auto">
+                  <h5 className="border-2 bg-[#EAEAEA] text-[#000] font-semibold px-2 text-center mt-2 w-full md:w-9/12 lg:w-8/12 mx-auto text-xs md:text-sm">
                     Customer Service
                   </h5>
                 </div>
@@ -99,7 +99,7 @@ const RatingNReviewSection = () => {
                     </div>
                   </div>
                   <div className="w-[132px] h-[24px] border-2 bg-[#EAEAEA] ">
-                    <h5 className="text-[#000] font-semibold text-[8px] py-[5px] px-[32px] text-center leading-[12px]">
+                    <h5 className="text-[#000] font-semibold text-[8px] py-[5px]  lg:px-[32px] text-center leading-[12px]">
                       {" "}
                       Customer Service
                     </h5>
