@@ -1,13 +1,12 @@
 import Heading from "@/ui/Heading";
-import React from "react";
-import sectionImg from "../../../public/assets/random/bestservices.png"
 import Image from "next/image";
+import sectionImg from "../../../public/assets/random/bestservices.png";
 
 const BestServicesSection = () => {
   return <div className="bg-[#C477B126]  md:px-0 px-[30px]">
     <div className="container grid md:grid-cols-2 grid-cols-1 gap-8 lg:my-[50px] py-8">
       <div className=" md:order-1 order-2">
-        <div className=" flex flex-col md:justify-normal justify-center md:items-start items-center ">
+        <div className=" flex flex-col md:justify-normal justify-center md:items-start items-center">
           <Heading text={'Best Services'} />
 
           <div>

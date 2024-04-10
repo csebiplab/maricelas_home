@@ -27,7 +27,8 @@
   background-image: url("/assets/images/banner.png");
   background-size: cover;
   background-position: center;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
+  opacity: 20%;
 }
 
 .banner-content {
@@ -37,4 +38,5 @@
 
 .btn__shadow {
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer !important;
 }

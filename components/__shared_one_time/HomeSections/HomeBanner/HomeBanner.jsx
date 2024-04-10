@@ -2,20 +2,20 @@ import "./HomeBanner.css";
 
 const HomeBanner = () => {
   return (
-    <div className="container home-banner py-20 min-h-screen flex justify-center items-center bg-blend-multiply bg-dark-200">
+    <div className="container home-banner py-20 min-h-screen flex justify-center items-center bg-blend-multiply bg-dark-50">
       <div className="text-center banner-content">
         <div>
-          <h1 className="text-white title text-3xl xl:text-4xl 2xl:text-[42px] 4xl:text-[45px]">
+          <h1 className="text-white title text-3xl xl:text-4xl 2xl:text-[42px] 4xl:text-[45px] leading-10">
             Commercial & Residential Cleaning Services in Houston
           </h1>
-          <p className="mt-8 leading-10 text-white text-2xl font-normal lg:px-20">
+          <p className="mt-8 leading-10 text-white text-xs md:text-base font-normal lg:px-20 text-center">
             Best commercial & residential cleaning services in Houston, we pride
             ourselves on delivering meticulous cleanliness and unparalleled
             customer satisfaction.
           </p>
           <div className="flex justify-center">
-            <button className="flex items-center rounded-md z-40 btn__shadow !cursor-pointer bg-warning py-4 px-8 mt-8">
-              <span className="text-dark text-[18px] font-bold mr-3">
+            <button className="flex items-center rounded-md z-40 btn__shadow bg-warning py-4 px-8 mt-8">
+              <span className="text-dark text-xs md:text-base font-bold mr-3">
                 Get an Estimate
               </span>
               <svg

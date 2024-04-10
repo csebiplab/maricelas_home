@@ -4,10 +4,15 @@ import { useState } from "react";
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/virtual";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// i need to work no services section using swiper................................................................................................................................................................................................................................................................................................................................................................................
 
 const ServicesAreaSection = () => {
-  
   const maps = [
     {
       src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105616.14243920908!2d-118.21421188801828!3d34.18458537159454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c2dc38330b51%3A0x52b41161ad18f4a!2sPasadena%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883258041!5m2!1sen!2sbd",
@@ -61,7 +66,7 @@ const ServicesAreaSection = () => {
         <div className="">
           <div className=" 2xl:py-[55px] py-[30px] md:mx-0   mx-[30px] ">
 
-
+            {/* heading section */}
             <div className="mx-auto   flex flex-col items-center justify-center">
               <Heading text={"Service Area"}></Heading>
               <div>
@@ -73,11 +78,14 @@ const ServicesAreaSection = () => {
 
 
             {/* //   ======================= map Card ==================// */}
-            <div className="hidden sm:block">
-              <div className="  grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] ">
+            <div className="block">
+              <Swiper
+              slidesPerView={6}
+              modules={[Navigation]}
+              className="grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] ">
                 {
                   maps.map((area => <>
-                    <div className={`col-span-1 relative rounded-xl overflow-hidden ${area.id % 2 === 0 ? '' : '2xl:mt-8'}`}>
+                    <SwiperSlide className={`col-span-1 relative rounded-xl overflow-hidden ${area.id % 2 === 0 ? '' : '2xl:mt-8'}`}>
                       <div className="shadow-md p-0 relative">
 
                         <iframe
@@ -98,14 +106,17 @@ const ServicesAreaSection = () => {
                           {area?.location}
                         </p>
                       </div>
-                    </div>
+                    </SwiperSlide>
                   </>))
                 }
-              </div>
+              </Swiper>
             </div>
 
+
+
             {/* when xs screen show this type of layout */}
-            <div className="sm:hidden block">
+            {/* sm:hidden block */}
+            <div className="hidden ">
               <div className="  flex justify-center items-center mt-4">
                 <button onClick={prevMap} className=" hidden p-1 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "><FaChevronLeft className='fill-[#880769] hover:fill-white' /></button>
 
@@ -138,7 +149,7 @@ const ServicesAreaSection = () => {
             </div>
 
             {/* next prev button */}
-            <div>
+            <div className="hidden ">
               <div className="flex gap-8 mt-10 items-center justify-center py-5">
                 {/* ========= first line ======== */}
                 <div className="w-[330px] h-0.5  bg-[#880769] ">

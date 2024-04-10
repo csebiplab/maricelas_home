@@ -106,11 +106,11 @@ const WhyChooseUsSection = () => {
                 {usualPool.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex gap-x-4 items-center mb-6 md:mb-9 leading-none  "
+                    className="flex gap-x-3 items-center mb-6 md:mb-9 leading-none  "
                   >
                     <img
                       src={xImg.src}
-                      className="2xl:h-[14px] 2xl:w-[14px] h-[8px] w-[8px] "
+                      className="lg:h-[14px] lg:w-[14px] h-[9px] w-[9px] "
                     />
                     <p>{usual.title}</p>
                   </div>
@@ -126,11 +126,11 @@ const WhyChooseUsSection = () => {
                 {benefits.map((usual, idx) => (
                   <div
                     key={idx}
-                    className="flex gap-x-4 items-center mb-6 md:mb-9 leading-none "
+                    className="flex gap-x-3 items-center mb-6 md:mb-9 leading-none "
                   >
                     <img
                       src={rImg.src}
-                      className="2xl:h-[14px] 2xl:w-[14px] h-[8px] w-[8px] "
+                      className="lg:h-[14px] lg:w-[14px] h-[9px] w-[9px] "
                     />
                     <p className="">{usual.title}</p>
                   </div>
