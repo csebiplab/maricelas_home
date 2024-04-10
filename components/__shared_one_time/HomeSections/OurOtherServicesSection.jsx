@@ -13,7 +13,7 @@ import Sheetrock from "../../../public/assets/services/Sheetrock.png";
 import bathroom from "../../../public/assets/services/bithrom.png";
 import Roofing from "../../../public/assets/services/roofing.png";
 import Water from "../../../public/assets/services/water.png";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import { MdArrowForwardIos } from "react-icons/md";
 
 const services = [
@@ -86,8 +86,8 @@ const OurOtherServicesSection = () => {
                 <Heading text={"Other Services"}></Heading>
               </div>
               <h2 className="hidden lg:block lg:text-[32px] text-[20px]">
-
-                Our Other <br className=" hidden lg:block" /> Cleaning Services <br className=" hidden lg:block"  /> in Houston
+                Our Other <br className=" hidden lg:block" /> Cleaning Services{" "}
+                <br className=" hidden lg:block" /> in Houston
               </h2>
               <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
                 Our Other Cleaning Services in Houston
@@ -102,7 +102,10 @@ const OurOtherServicesSection = () => {
                 Commercial Cleaning
               </h6>
               <p className="  py-5 items-center lg:text-[12px] text-[10px] leading-[20px]">
-                Experience pristine cleanliness with our professional commercial cleaning services in Houston, TX. Our expert team employs industry-leading techniques and eco-friendly products to ensure every surface shines and every corner is spotless.
+                Experience pristine cleanliness with our professional commercial
+                cleaning services in Houston, TX. Our expert team employs
+                industry-leading techniques and eco-friendly products to ensure
+                every surface shines and every corner is spotless.
               </p>
               <div className=" flex md:block ">
                 <button
@@ -126,8 +129,9 @@ const OurOtherServicesSection = () => {
                 onChange={handleCheckboxChange}
               />
               <span
-                className={`flex items-center border  space-x-[6px] lg:px-32 px-14 rounded-3xl lg:py-4  py-2  lg:text-[20px] text-sm font-medium ${!isChecked ? "text-white bg-[#C477B1] " : "text-body-color"
-                  }`}
+                className={`flex items-center border  space-x-[6px] lg:px-32 px-14 rounded-3xl lg:py-4  py-2  lg:text-[20px] text-sm font-medium ${
+                  !isChecked ? "text-white bg-[#C477B1] " : "text-body-color"
+                }`}
               >
                 <svg
                   width="16"
@@ -145,8 +149,9 @@ const OurOtherServicesSection = () => {
                 Commercial Cleaning
               </span>
               <span
-                className={`flex items-center space-x-[6px] lg:px-32 px-14 rounded-3xl lg:py-4 py-2 lg:text-[20px] text-sm font-medium ${isChecked ? " text-white bg-[#C477B1] " : "text-body-color"
-                  }`}
+                className={`flex items-center space-x-[6px] lg:px-32 px-14 rounded-3xl lg:py-4 py-2 lg:text-[20px] text-sm font-medium ${
+                  isChecked ? " text-white bg-[#C477B1] " : "text-body-color"
+                }`}
               >
                 <svg
                   width="16"
@@ -165,9 +170,7 @@ const OurOtherServicesSection = () => {
                 {services.map((service, index) => (
                   <div
                     key={index}
-
                     className="col-span-1 border-4 rounded border-[#C477B1] h-full bg-white"
-
                   >
                     <div className="mx-auto rounded-lg shadow-lg h-full relative bg-white">
                       <div className=" py-7 ">

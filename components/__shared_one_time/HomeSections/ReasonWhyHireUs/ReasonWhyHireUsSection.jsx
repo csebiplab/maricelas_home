@@ -7,7 +7,7 @@ import batch from "../../../../public/assets/benefits/batch.png";
 import lisen from "../../../../public/assets/benefits/lisen.png";
 import leaf from "../../../../public/assets/benefits/leaf.png";
 import Image from "next/image";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import "./ReasonWhyHireUs.css";
 
 const reasons = [
@@ -76,7 +76,7 @@ const ReasonWhyHireUsSection = () => {
                     rx="40.1786"
                     ry="40.3041"
                     fill="#880769"
-                    fill-opacity="0.45"
+                    fillOpacity="0.45"
                   />
                   <ellipse
                     cx="-7.62613"
@@ -84,7 +84,7 @@ const ReasonWhyHireUsSection = () => {
                     rx="40.1786"
                     ry="40.3041"
                     fill="#54042C"
-                    fill-opacity="0.35"
+                    fillOpacity="0.35"
                   />
                 </svg>
               </div>
@@ -102,7 +102,7 @@ const ReasonWhyHireUsSection = () => {
                     rx="40.1786"
                     ry="40.3041"
                     fill="#880769"
-                    fill-opacity="0.45"
+                    fillOpacity="0.45"
                   />
                   <ellipse
                     cx="40.4461"
@@ -110,7 +110,7 @@ const ReasonWhyHireUsSection = () => {
                     rx="40.1786"
                     ry="40.3041"
                     fill="#54042C"
-                    fill-opacity="0.35"
+                    fillOpacity="0.35"
                   />
                 </svg>
               </div>

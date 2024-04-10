@@ -11,7 +11,7 @@ import "swiper/css/navigation";
 import "swiper/css/virtual";
 import { SwiperNavButtons } from "./SwiperSliderButton";
 
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import "./ReviewSlider.css";
 
 const breakpoints = {
@@ -65,18 +65,17 @@ const reviews = [
 const ReviewSlider = () => {
   return (
     <div className="md:flex px-[30px] md:px-0 py-[44px]">
-
       {/* ============ For mobile view ========== */}
       <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-5/12 md:hidden mt-[7px] md:mt-0">
         <div className="flex justify-center md:justify-start">
-        <Heading text={"Review"} />
+          <Heading text={"Review"} />
         </div>
         <h2 className="md:leading-8 text-[18px] md:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
           Here’s what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
       </div>
-      
+
       <Swiper
         // spaceBetween={21}
         // slidesPerView={3}
@@ -88,7 +87,7 @@ const ReviewSlider = () => {
             key={i}
             className={`text-center py-4 lg:py-10 pr-[21px]`}
           >
-            <div className= " w-[370px] md:w-full h-[250px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto" >
+            <div className=" w-[370px] md:w-full h-[250px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto">
               <Image
                 src={google}
                 width={89.92}
@@ -117,7 +116,6 @@ const ReviewSlider = () => {
         ))}
 
         <SwiperNavButtons />
-
       </Swiper>
 
       {/* =========== For desktop view ========= */}

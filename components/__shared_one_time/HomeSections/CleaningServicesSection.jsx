@@ -1,7 +1,7 @@
 import clean1 from "@/public/assets/images/clean1.png";
 import clean2 from "@/public/assets/images/clean2.png";
 import clean3 from "@/public/assets/images/clean3.png";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 
 const CleaningServicesSection = () => {

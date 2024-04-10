@@ -1,7 +1,7 @@
 import app1 from "@/public/assets/images/app1.png";
 import app2 from "@/public/assets/images/app2.png";
 import app3 from "@/public/assets/images/app3.png";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 

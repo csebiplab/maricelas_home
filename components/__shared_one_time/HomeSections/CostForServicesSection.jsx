@@ -1,6 +1,6 @@
 import cost1 from "@/public/assets/images/cost1.png";
 import cost2 from "@/public/assets/images/cost2.png";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 const CostForServicesSection = () => {
   return (

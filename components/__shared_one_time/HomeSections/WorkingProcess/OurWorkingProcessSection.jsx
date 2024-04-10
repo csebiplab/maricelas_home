@@ -5,7 +5,7 @@ import work4 from "@/public/assets/images/working4.png";
 import work5 from "@/public/assets/images/working5.png";
 import work6 from "@/public/assets/images/working6.png";
 
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 import "./WorkingProcess.css";
 
