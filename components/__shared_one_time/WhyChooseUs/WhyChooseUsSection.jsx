@@ -1,4 +1,4 @@
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 import rImg from "../../../public/assets/exPool/r.png";
 import xImg from "../../../public/assets/exPool/x.png";

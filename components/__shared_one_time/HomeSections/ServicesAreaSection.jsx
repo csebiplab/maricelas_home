@@ -1,8 +1,7 @@
 "use client";
-import Heading from "@/ui/Heading";
+
+import Heading from "@/components/__ui/Heading";
 import { useState } from "react";
-// import HeadingIcon from "@/app/components/ui/HeadingIcon";
-// import { headingIconText } from "@/app/utils/heading-text";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,44 +9,41 @@ import "swiper/css/virtual";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// i need to work no services section using swiper................................................................................................................................................................................................................................................................................................................................................................................
+const maps = [
+  {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105616.14243920908!2d-118.21421188801828!3d34.18458537159454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c2dc38330b51%3A0x52b41161ad18f4a!2sPasadena%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883258041!5m2!1sen!2sbd",
+    location: "Pasadena",
+    id: 1,
+  },
+  {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110382.52849587286!2d-95.60011001737466!3d30.167022177844384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473147c603385b%3A0xf1a4808e67c3df5d!2sThe%20Woodlands%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883313053!5m2!1sen!2sbd",
+    location: "The Woodlands",
+    id: 2,
+  },
+  {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222140.2634423594!2d-95.49933366309385!3d29.547194515403586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86405890a6fe33a9%3A0xcabb7507f4a5ccee!2sPearland%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883395532!5m2!1sen!2sbd",
+    location: "Pearland",
+    id: 3,
+  },
+
+  {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221701.96435837896!2d-95.11757207013959!3d29.746015955925888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f5e6cced440eb%3A0xe34e3fbdb4961080!2sBaytown%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883506297!5m2!1sen!2sbd",
+    location: "Baytown ",
+    id: 4,
+  },
+  {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222136.41936009756!2d-95.70143476271718!3d29.548943556517443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e1ec4548c89d%3A0xb8c5da032c46!2sMissouri%20City%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883646468!5m2!1sen!2sbd",
+    location: "Missouri City  ",
+    id: 5,
+  },
+  {
+    src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222140.2634423594!2d-95.49933366309384!3d29.547194515403586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86405890a6fe33a9%3A0xcabb7507f4a5ccee!2sPearland%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883718612!5m2!1sen!2sbd",
+    location: "Pearland",
+    id: 6,
+  },
+];
 
 const ServicesAreaSection = () => {
-  const maps = [
-    {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105616.14243920908!2d-118.21421188801828!3d34.18458537159454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c2dc38330b51%3A0x52b41161ad18f4a!2sPasadena%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883258041!5m2!1sen!2sbd",
-      location: "Pasadena",
-      id: 1,
-    },
-    {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110382.52849587286!2d-95.60011001737466!3d30.167022177844384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86473147c603385b%3A0xf1a4808e67c3df5d!2sThe%20Woodlands%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883313053!5m2!1sen!2sbd",
-      location: "The Woodlands",
-      id: 2,
-    },
-    {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222140.2634423594!2d-95.49933366309385!3d29.547194515403586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86405890a6fe33a9%3A0xcabb7507f4a5ccee!2sPearland%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883395532!5m2!1sen!2sbd",
-      location: "Pearland",
-      id: 3,
-    },
-
-    {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221701.96435837896!2d-95.11757207013959!3d29.746015955925888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f5e6cced440eb%3A0xe34e3fbdb4961080!2sBaytown%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883506297!5m2!1sen!2sbd",
-      location: "Baytown ",
-      id: 4,
-    },
-    {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222136.41936009756!2d-95.70143476271718!3d29.548943556517443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640e1ec4548c89d%3A0xb8c5da032c46!2sMissouri%20City%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883646468!5m2!1sen!2sbd",
-      location: "Missouri City  ",
-      id: 5,
-    },
-    {
-      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222140.2634423594!2d-95.49933366309384!3d29.547194515403586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86405890a6fe33a9%3A0xcabb7507f4a5ccee!2sPearland%2C%20TX%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883718612!5m2!1sen!2sbd",
-      location: "Pearland",
-      id: 6,
-    },
-  ];
-
-  // this state and code for only small screen
   const [currentMap, setCurrentMap] = useState(0);
 
   const nextMap = () => {
@@ -57,17 +53,16 @@ const ServicesAreaSection = () => {
   const prevMap = () => {
     setCurrentMap((prev) => (prev === 0 ? maps.length - 1 : prev - 1));
   };
-  // this state and code for only small screen
 
   return (
     <div>
       <div>
-        <div className=" custom-container ">
+        <div className="custom-container">
           <div className="">
-            <div className=" 2xl:py-[55px] py-[30px] md:mx-0   mx-[30px] ">
+            <div className="py-[30px] 2xl:py-[55px] mx-[30px] md:mx-0">
               {/* heading section */}
               <div className="mx-auto   flex flex-col items-center justify-center">
-                <Heading text={"Service Area"}></Heading>
+                <Heading text={"Service Area"} />
                 <div>
                   <h4 className="lg:text-[36px] md:text-[20px]   text-[16px] lg:mb-12 mb-5 text-center ">
                     Maricela's Cleaning Magnificenc Service Area
@@ -83,9 +78,8 @@ const ServicesAreaSection = () => {
                   className="grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] "
                 >
                   {maps.map((area, idx) => (
-                    <>
+                    <div key={idx}>
                       <SwiperSlide
-                        key={idx}
                         className={`col-span-1 relative rounded-xl overflow-hidden ${
                           area.id % 2 === 0 ? "" : "2xl:mt-8"
                         }`}
@@ -110,14 +104,14 @@ const ServicesAreaSection = () => {
                           </p>
                         </div>
                       </SwiperSlide>
-                    </>
+                    </div>
                   ))}
                 </Swiper>
               </div>
 
               {/* when xs screen show this type of layout */}
               {/* sm:hidden block */}
-              <div className="hidden ">
+              <div className="hidden">
                 <div className="  flex justify-center items-center mt-4">
                   <button
                     onClick={prevMap}

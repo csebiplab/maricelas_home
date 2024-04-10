@@ -7,7 +7,7 @@ import batch from "../../../../public/assets/benefits/batch.png";
 import lisen from "../../../../public/assets/benefits/lisen.png";
 import leaf from "../../../../public/assets/benefits/leaf.png";
 import Image from "next/image";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import "./ReasonWhyHireUs.css";
 
 const reasons = [

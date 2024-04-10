@@ -1,7 +1,7 @@
 import person1 from "@/public/assets/images/person1.png";
 import person2 from "@/public/assets/images/person2.png";
 import person3 from "@/public/assets/images/person3.png";
-import Heading from "@/ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 const AboutUsSection = () => {
   return (
