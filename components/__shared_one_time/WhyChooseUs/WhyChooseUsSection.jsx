@@ -88,7 +88,7 @@ const WhyChooseUsSection = () => {
               Why Choose Maricela's Cleaning Magnificence Cleaning Services?
             </p>
 
-            <p className="text-sm 2xl:text-base mb-[25px]">
+            <p className="text-xs lg:text-base lg:leading-[200%] mb-[25px]">
               Maricela's Cleaning Magnificence stands out as a premier choice
               for commercial & residential cleaning services in Houston due to
               our unwavering commitment to excellence and customer

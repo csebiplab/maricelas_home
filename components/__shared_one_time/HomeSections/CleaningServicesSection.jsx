@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const CleaningServicesSection = () => {
   return (
-    <div className="py-[60px] lg:py-[100px] 3xl:py-[120px] flex justify-center mx-auto w-full">
-      <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-8 lg:gap-9 3xl:gap-16">
+    <div className="py-[60px] -pb-0 lg:-pb-[40px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full border border-red-500">
+      <div className=" flex flex-col md:flex-row justify-center gap-4 md:gap-2 3xl:gap-16">
         {/* ------------BIG SCREEN------------ */}
         <div className="hidden lg:block">
           <div className="flex">
@@ -17,7 +17,7 @@ const CleaningServicesSection = () => {
                 width={378}
                 height={304.8}
                 alt="cleaning"
-                className="w-full max-h-[305px]"
+                className="!w-full max-h-[305px]"
               />
 
               <div className="lg:w-[183.329px] md:w-[80px] lg:h-[169.493px] md:h-[70px] bg-[#880769] mx-auto card-sd text-center flex flex-col justify-center items-center mt-2 lg:mt-4">
@@ -42,7 +42,7 @@ const CleaningServicesSection = () => {
               <Image
                 src={clean3}
                 width={366.54}
-                height={287.9}
+                height={295}
                 alt="cleaning"
                 className="card-sd mt-2 lg:mt-4 lg:-ms-16 -ms-10"
               />
@@ -91,7 +91,7 @@ const CleaningServicesSection = () => {
           <h2 className="text-lg md:text-xl 2xl:text-[32px] md:pb-0 pb-[14px] font-semibold text-dark-200">
             Commercial & Residential Cleaning Services You Can Belief
           </h2>
-          <p className="text-xs lg:text-base mt-2 lg:mt-[15px] text-dark-50 leading-[200%]">
+          <p className="text-xs lg:text-base lg:leading-[175%] mt-2  text-dark-50 ">
             At Maricela's Cleaning Magnificence, we understand the importance of
             reliability and professionalism when it comes to maintaining
             cleanliness in both commercial and residential settings. Our trained
