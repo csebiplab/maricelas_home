@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const CleaningServicesSection = () => {
   return (
-    <div className="py-[60px] -pb-0 lg:-pb-[40px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full border border-red-500">
+    <div className="py-[60px] -pb-0 lg:-pb-[40px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full">
       <div className=" flex flex-col md:flex-row justify-center gap-4 md:gap-2 3xl:gap-16">
         {/* ------------BIG SCREEN------------ */}
         <div className="hidden lg:block">
