@@ -1,14 +1,14 @@
+import Heading from "@/components/__ui/Heading";
 import person1 from "@/public/assets/images/person1.png";
 import person2 from "@/public/assets/images/person2.png";
 import person3 from "@/public/assets/images/person3.png";
-import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 const AboutUsSection = () => {
   return (
     <div className="">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-2 md:gap-3 3xl:gap-[56px] lg:gap-[30px] 3xl:py-[120px] lg:py-[100px] py-[60px]">
         {/* ============= Images Section Start ========== */}
-        <div className="flex gap-2 lg:gap-[14px] border-2 border-red-500 w-full md:w-1/2">
+        <div className="flex gap-2 lg:gap-[14px] w-full md:w-1/2">
           {/* ============ Images one ========= */}
           <div className="hidden lg:block">
             <Image
