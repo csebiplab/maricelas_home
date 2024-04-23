@@ -19,6 +19,9 @@ const breakpoints = {
     slidesPerView: 1,
   },
   768: {
+    slidesPerView: 2,
+  },
+  1024: {
     slidesPerView: 3,
   },
 };
@@ -77,7 +80,7 @@ const ReviewSlider = () => {
       </div>
 
       <Swiper
-        // spaceBetween={21}
+        spaceBetween={21}
         // slidesPerView={3}
         modules={[Navigation]}
         breakpoints={breakpoints}
@@ -85,9 +88,9 @@ const ReviewSlider = () => {
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide
             key={i}
-            className={`text-center py-4 lg:py-10 pr-[21px]`}
+            className={`text-center py-4 lg:py-10 `}
           >
-            <div className=" w-[370px] md:w-full h-[250px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto">
+            <div className="  md:w-full h-[290px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto ">
               <Image
                 src={google}
                 width={89.92}

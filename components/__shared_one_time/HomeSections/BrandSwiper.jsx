@@ -32,80 +32,80 @@ const BrandSwiper = () => {
         allowTouchMove={false}
         scrollbar={{ draggable: true }}
       >
-        <SwiperSlide className={`text-center py-4`}>
-          <div className="brand w-full h-[130px] border-[1px] band rounded-[15px] text-center">
+        <SwiperSlide className={`text-center mt-5`}>
+          <div className="brand w-full h-[130px]  text-center">
             <div>
               <Image
                 src={band1}
                 width={66}
                 height={37}
                 alt="brand1"
-                className="mt-[15px] mx-auto"
+                className="mt-[21px] mx-auto"
               />
             </div>
-            <p className="text-center text-[10px] leading-[16px] py-3 px-2">
-              R H CONSTRUCTION responds to texts.
+            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            Maricela Maldonado responds to texts.
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className={`text-center py-4`}>
-          <div className="brand w-full h-[130px] border-[1px] band rounded-[15px] text-center">
+        <SwiperSlide className={`text-center mt-5`}>
+          <div className="brand w-full h-[130px]  text-center">
             <Image
               src={band2}
-              width={64}
-              height={33}
+              width={44}
+              height={37}
               alt="brand1"
-              className="mx-auto mt-[10px]"
+              className="mx-auto mt-[15px]"
             />
-            <p className="text-center text-[10px] leading-[16px] py-3 px-2">
-              The Construction company I ever seen.
+            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            The cleanest house I have ever seen.
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className={`text-center py-4`}>
-          <div className="brand w-full h-[130px] border-[1px] band rounded-[15px] text-center">
+        <SwiperSlide className={`text-center mt-5`}>
+          <div className="brand w-full h-[130px]  text-center">
             <Image
               src={band3}
-              width={62}
+              width={44}
               height={37}
               alt="brand1"
               className="mt-[15px] mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] py-3 px-2">
-              We hired RH CONSTRUCTION
+            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            We hired Maricelas CleaningÂ  Magnificence
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className={`text-center py-4`}>
-          <div className="brand w-full h-[130px] border-[1px] band rounded-[15px] text-center">
+        <SwiperSlide className={`text-center mt-5`}>
+          <div className="brand w-full h-[130px]  text-center">
             <Image
               src={band4}
-              width={40}
-              height={35}
+              width={44}
+              height={37}
               alt="brand1"
               className="mt-[15px] mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] py-3 px-2">
-              Maricelas R H CONSTRUCTION
+            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            Maricelas CleaningÂ Magnificence
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className={`text-center py-4`}>
-          <div className="brand w-full h-[130px] border-[1px] band rounded-[15px] text-center">
+        <SwiperSlide className={`text-center mt-5`}>
+          <div className="brand w-full h-[130px]  text-center">
             <Image
               src={band5}
-              width={80}
-              height={70}
+              width={44}
+              height={37}
               alt="brand1"
-              className="mt-[18px] mx-auto"
+              className="mt-[15px] mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] py-3 px-2">
-              We never used a Construction service
+            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            We never used a cleaning service
             </p>
           </div>
         </SwiperSlide>
-        <SwiperSlide className={`text-center py-4`}>
-          <div className="brand w-full h-[130px] border-[1px] band rounded-[15px] text-center">
+        <SwiperSlide className={`text-center mt-5`}>
+          <div className="brand w-full h-[130px]  text-center">
             <Image
               src={band6}
               width={65}
@@ -113,8 +113,8 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mt-[15px] mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] py-3 px-2">
-              What a pleasure it was working with R H
+            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            What a pleasure it was working with Maricelaâ s
             </p>
           </div>
         </SwiperSlide>

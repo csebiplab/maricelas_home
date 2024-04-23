@@ -123,7 +123,7 @@ const RatingNReviewSection = () => {
       <div className="hidden lg:block w-full">
         <Brand />
       </div>
-      <div className="">
+      <div className="block lg:hidden w-full">
         <BrandSwiper />
       </div>
     </div>

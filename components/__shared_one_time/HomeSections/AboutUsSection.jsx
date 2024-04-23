@@ -34,7 +34,7 @@ const AboutUsSection = () => {
               width={320}
               height={222}
               alt="person3"
-              className="h-full  w-[500px] lg:w-[320px] lg:h-[222px] mt-2 lg:mt-[14px] "
+              className="h-full  w-[500px] lg:w-[320px] lg:h-[222px] mt-2 lg:mt-[14px] mx-auto md:mx-0"
             />
           </div>
         </div>

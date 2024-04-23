@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const CleaningServicesSection = () => {
   return (
-    <div className="py-[60px] -pb-0 lg:-pb-[40px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full">
-      <div className=" flex flex-col md:flex-row justify-center gap-4 md:gap-2 3xl:gap-16">
+    <div className="py-[60px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full">
+      <div className=" flex flex-col lg:flex-row justify-center gap-4 md:gap-2 3xl:gap-16">
         {/* ------------BIG SCREEN------------ */}
         <div className="hidden lg:block">
           <div className="flex">
@@ -57,9 +57,9 @@ const CleaningServicesSection = () => {
               <Image
                 src={clean1}
                 width={400}
-                height={320}
+                height={298}
                 alt="cleaning"
-                className="!w-[400px]"
+                className="!w-[400px] !h-[298px]"
               />
             </div>
 
@@ -76,16 +76,16 @@ const CleaningServicesSection = () => {
               <Image
                 src={clean3}
                 width={400}
-                height={320}
+                height={298}
                 alt="cleaning"
-                className="card-sd !w-[400px]"
+                className="card-sd !w-[400px] "
               />
             </div>
           </div>
         </div>
 
-        <div className="md:text-start text-center md:w-1/2">
-          <div className="flex justify-center md:justify-normal">
+        <div className="lg:text-start text-center lg:w-1/2">
+          <div className="flex justify-center lg:justify-normal mt-3 lg:mt-0">
             <Heading text={"Cleaning Services"} />
           </div>
           <h2 className="text-lg md:text-xl 2xl:text-[32px] md:pb-0 pb-[14px] font-semibold text-dark-200">
