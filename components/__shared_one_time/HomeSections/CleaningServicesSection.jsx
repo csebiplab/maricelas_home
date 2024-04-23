@@ -1,7 +1,7 @@
+import Heading from "@/components/__ui/Heading";
 import clean1 from "@/public/assets/images/clean1.png";
 import clean2 from "@/public/assets/images/clean2.png";
 import clean3 from "@/public/assets/images/clean3.png";
-import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 
 const CleaningServicesSection = () => {
@@ -88,7 +88,7 @@ const CleaningServicesSection = () => {
           <div className="flex justify-center md:justify-normal">
             <Heading text={"Cleaning Services"} />
           </div>
-          <h2 className="text-lg md:text-xl 2xl:text-[32px] md:pb-0 pb-[20px] font-semibold text-dark-200">
+          <h2 className="text-lg md:text-xl 2xl:text-[32px] md:pb-0 pb-[14px] font-semibold text-dark-200">
             Commercial & Residential Cleaning Services You Can Belief
           </h2>
           <p className="text-xs lg:text-base mt-2 lg:mt-[15px] text-dark-50 leading-[200%]">

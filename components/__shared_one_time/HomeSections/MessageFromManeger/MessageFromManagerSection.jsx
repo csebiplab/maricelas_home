@@ -50,25 +50,25 @@ const MessageFromManagerSection = () => {
             <div className="flex flex-col lg:flex-row w-full lg:relative mt-5 lg:my-0">
               <div className="w-full lg:w-[498px] flex justify-center items-center bg-warning-50 text-black lg:rotate-[270deg] lg:absolute -left-[210px] top-[200px] p-6 rounded-tr-[10px] rounded-tl-[10px]">
                 <div className="">
-                  <h5 className="message">Message From Manager</h5>
+                  <h5 className="text-base lg:text-2xl lg:leading-[160%]">Message From Manager</h5>
                 </div>
               </div>
               <div className="lg:ml-24">
                 <div>
                   <div className="grid lg:grid-cols-11">
                     <div className="lg:col-span-7 hidden lg:block">
-                      <h2 className="lg:text-[32px] text-lg font-semibold lg:leading-8 md:mb-[5px] xs:mb-0 text-[#000]">
+                      <h2 className="text-base md:text-lg lg:text-[32px]  font-semibold lg:leading-8 md:mb-[5px] xs:mb-0 text-[#000]">
                         Your best option for Cleaning services
                       </h2>
-                      <p className="text-xs lg:text-base mt-2 lg:mt-[15px] text-dark-200 leading-[250%]">
+                      <p className="text-xs lg:text-base lg:leading-[200%] mt-2 lg:mt-[19px] text-dark-200">
                         Dear valued customers,
                         <br />
-                        <br />
+                        
                         As the General Manager of our cleaning
-                        <br />
-                        <br />
+      
+                        
                         services, I want to ensure that you receive
-                        <br />
+                       
                         <br />
                         nothing but
                       </p>
@@ -89,10 +89,10 @@ const MessageFromManagerSection = () => {
                             </div>
                           </div>
                           <div className="block lg:hidden">
-                            <h6 className="text-lg text-center my-5">
+                            <h6 className="text-lg text-center my-5 lg:leading-[45px]">
                               Your best option for Cleaning services
                             </h6>
-                            <p className="text-sm leading-[200%] mb-5">
+                            <p className="text-xs lg:text-base lg:leading-[200%] mb-5">
                               Dear valued customers, As the General Manager of
                               our cleaning services, I want to ensure that you
                               receive nothing but
@@ -108,7 +108,7 @@ const MessageFromManagerSection = () => {
                             </p>
                             <div className="flex gap-x-3 items-center">
                               <div className="unknown__style" />
-                              <div className="text-sm">
+                              <div className="text-sm text-center">
                                 <author className="font-bold">
                                   Maricela Maldonado
                                 </author>
@@ -119,13 +119,20 @@ const MessageFromManagerSection = () => {
                             </div>
                           </div>
                         </div>
-                        <div className="hidden lg:block ml-4">
-                          <h5 className="py-1 lg:text-base text-sm">
-                            Maricela Maldonado
-                          </h5>
-                          <p className="lg:text-base text-xs">
-                            General Manager
-                          </p>
+                        <div className="hidden lg:block ml-4 text-center mt-2">
+
+                        <div className="flex gap-x-3 items-center">
+                              <div className="unknown__style !h-[100px]" />
+                              <div className="text-sm text-center">
+                                <author className="font-bold py-1 lg:text-base text-sm">
+                                  Maricela Maldonado
+                                </author>
+                                <span className="block mt-2 lg:text-base text-xs">
+                                  General Manager
+                                </span>
+                              </div>
+                            </div>
+                         
                         </div>
                       </div>
                     </div>

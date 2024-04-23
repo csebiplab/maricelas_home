@@ -11,7 +11,7 @@ const BestServicesSection = () => {
             <Heading text={"Best Services"} />
 
             <div>
-              <p className="lg:text-[32px] text-[18px] 3xl:pb-[30px] pb-[25px] text-center md:text-start font-semibold ">
+              <p className="lg:text-[32px] text-[18px] 3xl:pb-[30px] pb-[14px] text-center md:text-start font-semibold ">
                 Best Commercial & Residential Cleaning Services in Houstona
               </p>
             </div>
