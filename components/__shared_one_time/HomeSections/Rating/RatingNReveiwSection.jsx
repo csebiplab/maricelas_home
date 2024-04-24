@@ -1,5 +1,6 @@
 "use client";
 import vector from "@/public/assets/icons/vector.png";
+import BrandSwiper from "../BrandSwiper";
 import Achievement from "./Achievement";
 import Brand from "./Band";
 import Rating from "./Rating";
@@ -119,7 +120,12 @@ const RatingNReviewSection = () => {
           <Achievement />
         </div>
       </div>
-      <Brand />
+      <div className="hidden lg:block w-full">
+        <Brand />
+      </div>
+      <div className="block lg:hidden w-full">
+        <BrandSwiper />
+      </div>
     </div>
   );
 };

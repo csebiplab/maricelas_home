@@ -4,8 +4,6 @@ import band3 from "@/public/assets/images/band3.png";
 import band4 from "@/public/assets/images/band4.png";
 import band5 from "@/public/assets/images/band5.png";
 import band6 from "@/public/assets/images/band6.png";
-
-
 import Image from "next/image";
 
 const Brand = () => {
@@ -57,7 +55,7 @@ const Brand = () => {
           className="lg:mb-[10px] md:mb-[2px] mx-auto md:mt-3 mt-2"
         />
         <p className="text-center lg:mt-2 text-xs lg:text-sm leading-relaxed lg:leading-[21.1px] overflow-hidden">
-        We never used a cleaning service
+        Maricelas CleaningÂ Magnificence
         </p>
       </div>
       <div className="lg:px-2 md:px-1 lg:py-[14px] md:py[5px] text-center">
@@ -69,7 +67,7 @@ const Brand = () => {
           className="lg:mb-[10px] md:mb-[2px] mx-auto md:mt-3 mt-2"
         />
         <p className="text-center md:mt-3 mt-2 text-xs lg:text-sm leading-[21.1px]">
-        What a pleasure it was working with Maricelaâ s
+        We never used a cleaning service
         </p>
       </div>
       <div className="lg:px-2 md:px-1 lg:py-[14px] md:py-[5px] text-center">
