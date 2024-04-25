@@ -59,7 +59,7 @@ const CleaningServicesSection = () => {
                 width={400}
                 height={298}
                 alt="cleaning"
-                className="!w-[400px] !h-[298px]"
+                className="!w-[400px]"
               />
             </div>
 

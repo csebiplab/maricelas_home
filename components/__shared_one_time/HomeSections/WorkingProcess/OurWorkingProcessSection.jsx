@@ -9,6 +9,51 @@ import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 import "./WorkingProcess.css";
 
+
+const slideData = [
+  {
+    imgSrc: work1,
+    title: 'Initial Consultation',
+    description: `Clients reach out to us either through phone, email, or our
+    website to inquire about our services.`,
+  },
+  {
+    imgSrc: work2,
+    title: 'Scheduling',
+    description: `Once the client approves the proposal, we work with them to
+    schedule the cleaning appointment at a time that is convenient
+    for them.`,
+  },
+  {
+    imgSrc: work3,
+    title: 'Preparation',
+    description: `Before the scheduled cleaning date, our team prepares all the
+    necessary equipment, supplies, and tools needed for the job.`,
+  },
+  {
+    imgSrc: work4,
+    title: ' Execution',
+    description: `On the day of the cleaning appointment, our trained and
+    experienced cleaning professionals arrive at the client's
+    location promptly.`,
+  },
+  {
+    imgSrc: work5,
+    title: 'Quality Assurance',
+    description: `Throughout the cleaning process, we maintain a high standard of
+    quality and attention to detail.`,
+  },
+  {
+    imgSrc: work6,
+    title: 'Client Feedback',
+    description: `After completing the cleaning service, we welcome feedback from
+    our clients. We encourage them to share their thoughts and any
+    areas.`,
+  },
+  
+  // Add more objects as needed
+];
+
 const OurWorkingProcessSection = () => {
   return (
     <div className="bg__workingProcess container">
