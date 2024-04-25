@@ -121,10 +121,10 @@ const OurWorkingProcessSection = () => {
       <div className="lg:py-[44px] py-8">
         <div className="text-start ">
           <Heading text={"Our Working Process"} />
-          <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  md:pb-0 pb-[6px] font-semibold  text-[#1F1F1F]">
+          <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]  md:pb-0 pb-[6px]">
             How Does Our Cleaning Company Work?
           </h2>
-          <p className="lg:py-[15px] py-2 mb-4 lg:mb-5">
+          <p className="lg:mt-[15px] mt-2 mb-4 lg:mb-[35px] text-base">
             Certainly! Here's a breakdown of how our cleaning company operates:
           </p>
         </div>
