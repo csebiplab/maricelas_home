@@ -91,7 +91,7 @@ const CleaningServicesSection = () => {
           <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] md:pb-0 pb-[14px]">
             Commercial & Residential Cleaning Services You Can Belief
           </h2>
-          <p className="text-xs lg:text-base lg:leading-[175%] mt-2  text-dark-50 ">
+          <p className="text-xs lg:text-base lg:leading-[170%] mt-2  text-dark-50 ">
             At Maricela's Cleaning Magnificence, we understand the importance of
             reliability and professionalism when it comes to maintaining
             cleanliness in both commercial and residential settings. Our trained
