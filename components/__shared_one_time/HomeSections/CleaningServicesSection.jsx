@@ -78,7 +78,7 @@ const CleaningServicesSection = () => {
                 width={400}
                 height={298}
                 alt="cleaning"
-                className="card-sd !w-[400px] "
+                className="card-sd !w-[400px] !h-[298px]"
               />
             </div>
           </div>
