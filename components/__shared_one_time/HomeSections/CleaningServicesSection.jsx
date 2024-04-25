@@ -88,7 +88,7 @@ const CleaningServicesSection = () => {
           <div className="flex justify-center lg:justify-normal mt-3 lg:mt-0">
             <Heading text={"Cleaning Services"} />
           </div>
-          <h2 className="text-lg md:text-xl 2xl:text-[32px] md:pb-0 pb-[14px] font-semibold text-dark-200">
+          <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] md:pb-0 pb-[14px]">
             Commercial & Residential Cleaning Services You Can Belief
           </h2>
           <p className="text-xs lg:text-base lg:leading-[175%] mt-2  text-dark-50 ">

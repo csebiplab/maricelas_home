@@ -1,7 +1,6 @@
-import React from "react";
-import joinusImg from "../../../public/assets/random/withus 1.png";
-import Image from "next/image";
 import Heading from "@/components/__ui/Heading";
+import Image from "next/image";
+import joinusImg from "../../../public/assets/random/withus 1.png";
 
 const CleanWithUsSection = () => {
   return (
