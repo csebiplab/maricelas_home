@@ -105,10 +105,10 @@ const DifferentApproachForWorkSection = () => {
                 className="w-full rounded-md"
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="lg:text-base md:text-sm  text-[12px] py-1 md:py-2">
+                <h4 className="text-base py-1 md:py-2">
                  {slideInfo?.title}
                 </h4>
-                <p className="lg:text-sm md:text-xs text-[8px] md:px-1 text-[#252525]">
+                <p className="lg:text-sm text-xs md:px-1 text-[#252525] leading-[25px]">
                  {slideInfo?.description}
                 </p>
               </div>
