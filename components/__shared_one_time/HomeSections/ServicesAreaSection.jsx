@@ -64,16 +64,16 @@ const ServicesAreaSection = () => {
               <div className="mx-auto   flex flex-col items-center justify-center">
                 <Heading text={"Service Area"} />
                 <div>
-                  <h4 className="lg:text-[36px] md:text-[20px]   text-[16px] lg:mb-12 mb-5 text-center ">
+                  <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px] lg:mb-12 mb-5 text-center font-semibold">
                     Maricela's Cleaning Magnificenc Service Area
-                  </h4>
+                  </h2>
                 </div>
               </div>
 
               {/* //   ======================= map Card ==================// */}
               <div className="block">
                 <Swiper
-                  slidesPerView={6}
+                  slidesPerView={5}
                   modules={[Navigation]}
                   className="grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] "
                 >

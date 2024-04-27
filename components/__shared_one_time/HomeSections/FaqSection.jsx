@@ -74,7 +74,7 @@ const FaqSection = () => {
                   <Heading text={"Frequently Asked Questions (FAQ)"} />
 
                   <div>
-                    <p className="5xl:text-[32px] lg:text-[24px]  text-[18px] lg:mb-8 mb-5 font-semibold">
+                    <p className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
                       FAQ for Residential and Commercial Cleaning Services in
                       Houston
                     </p>
@@ -86,16 +86,16 @@ const FaqSection = () => {
                   <div key={idx}>
                     <details className="group [&_summary::-webkit-details-marker]:hidden">
                       <summary className="flex cursor-pointer items-center justify-between gap-1.5 bg-[#880769] p-4 border-2">
-                        <h6 className="text-white md:text-base text-[9px] ">
+                        <h6 className="text-white text-xs md:text-lg ">
                           {ques.question}
                         </h6>
 
                         <div className="white-icon">
-                          <IoCaretDown className="white-icon" />
+                          <IoCaretDown className="fill-white" />
                         </div>
                       </summary>
 
-                      <p className=" pt-3 px-4 leading-relaxed border-2 bg-white text-[14px]">
+                      <p className=" pt-3 px-4 leading-relaxed border-2 bg-white text-[10px] md:text-base">
                         {ques.answer}
                       </p>
                     </details>
