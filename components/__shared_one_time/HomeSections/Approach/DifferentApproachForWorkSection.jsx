@@ -5,7 +5,6 @@ import app2 from "@/public/assets/images/app2.png";
 import app3 from "@/public/assets/images/app3.png";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
@@ -82,7 +81,7 @@ const DifferentApproachForWorkSection = () => {
                 Maricela's Cleaning Magnificence, our approach to cleaning
                 transcends the ordinary.
               </p>
-              <div className="hidden lg:flex lg:gap-5 md:gap-3 md:justify-start justify-center mt-2 md:mt-4">
+              <div className="hidden lg:flex lg:gap-5 md:gap-3 md:justify-start justify-center mt-2 md:mt-4 md:block">
                 <button className="p-3 rounded-full border-2  hover:text-white hover:bg-[#880769]">
                   <FaChevronLeft className="fill-[#880769] hover:fill-white" />
                 </button>
