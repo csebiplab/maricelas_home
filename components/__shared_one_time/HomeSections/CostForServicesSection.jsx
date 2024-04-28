@@ -1,6 +1,6 @@
+import Heading from "@/components/__ui/Heading";
 import cost1 from "@/public/assets/images/cost1.png";
 import cost2 from "@/public/assets/images/cost2.png";
-import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 const CostForServicesSection = () => {
   return (
@@ -8,10 +8,10 @@ const CostForServicesSection = () => {
       <div className="3xl:py-[120px] lg:py-[100px] py-[60px]">
         <div className="block md:flex items-center gap-2 lg:gap-[27px]">
           <div className="mb-5 md:mb-0 md:text-start text-center md:w-1/2">
-            <div className="flex justify-center lg:justify-normal items-center py-5">
-              <Heading text={"Other Services"} />
+            <div className="flex justify-center lg:justify-normal items-center">
+              <Heading text={"Cost For Services"} />
             </div>
-            <h2 className="2xl:text-[32px] md:text-[20px] text-[18px] md:pb-0 pb-[20px] font-semibold text-[#1F1F1F]">
+            <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:pb-0 pb-[20px] font-semibold mt-[15px]">
               How Much Does Commercial & Residential Cleaning Service Cost
             </h2>
             <p className="text-xs lg:text-base mt-2 lg:mt-[15px] lg:leading-[32px]">
