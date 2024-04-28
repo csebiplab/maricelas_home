@@ -2,11 +2,15 @@
 import Link from "next/link";
 // import { usePathname } from "next/navigation";
 import gokundo from "@/public/assets/footer/Gokundu-logo(white and green) 1.png";
-import gaf from "@/public/assets/footer/gaf.png";
-import google from "@/public/assets/footer/google.png";
-import home from "@/public/assets/footer/home.png";
+import angi from "@/public/assets/footer/angi.png";
+import bark from "@/public/assets/footer/bark.png";
+import elite from "@/public/assets/footer/elite.png";
+import facebook from "@/public/assets/footer/facebook.png";
 import companyLogo from "@/public/assets/footer/logo.png";
-import three from "@/public/assets/footer/three.png";
+import review from "@/public/assets/footer/reviews.png";
+import screen from "@/public/assets/footer/screened.png";
+import rated from "@/public/assets/footer/toprated.png";
+import year from "@/public/assets/footer/year.png";
 import star from "@/public/assets/random/star.png";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -19,18 +23,44 @@ import { FaXTwitter } from "react-icons/fa6";
 import "./footer.css";
 
 const Footer = () => {
+  // const footerIcon = [
+  //   {
+  //     img: google,
+  //   },
+  //   {
+  //     img: three,
+  //   },
+  //   {
+  //     img: home,
+  //   },
+  //   {
+  //     img: gaf,
+  //   },
+  // ];
   const footerIcon = [
     {
-      img: google,
+      img: screen,
     },
     {
-      img: three,
+      img: rated,
     },
     {
-      img: home,
+      img: elite,
     },
     {
-      img: gaf,
+      img: angi,
+    },
+    {
+      img: review,
+    },
+    {
+      img: year,
+    },
+    {
+      img: bark,
+    },
+    {
+      img: facebook,
     },
   ];
 
@@ -248,7 +278,7 @@ const Footer = () => {
                       </li>
                       <div>
                         <div className=" hidden md:block ">
-                          <div className="grid  md:grid-cols-3 lg:gap-8 gap-5 lg:my-12">
+                          <div className="grid md:grid-cols-3 lg:grid-cols-5 lg:gap-8 gap-5 my-6 lg:my-10">
                             {footerIcon.map((fIcon, i) => (
                               <div key={i} className=" col-span-1">
                                 <img
@@ -272,7 +302,7 @@ const Footer = () => {
                         <div key={i} className=" ">
                           <img
                             src={fIcon.img.src}
-                            className=" lg:h-auto lg:w-auto "
+                            className="h-auto w-full"
                           ></img>
                         </div>
                       ))}
