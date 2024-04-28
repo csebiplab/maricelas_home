@@ -9,6 +9,20 @@ import "swiper/css/virtual";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+
+const breakpoints = {
+  0: {
+    slidesPerView: 1,
+  },
+  768: {
+    slidesPerView: 3,
+  },
+  1024: {
+    slidesPerView: 5,
+  },
+  
+};
+
 const maps = [
   {
     src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105616.14243920908!2d-118.21421188801828!3d34.18458537159454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c2dc38330b51%3A0x52b41161ad18f4a!2sPasadena%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1711883258041!5m2!1sen!2sbd",
@@ -71,6 +85,8 @@ const ServicesAreaSection = () => {
               </div>
 
               {/* //   ======================= map Card ==================// */}
+
+              
               <div className="block">
                 <Swiper
                   slidesPerView={5}
