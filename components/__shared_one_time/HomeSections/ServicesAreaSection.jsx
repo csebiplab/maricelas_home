@@ -78,7 +78,7 @@ const ServicesAreaSection = () => {
               <div className="mx-auto   flex flex-col items-center justify-center">
                 <Heading text={"Service Area"} />
                 <div>
-                  <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px] lg:mb-12 mb-5 text-center font-semibold">
+                  <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-semibold">
                     Maricela's Cleaning Magnificenc Service Area
                   </h2>
                 </div>
@@ -87,7 +87,7 @@ const ServicesAreaSection = () => {
               {/* //   ======================= map Card ==================// */}
 
               
-              <div className="block">
+              <div>
                 {/* <Swiper
                   slidesPerView={5}
                   modules={[Navigation]}
