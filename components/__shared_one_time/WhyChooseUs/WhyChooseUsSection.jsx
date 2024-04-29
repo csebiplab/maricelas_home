@@ -84,9 +84,9 @@ const WhyChooseUsSection = () => {
               <Heading text={"Why Choose Us"} />
             </div>
 
-            <p className="text-[18px] md:text-lg 2xl:text-[32px] mt-[15px] mb-5 font-semibold ">
+            <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-[15px] mb-5 font-semibold ">
               Why Choose Maricela's Cleaning Magnificence Cleaning Services?
-            </p>
+            </h2>
 
             <p className="text-xs lg:text-base lg:leading-[200%] mb-[25px]">
               Maricela's Cleaning Magnificence stands out as a premier choice

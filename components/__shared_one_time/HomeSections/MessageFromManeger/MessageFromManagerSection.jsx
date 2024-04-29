@@ -57,7 +57,7 @@ const MessageFromManagerSection = () => {
                 <div>
                   <div className="grid lg:grid-cols-11">
                     <div className="lg:col-span-7 hidden lg:block">
-                      <h2 className="text-base md:text-lg lg:text-[32px]  font-semibold lg:leading-8 md:mb-[5px] xs:mb-0 text-[#000]">
+                      <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold  xs:mb-0 text-[#000]">
                         Your best option for Cleaning services
                       </h2>
                       <p className="text-xs lg:text-base lg:leading-[200%] mt-2 lg:mt-[19px] text-dark-200">
@@ -89,16 +89,14 @@ const MessageFromManagerSection = () => {
                             </div>
                           </div>
                           <div className="block lg:hidden">
-                            <h6 className="text-lg text-center my-5 lg:leading-[45px]">
+                            <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F]">
                               Your best option for Cleaning services
-                            </h6>
-                            <p className="text-xs lg:text-base lg:leading-[200%] mb-5">
+                            </h2>
+                            <p className="text-xs lg:text-base lg:leading-[200%] mb-1">
                               Dear valued customers, As the General Manager of
                               our cleaning services, I want to ensure that you
                               receive nothing but
-                              <br />
-                              <br />
-                              the best experience when it comes to maintaining
+                            the best experience when it comes to maintaining
                               the cleanliness and hygiene of your spaces. At our
                               company, we take great pride in our commitment to
                               excellence and customer satisfaction. With years
@@ -138,7 +136,7 @@ const MessageFromManagerSection = () => {
                     </div>
                   </div>
 
-                  <p className="leading-[250%] mt-4 hidden lg:block">
+                  <p className="text-xs lg:text-base lg:leading-[38px] mt-1 hidden lg:block">
                     the best experience when it comes to maintaining the
                     cleanliness and hygiene of your spaces. At our company, we
                     take great pride in our commitment to excellence and

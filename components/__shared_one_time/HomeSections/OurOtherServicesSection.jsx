@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import Heading from "@/components/__ui/Heading";
 import { useState } from "react";
+import { MdArrowForwardIos } from "react-icons/md";
 import Brick from "../../../public/assets/services/Brick.png";
 import Brown from "../../../public/assets/services/Brown.png";
 import Kitchen from "../../../public/assets/services/Kitchen.png";
@@ -13,8 +14,6 @@ import Sheetrock from "../../../public/assets/services/Sheetrock.png";
 import bathroom from "../../../public/assets/services/bithrom.png";
 import Roofing from "../../../public/assets/services/roofing.png";
 import Water from "../../../public/assets/services/water.png";
-import Heading from "@/components/__ui/Heading";
-import { MdArrowForwardIos } from "react-icons/md";
 
 const services = [
   {
@@ -79,13 +78,13 @@ const OurOtherServicesSection = () => {
   return (
     <div>
       <div className=" bg-[#C477B126]">
-        <div className="container lg:py-28 py-14">
+        <div className="container lg:py-20 py-14">
           <div className="grid grid-cols-1  lg:grid-cols-2 lg:gap-40 gap-4  p-5 items-end text-sm ">
             <div className="  ">
-              <div className="flex justify-center lg:justify-normal items-center py-5">
+              <div className="flex justify-center lg:justify-normal items-center">
                 <Heading text={"Other Services"}></Heading>
               </div>
-              <h2 className="hidden lg:block lg:text-[32px] text-[20px]">
+              <h2 className="hidden lg:block text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]">
                 Our Other <br className=" hidden lg:block" /> Cleaning Services{" "}
                 <br className=" hidden lg:block" /> in Houston
               </h2>
@@ -101,7 +100,7 @@ const OurOtherServicesSection = () => {
               <h6 className="xl:text-[16px] text-[14px]">
                 Commercial Cleaning
               </h6>
-              <p className="  py-5 items-center lg:text-[12px] text-[10px] leading-[20px]">
+              <p className=" mt-[15px] items-center lg:text-[12px] text-[10px] leading-[20px]">
                 Experience pristine cleanliness with our professional commercial
                 cleaning services in Houston, TX. Our expert team employs
                 industry-leading techniques and eco-friendly products to ensure
@@ -119,7 +118,7 @@ const OurOtherServicesSection = () => {
           </div>
 
           {/* taggle button */}
-          <div className="flex justify-center items-center py-2 mb-12 mx-2 ">
+          <div className="flex justify-center items-center py-5 mb-12 mx-2 ">
             {/* <Switcher11></Switcher11> */}
             <label className="themeSwitcherTwo shadow-card relative inline-flex cursor-pointer select-none items-center justify-center rounded-3xl bg-white border border-[#C477B1]">
               <input
@@ -129,7 +128,7 @@ const OurOtherServicesSection = () => {
                 onChange={handleCheckboxChange}
               />
               <span
-                className={`flex items-center border  space-x-[6px] lg:px-32 px-14 rounded-3xl lg:py-4  py-2  lg:text-[20px] text-sm font-medium ${
+                className={`flex items-center border  space-x-[6px] lg:px-32 px-4 rounded-3xl lg:py-4 py-2  lg:text-[20px] text-sm font-medium ${
                   !isChecked ? "text-white bg-[#C477B1] " : "text-body-color"
                 }`}
               >
@@ -149,7 +148,7 @@ const OurOtherServicesSection = () => {
                 Commercial Cleaning
               </span>
               <span
-                className={`flex items-center space-x-[6px] lg:px-32 px-14 rounded-3xl lg:py-4 py-2 lg:text-[20px] text-sm font-medium ${
+                className={`flex items-center space-x-[6px] lg:px-32 px-4 rounded-3xl lg:py-4 py-2 lg:text-[20px] text-sm font-medium ${
                   isChecked ? " text-white bg-[#C477B1] " : "text-body-color"
                 }`}
               >

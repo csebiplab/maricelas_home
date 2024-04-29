@@ -11,13 +11,13 @@ const BestServicesSection = () => {
             <Heading text={"Best Services"} />
 
             <div>
-              <p className="lg:text-[32px] text-[18px] 3xl:pb-[30px] pb-[14px] text-center md:text-start font-semibold ">
+              <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-[12px] pb-[12px] text-center md:text-start font-semibold ">
                 Best Commercial & Residential Cleaning Services in Houstona
-              </p>
+              </h2>
             </div>
           </div>
           <div>
-            <p className="md:text-start text-center xl:text-[16px] lg:text-[14px] text-[10px] ">
+            <p className="md:text-start text-center text-xs lg:text-base  lg:leading-[32px]">
               When it comes to finding the best cleaning services in Houston,
               quality and reliability are paramount. Look no further than our
               dedicated team of professionals who are committed to delivering

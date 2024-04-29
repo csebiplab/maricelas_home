@@ -1,25 +1,38 @@
-import React from "react";
-import joinusImg from "../../../public/assets/random/withus 1.png";
-import Image from "next/image";
 import Heading from "@/components/__ui/Heading";
+import Image from "next/image";
+import joinusImg from "../../../public/assets/random/withus 1.png";
+import women from "../../../public/assets/random/women.png";
 
 const CleanWithUsSection = () => {
   return (
     <div>
       <div className="bg-[#C477B126]">
         <div className=" container grid sm:grid-cols-3 grid-cols-1 md:py-0 py-10 ">
-          <div className=" col-span-1 sm:block flex sm:justify-normal justify-center sm:-pb-[0px] pb-[10px]">
+
+          {/* ============= Large Screen ================= */}
+          <div className="hidden md:block">
+          <div className=" col-span-1 sm:block flex sm:justify-normal justify-center ">
             <Image src={joinusImg} height={750} width={485} />
           </div>
+          </div>
+
+          {/* ============== Small Screen ============= */}
+
+          <div className="block md:hidden">
+          <div className=" col-span-1 sm:block flex sm:justify-normal justify-center ">
+            <Image src={women} height={480} width={370}  className="!w-[370px] !h-[475px] mb-5"/>
+          </div>
+          </div>
+
           <div className=" flex justify-center items-center col-span-2 lg:ml-[55px] ml-[35px]">
             <div>
               <div>
                 <Heading text={"With Us"}></Heading>
               </div>
-              <p className="lg:text-[32px] text-[20px] font-semibold lg:mb-[25px] mb-[15px]">
+              <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] font-semibold lg:mb-[25px] mb-[15px]">
                 Get Your Commercial & Residential Area Cleaned With Us
-              </p>
-              <p className="lg:text-[16px] md:text-[14px] text-[12px] lg:leading-[32px] leading-[20px] text-justify ">
+              </h2>
+              <p className="text-xs md:text-start lg:text-base lg:leading-[32px] text-justify ">
                 Transform your commercial and residential spaces into pristine
                 havens with our professional cleaning services in Houston, TX.
                 Our dedicated team utilizes state-of-the-art equipment and

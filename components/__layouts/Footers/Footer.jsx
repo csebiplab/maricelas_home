@@ -5,12 +5,11 @@ import gokundo from "@/public/assets/footer/Gokundu-logo(white and green) 1.png"
 import gaf from "@/public/assets/footer/gaf.png";
 import google from "@/public/assets/footer/google.png";
 import home from "@/public/assets/footer/home.png";
+import companyLogo from "@/public/assets/footer/logo.png";
 import three from "@/public/assets/footer/three.png";
-import star from "../../../public/assets/random/star.png"
-import companyLogo from "../../../public/assets/footer/logo.png"
+import star from "@/public/assets/random/star.png";
 import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
-import { IoIosMail } from "react-icons/io";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
 import Image from "next/image";
@@ -39,8 +38,8 @@ const Footer = () => {
     <footer className="">
       <div className=" footer__bg bg-blend-multiply  lg:px-[35px] xs:px-[20px] !text-white relative">
         {/* star img */}
-        <div className=" absolute top-10 4xl:ml-[100px] 2xl:block hidden ">
-          <Image src={star} height={100} width={100} />
+        <div className="absolute top-10 4xl:ml-[100px] lg:block hidden ">
+          <Image src={star} height={60} width={70} />
         </div>
 
         {/* company logo */}
@@ -49,7 +48,7 @@ const Footer = () => {
         </div>
 
         <div className="container  ">
-          <div className="z-100 2xl:pt-[160px]  lg:pt-[120px] pt-[80px] 2xl:pb-[65px] pb-[50px] text-white ">
+          <div className="z-100 2xl:pt-[180px] lg:pt-[160px] pt-[80px] 2xl:pb-[65px] pb-[50px] text-white ">
             <div className="">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
                 <div className=" lg:col-span-2 md:col-span-1 items-center">
@@ -86,7 +85,7 @@ const Footer = () => {
                 <div className=" lg:col-span-5 md:col-span-2 grid sm:grid-cols-7 grid-cols-1 lg:gap-10 gap-3">
                   {/* news line */}
                   <div className="sm:col-span-2  ">
-                    <h3 className="font-semibold text-white  lg:text-[20px]  xs:text-[15px] lg:mb-10 md:mb-5 mb-3 ">
+                    <h3 className="font-semibold text-white  lg:text-xl  text-[15px] lg:mb-7 md:mb-5 mb-3 ">
                       {" "}
                       News{" "}
                     </h3>
@@ -94,7 +93,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px] items-center text-white"
+                          className="footer-link lg:text-base text-[8px] items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           How it work
@@ -103,7 +102,7 @@ const Footer = () => {
                       <li className=" lg:py-8 xs:py-[12px] ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Gallery
@@ -112,7 +111,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px] xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Testimonils
@@ -121,7 +120,7 @@ const Footer = () => {
                       <li className="lg:py-8 xs:py-[12px] ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white "
+                          className="footer-link lg:text-base text-[8px]  items-center text-white "
                         >
                           <MdKeyboardDoubleArrowRight />
                           Career
@@ -130,7 +129,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Sitmap
@@ -141,23 +140,23 @@ const Footer = () => {
 
                   {/* services line */}
                   <div className=" sm:col-span-2  ">
-                    <h3 className="font-semibold text-white lg:text-[20px] xs:text-[15px]  lg:mb-10 md:mb-5 mb-3 ">
+                    <h3 className="font-semibold text-white lg:text-xl text-[15px]  lg:mb-7 md:mb-5 mb-3 ">
                       Ours Services
                     </h3>
                     <ul className="">
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base  text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           House Cleaning
                         </Link>
                       </li>
-                      <li className="  lg:py-8 xs:py-[12px]">
+                      <li className="lg:py-8 xs:py-[12px]">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px] xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Office Cleaning
@@ -166,7 +165,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Kitchen Cleaning
@@ -175,7 +174,7 @@ const Footer = () => {
                       <li className=" lg:py-8 xs:py-[12px]">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center  text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center  text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Water Tank Cleaning
@@ -184,7 +183,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-base text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Window Cleaning
@@ -193,7 +192,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-[16px]  xs:text-[8px]  items-center text-white"
+                          className="footer-link lg:text-[16px] text-[8px]  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           Plumbing Service
@@ -204,7 +203,7 @@ const Footer = () => {
 
                   {/* contact line  */}
                   <div className=" sm:col-span-3  items-center">
-                    <h3 className="font-semibold text-white   lg:text-[20px] xs:text-[15px] lg:mb-10 md:mb-5 mb-3">
+                    <h3 className="font-semibold text-white lg:text-xl text-[15px] lg:mb-7 md:mb-5 mb-3">
                       Contact Us
                     </h3>
                     <ul className=" ">
@@ -306,8 +305,8 @@ const Footer = () => {
 
         </div>
 
-        <div className=" absolute right-10 bottom-10 mr-[185px] 2xl:block hidden">
-          <Image src={star} height={100} width={100} />
+        <div className="absolute right-10 bottom-10 mr-[15px] lg:block hidden">
+          <Image src={star} height={60} width={70} />
         </div>
       </div>
 

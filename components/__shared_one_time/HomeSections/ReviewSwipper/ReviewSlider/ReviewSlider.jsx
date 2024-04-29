@@ -5,10 +5,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import google from "@/public/assets/icons/google.png";
 import star from "@/public/assets/icons/star.png";
-
 import "swiper/css";
+import "swiper/css/autoplay";
 import "swiper/css/navigation";
+import "swiper/css/scrollbar";
 import "swiper/css/virtual";
+import { Autoplay } from "swiper/modules";
 import { SwiperNavButtons } from "./SwiperSliderButton";
 
 import Heading from "@/components/__ui/Heading";
@@ -82,8 +84,19 @@ const ReviewSlider = () => {
       <Swiper
         spaceBetween={21}
         // slidesPerView={3}
-        modules={[Navigation]}
+        modules={[Autoplay, Navigation]}
         breakpoints={breakpoints}
+        loop={true}
+        autoplay={{
+          delay: 3000,
+          pauseOnMouseEnter: false,
+          disableOnInteraction: false,
+          stopOnLastSlide: false,
+        }}
+        speed={3000}
+        allowTouchMove={false}
+        
+        
       >
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide
