@@ -98,7 +98,7 @@ const Footer = () => {
 
                   <div className="mt-4 lg:mt-[35px]">
                     <h4 className="lg:text-xl text-base">Open Hours:</h4>
-                    <p className="">
+                    <p className="my-1 mt-2 lg:mt-5">
                       Mon – Sat: 8 am – 5 pm, <br />
                       Sunday: CLOSED
                     </p>
