@@ -85,12 +85,12 @@ const Header = () => {
               />
               <div className="">
                 <span className="text-base block">Quick Contact</span>
-                <Link
-                  href="/"
+                <a
+                  href="tel:(832) 8204035"
                   className="text-primary font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
                 >
                   (832) 8204035
-                </Link>
+                </a>
               </div>
             </div>
             <div className="block lg:hidden">

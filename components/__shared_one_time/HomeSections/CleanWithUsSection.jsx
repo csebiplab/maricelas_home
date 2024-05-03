@@ -19,7 +19,7 @@ const CleanWithUsSection = () => {
           {/* ============== Small Screen ============= */}
 
           <div className="block md:hidden">
-          <div className=" col-span-1 sm:block flex sm:justify-normal justify-center ">
+          <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
             <Image src={women} height={480} width={370}  className="!w-[370px] !h-[475px] mb-5"/>
           </div>
           </div>
