@@ -21,38 +21,38 @@ const faqQuestionsNAns = [
     id: 2,
     question: "Do you offer customizable cleaning plans?",
     answer:
-      "Our main office is located in Brooklyn NY. However, we operate in Brooklyn, Queens, Manhattan, Bronx, and Staten Island.",
+      "Yes, we understand that every space has unique cleaning needs. We offer customizable cleaning plans tailored to meet the specific requirements of our clients.",
   },
   {
     id: 3,
     question: "Do you provide your cleaning equipment and supplies?",
     answer:
-      "Yes, RH Construction USA Inc. is a fully licensed and insured company. We adhere to all necessary regulations and standards to ensure the safety and satisfaction of our clients.",
+      "Yes, we bring our professional-grade equipment and supplies to ensure thorough and efficient cleaning. However, if you have specific preferences or products you'd like us to use, we're happy to accommodate.",
   },
   {
     id: 4,
     question: "How often can I schedule cleaning services?",
     answer:
-      "Safety is our top priority at RH Construction USA Inc. We have strict safety protocols in place and provide regular training to our staff to ensure compliance with safety regulations and standards.",
+      "You can schedule cleaning services as frequently as needed. Whether you require daily, weekly, bi-weekly, or monthly cleaning, we can create a schedule that fits your needs and budget.",
   },
   {
     id: 5,
     question:
       "What measures do you take to ensure security and confidentiality?",
     answer:
-      "Yes, we can assist you with obtaining the necessary permits for your construction project. Our team is familiar with the permit process and will work closely with local authorities to ensure all requirements are met.",
+      "We prioritize the security and confidentiality of our client's properties and information. Our cleaners undergo thorough background checks, and we have strict protocols in place to safeguard your privacy.",
   },
   {
     id: 6,
     question: "How do I request a quote for cleaning services?",
     answer:
-      "Yes, we can assist you with obtaining the necessary permits for your construction project. Our team is familiar with the permit process and will work closely with local authorities to ensure all requirements are met.",
+      "You can request a quote by contacting us directly through phone, email, or our website. We'll assess your cleaning needs and provide you with a customized quote tailored to your requirements.",
   },
   {
     id: 7,
     question: "What if I'm not satisfied with the cleaning service?",
     answer:
-      "You can contact us by phone, by email, or through the contact form on our website. Our team is available to assist you with any further inquiries or questions you may have.",
+      "Customer satisfaction is our top priority. If you're not completely satisfied with our service, please let us know, and we'll promptly address any concerns or re-clean the areas in question at no extra cost.",
   },
 ];
 const FaqSection = () => {
