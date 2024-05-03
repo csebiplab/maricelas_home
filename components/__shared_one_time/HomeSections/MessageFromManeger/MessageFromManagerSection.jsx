@@ -5,7 +5,7 @@ import "./MessageFromManeger.css";
 
 const MessageFromManagerSection = () => {
   return (
-    <div className="custom-container px-5 lg:px-0">
+    <div className="custom-container px-5 lg:px-0 border border-red-500">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-[49px] my-[55px] lg:my-[120px]">
         <div className="relative">
           <div className="w-full lg:w-[410px] h-auto md:h-[332px] lg:absolute right-0 top-[18%] bg-white lg:my-16 my-shadow z-50">
@@ -38,10 +38,10 @@ const MessageFromManagerSection = () => {
             <Image
               src={cleaner}
               alt="cleaner"
-              width={450}
+              width={722}
               height={300}
               loading="lazy"
-              className="w-[722px] h-[616px] hidden lg:block"
+              className="lg:w-[420px] xl:w-[480px] 2xl:w-[530px] 3xl:w-[580px] 4xl:w-[630px] 5xl:w-[722px] h-[616px] hidden lg:block"
             />
           </div>
         </div>
