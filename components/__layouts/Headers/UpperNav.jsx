@@ -27,7 +27,7 @@ const UpperNavbar = () => {
               className="w-[16px] h-[17px]"
             />
             <span className="text-[10px] xl:text-base text-white">
-              13809 Hollow Canyon Lane Rosharon, TX 77583
+            Houston,Texas
             </span>
           </div>
           <div>
@@ -56,7 +56,7 @@ const UpperNavbar = () => {
               className="w-[16px] h-[17px]"
             />
             <span className="text-[10px] xl:text-base text-white">
-              Mon - Fri: 09:00 am - 10:00 pm
+            Monday-Friday 7:00am-7:00pm
             </span>
           </div>
         </div>

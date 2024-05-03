@@ -2,13 +2,16 @@
 import Link from "next/link";
 // import { usePathname } from "next/navigation";
 import gokundo from "@/public/assets/footer/Gokundu-logo(white and green) 1.png";
-import gaf from "@/public/assets/footer/gaf.png";
-import google from "@/public/assets/footer/google.png";
-import home from "@/public/assets/footer/home.png";
+import angi from "@/public/assets/footer/angi.png";
+import bark from "@/public/assets/footer/bark.png";
+import elite from "@/public/assets/footer/elite.png";
+import facebook from "@/public/assets/footer/facebook.png";
 import companyLogo from "@/public/assets/footer/logo.png";
-import three from "@/public/assets/footer/three.png";
+import review from "@/public/assets/footer/reviews.png";
+import screen from "@/public/assets/footer/screened.png";
+import rated from "@/public/assets/footer/toprated.png";
+import year from "@/public/assets/footer/year.png";
 import star from "@/public/assets/random/star.png";
-import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
@@ -19,18 +22,44 @@ import { FaXTwitter } from "react-icons/fa6";
 import "./footer.css";
 
 const Footer = () => {
+  // const footerIcon = [
+  //   {
+  //     img: google,
+  //   },
+  //   {
+  //     img: three,
+  //   },
+  //   {
+  //     img: home,
+  //   },
+  //   {
+  //     img: gaf,
+  //   },
+  // ];
   const footerIcon = [
     {
-      img: google,
+      img: screen,
     },
     {
-      img: three,
+      img: rated,
     },
     {
-      img: home,
+      img: elite,
     },
     {
-      img: gaf,
+      img: angi,
+    },
+    {
+      img: review,
+    },
+    {
+      img: year,
+    },
+    {
+      img: bark,
+    },
+    {
+      img: facebook,
     },
   ];
 
@@ -66,11 +95,10 @@ const Footer = () => {
                     </p>
                   </div>
 
-                  <div className="lg:mt-[35px]">
-                    <h4 className=" lg:text-[25px] text-[20px]">Open Hours:</h4>
-                    <p>
-                      Mon – Sat: 8 am – 5 pm, <br />
-                      Sunday: CLOSED
+                  <div className="mt-4 lg:mt-[35px]">
+                    <h4 className="lg:text-xl text-base">Open Hours:</h4>
+                    <p className="my-1 mt-2 lg:mt-5">
+                      Monday-Friday 7:00am-7:00pm
                     </p>
                   </div>
 
@@ -213,12 +241,12 @@ const Footer = () => {
                           className="footer-link flex gap-4 items-center text-[8px] lg:text-[16px] text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
-                          <span>Houston,Texas</span>
+                          Houston,Texas
                         </a>
                       </li>
                       <li className="py-2 lg:py-4">
                         <a
-                          href="tel:+1 (646) 683-4612"
+                          href="tel:(832) 8204035"
                           className="footer-link items-center text-[8px] lg:text-[16px] text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
@@ -236,10 +264,10 @@ const Footer = () => {
                             height={21}
                             className="w-[21 px] h-[21px]"
                           />
-                          <span className="hidden 3xl:block text-base text-wrap">
+                          <span className="block md:hidden text-[10px] text-wrap">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          <span className="block 3xl:hidden text-[8px] sm:text-xs">
+                          <span className="hidden md:block text-xs">
                             maricela.maldonado@
                             <br />
                             maricelasmagnificence.com
@@ -248,7 +276,7 @@ const Footer = () => {
                       </li>
                       <div>
                         <div className=" hidden md:block ">
-                          <div className="grid  md:grid-cols-3 lg:gap-8 gap-5 lg:my-12">
+                          <div className="grid md:grid-cols-3 lg:grid-cols-5 lg:gap-8 gap-5 my-6 lg:my-10">
                             {footerIcon.map((fIcon, i) => (
                               <div key={i} className=" col-span-1">
                                 <img
@@ -272,7 +300,7 @@ const Footer = () => {
                         <div key={i} className=" ">
                           <img
                             src={fIcon.img.src}
-                            className=" lg:h-auto lg:w-auto "
+                            className="h-auto w-full"
                           ></img>
                         </div>
                       ))}

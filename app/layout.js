@@ -1,6 +1,6 @@
 import Header from "@/components/__layouts/Headers/Header";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
-import { Roboto_Slab, Open_Sans } from "next/font/google";
+import { Open_Sans, Roboto_Slab } from "next/font/google";
 import { Suspense } from "react";
 import Footer from "../components/__layouts/Footers/Footer";
 import "./globals.css";

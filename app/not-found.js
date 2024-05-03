@@ -1,8 +1,8 @@
 "use client";
 
-import { Button } from '@material-tailwind/react'
-import Link from 'next/link'
-import { Suspense } from 'react'
+import { Button } from '@material-tailwind/react';
+import Link from 'next/link';
+import { Suspense } from 'react';
 
 export default function NotFound() {
     return (
