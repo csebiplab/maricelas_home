@@ -12,7 +12,6 @@ import screen from "@/public/assets/footer/screened.png";
 import rated from "@/public/assets/footer/toprated.png";
 import year from "@/public/assets/footer/year.png";
 import star from "@/public/assets/random/star.png";
-import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
@@ -236,7 +235,7 @@ const Footer = () => {
                       Contact Us
                     </h3>
                     <ul className=" ">
-                      <li>
+                      {/* <li>
                         <a
                           href="/"
                           className="footer-link flex gap-4 items-center text-[8px] lg:text-[16px] text-white"
@@ -244,7 +243,7 @@ const Footer = () => {
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
                           Houston,Texas
                         </a>
-                      </li>
+                      </li> */}
                       <li className="py-2 lg:py-4">
                         <a
                           href="tel:(832) 8204035"
@@ -265,10 +264,10 @@ const Footer = () => {
                             height={21}
                             className="w-[21 px] h-[21px]"
                           />
-                          <span className="hidden 3xl:block text-base text-wrap">
+                          <span className="block md:hidden text-[10px] text-wrap">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          <span className="block 3xl:hidden text-[8px] sm:text-xs">
+                          <span className="hidden md:block text-xs">
                             maricela.maldonado@
                             <br />
                             maricelasmagnificence.com
