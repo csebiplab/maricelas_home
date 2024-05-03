@@ -68,13 +68,13 @@ const benefits = [
 const WhyChooseUsSection = () => {
   return (
     <div className="bg-[#C477B126] container">
-      <div className="grid grid-cols-1 lg:grid-cols-4">
-        <div className="lg:col-span-1 order-2 lg:block hidden ml-[48px]">
+      <div className="grid grid-cols-1 lg:grid-cols-5 2xl:grid-cols-4">
+        <div className="lg:col-span-2 2xl:col-span-1 order-2 lg:block hidden ml-[48px]">
           <Image
             src={whychoose}
             width={360}
             height={658}
-            className="w-[360px] h-[664px]"
+            className="w-[360px] h-[100dvh] 2xl:h-[658px]"
           />
         </div>
 

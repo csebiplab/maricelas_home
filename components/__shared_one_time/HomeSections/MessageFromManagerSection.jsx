@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const MessageFromManagerSection = () => {
   return (
-    <div className="custom-container">
+    <div className="custom-container ">
       <div className="">
         <div className="grid lg:grid-cols-10 md:grid-cols-7 lg:relative 2xl:py-16 py-10 md:mx-0 mx-[30px]">
           {/* contact part */}
