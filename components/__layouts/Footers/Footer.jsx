@@ -17,7 +17,12 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
 import Image from "next/image";
 
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaMapMarkedAlt,
+} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import "./footer.css";
 
