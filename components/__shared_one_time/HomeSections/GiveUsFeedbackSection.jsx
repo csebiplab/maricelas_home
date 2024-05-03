@@ -20,19 +20,26 @@ const GiveUsFeedbackSection = () => {
                   <FaMapLocationDot className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
                   <p className="text-white">
                     {" "}
-                    13809 Hollow Canyon Lane Rosharon, TX 77583{" "}
+                    Houston,Texas{" "}
                   </p>
                 </div>
-                <div className="my-2 flex gap-2 items-center md:justify-start justify-center 2xl:text-[16px] lg:text-[14px] text-[12px] ">
+                
+                 
+                  <a
+                  href="tel:(832) 8204035"
+                  className="my-2 flex gap-2 items-center md:justify-start justify-center 2xl:text-[16px] lg:text-[14px] text-[12px] "
+                >
                   <FaPhoneVolume className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <p className="text-white">(832)8204035</p>
-                </div>
-                <div className=" flex gap-2 my-auto items-center 2xl:text-[16px] lg:text-[14px] text-[12px] 2xl:py-8 py-5 md:justify-start justify-center ">
+                  <span className="text-white">(832) 8204035</span>
+                </a>
+                
+                <a href="mailto:maricela.maldonado@maricelasmagnificence.com" className=" flex gap-2 my-auto items-center 2xl:text-[16px] lg:text-[14px] text-[12px] 2xl:py-8 py-5 md:justify-start justify-center ">
                   <IoIosMail className=" 2xl:w-5 2xl:h-5 w-auto h-auto fill-white" />
-                  <p className="text-white">
+                  <span className="text-white">
                     maricela.maldonado@maricelasmagnificence.com
-                  </p>
-                </div>
+                  </span>
+                  
+                </a>
                 <div className=" flex gap-8  text-white md:justify-start justify-center">
                   <FaFacebook className=" 2xl:w-6 2xl:h-6 w-auto h-auto fill-white" />
                   <FaXTwitter className=" 2xl:w-6  2xl:h-6 w-auto h-auto fill-white " />

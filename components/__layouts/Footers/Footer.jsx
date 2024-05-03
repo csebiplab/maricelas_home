@@ -99,8 +99,7 @@ const Footer = () => {
                   <div className="mt-4 lg:mt-[35px]">
                     <h4 className="lg:text-xl text-base">Open Hours:</h4>
                     <p className="my-1 mt-2 lg:mt-5">
-                      Mon – Sat: 8 am – 5 pm, <br />
-                      Sunday: CLOSED
+                    Monday-Friday 7:00am-7:00pm
                     </p>
                   </div>
 
@@ -243,12 +242,12 @@ const Footer = () => {
                           className="footer-link flex gap-4 items-center text-[8px] lg:text-[16px] text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
-                          13809 Hollow Canyon Lane Rosharon, TX 77583
+                          Houston,Texas
                         </a>
                       </li>
                       <li className="py-2 lg:py-4">
                         <a
-                          href="tel:+1 (646) 683-4612"
+                          href="tel:(832) 8204035"
                           className="footer-link items-center text-[8px] lg:text-[16px] text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
