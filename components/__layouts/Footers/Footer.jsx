@@ -73,7 +73,7 @@ const Footer = () => {
 
         {/* company logo */}
         <div className=" absolute lg:-top-20 -top-10 left-1/2 lg:-ml-[90px] -ml-[50px] lg:w-auto lg:h-auto w-[100px] h-[100px]  ">
-          <Image src={companyLogo} height={182} width={182}  />
+          <Image src={companyLogo} height={182} width={182} />
         </div>
 
         <div className="container  ">
@@ -98,7 +98,7 @@ const Footer = () => {
                   <div className="mt-4 lg:mt-[35px]">
                     <h4 className="lg:text-xl text-base">Open Hours:</h4>
                     <p className="my-1 mt-2 lg:mt-5">
-                    Monday-Friday 7:00am-7:00pm
+                      Monday-Friday 7:00am-7:00pm
                     </p>
                   </div>
 
@@ -235,7 +235,7 @@ const Footer = () => {
                       Contact Us
                     </h3>
                     <ul className=" ">
-                      {/* <li>
+                      <li>
                         <a
                           href="/"
                           className="footer-link flex gap-4 items-center text-[8px] lg:text-[16px] text-white"
@@ -243,7 +243,7 @@ const Footer = () => {
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
                           Houston,Texas
                         </a>
-                      </li> */}
+                      </li>
                       <li className="py-2 lg:py-4">
                         <a
                           href="tel:(832) 8204035"
@@ -307,17 +307,17 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-
-
-
               </div>
 
               {/* terms */}
-              <div className="lg:hidden block py-8" >
+              <div className="lg:hidden block py-8">
                 <div className="flex justify-center items-center text-center">
                   <div className=" ">
                     <div>
-                      <p> © All Copyright 2024 by Maricela's Cleaning Magnificence</p>
+                      <p>
+                        {" "}
+                        © All Copyright 2024 by Maricela's Cleaning Magnificence
+                      </p>
                     </div>
                     <div className="flex gap-5 justify-center items-center text-center">
                       <p>Terms & Condition </p>
@@ -328,16 +328,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-
-
         </div>
 
         <div className="absolute right-10 bottom-10 mr-[15px] lg:block hidden">
           <Image src={star} height={60} width={70} />
         </div>
       </div>
-
 
       {/* creater company credit */}
       <div className=" footer-bottom-bg    ">
@@ -368,8 +364,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-
     </footer>
   );
 };
