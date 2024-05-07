@@ -146,7 +146,7 @@ const BrandSwiper = () => {
               className="w-[78px] h-[79px] mx-auto"
             />
             <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              What a pleasure it was working with Maricelaâ s
+              What a pleasure it was working with Maricela
             </p>
           </div>
         </SwiperSlide>
