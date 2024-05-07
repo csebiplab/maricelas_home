@@ -12,6 +12,8 @@ import screen from "@/public/assets/footer/screened.png";
 import rated from "@/public/assets/footer/toprated.png";
 import year from "@/public/assets/footer/year.png";
 import star from "@/public/assets/random/star.png";
+import icon9 from "@/public/assets/random/t.png";
+import icon10 from "@/public/assets/random/groupon.png";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
@@ -26,48 +28,40 @@ import {
 import { FaXTwitter } from "react-icons/fa6";
 import "./footer.css";
 
-const Footer = () => {
-  // const footerIcon = [
-  //   {
-  //     img: google,
-  //   },
-  //   {
-  //     img: three,
-  //   },
-  //   {
-  //     img: home,
-  //   },
-  //   {
-  //     img: gaf,
-  //   },
-  // ];
-  const footerIcon = [
-    {
-      img: screen,
-    },
-    {
-      img: rated,
-    },
-    {
-      img: elite,
-    },
-    {
-      img: angi,
-    },
-    {
-      img: review,
-    },
-    {
-      img: year,
-    },
-    {
-      img: bark,
-    },
-    {
-      img: facebook,
-    },
-  ];
+const footerIcon = [
+  {
+    img: screen,
+  },
+  {
+    img: rated,
+  },
+  {
+    img: elite,
+  },
+  {
+    img: angi,
+  },
+  {
+    img: review,
+  },
+  {
+    img: year,
+  },
+  {
+    img: bark,
+  },
+  {
+    img: facebook,
+  },
+  {
+    img: icon9,
+  },
+  {
+    img: icon10,
+  },
+];
 
+const Footer = () => {
   return (
     <footer className="">
       <div className=" footer__bg bg-blend-multiply  lg:px-[35px] xs:px-[20px] !text-white relative">
@@ -280,14 +274,14 @@ const Footer = () => {
                         </a>
                       </li>
                       <div>
-                        <div className=" hidden md:block ">
-                          <div className="grid md:grid-cols-3 lg:grid-cols-5 lg:gap-8 gap-5 my-6 lg:my-10">
+                        <div className="">
+                          <div className="grid grid-cols-5 justify-center items-center gap-4 lg:gap-5 2xl:gap-10 my-6 lg:mb-10">
                             {footerIcon.map((fIcon, i) => (
-                              <div key={i} className=" col-span-1">
+                              <div key={i} className="col-span-1">
                                 <img
                                   src={fIcon.img.src}
                                   className="lg:h-auto lg:w-auto "
-                                ></img>
+                                />
                               </div>
                             ))}
                           </div>
@@ -298,9 +292,9 @@ const Footer = () => {
                 </div>
 
                 {/* This section show when screen sm or xs */}
-                <div className=" block md:hidden items-center">
+                {/* <div className="">
                   <div>
-                    <div className=" gap-5  xs:flex xs:justify-between xs:items-center xs:mb-8 ">
+                    <div className="gap-5 flex justify-between items-center mb-8 ">
                       {footerIcon.map((fIcon, i) => (
                         <div key={i} className=" ">
                           <img
@@ -311,7 +305,7 @@ const Footer = () => {
                       ))}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
 
               {/* terms */}
