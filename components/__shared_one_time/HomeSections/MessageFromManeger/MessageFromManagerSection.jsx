@@ -5,7 +5,7 @@ import "./MessageFromManeger.css";
 
 const MessageFromManagerSection = () => {
   return (
-    <div className="custom-container px-5 lg:px-0 border border-red-500">
+    <div className="custom-container px-5 lg:px-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-[49px] my-[55px] lg:my-[120px]">
         <div className="relative">
           <div className="w-full lg:w-[410px] h-auto md:h-[332px] lg:absolute right-0 top-[18%] bg-white lg:my-16 my-shadow z-50">
@@ -50,7 +50,9 @@ const MessageFromManagerSection = () => {
             <div className="flex flex-col lg:flex-row w-full lg:relative mt-5 lg:my-0">
               <div className="w-full lg:w-[498px] flex justify-center items-center bg-warning-50 text-black lg:rotate-[270deg] lg:absolute -left-[210px] top-[200px] p-6 rounded-tr-[10px] rounded-tl-[10px]">
                 <div className="">
-                  <h5 className="text-base lg:text-2xl lg:leading-[160%]">Message From Manager</h5>
+                  <h5 className="text-base lg:text-2xl lg:leading-[160%]">
+                    Message From Manager
+                  </h5>
                 </div>
               </div>
               <div className="lg:ml-24">
@@ -63,12 +65,8 @@ const MessageFromManagerSection = () => {
                       <p className="text-xs lg:text-base lg:leading-[200%] mt-2 lg:mt-[19px] text-dark-200">
                         Dear valued customers,
                         <br />
-                        
-                        As the General Manager of our cleaning
-      
-                        
-                        services, I want to ensure that you receive
-                       
+                        As the General Manager of our cleaning services, I want
+                        to ensure that you receive
                         <br />
                         nothing but
                       </p>
@@ -95,14 +93,14 @@ const MessageFromManagerSection = () => {
                             <p className="text-xs lg:text-base lg:leading-[200%] mb-1">
                               Dear valued customers, As the General Manager of
                               our cleaning services, I want to ensure that you
-                              receive nothing but
-                            the best experience when it comes to maintaining
-                              the cleanliness and hygiene of your spaces. At our
-                              company, we take great pride in our commitment to
-                              excellence and customer satisfaction. With years
-                              of industry expertise and a dedicated team of
-                              professionals, we guarantee top-notch cleaning
-                              services tailored to meet your specific need.
+                              receive nothing but the best experience when it
+                              comes to maintaining the cleanliness and hygiene
+                              of your spaces. At our company, we take great
+                              pride in our commitment to excellence and customer
+                              satisfaction. With years of industry expertise and
+                              a dedicated team of professionals, we guarantee
+                              top-notch cleaning services tailored to meet your
+                              specific need.
                             </p>
                             <div className="flex gap-x-3 items-center">
                               <div className="unknown__style" />
@@ -118,19 +116,17 @@ const MessageFromManagerSection = () => {
                           </div>
                         </div>
                         <div className="hidden lg:block ml-4 text-center mt-2">
-
-                        <div className="flex gap-x-3 items-center">
-                              <div className="unknown__style !h-[100px]" />
-                              <div className="text-sm text-center">
-                                <author className="font-bold py-1 lg:text-base text-sm">
-                                  Maricela Maldonado
-                                </author>
-                                <span className="block mt-2 lg:text-base text-xs">
-                                  General Manager
-                                </span>
-                              </div>
+                          <div className="flex gap-x-3 items-center">
+                            <div className="unknown__style !h-[100px]" />
+                            <div className="text-sm text-center">
+                              <author className="font-bold py-1 lg:text-base text-sm">
+                                Maricela Maldonado
+                              </author>
+                              <span className="block mt-2 lg:text-base text-xs">
+                                General Manager
+                              </span>
                             </div>
-                         
+                          </div>
                         </div>
                       </div>
                     </div>
