@@ -6,6 +6,7 @@ import Brand from "./Band";
 import Rating from "./Rating";
 import "./Rating.css";
 import RatingProgressBar from "./RatingProgressBar";
+
 const RatingNReviewSection = () => {
   return (
     <div className="mt-7 md:-mt-[138px]">

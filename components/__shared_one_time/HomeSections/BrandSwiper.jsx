@@ -15,6 +15,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
+import { Fontin } from "@/app/font";
 
 const breakpoints = {
   0: {
@@ -59,7 +60,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               Maricela Maldonado responds to texts.
             </p>
           </div>
@@ -73,7 +74,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto "
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               The cleanest house I have ever seen.
             </p>
           </div>
@@ -87,7 +88,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               We hired Maricelas Cleaning Magnificence
             </p>
           </div>
@@ -101,7 +102,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               Maricelas Cleaning Magnificence
             </p>
           </div>
@@ -115,7 +116,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               We never used a cleaning service
             </p>
           </div>
@@ -129,7 +130,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               What a pleasure it was working with Maricela
             </p>
           </div>
@@ -144,7 +145,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="w-[78px] h-[79px] mx-auto"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               What a pleasure it was working with Maricelaâ s
             </p>
           </div>
@@ -159,7 +160,7 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto mt-6"
             />
-            <p className="text-center text-[10px] leading-[16px] pt-2 px-2">
+            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
               We never used a cleaning service
             </p>
           </div>
