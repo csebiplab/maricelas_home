@@ -18,7 +18,7 @@ const Brand = () => {
           alt="google"
           className="lg:mb-[10px] md:mb-[1px] mt-2 md:mt-4 mx-auto"
         />
-        <p className="text-center text-xs lg:text-sm md:leading-relaxed lg:leading-[21.1px] md:mt-0 lg:mt-4 md:mb-1">
+        <p className="text-center text-base md:leading-relaxed lg:leading-[21.1px] md:mt-0 lg:mt-4 md:mb-1">
         Maricela Maldonado responds to texts.
         </p>
       </div>
@@ -42,7 +42,7 @@ const Brand = () => {
           alt=""
           className="lg:mb-[10px] md:mt-3 md:mb-[5px] mx-auto"
         />
-        <p className="text-center text-xs lg:text-sm leading-[21.1px] md:mt-3 mt-2">
+        <p className="text-center text-base leading-[21.1px] md:mt-3 mt-2">
         We hired Maricelas CleaningÂ  Magnificence
         </p>
       </div>
@@ -54,7 +54,7 @@ const Brand = () => {
           alt=""
           className="lg:mb-[10px] md:mb-[2px] mx-auto md:mt-3 mt-2"
         />
-        <p className="text-center lg:mt-2 text-xs lg:text-sm leading-relaxed lg:leading-[21.1px] overflow-hidden">
+        <p className="text-center lg:mt-2 text-base leading-relaxed lg:leading-[21.1px] overflow-hidden">
         Maricelas CleaningÂ Magnificence
         </p>
       </div>
@@ -66,7 +66,7 @@ const Brand = () => {
           alt=""
           className="lg:mb-[10px] md:mb-[2px] mx-auto md:mt-3 mt-2"
         />
-        <p className="text-center md:mt-3 mt-2 text-xs lg:text-sm leading-[21.1px]">
+        <p className="text-center md:mt-3 mt-2 text-base leading-[21.1px]">
         We never used a cleaning service
         </p>
       </div>
@@ -78,7 +78,7 @@ const Brand = () => {
           alt=""
           className="lg:mb-[10px] md:mb-[2px] mx-auto md:mt-3 mt-2"
         />
-        <p className="text-center md:mt-5 mt-2 text-xs lg:text-sm leading-[21.1px]">
+        <p className="text-center md:mt-5 mt-2 text-base leading-[21.1px]">
         What a pleasure it was working with Maricelaâ s
         </p>
       </div>

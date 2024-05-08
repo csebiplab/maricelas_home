@@ -84,11 +84,11 @@ const WhyChooseUsSection = () => {
               <Heading text={"Why Choose Us"} />
             </div>
 
-            <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-[15px] mb-5 font-semibold ">
+            <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-[15px] mb-5 font-semibold ">
               Why Choose Maricela's Cleaning Magnificence Cleaning Services?
             </h2>
 
-            <p className="text-xs lg:text-base lg:leading-[200%] mb-[25px]">
+            <p className="text-base lg:leading-[200%] mb-[25px]">
               Maricela's Cleaning Magnificence stands out as a premier choice
               for commercial & residential cleaning services in Houston due to
               our unwavering commitment to excellence and customer
@@ -99,7 +99,7 @@ const WhyChooseUsSection = () => {
           {/* 2 card */}
           <div className="grid sm:grid-cols-2 gap-5 md:gap-4">
             <div className="bg-white border shadow rounded-lg">
-              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white 2xl:text-[16px] text-sm  rounded-t-lg">
+              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white  text-base rounded-t-lg">
                 Usual Cleaner Experience
               </h2>
               <div className="grid grid-cols-2 py-4 px-5 3xl:px-[25px] text-[8px] lg:text-xs 2xl:text-sm">
@@ -112,17 +112,17 @@ const WhyChooseUsSection = () => {
                       src={xImg.src}
                       className="lg:h-[14px] lg:w-[14px] h-[9px] w-[9px] "
                     />
-                    <p>{usual.title}</p>
+                    <p className="text-base">{usual.title}</p>
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="bg-white border shadow rounded-lg ">
-              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white 2xl:text-[16px] text-sm rounded-t-lg">
+              <h2 className="title-bg text-center 2xl:py-[8px] py-[5px] text-white text-base rounded-t-lg">
                 Usual Cleaner Experience
               </h2>
-              <div className="grid grid-cols-2 py-4 px-5 3xl:px-[25px] text-[8px] lg:text-xs 2xl:text-sm">
+              <div className="grid grid-cols-2 py-4 px-5 3xl:px-[25px] text-base 2xl:text-sm">
                 {benefits.map((usual, idx) => (
                   <div
                     key={idx}
@@ -132,7 +132,7 @@ const WhyChooseUsSection = () => {
                       src={rImg.src}
                       className="lg:h-[14px] lg:w-[14px] h-[9px] w-[9px] "
                     />
-                    <p className="">{usual.title}</p>
+                    <p className="text-base">{usual.title}</p>
                   </div>
                 ))}
               </div>
