@@ -11,10 +11,10 @@ const CostForServicesSection = () => {
             <div className="flex justify-center lg:justify-normal items-center">
               <Heading text={"Cost For Services"} />
             </div>
-            <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:pb-0 pb-[20px] font-semibold mt-[15px]">
+            <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:pb-0 pb-[20px] font-semibold mt-[15px]">
               How Much Does Commercial & Residential Cleaning Service Cost
             </h2>
-            <p className="text-xs lg:text-base mt-2 lg:mt-[15px] lg:leading-[32px]">
+            <p className="text-base mt-2 lg:mt-[15px] lg:leading-[32px]">
               The cost of commercial & residential cleaning services varies
               depending on various factors such as the size of the space, the
               frequency of cleaning, and the specific services required.
@@ -40,10 +40,10 @@ const CostForServicesSection = () => {
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="lg:text-base md:text-sm  text-[12px] py-1 md:py-2">
+                <h4 className="text-base  text-[12px] py-1 md:py-2">
                   Commercial spaces
                 </h4>
-                <p className="lg:text-sm md:text-xs text-[8px] md:px-1 text-[#252525] lg:leading-5">
+                <p className="text-sm  md:px-1 text-[#252525] lg:leading-5">
                   For commercial spaces, prices can range from $0.05 to $0.25
                   per square foot
                 </p>
@@ -58,10 +58,10 @@ const CostForServicesSection = () => {
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="lg:text-base md:text-sm  text-[12px] py-1 md:py-2">
+                <h4 className="text-base   text-[12px] py-1 md:py-2">
                   Residential cleaning
                 </h4>
-                <p className="lg:text-sm md:text-xs text-[8px] md:px-1 text-[#252525] lg:leading-5">
+                <p className="text-sm md:px-1 text-[#252525] lg:leading-5">
                    Residential cleaning services typically charge by the hour,
                   with rates averaging between $25 to $50 per hour.
                 </p>

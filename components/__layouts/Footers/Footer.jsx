@@ -11,9 +11,9 @@ import review from "@/public/assets/footer/reviews.png";
 import screen from "@/public/assets/footer/screened.png";
 import rated from "@/public/assets/footer/toprated.png";
 import year from "@/public/assets/footer/year.png";
+import icon10 from "@/public/assets/random/groupon.png";
 import star from "@/public/assets/random/star.png";
 import icon9 from "@/public/assets/random/t.png";
-import icon10 from "@/public/assets/random/groupon.png";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
@@ -88,7 +88,7 @@ const Footer = () => {
                     <h4 className=" lg:text-[25px] text-[20px]">
                       We Are Maricela's Cleaning Magnificence
                     </h4>
-                    <p className="text-white lg:pt-6 pt-2 mb-2 ml-2 lg:text-[13px] text-[10px] ">
+                    <p className="text-white lg:pt-6 pt-2 mb-2 ml-2 text-sm">
                       We work with a passion of taking challenges and creating
                       new ones in advertising sector.
                     </p>
@@ -112,7 +112,7 @@ const Footer = () => {
                 <div className=" lg:col-span-5 md:col-span-2 grid sm:grid-cols-7 grid-cols-1 lg:gap-10 gap-3">
                   {/* news line */}
                   <div className="sm:col-span-2  ">
-                    <h3 className="font-semibold text-white  lg:text-xl  text-[15px] lg:mb-7 md:mb-5 mb-3 ">
+                    <h3 className="font-semibold text-white  lg:text-xl  text-lg lg:mb-7 md:mb-5 mb-3 ">
                       {" "}
                       News{" "}
                     </h3>
@@ -120,7 +120,7 @@ const Footer = () => {
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-base text-[8px] items-center text-white"
+                          className="footer-link text-base  items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           How it work
@@ -167,14 +167,14 @@ const Footer = () => {
 
                   {/* services line */}
                   <div className=" sm:col-span-2  ">
-                    <h3 className="font-semibold text-white lg:text-xl text-[15px]  lg:mb-7 md:mb-5 mb-3 ">
+                    <h3 className="font-semibold text-white lg:text-xl text-lg  lg:mb-7 md:mb-5 mb-3 ">
                       Ours Services
                     </h3>
                     <ul className="">
                       <li className=" ">
                         <Link
                           href="#"
-                          className="footer-link lg:text-base  text-[8px]  items-center text-white"
+                          className="footer-link text-base   items-center text-white"
                         >
                           <MdKeyboardDoubleArrowRight />
                           House Cleaning
@@ -230,14 +230,14 @@ const Footer = () => {
 
                   {/* contact line  */}
                   <div className=" sm:col-span-3  items-center">
-                    <h3 className="font-semibold text-white lg:text-xl text-[15px] lg:mb-7 md:mb-5 mb-3">
+                    <h3 className="font-semibold text-white lg:text-xl text-lg lg:mb-7 md:mb-5 mb-3">
                       Contact Us
                     </h3>
                     <ul className=" ">
                       <li>
                         <a
                           href="/"
-                          className="footer-link flex gap-4 items-center text-[8px] lg:text-[16px] text-white"
+                          className="footer-link flex gap-4 items-center text-base text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
                           Houston,Texas
@@ -246,7 +246,7 @@ const Footer = () => {
                       <li className="py-2 lg:py-4">
                         <a
                           href="tel:(832) 8204035"
-                          className="footer-link items-center text-[8px] lg:text-[16px] text-white"
+                          className="footer-link items-center text-base text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
                           (832) 8204035
@@ -263,7 +263,7 @@ const Footer = () => {
                             height={21}
                             className="w-[21 px] h-[21px]"
                           />
-                          <span className="block md:hidden text-[10px] text-wrap">
+                          <span className="block md:hidden text-sm text-wrap">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
                           <span className="hidden md:block text-xs">
@@ -340,7 +340,7 @@ const Footer = () => {
           <div className=" lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
             <p className=" lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}
-              <b className="text-white">WEBSITE DESIGN AND SEO BY :-</b>{" "}
+              <b className="text-white text-sm">WEBSITE DESIGN AND SEO BY :-</b>{" "}
             </p>
             <Image
               src={gokundo}

@@ -73,10 +73,10 @@ const DifferentApproachForWorkSection = () => {
               <div className="flex justify-center lg:justify-normal">
                 <Heading text={"Different Approach For Work"} />
               </div>
-              <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-3xl font-semibold text-[#1F1F1F] mt-[15px]">
+              <h2 className="text-lg lg:text-2xl 2xl:text-3xl font-semibold text-[#1F1F1F] mt-[15px]">
                 Our Approach To Cleaning Service Is Different
               </h2>
-              <p className="text-xs lg:text-base mt-2 md:mt-4 mb-5 lg:leading-[32px]">
+              <p className="text-base mt-2 md:mt-4 mb-5 lg:leading-[32px]">
                 Welcome to a cleaning service experience like no other. At
                 Maricela's Cleaning Magnificence, our approach to cleaning
                 transcends the ordinary.
@@ -109,7 +109,7 @@ const DifferentApproachForWorkSection = () => {
             spaceBetween={20}
           >
             {slideData.map((slideInfo, index) => (
-          <SwiperSlide key={index} className={`px-[90px] md:px-0`}>
+          <SwiperSlide key={index} className={`px-[65px] md:px-0`}>
               
         
         <div className="w-full my-card bg-white h-auto md:h-[390px] border">
@@ -124,7 +124,7 @@ const DifferentApproachForWorkSection = () => {
                 <h4 className="text-base py-1 md:py-2">
                  {slideInfo?.title}
                 </h4>
-                <p className="lg:text-sm mt-1 md:mt-0 text-xs md:px-1 text-[#252525] leading-[25px]">
+                <p className="text-sm mt-1 md:mt-0  md:px-1 text-[#252525] leading-[25px]">
                  {slideInfo?.description}
                 </p>
               </div>

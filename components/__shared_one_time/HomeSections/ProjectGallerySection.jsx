@@ -34,13 +34,13 @@ const ProjectGallerySection = () => {
   return (
     <div>
       <div className="">
-        <div className="  custom-container 3xl:py-[85px] py-[50px]">
+        <div className="custom-container 3xl:py-[85px] py-[50px]">
           <div className="">
             <div className=" flex flex-col justify-center items-center ">
               <Heading text={"Project Gallery"} />
 
               <div>
-                <p className="lg:text-[32px] text-[18px] 3xl:pb-[30px] pb-[25px] text-center font-semibold ">
+                <p className="lg:text-[32px] text-lg 3xl:pb-[30px] pb-[25px] text-center font-semibold ">
                   Maricela's Cleaning Magnificence Gallery Of Past Projects
                 </p>
               </div>

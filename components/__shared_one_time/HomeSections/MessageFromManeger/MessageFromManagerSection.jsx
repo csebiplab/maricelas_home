@@ -62,7 +62,7 @@ const MessageFromManagerSection = () => {
                       <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold  xs:mb-0 text-[#000]">
                         Your best option for Cleaning services
                       </h2>
-                      <p className="text-xs lg:text-base lg:leading-[200%] mt-2 lg:mt-[19px] text-dark-200">
+                      <p className="text-base lg:leading-[200%] mt-3 lg:mt-[19px] text-dark-200">
                         Dear valued customers,
                         <br />
                         As the General Manager of our cleaning services, I want
@@ -87,10 +87,10 @@ const MessageFromManagerSection = () => {
                             </div>
                           </div>
                           <div className="block lg:hidden">
-                            <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F]">
+                            <h2 className="text-lg lg:text-2xl 2xl:text-[32px] mt-2 font-semibold text-[#1F1F1F]">
                               Your best option for Cleaning services
                             </h2>
-                            <p className="text-xs lg:text-base lg:leading-[200%] mb-1">
+                            <p className="text-base lg:leading-[200%] mb-1 mt-2">
                               Dear valued customers, As the General Manager of
                               our cleaning services, I want to ensure that you
                               receive nothing but the best experience when it
@@ -102,7 +102,7 @@ const MessageFromManagerSection = () => {
                               top-notch cleaning services tailored to meet your
                               specific need.
                             </p>
-                            <div className="flex gap-x-3 items-center">
+                            <div className="flex gap-x-3 items-center mt-3">
                               <div className="unknown__style" />
                               <div className="text-sm text-center">
                                 <author className="font-bold">
@@ -132,7 +132,7 @@ const MessageFromManagerSection = () => {
                     </div>
                   </div>
 
-                  <p className="text-xs lg:text-base lg:leading-[38px] mt-1 hidden lg:block">
+                  <p className="text-base lg:leading-[38px] mt-1 hidden lg:block">
                     the best experience when it comes to maintaining the
                     cleanliness and hygiene of your spaces. At our company, we
                     take great pride in our commitment to excellence and
