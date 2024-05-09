@@ -50,9 +50,9 @@ const ReasonWhyHireUsSection = () => {
           <Heading text="Reason why hire us" />
 
           <div>
-            <h3 className="!text-lg !md:text-[32px] md:mb-14 xs:mb-10 mb-8 text-center">
+            <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:mb-14 xs:mb-10 mb-8 text-center">
               What To Consider First When You Want to Hire a Cleaning Company?
-            </h3>
+            </h2>
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 4xl:grid-cols-5 gap-3">
