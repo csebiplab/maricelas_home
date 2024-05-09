@@ -75,7 +75,7 @@ const ReviewSlider = () => {
         <div className="flex justify-center md:justify-start">
           <Heading text={"Review"} />
         </div>
-        <h2 className="md:leading-8 text-[18px] md:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
+        <h2 className="md:leading-8 text-lg md:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
           Here’s what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
@@ -119,13 +119,13 @@ const ReviewSlider = () => {
                 className=""
               />
               <div className="text-start">
-                <p className="text-[10px] md:text-[12px] mt-4  text-black leading-[22px] md:leading-6">
+                <p className="text-base mt-4  text-black leading-[22px] md:leading-6">
                   {reviewText}
                 </p>
-                <h6 className="font-semibold lg:text-sm text-xs mt-2">
+                <h6 className="font-semibold text-base mt-2">
                   {author}
                 </h6>
-                <p className="text-[#4A4A4A] text-[8px]">{address}</p>
+                <p className="text-[#4A4A4A] text-sm">{address}</p>
               </div>
             </div>
           </SwiperSlide>

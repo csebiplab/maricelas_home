@@ -78,7 +78,7 @@ const ServicesAreaSection = () => {
               <div className="mx-auto   flex flex-col items-center justify-center">
                 <Heading text={"Service Area"} />
                 <div>
-                  <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-semibold">
+                  <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-semibold">
                     Maricela's Cleaning Magnificenc Service Area
                   </h2>
                 </div>
@@ -138,7 +138,7 @@ const ServicesAreaSection = () => {
             spaceBetween={42}
           >
             {locations.map((location, index) => (
-              <SwiperSlide key={index} className={`px-[90px] md:px-0 py-4`}>
+              <SwiperSlide key={index} className={`px-[30px] md:px-0 py-4`}>
                 <div
                 className={`${
                   (index + 2) % 2 === 0 ? "lg:-mt-10 md:-mt-5" : ""
@@ -156,7 +156,7 @@ const ServicesAreaSection = () => {
                     className="rounded-lg"
                   />
 
-                  <h5 className="lg:text-base text-center text-sm py-4 px-3 lg:px-10 bg-[#880769] text-white">
+                  <h5 className=" text-center text-base py-4 px-3 lg:px-10 bg-[#880769] text-white">
                     {location?.address}
                   </h5>
                 </div>

@@ -8,9 +8,10 @@ import band6 from "@/public/assets/images/band6.png";
 import brand7 from "@/public/assets/images/brand7.png";
 import brand8 from "@/public/assets/images/brand8.png";
 import Image from "next/image";
-import { Autoplay, Scrollbar } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+import { Fontin } from "@/app/font";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/scrollbar";
@@ -152,10 +153,10 @@ const BrandSwiper = () => {
           <div className="brand w-full">
             <Image
               src={brand8}
-              width={78}
-              height={79}
+              width={45}
+              height={37}
               alt="brand1"
-              className="w-[78px] h-[79px] mx-auto"
+              className="mx-auto"
             />
             <p
               className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
@@ -169,8 +170,8 @@ const BrandSwiper = () => {
           <div className="brand w-full">
             <Image
               src={brand7}
-              width={153}
-              height={25}
+              width={85}
+              height={50}
               alt="brand1"
               className="mx-auto mt-6"
             />
