@@ -82,7 +82,7 @@ const FaqSection = () => {
                   <Heading text={"Frequently Asked Questions (FAQ)"} />
 
                   <div>
-                    <p className="text-sm md:text-base lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
+                    <p className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
                       FAQ for Residential and Commercial Cleaning Services in
                       Houston
                     </p>
@@ -124,7 +124,7 @@ const FaqSection = () => {
                   <div
                     className={`text-white  border-b-0 transition-colors`}
                   >
-                    <span className="text-white text-xs md:text-lg leading-[122%]">
+                    <span className="text-white text-base md:text-lg leading-[122%]">
                       <b className="text-white">Q{id}</b> {question}
                     </span>
                   </div>

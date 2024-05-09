@@ -1,8 +1,7 @@
 "use client";
 import vector from "@/public/assets/icons/vector.png";
-import BrandSwiper from "../BrandSwiper";
+import BrandSwiper from "./BrandSwiper";
 import Achievement from "./Achievement";
-import Brand from "./Band";
 import Rating from "./Rating";
 import "./Rating.css";
 import RatingProgressBar from "./RatingProgressBar";
@@ -24,7 +23,7 @@ const RatingNReviewSection = () => {
                     4.9
                   </div>
                   <Rating />
-                  <p className="text-sm font-bold leading-[21px] text-[#1B1B1B] mt-1 text-center">
+                  <p className="text-base font-bold leading-[21px] text-[#1B1B1B] mt-1 text-center">
                     61 Verified Reviews*
                   </p>
                 </div>
@@ -41,20 +40,20 @@ const RatingNReviewSection = () => {
               <div className="w-[260px] md:block hidden">
                 <div>
                   <div className="flex">
-                    <h4 className="text-[#000] lg:text-lg md:text-base font-bold lg:mb-5 md:mb-2">
+                    <h4 className="text-[#000] lg:text-lg text-base font-bold lg:mb-5 md:mb-2">
                       Highly rated for
                     </h4>
                     <img src={vector.src} className="w-[22px] h-[24px] ms-3" />
                   </div>
                   <div className="flex justify-center">
-                    <h5 className="me-4 border-2 bg-[#EAEAEA] font-semibold text-[#000] text-xs md:text-sm px-2">
+                    <h5 className="me-4 border-2 bg-[#EAEAEA] font-semibold text-[#000] text-base px-2">
                       Quality
                     </h5>
-                    <h5 className="border-2 bg-[#EAEAEA] font-semibold text-[#000] text-xs md:text-sm px-2">
+                    <h5 className="border-2 bg-[#EAEAEA] font-semibold text-[#000] text-base px-2">
                       Value
                     </h5>
                   </div>
-                  <h5 className="border-2 bg-[#EAEAEA] text-[#000] font-semibold px-2 text-center mt-2 w-full md:w-9/12 lg:w-8/12 mx-auto text-xs md:text-sm">
+                  <h5 className="border-2 bg-[#EAEAEA] text-[#000] font-semibold px-2 text-center mt-2 w-full md:w-9/12 lg:w-8/12 mx-auto text-base">
                     Customer Service
                   </h5>
                 </div>

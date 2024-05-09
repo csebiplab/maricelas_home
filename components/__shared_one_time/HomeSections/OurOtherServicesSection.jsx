@@ -84,23 +84,21 @@ const OurOtherServicesSection = () => {
               <div className="flex justify-center lg:justify-normal items-center">
                 <Heading text={"Other Services"}></Heading>
               </div>
-              <h2 className="hidden lg:block text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]">
+              <h2 className="hidden lg:block text-lg lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]">
                 Our Other <br className=" hidden lg:block" /> Cleaning Services{" "}
                 <br className=" hidden lg:block" /> in Houston
               </h2>
               <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
                 Our Other Cleaning Services in Houston
               </h2>
-              <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
-                Our Other Cleaning Services in Houston
-              </h2>
+             
             </div>
 
             <div className="hidden lg:block">
               <h6 className="xl:text-[16px] text-[14px]">
                 Commercial Cleaning
               </h6>
-              <p className=" mt-[15px] items-center lg:text-[12px] text-[10px] leading-[20px]">
+              <p className=" mt-[15px] items-center text-base leading-[20px]">
                 Experience pristine cleanliness with our professional commercial
                 cleaning services in Houston, TX. Our expert team employs
                 industry-leading techniques and eco-friendly products to ensure
@@ -173,7 +171,7 @@ const OurOtherServicesSection = () => {
                   >
                     <div className="mx-auto rounded-lg shadow-lg h-full relative bg-white">
                       <div className=" py-7 ">
-                        <p className="mt-4 py-5  mx-auto text-center lg:text-[16px]  text-xs">
+                        <p className="mt-4 py-5  mx-auto text-center text-base">
                           {service.title}{" "}
                         </p>
                       </div>
@@ -199,7 +197,7 @@ const OurOtherServicesSection = () => {
                   >
                     <div className="mx-auto rounded-lg   relative">
                       <div className=" py-7 ">
-                        <p className="mt-4 py-5 mx-auto text-center lg:text-[16px]  text-xs">
+                        <p className="mt-4 py-5 mx-auto text-center text-base">
                           {service.title}{" "}
                         </p>
                       </div>

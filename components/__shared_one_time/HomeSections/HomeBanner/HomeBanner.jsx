@@ -8,14 +8,14 @@ const HomeBanner = () => {
           <h1 className="text-white title text-3xl xl:text-4xl 2xl:text-[42px] 4xl:text-[45px] leading-10">
             Commercial & Residential Cleaning Services in Houston
           </h1>
-          <p className="mt-8 leading-10 text-white text-xs md:text-base font-normal lg:px-20 text-center">
+          <p className="mt-8 leading-10 text-white text-base font-normal lg:px-20 text-center">
             Best commercial & residential cleaning services in Houston, we pride
             ourselves on delivering meticulous cleanliness and unparalleled
             customer satisfaction.
           </p>
           <div className="flex justify-center">
             <button className="flex items-center rounded-md z-40 btn__shadow bg-warning py-4 px-8 mt-8">
-              <span className="text-dark text-xs md:text-base font-bold mr-3">
+              <span className="text-dark text-base font-bold mr-3">
                 Get an Estimate
               </span>
               <svg

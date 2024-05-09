@@ -16,7 +16,7 @@ const GiveUsFeedbackSection = () => {
                 <h2 className=" 2xl:text-[32px] text-[20px] text-white md:text-start text-center  ">
                   Contact Us
                 </h2>
-                <div className=" flex gap-2 md:items-center text-center 2xl:text-[16px] lg:text-[14px] text-[12px] lg:py-8 py-5 md:justify-start justify-center ">
+                <div className=" flex gap-2 md:items-center text-center 2xl:text-[16px] text-base lg:py-8 py-5 md:justify-start justify-center ">
                   <FaMapLocationDot className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
                   <p className="text-white">
                     {" "}
@@ -27,13 +27,13 @@ const GiveUsFeedbackSection = () => {
                  
                   <a
                   href="tel:(832) 8204035"
-                  className="my-2 flex gap-2 items-center md:justify-start justify-center 2xl:text-[16px] lg:text-[14px] text-[12px] "
+                  className="my-2 flex gap-2 items-center md:justify-start justify-center text-base "
                 >
                   <FaPhoneVolume className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
                   <span className="text-white">(832) 8204035</span>
                 </a>
                 
-                <a href="mailto:maricela.maldonado@maricelasmagnificence.com" className=" flex gap-2 my-auto items-center 2xl:text-[16px] lg:text-[14px] text-[12px] 2xl:py-8 py-5 md:justify-start justify-center ">
+                <a href="mailto:maricela.maldonado@maricelasmagnificence.com" className=" flex gap-2 my-auto items-center 2xl:text-[16px] text-sm 2xl:py-8 py-5 md:justify-start justify-center ">
                   <IoIosMail className=" 2xl:w-5 2xl:h-5 w-auto h-auto fill-white" />
                   <span className="text-white">
                     maricela.maldonado@maricelasmagnificence.com
@@ -53,16 +53,16 @@ const GiveUsFeedbackSection = () => {
           {/* form part */}
           <div className=" lg:col-span-6 md:col-span-4 md:order-1  lg:py-30 md:flex items-center 5xl:ml-[285px] 4xl:ml-[200px] 3xl:ml-[150px] 2xl:ml-[100px] xl:ml-[80px] lg:ml-[40px] md:ml-[20px]  ">
             <div className="rounded-lg  lg:col-span-3 items-center">
-              <h2 className="lg:mb-8 mb-5 text-[#880769]">
+              <h2 className="lg:mb-8 mb-5 text-lg lg:text-2xl 2xl:text-[32px] text-[#880769]">
                 {" "}
                 Give Us Feedback{" "}
               </h2>
               <form action="#" className=" ">
-                <div>
+                <div className="text-base">
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-8 mb-4">
                     <div>
                       {" "}
-                      <h5 className="mb-2 text-[#880769]">Your name *</h5>
+                      <h5 className="mb-2 text-[#880769] text-base">Your name *</h5>
                       <label className="sr-only" htmlFor="email">
                         name
                       </label>
@@ -75,7 +75,7 @@ const GiveUsFeedbackSection = () => {
                     </div>
 
                     <div>
-                      <h5 className="mb-2 text-[#880769]">Email *</h5>
+                      <h5 className="mb-2 text-[#880769] text-base">Email *</h5>
                       <label className="sr-only" htmlFor="phone">
                         Email
                       </label>
@@ -91,7 +91,7 @@ const GiveUsFeedbackSection = () => {
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-8 mb-4  ">
                   <div>
-                    <h5 className="mb-2 text-[#880769]">Subjects *</h5>
+                    <h5 className="mb-2 text-[#880769] text-base">Subjects *</h5>
                     <label className="sr-only" htmlFor="email">
                       Email
                     </label>
@@ -104,7 +104,7 @@ const GiveUsFeedbackSection = () => {
                   </div>
 
                   <div>
-                    <h5 className="mb-2 text-[#880769]">Your Phone *</h5>
+                    <h5 className="mb-2 text-[#880769] text-base">Your Phone *</h5>
                     <label className="sr-only" htmlFor="phone">
                       Phone
                     </label>
@@ -121,7 +121,7 @@ const GiveUsFeedbackSection = () => {
                   <label className="sr-only" htmlFor="message">
                     Message
                   </label>
-                  <h5 className="mb-2 text-[#880769]">Message *</h5>
+                  <h5 className="mb-2 text-[#880769] text-base">Message *</h5>
                   <textarea
                     className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-4 lg:pr-16 pr-3  text-sm"
                     placeholder="Write Message"
@@ -133,7 +133,7 @@ const GiveUsFeedbackSection = () => {
                 <div className=" flex md:block xs:justify-center xs:items-center xs:mx-auto">
                   <button
                     type="submit"
-                    className="  rounded-md bg-[#FBCC21E4] px-10 py-4 md:px-20  font-semibold   items-center flex lg:mt-13 mt-8 "
+                    className="  rounded-md bg-[#FBCC21E4] px-10 py-4 md:px-20  font-semibold text-base  items-center flex lg:mt-13 mt-8 "
                   >
                     Submit <FaLocationArrow className=" ml-2  " />
                   </button>
