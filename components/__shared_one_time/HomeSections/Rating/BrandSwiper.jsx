@@ -16,6 +16,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
+import { Monotype_Corsiva } from "@/app/font";
 
 const breakpoints = {
   0: {
@@ -60,8 +61,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              Maricela Maldonado responds to texts.
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              #1 Cleaning Services Google
             </p>
           </div>
         </SwiperSlide>
@@ -74,8 +77,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto "
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              The cleanest house I have ever seen.
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              Veteran Owned Small Business
             </p>
           </div>
         </SwiperSlide>
@@ -88,8 +93,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              We hired Maricelas Cleaning Magnificence
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              Texas HUB Certification
             </p>
           </div>
         </SwiperSlide>
@@ -102,8 +109,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              Maricelas Cleaning Magnificence
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              Screened & Approved
             </p>
           </div>
         </SwiperSlide>
@@ -116,8 +125,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              We never used a cleaning service
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              Veteran Business Certification
             </p>
           </div>
         </SwiperSlide>
@@ -130,8 +141,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              What a pleasure it was working with Maricela
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              Top rated Cleaning Services
             </p>
           </div>
         </SwiperSlide>
@@ -145,8 +158,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              What a pleasure it was working with Maricela
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              We never used a cleaning service
             </p>
           </div>
         </SwiperSlide>
@@ -160,8 +175,10 @@ const BrandSwiper = () => {
               alt="brand1"
               className="mx-auto mt-6"
             />
-            <p className={`rating__para pt-2 px-2 ${Fontin.className}`}>
-              We never used a cleaning service
+            <p
+              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+            >
+              What a pleasure it was working with Maricelaâ s
             </p>
           </div>
         </SwiperSlide>
