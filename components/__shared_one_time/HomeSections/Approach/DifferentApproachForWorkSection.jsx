@@ -109,7 +109,7 @@ const DifferentApproachForWorkSection = () => {
             spaceBetween={20}
           >
             {slideData.map((slideInfo, index) => (
-          <SwiperSlide key={index} className={`px-[65px] md:px-0`}>
+          <SwiperSlide key={index} className={`px-[30px] md:px-0`}>
               
         
         <div className="w-full my-card bg-white h-auto md:h-[390px] border">
