@@ -1,8 +1,7 @@
 "use client";
 import vector from "@/public/assets/icons/vector.png";
-import BrandSwiper from "../BrandSwiper";
+import BrandSwiper from "./BrandSwiper";
 import Achievement from "./Achievement";
-import Brand from "./Band";
 import Rating from "./Rating";
 import "./Rating.css";
 import RatingProgressBar from "./RatingProgressBar";
