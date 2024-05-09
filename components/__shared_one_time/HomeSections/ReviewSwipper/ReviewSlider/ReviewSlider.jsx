@@ -30,40 +30,71 @@ const breakpoints = {
 
 const reviews = [
   {
-    reviewText:
-      "They Are Professional and do great job cleaning the house!!! I Locked myself out of my house the other day and they were the only ones with a key. They were kind enough to drive over to unlock their door. That speaks volumes!!! They really care about their clients.",
-    author: "Lisa Silva",
-    address: "North York",
+    reviewText: `Maricela's cleaning service's are top notch service. 
+    They did a deep cleaning in our home and we're very impressed. 
+    I Highly Recommend there service.  Thanks Lady's`,
+    author: "Erik Webb",
+    address: "Local Guide",
   },
   {
-    reviewText:
-      "They Are Professional and do great job cleaning the house!!! I Locked myself out of my house the other day and they were the only ones with a key. They were kind enough to drive over to unlock their door. That speaks volumes!!! They really care about their clients.",
-    author: "Lisa Silva",
-    address: "North York",
+    reviewText: `Maricela's team did an amazing job with the move out cleaning of our old home. 
+      They tended to every detail of the house. I would definitely use their service again.`,
+    author: "kristy Bryant",
+    address: "Houston",
   },
   {
-    reviewText:
-      "They Are Professional and do great job cleaning the house!!! I Locked myself out of my house the other day and they were the only ones with a key. They were kind enough to drive over to unlock their door. That speaks volumes!!! They really care about their clients.",
-    author: "Lisa Silva",
-    address: "North York",
+    reviewText: `In all my entire life of using housekeeping services, 
+      l've never had a more efficient service. The cleaners were 
+      complete on time so I figured it couldn't be that good it was. 
+      They did an excellent job and will be using this service on a 
+      regular basis the lady did a great job I Highly recommend!`,
+    author: "Jessica Villegas",
+    address: "Houston",
   },
   {
-    reviewText:
-      "They Are Professional and do great job cleaning the house!!! I Locked myself out of my house the other day and they were the only ones with a key. They were kind enough to drive over to unlock their door. That speaks volumes!!! They really care about their clients.",
-    author: "Lisa Silva",
-    address: "North York",
+    reviewText: `Maricela’s cleaning really is magnificent. 
+      She takes care of our office building Monday-Friday 
+      and the place always looks immaculate. Highly recommend!`,
+    author: "Kendyl Georgie",
+    address: "Local Guide",
   },
   {
-    reviewText:
-      "They Are Professional and do great job cleaning the house!!! I Locked myself out of my house the other day and they were the only ones with a key. They were kind enough to drive over to unlock their door. That speaks volumes!!! They really care about their clients.",
-    author: "Lisa Silva",
-    address: "North York",
+    reviewText: `I saw them on Groupon and decided to call and book directly.
+       My house has never been this clean. I am so happy with the service.`,
+    author: "Felicia Esters",
+    address: "Houston",
   },
   {
-    reviewText:
-      "They Are Professional and do great job cleaning the house!!! I Locked myself out of my house the other day and they were the only ones with a key. They were kind enough to drive over to unlock their door. That speaks volumes!!! They really care about their clients.",
-    author: "Lisa Silva",
-    address: "North York",
+    reviewText: `I have a 4 bedrooms house and just had the pleasure of 
+      hiring Maricela for cleaning services and oh boy am I happy with the service. 
+      My house looks new. They not only clean the place but gives a personal touch to
+       manage the chaos they find. Everything is back to its place where it belongs.`,
+    author: "Ashar Khan",
+    address: "Houston",
+  },
+  {
+    reviewText: `The first cleaning when we started with the service, 
+      we had a couple issues, but that was worked out on this visit. A payment agreement had been reached on the 1st visit, but was changed to a higher payment on the second visit, to which, I did not agree and pricing was reevaluated.`,
+    author: "Sylvia Hughes",
+    address: "Local Guide",
+  },
+  {
+    reviewText: `We used Maricela’s team for the first time today and our house looks and smells like new! They were on time, brought their own equipment/supplies, and were very friendly. We will definitely use this service again!`,
+    author: "Shayla Alkire",
+    address: "Houston",
+  },
+  {
+    reviewText: `I have a 4 bedrooms house and just had the pleasure of 
+      hiring Maricela for cleaning services and oh boy am I happy with the service. 
+      My house looks new. They not only clean the place but gives a personal touch to
+       manage the chaos they find. Everything is back to its place where it belongs.`,
+    author: "Mercy Lane",
+    address: "Houston",
+  },
+  {
+    reviewText: `Maricela's Cleaning Magnificence cleans our office on a monthly basis and does an excellent job! This cleaning service comes highly recommended by me. Maricela and her staff are both courteous and professional.`,
+    author: "checks isj",
+    address: "Local Guide",
   },
 ];
 
@@ -95,15 +126,13 @@ const ReviewSlider = () => {
         }}
         speed={3000}
         allowTouchMove={false}
-        
-        
       >
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide
             key={i}
-            className={`text-center py-4 lg:py-10 `}
+            className={`text-center py-4 lg:py-10 !h-auto !md:h-full `}
           >
-            <div className="  md:w-full h-[290px] md:h-full card-sd p-[14px] bg-[#fff] md:mx-0 mx-auto ">
+            <div className="p-[14px] md:mx-0 mx-auto ">
               <Image
                 src={google}
                 width={89.92}
@@ -122,9 +151,7 @@ const ReviewSlider = () => {
                 <p className="text-base mt-4  text-black leading-[22px] md:leading-6">
                   {reviewText}
                 </p>
-                <h6 className="font-semibold text-base mt-2">
-                  {author}
-                </h6>
+                <h6 className="font-semibold text-base mt-2">{author}</h6>
                 <p className="text-[#4A4A4A] text-sm">{address}</p>
               </div>
             </div>

@@ -1,6 +1,11 @@
 import Image from "next/image";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaLocationArrow, FaMapLocationDot, FaPhoneVolume, FaXTwitter } from "react-icons/fa6";
+import {
+  FaLocationArrow,
+  FaMapLocationDot,
+  FaPhoneVolume,
+  FaXTwitter,
+} from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import contactImg from "../../../public/assets/random/contactus.png";
 
@@ -18,27 +23,25 @@ const GiveUsFeedbackSection = () => {
                 </h2>
                 <div className=" flex gap-2 md:items-center text-center 2xl:text-[16px] text-base lg:py-8 py-5 md:justify-start justify-center ">
                   <FaMapLocationDot className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <p className="text-white">
-                    {" "}
-                    Houston,Texas{" "}
-                  </p>
+                  <p className="text-white"> Houston,Texas </p>
                 </div>
-                
-                 
-                  <a
+
+                <a
                   href="tel:(832) 8204035"
                   className="my-2 flex gap-2 items-center md:justify-start justify-center text-base "
                 >
                   <FaPhoneVolume className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
                   <span className="text-white">(832) 8204035</span>
                 </a>
-                
-                <a href="mailto:maricela.maldonado@maricelasmagnificence.com" className=" flex gap-2 my-auto items-center 2xl:text-[16px] text-sm 2xl:py-8 py-5 md:justify-start justify-center ">
+
+                <a
+                  href="mailto:maricela.maldonado@maricelasmagnificence.com"
+                  className=" flex gap-2 my-auto items-center 2xl:text-[16px] text-sm 2xl:py-8 py-5 md:justify-start justify-center "
+                >
                   <IoIosMail className=" 2xl:w-5 2xl:h-5 w-auto h-auto fill-white" />
                   <span className="text-white">
                     maricela.maldonado@maricelasmagnificence.com
                   </span>
-                  
                 </a>
                 <div className=" flex gap-8  text-white md:justify-start justify-center">
                   <FaFacebook className=" 2xl:w-6 2xl:h-6 w-auto h-auto fill-white" />
@@ -62,28 +65,30 @@ const GiveUsFeedbackSection = () => {
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-8 mb-4">
                     <div>
                       {" "}
-                      <h5 className="mb-2 text-[#880769] text-base">Your name *</h5>
-                      <label className="sr-only" htmlFor="email">
+                      <h5 className="mb-2 text-[#880769] text-base">
+                        Your name *
+                      </h5>
+                      <label className="sr-only" htmlFor="text">
                         name
                       </label>
                       <input
                         className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3 text-sm" // Added pr-12 class for padding-right
                         placeholder="Robot Fox"
-                        type="email"
-                        id="email"
+                        type="text"
+                        id="text"
                       />
                     </div>
 
                     <div>
                       <h5 className="mb-2 text-[#880769] text-base">Email *</h5>
-                      <label className="sr-only" htmlFor="phone">
+                      <label className="sr-only" htmlFor="email">
                         Email
                       </label>
                       <input
                         className="w-full rounded-lg bg-[#C477B126]  shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
-                        placeholder="info.example@gmail.com"
-                        type="tel"
-                        id="phone"
+                        placeholder="maricela.maldonado@maricelasmagnificence.com"
+                        type="email"
+                        id="email"
                       />
                     </div>
                   </div>
@@ -91,7 +96,9 @@ const GiveUsFeedbackSection = () => {
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-8 mb-4  ">
                   <div>
-                    <h5 className="mb-2 text-[#880769] text-base">Subjects *</h5>
+                    <h5 className="mb-2 text-[#880769] text-base">
+                      Subjects *
+                    </h5>
                     <label className="sr-only" htmlFor="email">
                       Email
                     </label>
@@ -104,13 +111,15 @@ const GiveUsFeedbackSection = () => {
                   </div>
 
                   <div>
-                    <h5 className="mb-2 text-[#880769] text-base">Your Phone *</h5>
+                    <h5 className="mb-2 text-[#880769] text-base">
+                      Your Phone *
+                    </h5>
                     <label className="sr-only" htmlFor="phone">
                       Phone
                     </label>
                     <input
                       className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
-                      placeholder="+8801700000000"
+                      placeholder="+832 8204035"
                       type="tel"
                       id="phone"
                     />
