@@ -64,18 +64,18 @@ const footerIcon = [
 const Footer = () => {
   return (
     <footer className="">
-      <div className=" footer__bg bg-blend-multiply  lg:px-[35px] xs:px-[20px] !text-white relative">
+      <div className=" footer__bg bg-blend-multiply px-[6px] lg:px-9  !text-white relative">
         {/* star img */}
         <div className="absolute top-10 4xl:ml-[100px] lg:block hidden ">
-          <Image src={star} height={60} width={70} />
+          <Image src={star} height={60} width={70} alt="star" />
         </div>
 
         {/* company logo */}
-        <div className=" absolute lg:-top-20 -top-10 left-1/2 lg:-ml-[90px] -ml-[50px] lg:w-auto lg:h-auto w-[100px] h-[100px]  ">
-          <Image src={companyLogo} height={182} width={182} />
+        <div className="absolute lg:-top-20 -top-10 left-1/2 lg:-ml-[90px] -ml-[50px] lg:w-auto lg:h-auto w-[100px] h-[100px]  ">
+          <Image src={companyLogo} height={182} width={182} alt="company" />
         </div>
 
-        <div className="container  ">
+        <div className="container">
           <div className="z-100 2xl:pt-[180px] lg:pt-[160px] pt-[80px] 2xl:pb-[65px] pb-[50px] text-white ">
             <div className="">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-10">
@@ -245,7 +245,7 @@ const Footer = () => {
                       </li>
                       <li className="py-2 lg:py-4">
                         <a
-                          href="tel:(832) 8204035"
+                          href="tel:8328204035"
                           className="footer-link items-center text-base text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
@@ -262,15 +262,16 @@ const Footer = () => {
                             width={21}
                             height={21}
                             className="w-[21 px] h-[21px]"
+                            alt="mail"
                           />
-                          <span className="block md:hidden text-sm text-wrap">
+                          <span className="box-content text-sm truncate">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          <span className="hidden md:block text-xs">
+                          {/* <span className="xs:block sm:hidden md:block lg:block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden 5xl:hidden text-xs">
                             maricela.maldonado@
                             <br />
                             maricelasmagnificence.com
-                          </span>
+                          </span> */}
                         </a>
                       </li>
                       <div>
@@ -330,7 +331,7 @@ const Footer = () => {
         </div>
 
         <div className="absolute right-10 bottom-10 mr-[15px] lg:block hidden">
-          <Image src={star} height={60} width={70} />
+          <Image src={star} height={60} width={70} alt="star" />
         </div>
       </div>
 
@@ -340,7 +341,9 @@ const Footer = () => {
           <div className=" lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
             <p className=" lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}
-              <b className="text-white text-sm">WEBSITE DESIGN AND SEO BY :-</b>{" "}
+              <b className="text-white text-sm">
+                WEBSITE DESIGN AND SEO BY :-
+              </b>{" "}
             </p>
             <Image
               src={gokundo}

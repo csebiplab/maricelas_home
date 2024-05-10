@@ -36,7 +36,7 @@ const CostForServicesSection = () => {
                 src={cost1}
                 width={301}
                 height={229}
-                alt=""
+                alt="cost"
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">
@@ -54,7 +54,7 @@ const CostForServicesSection = () => {
                 src={cost2}
                 width={301}
                 height={229}
-                alt=""
+                alt="cost"
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">

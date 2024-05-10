@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import google from "@/public/assets/icons/google.png";
@@ -10,7 +10,6 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
-import { Autoplay } from "swiper/modules";
 import { SwiperNavButtons } from "./SwiperSliderButton";
 
 import Heading from "@/components/__ui/Heading";
@@ -130,7 +129,7 @@ const ReviewSlider = () => {
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide
             key={i}
-            className={`text-center py-4 lg:py-10 !h-auto !md:h-full `}
+            className={`text-center py-4 lg:py-10 !h-auto !md:h-full swiper-slide__reveiw`}
           >
             <div className="p-[14px] md:mx-0 mx-auto ">
               <Image

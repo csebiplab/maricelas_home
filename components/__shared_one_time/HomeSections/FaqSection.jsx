@@ -1,6 +1,6 @@
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
-"use client"
+"use client";
 import Heading from "@/components/__ui/Heading";
 import {
   Accordion,
@@ -59,7 +59,6 @@ const FaqSection = () => {
   const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
- 
 
   return (
     <div>
@@ -68,9 +67,9 @@ const FaqSection = () => {
           <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 ">
             <div className="flex items-center lg:justify-normal justify-center ">
               <Image
-                alt=""
+                alt="faq"
                 src={faqImg}
-                className=" "
+                className=""
                 width={575}
                 height={402}
               />
@@ -110,40 +109,40 @@ const FaqSection = () => {
                   </div>
                 ))} */}
 
-<>
-            {faqQuestionsNAns.map(({ question, answer, id }, idx) => (
-              <Accordion
-                key={id}
-                open={open === id}
-                className="mb-2  text-white bg-primary  px-4"
-              >
-                <AccordionHeader
-                  onClick={() => handleOpen(id)}
-                  className=" relative"
-                >
-                  <div
-                    className={`text-white  border-b-0 transition-colors`}
-                  >
-                    <span className="text-white text-base md:text-lg leading-[122%]">
-                      <b className="text-white">Q{id}</b> {question}
-                    </span>
-                  </div>
-                  <div className="absolute right-0">
-                    <Image
-                      src="/assets/random/arrow.png"
-                      width={9}
-                      height={16}
-                      alt="arrow"
-                      className=""
-                    />
-                  </div>
-                </AccordionHeader>
-                <AccordionBody className="pt-0 p-1 text-base font-normal bg-white">
-                  {answer}
-                </AccordionBody>
-              </Accordion>
-            ))}
-          </>
+                <>
+                  {faqQuestionsNAns.map(({ question, answer, id }, idx) => (
+                    <Accordion
+                      key={id}
+                      open={open === id}
+                      className="mb-2  text-white bg-primary  px-4"
+                    >
+                      <AccordionHeader
+                        onClick={() => handleOpen(id)}
+                        className=" relative"
+                      >
+                        <div
+                          className={`text-white  border-b-0 transition-colors`}
+                        >
+                          <span className="text-white text-base md:text-lg leading-[122%]">
+                            <b className="text-white">Q{id}</b> {question}
+                          </span>
+                        </div>
+                        <div className="absolute right-0">
+                          <Image
+                            src="/assets/random/arrow.png"
+                            width={9}
+                            height={16}
+                            alt="arrow"
+                            className=""
+                          />
+                        </div>
+                      </AccordionHeader>
+                      <AccordionBody className="pt-0 p-1 text-base font-normal bg-white">
+                        {answer}
+                      </AccordionBody>
+                    </Accordion>
+                  ))}
+                </>
               </div>
             </div>
           </div>

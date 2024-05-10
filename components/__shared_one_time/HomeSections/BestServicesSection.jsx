@@ -35,7 +35,7 @@ const BestServicesSection = () => {
           </div>
         </div>
         <div className="md:order-2 order-1 flex justify-center items-center">
-          <Image src={sectionImg} width={615} height={465} />
+          <Image src={sectionImg} width={615} height={465} alt="best service" />
         </div>
       </div>
     </div>

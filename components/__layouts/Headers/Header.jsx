@@ -64,10 +64,7 @@ const Header = () => {
             <ul className="flex items-center gap-x-8 xl:gap-x-10 2xl:gap-x-[75px]">
               {UtilsModule.navMenus.map(({ mainMenu, url }, index) => (
                 <li key={index}>
-                  <Link
-                    href={url}
-                    className={`text-[17px] text-dark`}
-                  >
+                  <Link href={url} className={`text-[17px] text-dark`}>
                     {mainMenu}
                   </Link>
                 </li>
@@ -86,7 +83,7 @@ const Header = () => {
               <div className="">
                 <span className="text-base block">Quick Contact</span>
                 <a
-                  href="tel:(832) 8204035"
+                  href="tel:8328204035"
                   className="text-primary font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
                 >
                   (832) 8204035
