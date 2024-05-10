@@ -116,14 +116,14 @@ const RatingNReviewSection = () => {
             </p>
           </div>
         </div>
-        <div className="md:mt-[25px] mt-[10px]">
+        <div className="mt-5 md:mt-6">
           <Achievement />
         </div>
       </div>
       {/* <div className="hidden lg:block w-full">
         <Brand />
       </div> */}
-      <div className="mt-8">
+      <div className="mt-12">
         <BrandSwiper />
       </div>
     </div>
