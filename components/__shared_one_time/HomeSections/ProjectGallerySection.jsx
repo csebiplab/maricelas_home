@@ -89,10 +89,6 @@ const ProjectGallerySection = () => {
             {galImgs.map((imgUrl, idx) => (
               <SwiperSlide key={idx} className="m-2">
                 <Image
-                  // width={400}
-                  // height={400}
-
-                  // className="w-auto h-52 mx-8 select-none"
                   className="object-contain w-auto h-auto mx-auto"
                   src={imgUrl}
                   alt="gallery"
@@ -141,9 +137,6 @@ const ProjectGallerySection = () => {
             {galImgs2.map((imgUrl, i) => (
               <SwiperSlide key={i} className="m-2 ">
                 <Image
-                  // width={400}
-                  // height={400}
-                  // className="w-auto h-52 mx-8 select-none"
                   className="object-contain w-auto h-auto mx-auto "
                   src={imgUrl}
                   alt="gallery"

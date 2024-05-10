@@ -8,20 +8,25 @@ const CleanWithUsSection = () => {
     <div>
       <div className="bg-[#C477B126]">
         <div className=" container grid sm:grid-cols-3 grid-cols-1 md:py-0 py-10 ">
-
           {/* ============= Large Screen ================= */}
           <div className="hidden md:block">
-          <div className=" col-span-1 sm:block flex sm:justify-normal justify-center ">
-            <Image src={joinusImg} height={750} width={485} />
-          </div>
+            <div className=" col-span-1 sm:block flex sm:justify-normal justify-center ">
+              <Image src={joinusImg} height={750} width={485} alt="join us" />
+            </div>
           </div>
 
           {/* ============== Small Screen ============= */}
 
           <div className="block md:hidden">
-          <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
-            <Image src={women} height={480} width={370}  className="!w-[370px] !h-[475px] mb-5"/>
-          </div>
+            <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
+              <Image
+                src={women}
+                height={480}
+                width={370}
+                alt="women"
+                className="!w-[370px] !h-[475px] mb-5"
+              />
+            </div>
           </div>
 
           <div className=" flex justify-center items-center col-span-2 lg:ml-[55px] ml-[35px]">

@@ -8,6 +8,7 @@ const Heading = ({ text }) => {
         width={20}
         height={20}
         className="mr-3"
+        alt="Heading icon"
       />
       <h3 className="text-center !text-base !text-dark-200">{text}</h3>
     </div>

@@ -67,12 +67,12 @@ const Footer = () => {
       <div className=" footer__bg bg-blend-multiply  lg:px-[35px] xs:px-[20px] !text-white relative">
         {/* star img */}
         <div className="absolute top-10 4xl:ml-[100px] lg:block hidden ">
-          <Image src={star} height={60} width={70} />
+          <Image src={star} height={60} width={70} alt="star" />
         </div>
 
         {/* company logo */}
         <div className=" absolute lg:-top-20 -top-10 left-1/2 lg:-ml-[90px] -ml-[50px] lg:w-auto lg:h-auto w-[100px] h-[100px]  ">
-          <Image src={companyLogo} height={182} width={182} />
+          <Image src={companyLogo} height={182} width={182} alt="company" />
         </div>
 
         <div className="container  ">
@@ -262,6 +262,7 @@ const Footer = () => {
                             width={21}
                             height={21}
                             className="w-[21 px] h-[21px]"
+                            alt="mail"
                           />
                           <span className="block md:hidden text-sm text-wrap">
                             maricela.maldonado@maricelasmagnificence.com
@@ -330,7 +331,7 @@ const Footer = () => {
         </div>
 
         <div className="absolute right-10 bottom-10 mr-[15px] lg:block hidden">
-          <Image src={star} height={60} width={70} />
+          <Image src={star} height={60} width={70} alt="star" />
         </div>
       </div>
 
