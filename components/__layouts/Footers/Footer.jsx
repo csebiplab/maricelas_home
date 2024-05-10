@@ -264,14 +264,14 @@ const Footer = () => {
                             className="w-[21 px] h-[21px]"
                             alt="mail"
                           />
-                          <span className="block sm:hidden text-sm text-wrap">
+                          <span className="box-content text-sm truncate">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          <span className="hidden sm:block text-xs">
+                          {/* <span className="xs:block sm:hidden md:block lg:block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden 5xl:hidden text-xs">
                             maricela.maldonado@
                             <br />
                             maricelasmagnificence.com
-                          </span>
+                          </span> */}
                         </a>
                       </li>
                       <div>
