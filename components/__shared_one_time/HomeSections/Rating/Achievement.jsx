@@ -24,7 +24,7 @@ const Achievement = () => {
               </p>
             </div>
           </div>
-          <div className="bg-[#fff]  md:w-[604px] md:h-[147.98px]  my-class rounded-[8px] px-[22.5px] md:pt-2 xs:pt-5">
+          <div className="bg-[#fff]  md:w-[604px] md:h-[147.98px]  my-class rounded-[8px] px-[22.5px] py-3 md:py-5">
             <h2 className="text-base lg:text-lg font-bold lg:leading-[27px] mb-[5px]">
               Achievements
             </h2>
