@@ -1,5 +1,6 @@
 import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
+import "./CleanWithUsSection.css";
 
 const CleanWithUsSection = () => {
   return (
