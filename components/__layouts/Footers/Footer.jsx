@@ -245,7 +245,7 @@ const Footer = () => {
                       </li>
                       <li className="py-2 lg:py-4">
                         <a
-                          href="tel:(832) 8204035"
+                          href="tel:8328204035"
                           className="footer-link items-center text-base text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
@@ -340,7 +340,9 @@ const Footer = () => {
           <div className=" lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
             <p className=" lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}
-              <b className="text-white text-sm">WEBSITE DESIGN AND SEO BY :-</b>{" "}
+              <b className="text-white text-sm">
+                WEBSITE DESIGN AND SEO BY :-
+              </b>{" "}
             </p>
             <Image
               src={gokundo}

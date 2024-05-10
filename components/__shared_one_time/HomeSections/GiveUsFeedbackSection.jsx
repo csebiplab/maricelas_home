@@ -27,7 +27,7 @@ const GiveUsFeedbackSection = () => {
                 </div>
 
                 <a
-                  href="tel:(832) 8204035"
+                  href="tel:8328204035"
                   className="my-2 flex gap-2 items-center md:justify-start justify-center text-base "
                 >
                   <FaPhoneVolume className=" 2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
