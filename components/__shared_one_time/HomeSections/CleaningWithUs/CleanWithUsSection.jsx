@@ -1,17 +1,20 @@
 import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
-import joinusImg from "../../../public/assets/random/withus 1.png";
-import women from "../../../public/assets/random/women.png";
 
 const CleanWithUsSection = () => {
   return (
     <div>
-      <div className="bg-[#C477B126]">
-        <div className=" container grid sm:grid-cols-3 grid-cols-1 md:py-0 py-10 ">
+      <div className="bg__clean">
+        <div className="container grid grid-cols-1 md:grid-cols-3 md:py-0 py-10 ">
           {/* ============= Large Screen ================= */}
           <div className="hidden md:block">
-            <div className=" col-span-1 sm:block flex sm:justify-normal justify-center ">
-              <Image src={joinusImg} height={750} width={485} alt="join us" />
+            <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
+              <Image
+                src="/assets/random/withus1.png"
+                height={750}
+                width={485}
+                alt="join us"
+              />
             </div>
           </div>
 
@@ -20,16 +23,16 @@ const CleanWithUsSection = () => {
           <div className="block md:hidden">
             <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
               <Image
-                src={women}
+                src="/assets/random/women.png"
                 height={480}
                 width={370}
                 alt="women"
-                className="!w-[370px] !h-[475px] mb-5"
+                className="w-full md:!w-[370px] !h-[475px] mb-5"
               />
             </div>
           </div>
 
-          <div className=" flex justify-center items-center col-span-2 lg:ml-[55px] ml-[35px]">
+          <div className=" flex justify-center items-center col-span-2 lg:ml-[55px]">
             <div>
               <div>
                 <Heading text={"With Us"}></Heading>
