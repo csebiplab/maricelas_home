@@ -64,7 +64,7 @@ const footerIcon = [
 const Footer = () => {
   return (
     <footer className="">
-      <div className=" footer__bg bg-blend-multiply  lg:px-[35px] xs:px-[20px] !text-white relative">
+      <div className=" footer__bg bg-blend-multiply px-[6px] lg:px-9  !text-white relative">
         {/* star img */}
         <div className="absolute top-10 4xl:ml-[100px] lg:block hidden ">
           <Image src={star} height={60} width={70} alt="star" />
@@ -264,10 +264,10 @@ const Footer = () => {
                             className="w-[21 px] h-[21px]"
                             alt="mail"
                           />
-                          <span className="block md:hidden text-sm text-wrap">
+                          <span className="block sm:hidden text-sm text-wrap">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          <span className="hidden md:block text-xs">
+                          <span className="hidden sm:block text-xs">
                             maricela.maldonado@
                             <br />
                             maricelasmagnificence.com
