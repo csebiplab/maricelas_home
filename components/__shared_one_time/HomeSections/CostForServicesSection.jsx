@@ -1,11 +1,11 @@
 import Heading from "@/components/__ui/Heading";
-import cost1 from "@/public/assets/images/cost1.png";
-import cost2 from "@/public/assets/images/cost2.png";
+import cost1 from "@/public/assets/images/cost__services1.png";
+import cost2 from "@/public/assets/images/cost__services2.png";
 import Image from "next/image";
 const CostForServicesSection = () => {
   return (
-    <div className="">
-      <div className="3xl:py-[120px] lg:py-[100px] py-[60px]">
+    <div className="bg-[#FFF3FC]">
+      <div className="container 3xl:py-[120px] lg:py-[100px] py-[60px]">
         <div className="block md:flex items-center gap-2 lg:gap-[27px]">
           <div className="mb-5 md:mb-0 md:text-start text-center md:w-1/2">
             <div className="flex justify-center lg:justify-normal items-center">
@@ -40,10 +40,10 @@ const CostForServicesSection = () => {
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="text-base  text-[12px] py-1 md:py-2">
+                <h4 className="text-base  md:text-[25px] font-bold py-1 md:py-2">
                   Commercial spaces
                 </h4>
-                <p className="text-sm  md:px-1 text-[#252525] lg:leading-5">
+                <p className="text-sm md:text-base font-normal md:px-1 text-[#252525] lg:leading-5">
                   For commercial spaces, prices can range from $0.05 to $0.25
                   per square foot
                 </p>
@@ -58,10 +58,10 @@ const CostForServicesSection = () => {
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="text-base   text-[12px] py-1 md:py-2">
+                <h4 className="text-base  md:text-[25px] font-bold py-1 md:py-2">
                   Residential cleaning
                 </h4>
-                <p className="text-sm md:px-1 text-[#252525] lg:leading-5">
+                <p className="text-sm md:text-base font-normar md:px-1 text-[#252525] lg:leading-5">
                    Residential cleaning services typically charge by the hour,
                   with rates averaging between $25 to $50 per hour.
                 </p>

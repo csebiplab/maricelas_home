@@ -5,14 +5,14 @@ import "./CleanWithUsSection.css";
 const CleanWithUsSection = () => {
   return (
     <div>
-      <div className="bg__clean">
+      <div>
         <div className="container grid grid-cols-1 md:grid-cols-3 md:py-0 py-10 ">
           {/* ============= Large Screen ================= */}
           <div className="hidden md:block">
             <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
               <Image
-                src="/assets/random/withus1.png"
-                height={750}
+                src="/assets/images/with__us.png"
+                height={756}
                 width={485}
                 alt="join us"
               />
@@ -24,7 +24,7 @@ const CleanWithUsSection = () => {
           <div className="block md:hidden">
             <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
               <Image
-                src="/assets/random/women.png"
+                src="/assets/images/with__us.png"
                 height={480}
                 width={370}
                 alt="women"

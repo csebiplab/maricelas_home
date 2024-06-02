@@ -11,25 +11,23 @@ import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
 import "swiper/css/grid";
 
-import GalImg1 from "../../../public/assets/gellary/img1.png";
-import GalImg2 from "../../../public/assets/gellary/img2.png";
-import GalImg3 from "../../../public/assets/gellary/img3.png";
-import GalImg4 from "../../../public/assets/gellary/img4.png";
-import GalImg5 from "../../../public/assets/gellary/img5.png";
+import GalImg1 from "../../../public/assets/gallery/gallery1.png";
+import GalImg2 from "../../../public/assets/gallery/gallery2.png";
+import GalImg3 from "../../../public/assets/gallery/gallery3.png";
+import GalImg4 from "../../../public/assets/gallery/gallery4.png";
+import GalImg5 from "../../../public/assets/gallery/gallery5.png";
 
-import GalImg11 from "../../../public/assets/gellary/img11.png";
-import GalImg12 from "../../../public/assets/gellary/img12.png";
-import GalImg13 from "../../../public/assets/gellary/img13.png";
-import GalImg14 from "../../../public/assets/gellary/img14.png";
-import GalImg15 from "../../../public/assets/gellary/img15.png";
-import GalImg16 from "../../../public/assets/gellary/img16.png";
+import GalImg12 from "../../../public/assets/gallery/gallery9.png";
+import GalImg13 from "../../../public/assets/gallery/gallery10.png";
+import GalImg14 from "../../../public/assets/gallery/gallery11.png";
+import GalImg15 from "../../../public/assets/gallery/gallery12.png";
 
 import Heading from "@/components/__ui/Heading";
 
 const ProjectGallerySection = () => {
-  const galImgs = [GalImg1, GalImg2, GalImg3, GalImg4, GalImg5, GalImg1];
+  const galImgs = [ GalImg1, GalImg2, GalImg3, GalImg4, GalImg5, GalImg3 ];
 
-  const galImgs2 = [GalImg11, GalImg12, GalImg13, GalImg14, GalImg15, GalImg16];
+  const galImgs2 = [GalImg12, GalImg13, GalImg14, GalImg15, GalImg12, GalImg13];
 
   return (
     <div>
@@ -89,7 +87,7 @@ const ProjectGallerySection = () => {
             {galImgs.map((imgUrl, idx) => (
               <SwiperSlide key={idx} className="m-2">
                 <Image
-                  className="object-contain w-auto h-auto mx-auto"
+                  className="object-contain w-full h-auto mx-auto"
                   src={imgUrl}
                   alt="gallery"
                 />
@@ -137,7 +135,7 @@ const ProjectGallerySection = () => {
             {galImgs2.map((imgUrl, i) => (
               <SwiperSlide key={i} className="m-2 ">
                 <Image
-                  className="object-contain w-auto h-auto mx-auto "
+                  className="object-contain w-full h-auto mx-auto "
                   src={imgUrl}
                   alt="gallery"
                 />

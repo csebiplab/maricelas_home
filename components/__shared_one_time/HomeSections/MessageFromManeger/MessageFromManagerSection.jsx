@@ -8,7 +8,7 @@ const MessageFromManagerSection = () => {
     <div className="custom-container px-5 lg:px-0">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-[49px] my-[55px] lg:my-[120px]">
         <div className="relative">
-          <div className="w-full lg:w-[410px] h-auto md:h-[332px] lg:absolute right-0 top-[18%] bg-white lg:my-16 my-shadow z-50">
+          <div className="w-full lg:w-[410px] h-auto md:h-[332px] lg:absolute right-0 top-[18%] bg-white lg:my-16 my-shadow z-20">
             <div className="">
               <div className="py-5 2xl:py-8 px-5 lg:px-10">
                 <div>

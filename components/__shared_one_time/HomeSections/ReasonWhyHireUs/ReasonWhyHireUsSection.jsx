@@ -104,60 +104,8 @@ const ReasonWhyHireUsSection = () => {
         >
           {reasons?.map(({ title, img, details }, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full h-full md:w-[260px] md:h-[220px] bg-white rounded-md py-[11px] relative">
-                <div className="absolute top-0 left-0 z-10">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="65"
-                    height="49"
-                    viewBox="0 0 65 49"
-                    fill="none"
-                  >
-                    <ellipse
-                      cx="24.5164"
-                      cy="-10.4439"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#880769"
-                      fillOpacity="0.45"
-                    />
-                    <ellipse
-                      cx="-7.62613"
-                      cy="8.09586"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#54042C"
-                      fillOpacity="0.35"
-                    />
-                  </svg>
-                </div>
-                <div className="absolute top-0 right-0 z-10">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="68"
-                    height="55"
-                    viewBox="0 0 68 55"
-                    fill="none"
-                  >
-                    <ellipse
-                      cx="74.1961"
-                      cy="14.5443"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#880769"
-                      fillOpacity="0.45"
-                    />
-                    <ellipse
-                      cx="40.4461"
-                      cy="-14.4742"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#54042C"
-                      fillOpacity="0.35"
-                    />
-                  </svg>
-                </div>
-                <div className="flex flex-col items-center justify-center">
+              <div className="w-full h-full md:w-[260px] md:h-auto">
+                <div className="bg__color py-6 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
                     <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
                       <Image

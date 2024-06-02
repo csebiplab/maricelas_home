@@ -23,7 +23,7 @@ const GiveUsFeedbackSection = () => {
                 </h2>
                 <div className=" flex gap-2 md:items-center text-center 2xl:text-[16px] text-base lg:py-8 py-5 md:justify-start justify-center ">
                   <FaMapLocationDot className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <p className="text-white"> Houston,Texas </p>
+                  <p className="text-white"> 13809 Hollow Canyon Lane Rosharon, TX 77583 </p>
                 </div>
 
                 <a
@@ -31,7 +31,7 @@ const GiveUsFeedbackSection = () => {
                   className="my-2 flex gap-2 items-center md:justify-start justify-center text-base "
                 >
                   <FaPhoneVolume className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <span className="text-white">(832) 8204035</span>
+                  <span className="text-white">(832)8204035</span>
                 </a>
 
                 <a
@@ -76,7 +76,7 @@ const GiveUsFeedbackSection = () => {
                         name
                       </label>
                       <input
-                        className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3 text-sm" // Added pr-12 class for padding-right
+                        className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3 text-sm" // Added pr-12 class for padding-right
                         placeholder="Robot Fox"
                         type="text"
                         id="text"
@@ -89,8 +89,8 @@ const GiveUsFeedbackSection = () => {
                         Email
                       </label>
                       <input
-                        className="w-full rounded-lg bg-[#C477B126]  shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
-                        placeholder="maricela.maldonado@maricelasmagnificence.com"
+                        className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
+                        placeholder="info.example@gmail.com"
                         type="email"
                         id="email"
                       />
@@ -104,13 +104,13 @@ const GiveUsFeedbackSection = () => {
                       Subjects *
                     </h5>
                     <label className="sr-only" htmlFor="email">
-                      Email
+                      Subjects
                     </label>
                     <input
-                      className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
+                      className="w-full placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
                       placeholder="Subjects "
-                      type="email"
-                      id="email"
+                      type="text"
+                      id="text"
                     />
                   </div>
 
@@ -122,8 +122,8 @@ const GiveUsFeedbackSection = () => {
                       Phone
                     </label>
                     <input
-                      className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
-                      placeholder="+832 8204035"
+                      className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
+                      placeholder="+88 01764912536"
                       type="tel"
                       id="phone"
                     />
@@ -136,7 +136,7 @@ const GiveUsFeedbackSection = () => {
                   </label>
                   <h5 className="mb-2 text-[#880769] text-base">Message *</h5>
                   <textarea
-                    className="w-full rounded-lg bg-[#C477B126] shadow-sm shadow-black p-4 lg:pr-16 pr-3  text-sm"
+                    className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-4 lg:pr-16 pr-3  text-sm"
                     placeholder="Write Message"
                     rows="6"
                     id="message"
