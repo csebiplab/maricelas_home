@@ -15,7 +15,7 @@ const GiveUsFeedbackSection = () => {
       <div className="px-2">
         <div className="grid lg:grid-cols-10 md:grid-cols-7 lg:relative 2xl:py-16 py-10 px-2 md:mx-0">
           {/* contact part */}
-          <div className="bg-primary lg:absolute md:col-span-3 md:order-1 flex justify-center items-center left-0 lg:left-[55%] xl:left-[50%] 2xl:left-[45%] 4xl:left-[47%] 4xl:top-[22%] 3xl:top-[18%] 2xl:top-[15%] xl:top-[20%] lg:top-[24%] 2xl:my-16 my-8  border shadow-md rounded-md border-black z-50  ">
+          <div className="bg-primary lg:absolute md:col-span-3 md:order-1 flex justify-center items-center left-0 lg:left-[55%] xl:left-[50%] 2xl:left-[45%] 4xl:left-[47%] 4xl:top-[22%] 3xl:top-[18%] 2xl:top-[15%] xl:top-[20%] lg:top-[24%] 2xl:my-16 my-8  border shadow-md rounded-md border-black z-20  ">
             <div className="">
               <div className=" 2xl:py-8 py-5 lg:px-10 px-5">
                 <h2 className=" 2xl:text-[32px] text-[20px] text-white md:text-start text-center  ">

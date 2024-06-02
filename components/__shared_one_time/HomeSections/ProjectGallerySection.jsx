@@ -200,7 +200,6 @@ const ProjectGallery = () => {
   return (
     <div className="bg-[#FFF9EE]">
       <div className="custom-container  3xl:py-[85px] py-[50px]">
-
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
             <Heading text={"Project Gallery"} />
@@ -237,9 +236,18 @@ const ProjectGallery = () => {
                   className="w-[146px] h-auto flex items-center justify-center gap-2 text-lg font-medium px-4 py-2 bg-[#FBCC21] text-black rounded"
                 >
                   Load More
-                  <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
-  <path d="M1.38997 0.348633L0 1.58746L4.22005 5.34863L0 9.1098L1.38997 10.3486L7 5.34863L1.38997 0.348633Z" fill="black"/>
-</svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="7"
+                    height="11"
+                    viewBox="0 0 7 11"
+                    fill="none"
+                  >
+                    <path
+                      d="M1.38997 0.348633L0 1.58746L4.22005 5.34863L0 9.1098L1.38997 10.3486L7 5.34863L1.38997 0.348633Z"
+                      fill="black"
+                    />
+                  </svg>
                 </button>
               </div>
             )}
