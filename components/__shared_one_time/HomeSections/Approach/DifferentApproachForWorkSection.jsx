@@ -21,7 +21,7 @@ const breakpoints = {
     slidesPerView: 2,
   },
   1024: {
-    slidesPerView: 3,
+    slidesPerView: 2,
   },
 };
 
@@ -67,10 +67,10 @@ const DifferentApproachForWorkSection = () => {
             <div className="flex justify-center lg:justify-normal">
               <Heading text={"Different Approach For Work"} />
             </div>
-            <h2 className="text-lg lg:text-2xl 2xl:text-3xl font-semibold text-[#1F1F1F] mt-[15px]">
+            <h2 className="text-[28px] md:text-[32px] font-bold text-[#1F1F1F] mt-[15px]">
               Our Approach To Cleaning Service Is Different
             </h2>
-            <p className="text-base mt-2 md:mt-4 mb-5 lg:leading-[32px]">
+            <p className="text-base font-normal mt-2 md:mt-4 mb-5 lg:leading-[32px]">
               Welcome to a cleaning service experience like no other. At
               Maricela's Cleaning Magnificence, our approach to cleaning
               transcends the ordinary.
@@ -104,17 +104,17 @@ const DifferentApproachForWorkSection = () => {
         >
           {slideData.map((slideInfo, index) => (
             <SwiperSlide key={index} className={`px-[30px] md:px-0`}>
-              <div className="w-full my-card bg-white h-auto md:h-[390px] border">
+              <div className="w-full my-card bg-white h-auto md:h-[420px] border">
                 <Image
                   src={slideInfo?.imgSrc}
-                  width={215}
-                  height={203}
+                  width={440}
+                  height={190}
                   alt="different approach"
                   className="w-full rounded-md"
                 />
-                <div className="text-center py-3 md:px-2 px-1">
-                  <h4 className="text-base py-1 md:py-2">{slideInfo?.title}</h4>
-                  <p className="text-sm mt-1 md:mt-0  md:px-1 text-[#252525] leading-[25px]">
+                <div className="text-center py-3 md:px-2 px-1 ">
+                  <h4 className="text-[20px] md:text-[25px] font-bold py-1 md:py-2">{slideInfo?.title}</h4>
+                  <p className="text-base font-normal mt-1 md:mt-0  md:px-1 text-[#252525] leading-[25px]">
                     {slideInfo?.description}
                   </p>
                 </div>

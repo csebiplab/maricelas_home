@@ -5,14 +5,14 @@ import "./CleanWithUsSection.css";
 const CleanWithUsSection = () => {
   return (
     <div>
-      <div className="bg__clean">
+      <div>
         <div className="container grid grid-cols-1 md:grid-cols-3 md:py-0 py-10 ">
           {/* ============= Large Screen ================= */}
           <div className="hidden md:block">
             <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
               <Image
-                src="/assets/random/withus1.png"
-                height={750}
+                src="/assets/images/with__us.png"
+                height={756}
                 width={485}
                 alt="join us"
               />
@@ -24,11 +24,11 @@ const CleanWithUsSection = () => {
           <div className="block md:hidden">
             <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
               <Image
-                src="/assets/random/women.png"
-                height={480}
-                width={370}
+                src="/assets/images/with__us.png"
+                height={626}
+                width={430}
                 alt="women"
-                className="w-full md:!w-[370px] !h-[475px] mb-5"
+                className="w-[430px] h-[626px] mb-5"
               />
             </div>
           </div>
@@ -38,10 +38,10 @@ const CleanWithUsSection = () => {
               <div>
                 <Heading text={"With Us"}></Heading>
               </div>
-              <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] font-semibold lg:mb-[25px] mb-[15px]">
+              <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] font-bold lg:mb-[25px] mb-[15px]">
                 Get Your Commercial & Residential Area Cleaned With Us
               </h2>
-              <p className="md:text-start text-base lg:leading-[32px] text-justify ">
+              <p className="md:text-start text-base font-normarl lg:leading-[32px] text-justify ">
                 Transform your commercial and residential spaces into pristine
                 havens with our professional cleaning services in Houston, TX.
                 Our dedicated team utilizes state-of-the-art equipment and

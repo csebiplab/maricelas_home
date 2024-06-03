@@ -45,10 +45,10 @@ const AboutUsSection = () => {
           <div className="flex justify-center lg:justify-start">
             <Heading text={"About Us"} />
           </div>
-          <h2 className="text-lg lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]">
+          <h2 className="text-[28px] md:text-[32px] font-bold text-[#1F1F1F] mt-[15px]">
             Welcome to Our Commercial & Residential Cleaning Services in Houston
           </h2>
-          <p className="text-base mt-[15px]  lg:leading-[32px]">
+          <p className="text-base font-normal mt-[15px]  lg:leading-[32px]">
             Welcome to Maricela's Cleaning Magnificence, a company of commercial
             & residential cleaning services in Houston. Our current focus is on
             catering to both commercial and residential clients in Houston,
@@ -56,7 +56,7 @@ const AboutUsSection = () => {
             high-quality services that meet their specific needs and
             requirements. Our team is composed of skilled professionals with
             extensive experience in the industry, and we are committed to
-            delivering exceptional results that exceed our client’s
+            delivering exceptional results that exceed our client's
             expectations.
           </p>
         </div>

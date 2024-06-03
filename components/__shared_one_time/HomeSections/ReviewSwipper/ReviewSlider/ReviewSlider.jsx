@@ -78,16 +78,13 @@ const reviews = [
     address: "Local Guide",
   },
   {
-    reviewText: `We used Maricela’s team for the first time today and our house looks and smells like new! They were on time, brought their own equipment/supplies, and were very friendly. We will definitely use this service again!`,
-    author: "Shayla Alkire",
+    reviewText: `Service has been great, consistent and detailed. We are so pleased with their work and appreciate the detail and the commitment to go above an beyond! Our business has been so proud to have honest efficient service providers and we look forward to continuing to do business with Maricela.`,
+    author: "Mercy Lane",
     address: "Houston",
   },
   {
-    reviewText: `I have a 4 bedrooms house and just had the pleasure of 
-      hiring Maricela for cleaning services and oh boy am I happy with the service. 
-      My house looks new. They not only clean the place but gives a personal touch to
-       manage the chaos they find. Everything is back to its place where it belongs.`,
-    author: "Mercy Lane",
+    reviewText: `We used Maricela’s team for the first time today and our house looks and smells like new! They were on time, brought their own equipment/supplies, and were very friendly. We will definitely use this service again!`,
+    author: "Shayla Alkire",
     address: "Houston",
   },
   {
@@ -105,8 +102,8 @@ const ReviewSlider = () => {
         <div className="flex justify-center md:justify-start">
           <Heading text={"Review"} />
         </div>
-        <h2 className="md:leading-8 text-lg md:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
-          Here’s what to expect when you hire us as your Cleaning Services in
+        <h2 className="md:leading-8 text-[28px] md:text-[32px] font-bold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
+          Here's what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
       </div>

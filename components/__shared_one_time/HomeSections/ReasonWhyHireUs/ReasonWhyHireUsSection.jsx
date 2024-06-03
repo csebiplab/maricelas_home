@@ -83,7 +83,7 @@ const ReasonWhyHireUsSection = () => {
           <Heading text="Reason why hire us" />
 
           <div>
-            <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:mb-14 xs:mb-10 mb-8 text-center">
+            <h2 className="text-[28px] md:text-[32px] font-bold text-[#1F1F1F] md:mb-14 xs:mb-10 mb-8 text-center">
               What To Consider First When You Want to Hire a Cleaning Company?
             </h2>
           </div>
@@ -104,60 +104,8 @@ const ReasonWhyHireUsSection = () => {
         >
           {reasons?.map(({ title, img, details }, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full h-full md:w-[260px] md:h-[220px] bg-white rounded-md py-[11px] relative">
-                <div className="absolute top-0 left-0 z-10">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="65"
-                    height="49"
-                    viewBox="0 0 65 49"
-                    fill="none"
-                  >
-                    <ellipse
-                      cx="24.5164"
-                      cy="-10.4439"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#880769"
-                      fillOpacity="0.45"
-                    />
-                    <ellipse
-                      cx="-7.62613"
-                      cy="8.09586"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#54042C"
-                      fillOpacity="0.35"
-                    />
-                  </svg>
-                </div>
-                <div className="absolute top-0 right-0 z-10">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="68"
-                    height="55"
-                    viewBox="0 0 68 55"
-                    fill="none"
-                  >
-                    <ellipse
-                      cx="74.1961"
-                      cy="14.5443"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#880769"
-                      fillOpacity="0.45"
-                    />
-                    <ellipse
-                      cx="40.4461"
-                      cy="-14.4742"
-                      rx="40.1786"
-                      ry="40.3041"
-                      fill="#54042C"
-                      fillOpacity="0.35"
-                    />
-                  </svg>
-                </div>
-                <div className="flex flex-col items-center justify-center">
+              <div className="w-full h-full md:w-[260px] md:h-auto">
+                <div className="bg__color py-6 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
                     <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
                       <Image
@@ -169,10 +117,10 @@ const ReasonWhyHireUsSection = () => {
                       />
                     </div>
                   </div>
-                  <h5 className="mt-3 mb-1 !text-base font-bold text-center">
+                  <h5 className="mt-3 mb-1 text-[20px] font-bold text-center">
                     {title}
                   </h5>
-                  <p className="px-2 text-sm text-center">{details}</p>
+                  <p className="px-2 text-base font-normal text-center">{details}</p>
                 </div>
               </div>
             </SwiperSlide>

@@ -97,7 +97,7 @@ const Footer = () => {
                   <div className="mt-4 lg:mt-[35px]">
                     <h4 className="lg:text-xl text-base">Open Hours:</h4>
                     <p className="my-1 mt-2 lg:mt-5">
-                      Monday-Friday 7:00am-7:00pm
+                    Mon - Fri: 07 am - 07 pm, <br/> Sunday: CLOSED
                     </p>
                   </div>
 
@@ -240,16 +240,16 @@ const Footer = () => {
                           className="footer-link flex gap-4 items-center text-base text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
-                          Houston,Texas
+                          13809 Hollow Canyon Lane Rosharon, TX 77583
                         </a>
                       </li>
                       <li className="py-2 lg:py-4">
                         <a
-                          href="tel:8328204035"
+                          href="tel:(832)8204035"
                           className="footer-link items-center text-base text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                          (832) 8204035
+                          (832) 820-4035
                         </a>
                       </li>
                       <li>
@@ -265,7 +265,7 @@ const Footer = () => {
                             alt="mail"
                           />
                           <span className="box-content text-sm truncate">
-                            maricela.maldonado@maricelasmagnificence.com
+                          maricela.maldonado@maricelasmagnificence.com
                           </span>
                           {/* <span className="xs:block sm:hidden md:block lg:block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden 5xl:hidden text-xs">
                             maricela.maldonado@

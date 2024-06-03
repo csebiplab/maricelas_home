@@ -62,88 +62,58 @@ const FaqSection = () => {
 
   return (
     <div>
-      <div className="bg-[#C477B126]">
-        <div className=" container  3xl:py-[120px] lg:py-[100px] py-[60px]">
-          <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 ">
-            <div className="flex items-center lg:justify-normal justify-center ">
-              <Image
-                alt="faq"
-                src={faqImg}
-                className=""
-                width={575}
-                height={402}
-              />
-            </div>
-
+      <div>
+        <div className="container 3xl:py-[120px] lg:py-[100px] py-[60px]">
+          <div>
             <div>
-              <div>
-                <div className="flex flex-col">
-                  <Heading text={"Frequently Asked Questions (FAQ)"} />
+              <div className="flex flex-col justify-center items-center">
+                <div>
+                <Heading text={"Frequently Asked Questions (FAQ)"} />
+                </div>
 
-                  <div>
-                    <p className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
-                      FAQ for Residential and Commercial Cleaning Services in
-                      Houston
-                    </p>
-                  </div>
+                <div>
+                  <p className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
+                    FAQ for Residential and Commercial Cleaning Services in
+                    Houston
+                  </p>
                 </div>
               </div>
-              <div className="">
-                {/* {faqQuestionsNAns.map((ques, idx) => (
-                  <div key={idx}>
-                    <details className="group [&_summary::-webkit-details-marker]:hidden">
-                      <summary className="flex cursor-pointer items-center justify-between gap-1.5 bg-[#880769] p-4 border-2">
-                        <h6 className="text-white text-xs md:text-lg ">
-                          {ques.question}
-                        </h6>
-
-                        <div className="white-icon">
-                          <IoCaretDown className="fill-white" />
-                        </div>
-                      </summary>
-
-                      <p className=" pt-3 px-4 leading-relaxed border-2 bg-white text-[10px] md:text-base">
-                        {ques.answer}
-                      </p>
-                    </details>
-                  </div>
-                ))} */}
-
-                <>
-                  {faqQuestionsNAns.map(({ question, answer, id }, idx) => (
-                    <Accordion
-                      key={id}
-                      open={open === id}
-                      className="mb-2  text-white bg-primary  px-4"
+            </div>
+            <div className="">
+              <>
+                {faqQuestionsNAns.map(({ question, answer, id }, idx) => (
+                  <Accordion
+                    key={id}
+                    open={open === id}
+                    className="mb-2  text-white bg-primary"
+                  >
+                    <AccordionHeader
+                      onClick={() => handleOpen(id)}
+                      className=" relative"
                     >
-                      <AccordionHeader
-                        onClick={() => handleOpen(id)}
-                        className=" relative"
+                      <div
+                        className={`text-white  border-b-0 transition-colors px-4`}
                       >
-                        <div
-                          className={`text-white  border-b-0 transition-colors`}
-                        >
-                          <span className="text-white text-base md:text-lg leading-[122%]">
-                            <b className="text-white">Q{id}</b> {question}
-                          </span>
-                        </div>
-                        <div className="absolute right-0">
-                          <Image
-                            src="/assets/random/arrow.png"
-                            width={9}
-                            height={16}
-                            alt="arrow"
-                            className=""
-                          />
-                        </div>
-                      </AccordionHeader>
-                      <AccordionBody className="pt-0 p-1 text-base font-normal bg-white">
-                        {answer}
-                      </AccordionBody>
-                    </Accordion>
-                  ))}
-                </>
-              </div>
+                        <span className="text-white text-base md:text-lg font-bold leading-[122%]">
+                          <b className="text-white">Q{id}</b> {question}
+                        </span>
+                      </div>
+                      <div className="absolute right-3">
+                        <Image
+                          src="/assets/random/arrow.png"
+                          width={9}
+                          height={16}
+                          alt="arrow"
+                          className=""
+                        />
+                      </div>
+                    </AccordionHeader>
+                    <AccordionBody className="px-4 text-sm md:text-base font-normal bg-white text-black">
+                      {answer}
+                    </AccordionBody>
+                  </Accordion>
+                ))}
+              </>
             </div>
           </div>
         </div>

@@ -88,10 +88,10 @@ const CleaningServicesSection = () => {
         <div className="flex justify-center lg:justify-normal mt-3 lg:mt-0">
           <Heading text={"Cleaning Services"} />
         </div>
-        <h2 className="text-lg lg:text-2xl 2xl:text-[32px] font-semibold text-dark-200 md:pb-0 pb-[14px]">
+        <h2 className="text-[28px] md:text-[32px] font-bold text-dark-200 md:pb-0 pb-[14px]">
           Commercial & Residential Cleaning Services You Can Belief
         </h2>
-        <p className="text-base lg:leading-[170%] mt-2  text-dark-50 ">
+        <p className="text-base font-normal lg:leading-[170%] mt-2  text-dark-50 ">
           At Maricela's Cleaning Magnificence, we understand the importance of
           reliability and professionalism when it comes to maintaining
           cleanliness in both commercial and residential settings. Our trained
