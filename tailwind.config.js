@@ -8,102 +8,87 @@ module.exports = withMT({
         "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        screens: {
+            // => beshi choto screen mobile 639-280px
+            // => moddhom screen mobile 767-640px
+            'xs': '280px',
+
+            'sm': '640px',
+            // => @media (min-width: 640px) { ... }
+
+            'md': '768px',
+            // => @media (min-width: 768px) { ... }
+            // => tablet screen 1023px-768px
+
+            'lg': '1024px',
+            // => @media (min-width: 1024px) { ... }
+
+            // => mid level desktop screen 1279-1024px
+
+            'xl': '1280px',
+            // => @media (min-width: 1280px) { ... }
+
+            // => Extra desktop screen 1439px-1280px
+
+            '2xl': '1440px',
+            // => @media (min-width: 1536px) { ... }
+
+            // 2(dui gun extra screen) ==> 1535px-1440px
+
+            '3xl': '1536px',
+
+            '4xl': '1736px',
+
+            '5xl': '1920px',
+        },
         extend: {
-            backgroundImage: {
-                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-                "gradient-conic":
-                    "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-            },
             colors: {
                 primary: {
-                    DEFAULT: "#9c7066",
-                    50: "#faf7f6",
-                    100: "#f4edec",
-                    200: "#ecdfdc",
-                    300: "#ddc8c4",
-                    400: "#c9a7a0",
-                    500: "#b38980",
-                    600: "#9c7066",
-                    700: "#825b53",
-                    800: "#6d4e47",
-                    900: "#5d443f",
-                    950: "#30221f",
+                    DEFAULT: "#880769",
+                    50: "#C477B1",
+                    100: "#54042C",
+                    200: "#54042C",
+                    300: "#54042C",
+                    400: "#54042C",
+                    500: "#54042C",
+                    600: "#54042C",
+                    700: "#54042C",
                 },
                 secondary: {
-                    DEFAULT: "#f9960d",
-                    50: "#fffaeb",
-                    100: "#fff1c6",
-                    200: "#ffe188",
-                    300: "#ffcc4a",
-                    400: "#ffb620",
-                    500: "#f9960d",
-                    600: "#dc6d03",
-                    700: "#b74b06",
-                    800: "#94390c",
-                    900: "#7a300d",
-                    950: "#461702",
-                },
-                success: {
-                    DEFAULT: "#f9960d",
-                    50: "#fffaeb",
-                    100: "#fff1c6",
-                    200: "#ffe188",
-                    300: "#ffcc4a",
-                    400: "#ffb620",
-                    500: "#f9960d",
-                    600: "#dc6d03",
-                    700: "#b74b06",
-                    800: "#94390c",
-                    900: "#7a300d",
-                    950: "#461702",
-                },
-                warning: {
-                    DEFAULT: "#f9960d",
-                    50: "#fffaeb",
-                    100: "#fff1c6",
-                    200: "#ffe188",
-                    300: "#ffcc4a",
-                    400: "#ffb620",
-                    500: "#f9960d",
-                    600: "#dc6d03",
-                    700: "#b74b06",
-                    800: "#94390c",
-                    900: "#7a300d",
-                    950: "#461702",
+                    DEFAULT: "#049E43",
+                    50: "#049E43",
                 },
                 info: {
-                    DEFAULT: "#f9960d",
-                    50: "#fffaeb",
-                    100: "#fff1c6",
-                    200: "#ffe188",
-                    300: "#ffcc4a",
-                    400: "#ffb620",
-                    500: "#f9960d",
-                    600: "#dc6d03",
-                    700: "#b74b06",
-                    800: "#94390c",
-                    900: "#7a300d",
-                    950: "#461702",
-                },
-                dark: {
                     DEFAULT: "#33475B",
                     50: "#89A3BD",
-                    100: "#7C99B5",
-                    200: "#6284A7",
-                    300: "#50708F",
-                    400: "#425B75",
-                    500: "#33475B",
-                    600: "#1F2B37",
-                    700: "#0B0F13",
-                    800: "#000000",
-                    900: "#000000",
-                    950: "#000000",
                 },
-                buttonColor: "#FF6448",
-                pageBg: "#F5F8FA",
+                success: {
+                    DEFAULT: "#049E43",
+                    50: "#89A3BD",
+                },
+                warning: {
+                    DEFAULT: "#FBCC21",
+                    50: "#FBCD22",
+                },
+                danger: {
+                    DEFAULT: "#DC0000",
+                },
+                dark: {
+                    DEFAULT: "#000000",
+                    50: "#111111",
+                    100: "#1B1B1B",
+                    200: "#1F1F1F",
+                    300: "#535455",
+                    400: "#333333",
+                    500: "#040404",
+                },
+                gray: {
+                    DEFAULT: "#D9D9D9",
+                },
             },
             spacing: {
-                '24' : "6.5rem"
+                '24': "6.5rem",
+                "1": "2px"
             },
         },
     },
