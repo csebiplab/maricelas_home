@@ -67,9 +67,9 @@ const HomeBanner = () => {
                 <div className="flex justify-center md:justify-start py-6">
                   <button
                     type="submit"
-                    className="flex items-center w-[200px] lg:w-[274px] homeBtn px-6 lg:px-10 py-4 font-semibold "
+                    className="flex justify-center items-center w-[200px] lg:w-[274px] homeBtn px-6 lg:px-10 py-4 font-semibold "
                   >
-                    <span className="mr-2 text-black">Get an Estimate </span>
+                    <span className="mr-2 text-black text-lg font-bold">Get an Estimate </span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="9"
@@ -93,38 +93,6 @@ const HomeBanner = () => {
       </div>
 
       {/* small device  */}
-
-      {/* <div className="block md:hidden">
-        <div className="py-12 px-8">
-          <p className="text-4xl lg:text-[40px] xl:text-[44px] 2xl:text-[48px] 3xl:text-[52px] 4xl:text-[56px] 5xl:text-[60px] text-primary font-medium text-center md:text-left leading-normal">
-            General Contractors <br /> in Toronto Ontario
-          </p>
-          <p className="text-lg lg:text-[20px] font-medium text-center md:text-left leading-[30px] lg:leading-[50px]">
-            The general contractors in Toronto of National Remodelling & General
-            Contracting Inc. offer top-notch #1 remodeling and construction
-            services.
-          </p>
-          <div className="flex justify-center md:justify-start pt-6">
-            <button
-              type="submit"
-              className="w-[200px] lg:w-[274px] rounded-md bg-primary px-6 lg:px-10 py-4 font-semibold flex justify-center items-center"
-            >
-              <span className="mr-2 text-white">Get Estimated</span>
-            </button>
-          </div>
-        </div>
-        <div>
-          <Image
-            src="/assets/images/Header.png"
-            alt="banner image"
-            width={100}
-            height={100}
-            className="w-full h-full"
-          />
-        </div>
-      </div> */}
-
-      {/* small device  */}
       <div className="block md:hidden">
         <div className="small__banner__section w-auto h-[820px]">
           <div className="small__banner__section__content">
@@ -135,7 +103,7 @@ const HomeBanner = () => {
           <p className="px-[30px] pt-[8px] text-lg text-black font-normal">Best commercial & residential cleaning services in Houston, we pride ourselves on delivering meticulous cleanliness and unparalleled customer satisfaction.</p>
           <div className="pl-[30px] pt-[20px]">
           <Button className="text-black banner__btn flex items-center gap-x-2">
-            <span className="text-black text-base font-bold">
+            <span className="text-black text-xs font-bold">
               Get an Estimate
             </span>
             <svg

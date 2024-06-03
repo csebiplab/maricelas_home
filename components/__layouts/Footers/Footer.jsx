@@ -249,7 +249,7 @@ const Footer = () => {
                           className="footer-link items-center text-base text-white"
                         >
                           <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
-                          (832)8204035
+                          (832) 820-4035
                         </a>
                       </li>
                       <li>

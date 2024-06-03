@@ -31,7 +31,7 @@ const GiveUsFeedbackSection = () => {
                   className="my-2 flex gap-2 items-center md:justify-start justify-center text-base "
                 >
                   <FaPhoneVolume className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <span className="text-white">(832)8204035</span>
+                  <span className="text-white">(832) 820-4035</span>
                 </a>
 
                 <a

@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
           <RoutingProgressBar />
         </Suspense>
         <>
-          {/* <Header /> */}
-          <BottomHeader/>
+          <Header />
+          {/* <BottomHeader/> */}
         </>
         {children}
         <>
