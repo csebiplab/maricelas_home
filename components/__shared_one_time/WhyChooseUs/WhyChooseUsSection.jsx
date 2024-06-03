@@ -70,11 +70,11 @@ const WhyChooseUsSection = () => {
             <Heading text={"Why Choose Us"} />
           </div>
 
-          <h2 className="text-lg md:text-2xl lg:text-3xl 2xl:text-[32px]  text-dark-200 mt-[7px] md:mt-[15px]  mb-[14px] md:mb-5 font-semibold">
+          <h2 className="text-[28px] md:text-[32px]  text-dark-200 mt-[7px] md:mt-[15px]  mb-[14px] md:mb-5 font-bold">
             Why Choose Maricela's Cleaning Magnificence Cleaning Services?
           </h2>
 
-          <p className="text-sm md:text-base text-dark-50 lg:leading-[200%] mb-5 md:mb-[25px] px-1">
+          <p className="text-base font-normal text-dark-50 lg:leading-[200%] mb-5 md:mb-[25px] px-1">
             Maricela's Cleaning Magnificence stands out as a premier choice for
             commercial & residential cleaning services in Houston due to our
             unwavering commitment to excellence and customer satisfaction.

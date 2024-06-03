@@ -5,19 +5,19 @@ import sectionImg from "../../../public/assets/images/best__services.png";
 const BestServicesSection = () => {
   return (
     <div className=" bg-[#FFF3FC] py-1 md:px-0 px-[30px]">
-      <div className="container  grid md:grid-cols-2 grid-cols-1 gap-8 lg:my-[50px] py-8">
+      <div className="container  grid md:grid-cols-2 grid-cols-1 gap-8">
         <div className=" md:order-1 order-2">
           <div className=" flex flex-col md:justify-normal justify-center md:items-start items-center">
             <Heading text={"Best Services"} />
 
             <div>
-              <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-[12px] pb-[12px] text-center md:text-start font-semibold ">
+              <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-[12px] pb-[12px] text-center md:text-start font-bold ">
                 Best Commercial & Residential Cleaning Services in Houstona
               </h2>
             </div>
           </div>
           <div>
-            <p className="md:text-start text-center text-base  lg:leading-[32px]">
+            <p className="md:text-start text-center text-base font-normal  lg:leading-[32px]">
               When it comes to finding the best cleaning services in Houston,
               quality and reliability are paramount. Look no further than our
               dedicated team of professionals who are committed to delivering

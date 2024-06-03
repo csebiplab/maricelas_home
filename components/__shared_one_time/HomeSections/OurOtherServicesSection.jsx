@@ -114,27 +114,27 @@ const OurOtherServicesSection = () => {
 
   return (
     <div className="!overflow-hidden">
-      <div className="bg-[#C477B126]">
+      <div className="">
         <div className="container lg:py-20 py-14">
           <div className="grid grid-cols-1  lg:grid-cols-2 lg:gap-40 gap-4  p-5 items-end text-sm ">
             <div className="  ">
               <div className="flex justify-center lg:justify-normal items-center">
                 <Heading text={"Other Services"} />
               </div>
-              <h2 className="hidden lg:block text-lg lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]">
+              <h2 className="hidden lg:block text-[28px] md:text-[32px] font-bold text-[#1F1F1F] mt-[15px]">
                 Our Other <br className=" hidden lg:block" /> Cleaning Services{" "}
                 <br className=" hidden lg:block" /> in Houston
               </h2>
-              <h2 className="block lg:hidden text-xl lg:text-[32px] text-center">
+              <h2 className="block lg:hidden text-[28px] md:text-[32px] font-bold text-center">
                 Our Other Cleaning Services in Houston
               </h2>
             </div>
 
             <div className="hidden lg:block">
-              <h6 className="xl:text-[16px] text-[14px]">
+              <h6 className="text-base font-bold">
                 Commercial Cleaning
               </h6>
-              <p className=" mt-[15px] items-center text-base leading-[20px]">
+              <p className=" mt-[15px] items-center text-sm font-normal leading-[20px]">
                 Experience pristine cleanliness with our professional commercial
                 cleaning services in Houston, TX. Our expert team employs
                 industry-leading techniques and eco-friendly products to ensure
@@ -161,7 +161,7 @@ const OurOtherServicesSection = () => {
                 onChange={handleCheckboxChange}
               />
               <span
-                className={`flex items-center border pr-5  lg:px-32 rounded-3xl lg:py-4 py-2  text-[10px] md:text-base font-semibold ${
+                className={`flex items-center border pr-5  lg:px-32 rounded-3xl lg:py-4 py-2 text-base font-bold ${
                   !isChecked ? "text-white bg-primary-50 " : "text-body-color"
                 }`}
               >
@@ -181,7 +181,7 @@ const OurOtherServicesSection = () => {
                 Commercial Cleaning
               </span>
               <span
-                className={`flex items-center pr-5 lg:px-32 rounded-3xl lg:py-4 py-2 text-[10px] md:text-base font-semibold ${
+                className={`flex items-center pr-5 lg:px-32 rounded-3xl lg:py-4 py-2 text-base font-bold ${
                   isChecked ? "text-white bg-[#C477B1] " : "text-body-color"
                 }`}
               >
@@ -219,7 +219,7 @@ const OurOtherServicesSection = () => {
                   >
                     <div className="mx-auto relative px-2">
                       <div className="">
-                        <p className="mt-4 py-5 mx-auto text-center text-base">
+                        <p className="mt-4 py-5 mx-auto text-center font-bold text-base">
                           {service.title}{" "}
                         </p>
                       </div>
@@ -228,7 +228,7 @@ const OurOtherServicesSection = () => {
                           src={service.img}
                           height={70}
                           width={70}
-                          className="w-14 h-14 lg:w-16 lg:h-16 rounded-full border-black"
+                          className="w-14 h-14 lg:w-16 lg:h-16 rounded-full border-primary-50"
                           alt="Profile"
                         />
                       </div>
@@ -243,11 +243,11 @@ const OurOtherServicesSection = () => {
                 {services2.map((service, index) => (
                   <div
                     key={index}
-                    className="col-span-1 border-4 rounded border-[#C477B1] bg-white"
+                    className="col-span-1 border-4 rounded border-primary-50 bg-white"
                   >
-                    <div className="mx-auto rounded-lg   relative">
+                    <div className="mx-auto rounded-lg relative">
                       <div className=" py-7 ">
-                        <p className="mt-4 py-5 mx-auto text-center text-base">
+                        <p className="mt-4 py-5 mx-auto text-center font-bold text-base">
                           {service.title}{" "}
                         </p>
                       </div>
@@ -256,7 +256,7 @@ const OurOtherServicesSection = () => {
                           src={service.img}
                           height={80}
                           width={80}
-                          className="lg:w-20 lg:h-20 w-14 h-14 bg-white rounded-full  border-black"
+                          className="lg:w-20 lg:h-20 w-14 h-14 bg-white rounded-full  border-primary-50"
                           alt="Profile"
                         />
                       </div>

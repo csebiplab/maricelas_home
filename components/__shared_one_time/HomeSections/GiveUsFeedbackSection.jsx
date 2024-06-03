@@ -7,7 +7,7 @@ import {
   FaXTwitter,
 } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
-import contactImg from "../../../public/assets/random/contactus.png";
+import contactImg from "../../../public/assets/images/contact__us.png";
 
 const GiveUsFeedbackSection = () => {
   return (
@@ -18,17 +18,17 @@ const GiveUsFeedbackSection = () => {
           <div className="bg-primary lg:absolute md:col-span-3 md:order-1 flex justify-center items-center left-0 lg:left-[55%] xl:left-[50%] 2xl:left-[45%] 4xl:left-[47%] 4xl:top-[22%] 3xl:top-[18%] 2xl:top-[15%] xl:top-[20%] lg:top-[24%] 2xl:my-16 my-8  border shadow-md rounded-md border-black z-20  ">
             <div className="">
               <div className=" 2xl:py-8 py-5 lg:px-10 px-5">
-                <h2 className=" 2xl:text-[32px] text-[20px] text-white md:text-start text-center  ">
+                <h2 className="text-[28px] md:text-[32px] font-bold text-white md:text-start text-center  ">
                   Contact Us
                 </h2>
-                <div className=" flex gap-2 md:items-center text-center 2xl:text-[16px] text-base lg:py-8 py-5 md:justify-start justify-center ">
+                <div className=" flex gap-1 md:gap-2 items-start md:items-center text-center text-sm md:text-base font-normal lg:py-8 py-5 md:justify-start justify-center ">
                   <FaMapLocationDot className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
                   <p className="text-white"> 13809 Hollow Canyon Lane Rosharon, TX 77583 </p>
                 </div>
 
                 <a
                   href="tel:8328204035"
-                  className="my-2 flex gap-2 items-center md:justify-start justify-center text-base "
+                  className="my-2 flex gap-2 items-center md:justify-start justify-center text-sm md:text-base font-normal "
                 >
                   <FaPhoneVolume className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
                   <span className="text-white">(832) 820-4035</span>
@@ -36,7 +36,7 @@ const GiveUsFeedbackSection = () => {
 
                 <a
                   href="mailto:maricela.maldonado@maricelasmagnificence.com"
-                  className=" flex gap-2 my-auto items-center 2xl:text-[16px] text-sm 2xl:py-8 py-5 md:justify-start justify-center "
+                  className=" flex gap-2 my-auto items-center text-sm md:text-base font-normal 2xl:py-8 py-5 md:justify-start justify-center "
                 >
                   <IoIosMail className=" 2xl:w-5 2xl:h-5 w-auto h-auto fill-white" />
                   <span className="text-white block md:hidden">
@@ -61,7 +61,7 @@ const GiveUsFeedbackSection = () => {
           {/* form part */}
           <div className=" lg:col-span-6 md:col-span-4 md:order-1  lg:py-30 md:flex items-center 5xl:ml-[285px] 4xl:ml-[200px] 3xl:ml-[150px] 2xl:ml-[100px] xl:ml-[80px] lg:ml-[40px] md:ml-[20px]  ">
             <div className="rounded-lg  lg:col-span-3 items-center">
-              <h2 className="lg:mb-8 mb-5 text-lg lg:text-2xl 2xl:text-[32px] text-[#880769]">
+              <h2 className="lg:mb-8 mb-5 text-[28px] md:text-[32px] font-bold text-[#880769]">
                 Give Us Feedback{" "}
               </h2>
               <form className="">
@@ -69,14 +69,14 @@ const GiveUsFeedbackSection = () => {
                   <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-8 mb-4">
                     <div>
                       {" "}
-                      <h5 className="mb-2 text-[#880769] text-base">
+                      <h5 className="mb-2 text-[#880769] text-lg font-normal">
                         Your name *
                       </h5>
                       <label className="sr-only" htmlFor="text">
                         name
                       </label>
                       <input
-                        className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3 text-sm" // Added pr-12 class for padding-right
+                        className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3 text-sm font-normal" // Added pr-12 class for padding-right
                         placeholder="Robot Fox"
                         type="text"
                         id="text"
@@ -84,12 +84,12 @@ const GiveUsFeedbackSection = () => {
                     </div>
 
                     <div>
-                      <h5 className="mb-2 text-[#880769] text-base">Email *</h5>
+                      <h5 className="mb-2 text-[#880769] text-lg font-normal">Email *</h5>
                       <label className="sr-only" htmlFor="email">
                         Email
                       </label>
                       <input
-                        className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
+                        className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm font-normal"
                         placeholder="info.example@gmail.com"
                         type="email"
                         id="email"
@@ -100,14 +100,14 @@ const GiveUsFeedbackSection = () => {
 
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:mb-8 mb-4  ">
                   <div>
-                    <h5 className="mb-2 text-[#880769] text-base">
+                    <h5 className="mb-2 text-[#880769] text-lg font-normal">
                       Subjects *
                     </h5>
                     <label className="sr-only" htmlFor="email">
                       Subjects
                     </label>
                     <input
-                      className="w-full placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
+                      className="w-full placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm font-normal"
                       placeholder="Subjects "
                       type="text"
                       id="text"
@@ -115,14 +115,14 @@ const GiveUsFeedbackSection = () => {
                   </div>
 
                   <div>
-                    <h5 className="mb-2 text-[#880769] text-base">
+                    <h5 className="mb-2 text-[#880769] text-lg font-normal">
                       Your Phone *
                     </h5>
                     <label className="sr-only" htmlFor="phone">
                       Phone
                     </label>
                     <input
-                      className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm"
+                      className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm font-normal"
                       placeholder="+88 01764912536"
                       type="tel"
                       id="phone"
@@ -134,9 +134,9 @@ const GiveUsFeedbackSection = () => {
                   <label className="sr-only" htmlFor="message">
                     Message
                   </label>
-                  <h5 className="mb-2 text-[#880769] text-base">Message *</h5>
+                  <h5 className="mb-2 text-[#880769] text-lg font-normal">Message *</h5>
                   <textarea
-                    className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-4 lg:pr-16 pr-3  text-sm"
+                    className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-4 lg:pr-16 pr-3  text-sm font-normal"
                     placeholder="Write Message"
                     rows="6"
                     id="message"
@@ -146,7 +146,7 @@ const GiveUsFeedbackSection = () => {
                 <div className=" flex md:block xs:justify-center xs:items-center xs:mx-auto">
                   <button
                     type="submit"
-                    className="  rounded-md bg-[#FBCC21E4] px-10 py-4 md:px-20  font-semibold text-base  items-center flex lg:mt-13 mt-8 "
+                    className="rounded-md bg-[#FBCC21E4] px-10 py-4 md:px-20 text-lg font-bold  items-center flex lg:mt-13 mt-8 "
                   >
                     Submit <FaLocationArrow className=" ml-2  " />
                   </button>

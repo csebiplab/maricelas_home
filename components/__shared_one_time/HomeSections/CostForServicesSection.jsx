@@ -1,6 +1,6 @@
 import Heading from "@/components/__ui/Heading";
-import cost1 from "@/public/assets/images/cost__services1.png";
-import cost2 from "@/public/assets/images/cost__services2.png";
+import cost1 from "@/public/assets/images/cost_service1.png";
+import cost2 from "@/public/assets/images/cost_service2.png";
 import Image from "next/image";
 const CostForServicesSection = () => {
   return (
@@ -11,10 +11,10 @@ const CostForServicesSection = () => {
             <div className="flex justify-center lg:justify-normal items-center">
               <Heading text={"Cost For Services"} />
             </div>
-            <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:pb-0 pb-[20px] font-semibold mt-[15px]">
+            <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] md:pb-0 pb-[20px] font-bold mt-[15px]">
               How Much Does Commercial & Residential Cleaning Service Cost
             </h2>
-            <p className="text-base mt-2 lg:mt-[15px] lg:leading-[32px]">
+            <p className="text-base font-semibold mt-2 lg:mt-[15px] lg:leading-[32px]">
               The cost of commercial & residential cleaning services varies
               depending on various factors such as the size of the space, the
               frequency of cleaning, and the specific services required.
@@ -40,10 +40,10 @@ const CostForServicesSection = () => {
                 className="w-full"
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="text-base  md:text-[25px] font-bold py-1 md:py-2">
+                <h4 className="text-[25px] font-bold py-1 md:py-2">
                   Commercial spaces
                 </h4>
-                <p className="text-sm md:text-base font-normal md:px-1 text-[#252525] lg:leading-5">
+                <p className="text-base font-normal md:px-1 text-[#252525] lg:leading-5">
                   For commercial spaces, prices can range from $0.05 to $0.25
                   per square foot
                 </p>

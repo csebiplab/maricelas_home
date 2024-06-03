@@ -102,8 +102,8 @@ const ReviewSlider = () => {
         <div className="flex justify-center md:justify-start">
           <Heading text={"Review"} />
         </div>
-        <h2 className="md:leading-8 text-lg md:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
-          Here’s what to expect when you hire us as your Cleaning Services in
+        <h2 className="md:leading-8 text-[28px] md:text-[32px] font-bold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
+          Here's what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
       </div>

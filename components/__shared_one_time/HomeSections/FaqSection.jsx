@@ -72,7 +72,7 @@ const FaqSection = () => {
                 </div>
 
                 <div>
-                  <p className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
+                  <p className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
                     FAQ for Residential and Commercial Cleaning Services in
                     Houston
                   </p>
@@ -94,7 +94,7 @@ const FaqSection = () => {
                       <div
                         className={`text-white  border-b-0 transition-colors px-4`}
                       >
-                        <span className="text-white text-base md:text-lg leading-[122%]">
+                        <span className="text-white text-base md:text-lg font-bold leading-[122%]">
                           <b className="text-white">Q{id}</b> {question}
                         </span>
                       </div>
@@ -108,7 +108,7 @@ const FaqSection = () => {
                         />
                       </div>
                     </AccordionHeader>
-                    <AccordionBody className="px-4 text-base font-normal bg-white">
+                    <AccordionBody className="px-4 text-sm md:text-base font-normal bg-white text-black">
                       {answer}
                     </AccordionBody>
                   </Accordion>

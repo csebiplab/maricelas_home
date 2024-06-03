@@ -25,10 +25,10 @@ const CleanWithUsSection = () => {
             <div className="col-span-1 sm:block flex sm:justify-normal justify-center ">
               <Image
                 src="/assets/images/with__us.png"
-                height={480}
-                width={370}
+                height={626}
+                width={430}
                 alt="women"
-                className="w-full md:!w-[370px] !h-[475px] mb-5"
+                className="w-[430px] h-[626px] mb-5"
               />
             </div>
           </div>
@@ -38,10 +38,10 @@ const CleanWithUsSection = () => {
               <div>
                 <Heading text={"With Us"}></Heading>
               </div>
-              <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] font-semibold lg:mb-[25px] mb-[15px]">
+              <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] font-bold lg:mb-[25px] mb-[15px]">
                 Get Your Commercial & Residential Area Cleaned With Us
               </h2>
-              <p className="md:text-start text-base lg:leading-[32px] text-justify ">
+              <p className="md:text-start text-base font-normarl lg:leading-[32px] text-justify ">
                 Transform your commercial and residential spaces into pristine
                 havens with our professional cleaning services in Houston, TX.
                 Our dedicated team utilizes state-of-the-art equipment and

@@ -77,16 +77,16 @@ const slideData = [
 
 const OurWorkingProcessSection = () => {
   return (
-    <div className="bg__workingProcess container">
+    <div className="container">
       <div className="lg:py-[44px] py-8">
         <div className="text-center ">
           <div className="flex justify-center gap-[54px]">
           <Heading text={"Our Working Process"} />
           </div>
-          <h2 className="text-lg lg:text-2xl 2xl:text-[32px] font-semibold text-[#1F1F1F] mt-[15px]  md:pb-0 pb-[6px]">
+          <h2 className="text-[28px] md:text-[32px] font-bold text-[#1F1F1F] mt-[15px]  md:pb-0 pb-[6px]">
             How Does Our Cleaning Company Work?
           </h2>
-          <p className="lg:mt-[15px] mt-2 mb-4 lg:mb-[35px] text-base">
+          <p className="lg:mt-[15px] mt-2 mb-4 lg:mb-[35px] text-base font-normal">
             Certainly! Here's a breakdown of how our cleaning company operates:
           </p>
         </div>
@@ -118,10 +118,10 @@ const OurWorkingProcessSection = () => {
               className="w-full"
             />
             <div className="text-center py-3 md:px-2 px-1">
-              <h4 className="text-base py-1 md:py-2 text-white">
+              <h4 className="text-[25px] font-bold py-1 md:py-2 text-white">
                {slideInfo?.title}
               </h4>
-              <p className="text-sm md:px-1 text-white">
+              <p className="text-base font-normal md:px-1 text-white">
                 {slideInfo?.description}
               </p>
             </div>

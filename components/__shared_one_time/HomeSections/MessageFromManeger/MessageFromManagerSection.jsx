@@ -59,8 +59,8 @@ const MessageFromManagerSection = () => {
                 <div>
                   <div className="grid lg:grid-cols-11">
                     <div className="lg:col-span-7 hidden lg:block">
-                      <h2 className="text-sm md:text-base lg:text-2xl 2xl:text-[32px] font-semibold  xs:mb-0 text-[#000]">
-                        Your best option for Cleaning services
+                      <h2 className="text-center md:text-left text-[20px] md:text-2xl 3xl:text-[28px] 5xl:text-[32px] font-bold text-black  xs:mb-0">
+                        Your best option <br className="hidden 5xl:block"/> for Cleaning <br className="hidden 5xl:block"/> services
                       </h2>
                       <p className="text-base lg:leading-[200%] mt-3 lg:mt-[19px] text-dark-200">
                         Dear valued customers,

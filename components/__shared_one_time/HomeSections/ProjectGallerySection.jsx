@@ -205,7 +205,7 @@ const ProjectGallery = () => {
             <Heading text={"Project Gallery"} />
 
             <div>
-              <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] 3xl:pb-[30px] pb-[25px] text-center font-semibold ">
+              <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] 3xl:pb-[30px] pb-[25px] text-center font-bold ">
                 Maricela's Cleaning Magnificence Gallery Of Past Projects
               </h2>
             </div>

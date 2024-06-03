@@ -83,7 +83,7 @@ const ReasonWhyHireUsSection = () => {
           <Heading text="Reason why hire us" />
 
           <div>
-            <h2 className="text-lg lg:text-2xl 2xl:text-[32px]  text-[#1F1F1F] md:mb-14 xs:mb-10 mb-8 text-center">
+            <h2 className="text-[28px] md:text-[32px] font-bold text-[#1F1F1F] md:mb-14 xs:mb-10 mb-8 text-center">
               What To Consider First When You Want to Hire a Cleaning Company?
             </h2>
           </div>
@@ -117,10 +117,10 @@ const ReasonWhyHireUsSection = () => {
                       />
                     </div>
                   </div>
-                  <h5 className="mt-3 mb-1 !text-base font-bold text-center">
+                  <h5 className="mt-3 mb-1 text-[20px] font-bold text-center">
                     {title}
                   </h5>
-                  <p className="px-2 text-sm text-center">{details}</p>
+                  <p className="px-2 text-base font-normal text-center">{details}</p>
                 </div>
               </div>
             </SwiperSlide>
