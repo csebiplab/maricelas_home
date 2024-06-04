@@ -1,8 +1,8 @@
 "use client";
-import Heading from "@/src/components/__ui/Heading";
-import app1 from "@/public/assets/images/app1.png";
-import app2 from "@/public/assets/images/app2.png";
-import app3 from "@/public/assets/images/app3.png";
+
+import app1 from "../../../../../public/assets/images/app1.png";
+import app2 from "../../../../../public/assets/images/app2.png";
+import app3 from "../../../../../public/assets/images/app3.png";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import "swiper/css";
@@ -12,6 +12,7 @@ import "swiper/css/virtual";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./Approach.css";
+import Heading from "@/components/__ui/Heading";
 
 const breakpoints = {
   0: {
@@ -124,71 +125,6 @@ const DifferentApproachForWorkSection = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-
-        {/* <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:col-span-3">
-            <div className="w-full card-sd bg-white">
-              <Image
-                src={app1}
-                width={215}
-                height={203}
-                alt=""
-                className="w-full"
-              />
-              <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="lg:text-base md:text-sm  text-[12px] py-1 md:py-2">
-                  Customized Cleaning Plans
-                </h4>
-                <p className="lg:text-sm md:text-xs text-[8px] md:px-1 text-[#252525]">
-                  At our commercial & residential cleaning service in Houston,
-                  TX, we believe in tailoring our approach to meet the unique
-                  needs of each client. We don't offer a one-size-fits-all
-                  solution; instead, we work closely with our customers to
-                  understand their specific requirements and preferences.
-                </p>
-              </div>
-            </div>
-            <div className="w-full card-sd bg-white">
-              <Image
-                src={app2}
-                width={215}
-                height={203}
-                alt=""
-                className="w-full"
-              />
-              <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="lg:text-base md:text-sm py-1 md:py-2 text-[12px]">
-                  Advanced Cleaning Techniques
-                </h4>
-                <p className="lg:text-sm md:text-xs text-[8px] md:px-1 text-[#252525]">
-                  We stay ahead of the curve by utilizing the latest cleaning
-                  technologies and techniques. From eco-friendly products to
-                  advanced equipment, we ensure that our cleaning methods are
-                  not only effective but also environmentally conscious. We stay
-                  ahead of the curve by utilizing.
-                </p>
-              </div>
-            </div>
-            <div className="w-full card-sd bg-white">
-              <Image
-                src={app3}
-                width={215}
-                height={203}
-                alt=""
-                className="w-full"
-              />
-              <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="lg:text-base md:text-sm py-1 md:py-2 text-[12px]">
-                  Trained and Professional Staff
-                </h4>
-                <p className="lg:text-sm md:text-xs text-[8px] md:px-1 text-[#252525]">
-                  Our team consists of highly trained and professional cleaners
-                  who are committed to delivering exceptional service. They
-                  undergo rigorous training and adhere to strict quality
-                  standards to ensure that every job is completed to perfection.
-                </p>
-              </div>
-            </div>
-          </div> */}
       </div>
     </div>
   );

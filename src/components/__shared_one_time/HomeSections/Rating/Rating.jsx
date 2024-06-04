@@ -1,4 +1,4 @@
-import rating from "@/public/assets/icons/rating.png";
+import rating from "../../../../../public/assets/icons/rating.png";
 import Image from "next/image";
 
 const Rating = () => {

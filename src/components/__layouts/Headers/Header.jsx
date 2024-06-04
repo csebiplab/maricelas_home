@@ -1,6 +1,5 @@
 "use client";
-import { UtilsModule } from "@/src/utils/nav-menus";
-import { contacts, site_info } from "@/src/utils/siteInfo";
+
 import {
   Button,
   Drawer,
@@ -14,6 +13,8 @@ import { FaPhone } from "react-icons/fa";
 import { FcCalculator } from "react-icons/fc";
 import "./Header.css";
 import UpperNavbar from "./UpperNav";
+import { UtilsModule } from "@/utils/nav-menus";
+import { contacts, site_info } from "@/utils/siteInfo";
 
 const menu = [
   {

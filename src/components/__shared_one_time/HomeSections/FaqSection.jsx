@@ -1,7 +1,7 @@
 // import HeadingIcon from "@/app/components/ui/HeadingIcon";
 // import { headingIconText } from "@/app/utils/heading-text";
 "use client";
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import {
   Accordion,
   AccordionBody,

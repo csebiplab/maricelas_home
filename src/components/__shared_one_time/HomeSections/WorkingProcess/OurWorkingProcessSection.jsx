@@ -1,13 +1,14 @@
 "use client";
-import work1 from "@/public/assets/images/working1.png";
-import work2 from "@/public/assets/images/working2.png";
-import work3 from "@/public/assets/images/working3.png";
-import work4 from "@/public/assets/images/working4.png";
-import work5 from "@/public/assets/images/working5.png";
-import work6 from "@/public/assets/images/working6.png";
+
+import work1 from "../../../../../public/assets/images/working1.png";
+import work2 from "../../../../../public/assets/images/working2.png";
+import work3 from "../../../../../public/assets/images/working3.png";
+import work4 from "../../../../../public/assets/images/working4.png";
+import work5 from "../../../../../public/assets/images/working5.png";
+import work6 from "../../../../../public/assets/images/working6.png";
 import Image from "next/image";
 
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import "./WorkingProcess.css";
 
 import "swiper/css";

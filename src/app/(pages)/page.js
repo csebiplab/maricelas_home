@@ -1,22 +1,22 @@
-import AboutUsSection from "@/src/components/__shared_one_time/HomeSections/AboutUsSection";
-import DifferentApproachForWorkSection from "@/src/components/__shared_one_time/HomeSections/Approach/DifferentApproachForWorkSection";
-import BestServicesSection from "@/src/components/__shared_one_time/HomeSections/BestServicesSection";
-import CleanWithUsSection from "@/src/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
-import CleaningServicesSection from "@/src/components/__shared_one_time/HomeSections/CleaningServicesSection";
-import CostForServicesSection from "@/src/components/__shared_one_time/HomeSections/CostForServicesSection";
-import FaqSection from "@/src/components/__shared_one_time/HomeSections/FaqSection";
-import GiveUsFeedbackSection from "@/src/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
-import HomeBanner from "@/src/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
-import MessageFromManagerSection from "@/src/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
-import OurOtherServicesSection from "@/src/components/__shared_one_time/HomeSections/OurOtherServicesSection";
-import ProjectGallerySection from "@/src/components/__shared_one_time/HomeSections/ProjectGallerySection";
-import RatingNReveiwSection from "@/src/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
-import ReasonWhyHireUsSection from "@/src/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
-import ServicesAreaSection from "@/src/components/__shared_one_time/HomeSections/ServicesAreaSection";
-import UserReviewNRatingSection from "@/src/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
 
-import OurWorkingProcessSection from "@/src/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
-import WhyChooseUsSection from "@/src/components/__shared_one_time/WhyChooseUs/WhyChooseUsSection";
+import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
+import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
+import AboutUsSection from "@/components/__shared_one_time/HomeSections/AboutUsSection";
+import WhyChooseUsSection from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUsSection";
+import CleaningServicesSection from "@/components/__shared_one_time/HomeSections/CleaningServicesSection";
+import BestServicesSection from "@/components/__shared_one_time/HomeSections/BestServicesSection";
+import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
+import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
+import DifferentApproachForWorkSection from "@/components/__shared_one_time/HomeSections/Approach/DifferentApproachForWorkSection";
+import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
+import CostForServicesSection from "@/components/__shared_one_time/HomeSections/CostForServicesSection";
+import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
+import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
+import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
+import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
+import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
+import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
+import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
 
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
           <HomeBanner />
         </div>
         <section>
-          <RatingNReveiwSection />
+          <RatingNReviewSection />
         </section>
         <section>
           <AboutUsSection />

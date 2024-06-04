@@ -1,10 +1,10 @@
-import Header from "@/src/components/__layouts/Headers/Header";
-import RoutingProgressBar from "@/src/components/common/RoutingProgressBar";
 import { Open_Sans, Roboto_Slab } from "next/font/google";
 import { Suspense } from "react";
 import "../globals.css";
-import ScrollToTopComponent from "@/src/components/common/ScrollToTop";
-import Footer from "@/src/components/__layouts/Footers/Footer";
+import RoutingProgressBar from "@/components/common/RoutingProgressBar";
+import Header from "@/components/__layouts/Headers/Header";
+import Footer from "@/components/__layouts/Footers/Footer";
+import ScrollToTopComponent from "@/components/common/ScrollToTop";
 
 
 const roboto = Roboto_Slab({ subsets: ['latin'], display: 'swap', adjustFontFallback: false })

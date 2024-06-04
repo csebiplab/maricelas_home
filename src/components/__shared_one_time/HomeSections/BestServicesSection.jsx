@@ -1,4 +1,4 @@
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 import sectionImg from "../../../../public/assets/images/best__services.png";
 

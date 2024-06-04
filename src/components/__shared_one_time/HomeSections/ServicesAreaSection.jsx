@@ -1,6 +1,6 @@
 "use client";
 
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";

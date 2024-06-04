@@ -1,22 +1,21 @@
 "use client";
-import band1 from "@/public/assets/images/band1.png";
-import band2 from "@/public/assets/images/band2.png";
-import band3 from "@/public/assets/images/band3.png";
-import band4 from "@/public/assets/images/band4.png";
-import band5 from "@/public/assets/images/band5.png";
-import band6 from "@/public/assets/images/band6.png";
-import brand7 from "@/public/assets/images/brand7.png";
-import brand8 from "@/public/assets/images/brand8.png";
+import band1 from "../../../../../public/assets/images/band1.png";
+import band2 from "../../../../../public/assets/images/band2.png";
+import band3 from "../../../../../public/assets/images/band3.png";
+import band4 from "../../../../../public/assets/images/band4.png";
+import band5 from "../../../../../public/assets/images/band5.png";
+import band6 from "../../../../../public/assets/images/band6.png";
+import brand7 from "../../../../../public/assets/images/brand7.png";
+import brand8 from "../../../../../public/assets/images/brand8.png";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Fontin } from "@/src/app/font";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
-import { Monotype_Corsiva } from "@/src/app/font";
+import { Monotype_Corsiva } from "../../../../app/font";
 
 const breakpoints = {
   0: {

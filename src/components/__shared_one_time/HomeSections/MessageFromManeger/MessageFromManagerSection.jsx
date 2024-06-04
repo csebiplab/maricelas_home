@@ -1,5 +1,5 @@
-import author from "@/public/assets/images/author.png";
-import cleaner from "@/public/assets/images/cleaner.png";
+import author from "../../../../../public/assets/images/author.png";
+import cleaner from "../../../../../public/assets/images/cleaner.png";
 import Image from "next/image";
 import "./MessageFromManeger.css";
 
@@ -60,7 +60,8 @@ const MessageFromManagerSection = () => {
                   <div className="grid lg:grid-cols-11">
                     <div className="lg:col-span-7 hidden lg:block">
                       <h2 className="text-center md:text-left text-[20px] md:text-2xl 3xl:text-[28px] 5xl:text-[32px] font-bold text-black  xs:mb-0">
-                        Your best option <br className="hidden 5xl:block"/> for Cleaning <br className="hidden 5xl:block"/> services
+                        Your best option <br className="hidden 5xl:block" /> for
+                        Cleaning <br className="hidden 5xl:block" /> services
                       </h2>
                       <p className="text-base lg:leading-[200%] mt-3 lg:mt-[19px] text-dark-200">
                         Dear valued customers,

@@ -1,19 +1,19 @@
 "use client";
 import Link from "next/link";
 // import { usePathname } from "next/navigation";
-import gokundo from "@/public/assets/footer/Gokundu-logo(white and green) 1.png";
-import angi from "@/public/assets/footer/angi.png";
-import bark from "@/public/assets/footer/bark.png";
-import elite from "@/public/assets/footer/elite.png";
-import facebook from "@/public/assets/footer/facebook.png";
-import companyLogo from "@/public/assets/footer/logo.png";
-import review from "@/public/assets/footer/reviews.png";
-import screen from "@/public/assets/footer/screened.png";
-import rated from "@/public/assets/footer/toprated.png";
-import year from "@/public/assets/footer/year.png";
-import icon10 from "@/public/assets/random/groupon.png";
-import star from "@/public/assets/random/star.png";
-import icon9 from "@/public/assets/random/t.png";
+import gokundo from "../../../../public/assets/footer/Gokundu-logo(white and green) 1.png";
+import angi from "../../../../public/assets/footer/angi.png";
+import bark from "../../../../public/assets/footer/bark.png";
+import elite from "../../../../public/assets/footer/elite.png";
+import facebook from "../../../../public/assets/footer/facebook.png";
+import companyLogo from "../../../../public/assets/footer/logo.png";
+import review from "../../../../public/assets/footer/reviews.png";
+import screen from "../../../../public/assets/footer/screened.png";
+import rated from "../../../../public/assets/footer/toprated.png";
+import year from "../../../../public/assets/footer/year.png";
+import icon10 from "../../../../public/assets/random/groupon.png";
+import star from "../../../../public/assets/random/star.png";
+import icon9 from "../../../../public/assets/random/t.png";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 // import bgImg from "../../../../../public/assets/footer/footerbg.png";
@@ -97,7 +97,7 @@ const Footer = () => {
                   <div className="mt-4 lg:mt-[35px]">
                     <h4 className="lg:text-xl text-base">Open Hours:</h4>
                     <p className="my-1 mt-2 lg:mt-5">
-                    Mon - Fri: 07 am - 07 pm, <br/> Sunday: CLOSED
+                      Mon - Fri: 07 am - 07 pm, <br /> Sunday: CLOSED
                     </p>
                   </div>
 
@@ -265,7 +265,7 @@ const Footer = () => {
                             alt="mail"
                           />
                           <span className="box-content text-sm truncate">
-                          maricela.maldonado@maricelasmagnificence.com
+                            maricela.maldonado@maricelasmagnificence.com
                           </span>
                           {/* <span className="xs:block sm:hidden md:block lg:block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden 5xl:hidden text-xs">
                             maricela.maldonado@

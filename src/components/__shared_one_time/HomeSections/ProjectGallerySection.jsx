@@ -20,13 +20,13 @@ import GalImg13 from "../../../../public/assets/gallery/gallery10.png";
 import GalImg14 from "../../../../public/assets/gallery/gallery11.png";
 import GalImg15 from "../../../../public/assets/gallery/gallery12.png";
 
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 
 const galImgs = [GalImg1, GalImg2, GalImg3, GalImg4, GalImg5, GalImg3];
 
 const galImgs2 = [GalImg12, GalImg13, GalImg14, GalImg15, GalImg12, GalImg13];
 
-const ProjectGallery = () => {
+const ProjectGallerySection = () => {
   const [isMobileView, setIsMobileView] = useState(false);
   const [showAll, setShowAll] = useState(false);
 
@@ -182,4 +182,4 @@ const ProjectGallery = () => {
   );
 };
 
-export default ProjectGallery;
+export default ProjectGallerySection;

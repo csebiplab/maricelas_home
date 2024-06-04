@@ -1,6 +1,6 @@
 "use client";
 
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import { useState } from "react";
 import { MdArrowForwardIos } from "react-icons/md";
 import Brick from "../../../../public/assets/services/Brick.png";

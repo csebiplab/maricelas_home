@@ -1,5 +1,5 @@
 "use client";
-import vector from "@/public/assets/icons/vector.png";
+import vector from "../../../../../public/assets/icons/vector.png";
 import BrandSwiper from "./BrandSwiper";
 import Achievement from "./Achievement";
 import Rating from "./Rating";

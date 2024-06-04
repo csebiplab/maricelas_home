@@ -1,4 +1,4 @@
-import achievement from "@/public/assets/images/achievement.png";
+import achievement from "../../../../../public/assets/images/achievement.png";
 import Image from "next/image";
 
 const Achievement = () => {

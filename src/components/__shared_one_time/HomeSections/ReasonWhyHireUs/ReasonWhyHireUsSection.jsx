@@ -1,6 +1,6 @@
 "use client";
 
-import Heading from "@/src/components/__ui/Heading";
+import Heading from "@/components/__ui/Heading";
 import Image from "next/image";
 import batch from "../../../../../public/assets/benefits/batch.png";
 import jharu from "../../../../../public/assets/benefits/jharu.png";
