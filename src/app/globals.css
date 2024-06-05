@@ -29,7 +29,7 @@ section {
 }
 
 a {
-  @apply text-white underline-offset-2 hover:underline decoration-white select-none;
+  @apply text-black underline-offset-2 hover:underline decoration-primary select-none;
 }
 
 img {
