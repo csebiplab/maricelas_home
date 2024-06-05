@@ -30,6 +30,15 @@ export async function generateMetadata() {
 
     } = homeMetaData?.[0] || {};
 
+    console.log({
+      title,
+      description,
+      keywords,
+      verification: {
+        google: googleConsoleKey,
+      }
+    })
+
     return {
       title,
       description,
@@ -39,7 +48,6 @@ export async function generateMetadata() {
       }
     };
   } catch (error) {
-    console.error('Error fetching metadata:', error);
     return {
       title: "Maricela's Home",
       description: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
@@ -56,6 +64,9 @@ function extractGoogleConsoleKey(googleVerificationData) {
 
     const metaTagContent = googleVerificationData[0].title;
     const consoleKey = metaTagContent.split("=").pop().slice(1, -4);
+
+    console.log(consoleKey)
+
     return consoleKey;
 
 
