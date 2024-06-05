@@ -29,14 +29,7 @@ export async function generateMetadata() {
       keywords = "Maricela's Home",
     } = homeMetaData?.[0] || {};
 
-    console.log({
-      title,
-      description,
-      keywords,
-      verification: {
-        google: googleConsoleKey,
-      }
-    });
+
 
     return {
       title,
@@ -62,7 +55,6 @@ function extractGoogleConsoleKey(googleVerificationData) {
     const metaTagContent = googleVerificationData[0].title;
     const consoleKey = metaTagContent.split("=").pop().slice(1, -4);
 
-    console.log(consoleKey);
 
     return consoleKey;
   } catch (error) {
