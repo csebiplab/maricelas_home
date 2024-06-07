@@ -103,9 +103,9 @@ const ReasonWhyHireUsSection = () => {
           allowTouchMove={true}
         >
           {reasons?.map(({ title, img, details }, index) => (
-            <SwiperSlide key={index}>
-              <div className="w-full h-full md:w-[260px] md:h-auto">
-                <div className="bg__color py-6 flex flex-col items-center justify-center">
+            <SwiperSlide key={index} className="!h-auto !md:h-full bg__color">
+              <div className="w-full md:w-[260px]">
+                <div className="py-6 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
                     <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
                       <Image
