@@ -67,9 +67,7 @@ const MessageFromManagerSection = () => {
                         Dear valued customers,
                         <br />
                         As the General Manager of our cleaning services, I want
-                        to ensure that you receive
-                        <br />
-                        nothing but
+                        to ensure that you receive nothing but
                       </p>
                     </div>
 

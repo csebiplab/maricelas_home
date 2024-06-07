@@ -119,9 +119,24 @@ const Footer = () => {
                   </div>
 
                   <div className="flex gap-12 mt-8">
-                    <FaFacebook className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
-                    <FaInstagram className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
-                    <FaLinkedin className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    <a
+                      href="https://www.facebook.com/MaricelasMagnificence"
+                      target="_blank"
+                    >
+                      <FaFacebook className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/maricelasmagnificence?igsh=ZXdoY3lqa2MxeWd3"
+                      target="_blank"
+                    >
+                      <FaInstagram className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/maricela-maldonado-57a9a720a?trk=public_post_feed-actor-image"
+                      target="_blank"
+                    >
+                      <FaLinkedin className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    </a>
                   </div>
                 </div>
 
