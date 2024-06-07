@@ -193,7 +193,7 @@ const OurOtherServicesSection = () => {
                 onChange={handleCheckboxChange}
               />
               <span
-                className={`flex items-center border pr-5  lg:px-32 rounded-3xl lg:py-4 py-2 text-base font-bold ${
+                className={`flex items-center border pr-5  lg:px-32 rounded-3xl lg:py-4 py-2 text-sm md:text-base md:font-bold ${
                   !isChecked ? "text-white bg-primary-50 " : "text-body-color"
                 }`}
               >
@@ -213,7 +213,7 @@ const OurOtherServicesSection = () => {
                 Commercial Cleaning
               </span>
               <span
-                className={`flex items-center pr-5 lg:px-32 rounded-3xl lg:py-4 py-2 text-base font-bold ${
+                className={`flex items-center pr-5 lg:px-32 rounded-3xl lg:py-4 py-2 text-sm md:text-base md:font-bold ${
                   isChecked ? "text-white bg-[#C477B1] " : "text-body-color"
                 }`}
               >
