@@ -98,6 +98,24 @@ const Footer = () => {
                     <p className="my-1 mt-2 lg:mt-5">
                       Mon - Fri: 07 am - 07 pm, <br /> Sunday: CLOSED
                     </p>
+
+                    <>
+                      <a
+                        href="mailto:maricela.maldonado@maricelasmagnificence.com"
+                        className="footer-link items-center text-white max-w-full"
+                      >
+                        <Image
+                          src="/assets/icons/email.png"
+                          width={21}
+                          height={21}
+                          className="w-[21 px] h-[21px]"
+                          alt="mail"
+                        />
+                        <span className="text-sm">
+                          maricela.maldonado@maricelasmagnificence.com
+                        </span>
+                      </a>
+                    </>
                   </div>
 
                   <div className="flex gap-12 mt-8">
@@ -252,7 +270,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="mailto:rhconusa@gmail.com"
+                          href="mailto:maricela.maldonado@maricelasmagnificence.com"
                           className="footer-link items-center text-white max-w-full"
                         >
                           <Image
