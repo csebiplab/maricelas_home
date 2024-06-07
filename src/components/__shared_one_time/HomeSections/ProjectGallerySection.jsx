@@ -115,7 +115,7 @@ const ProjectGallerySection = () => {
                 stopOnLastSlide: false,
               }}
               speed={4000}
-              allowTouchMove={false}
+              allowTouchMove={true}
               breakpoints={{
                 768: {
                   slidesPerView: 3,
@@ -151,7 +151,7 @@ const ProjectGallerySection = () => {
                 reverseDirection: false,
               }}
               speed={4000}
-              allowTouchMove={false}
+              allowTouchMove={true}
               breakpoints={{
                 768: {
                   slidesPerView: 3,

@@ -207,7 +207,7 @@ const OurOtherServicesSection = () => {
                   stopOnLastSlide: false,
                 }}
                 speed={3000}
-                allowTouchMove={false}
+                allowTouchMove={true}
                 className="!px-5 md:px-0 !overflow-visible"
               >
                 {services.map((service, index) => (

@@ -99,7 +99,7 @@ const DifferentApproachForWorkSection = () => {
             stopOnLastSlide: false,
           }}
           speed={3000}
-          allowTouchMove={false}
+          allowTouchMove={true}
           breakpoints={breakpoints}
           spaceBetween={20}
         >

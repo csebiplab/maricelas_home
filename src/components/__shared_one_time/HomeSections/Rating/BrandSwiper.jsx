@@ -46,7 +46,7 @@ const BrandSwiper = () => {
           stopOnLastSlide: false,
         }}
         speed={3000}
-        allowTouchMove={false}
+        allowTouchMove={true}
         // scrollbar={{ draggable: false }}
         breakpoints={breakpoints}
         className=""

@@ -130,7 +130,7 @@ const ServicesAreaSection = () => {
                     stopOnLastSlide: false,
                   }}
                   speed={3000}
-                  allowTouchMove={false}
+                  allowTouchMove={true}
                   breakpoints={breakpoints}
                   spaceBetween={42}
                 >

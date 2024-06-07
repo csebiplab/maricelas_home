@@ -121,7 +121,7 @@ const ReviewSlider = () => {
           stopOnLastSlide: false,
         }}
         speed={3000}
-        allowTouchMove={false}
+        allowTouchMove={true}
       >
         {reviews.map(({ address, author, reviewText }, i) => (
           <SwiperSlide

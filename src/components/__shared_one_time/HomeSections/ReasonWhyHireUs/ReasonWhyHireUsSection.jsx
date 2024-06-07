@@ -100,7 +100,7 @@ const ReasonWhyHireUsSection = () => {
             stopOnLastSlide: false,
           }}
           speed={3000}
-          allowTouchMove={false}
+          allowTouchMove={true}
         >
           {reasons?.map(({ title, img, details }, index) => (
             <SwiperSlide key={index}>
