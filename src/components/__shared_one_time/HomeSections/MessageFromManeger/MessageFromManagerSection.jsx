@@ -67,7 +67,9 @@ const MessageFromManagerSection = () => {
                         Dear valued customers,
                         <br />
                         As the General Manager of our cleaning services, I want
-                        to ensure that you receive nothing but
+                        to ensure that you receive nothing but the best
+                        experience when it comes to maintaining the cleanliness
+                        and hygiene of your spaces.
                       </p>
                     </div>
 
@@ -134,12 +136,11 @@ const MessageFromManagerSection = () => {
                   </div>
 
                   <p className="text-base lg:leading-[38px] hidden lg:block">
-                    the best experience when it comes to maintaining the
-                    cleanliness and hygiene of your spaces. At our company, we
-                    take great pride in our commitment to excellence and
-                    customer satisfaction. With years of industry expertise and
-                    a dedicated team of professionals, we guarantee top-notch
-                    cleaning services tailored to meet your specific need.
+                    At our company, we take great pride in our commitment to
+                    excellence and customer satisfaction. With years of industry
+                    expertise and a dedicated team of professionals, we
+                    guarantee top-notch cleaning services tailored to meet your
+                    specific need.
                   </p>
                 </div>
               </div>
