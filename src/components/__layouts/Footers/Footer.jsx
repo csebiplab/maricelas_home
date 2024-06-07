@@ -25,7 +25,6 @@ import {
   FaLinkedin,
   FaMapMarkedAlt,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import "./footer.css";
 
 const footerIcon = [
@@ -101,9 +100,8 @@ const Footer = () => {
                     </p>
                   </div>
 
-                  <div className=" flex gap-8 mt-8">
+                  <div className="flex gap-12 mt-8">
                     <FaFacebook className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
-                    <FaXTwitter className=" lg:w-[30px]  lg:h-280px] w-auto h-auto" />
                     <FaInstagram className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
                     <FaLinkedin className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
                   </div>
@@ -240,7 +238,7 @@ const Footer = () => {
                           className="footer-link flex gap-4 items-center text-base text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
-                          13809 Hollow Canyon Lane Rosharon, TX 77583
+                          Houston,Texas
                         </a>
                       </li>
                       <li className="py-2 lg:py-4">
@@ -255,7 +253,7 @@ const Footer = () => {
                       <li>
                         <a
                           href="mailto:rhconusa@gmail.com"
-                          className="footer-link items-center text-white"
+                          className="footer-link items-center text-white max-w-full"
                         >
                           <Image
                             src="/assets/icons/email.png"
@@ -264,24 +262,19 @@ const Footer = () => {
                             className="w-[21 px] h-[21px]"
                             alt="mail"
                           />
-                          <span className="box-content text-sm truncate">
+                          <span className="text-sm line-clamp-1">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          {/* <span className="xs:block sm:hidden md:block lg:block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden 5xl:hidden text-xs">
-                            maricela.maldonado@
-                            <br />
-                            maricelasmagnificence.com
-                          </span> */}
                         </a>
                       </li>
                       <div>
                         <div className="">
-                          <div className="grid grid-cols-5 justify-center items-center gap-4 lg:gap-5 2xl:gap-10 my-6 lg:mb-10">
+                          <div className="grid grid-cols-5 justify-center items-center gap-2 lg:gap-3 2xl:gap-4 my-6 lg:mb-5">
                             {footerIcon.map((fIcon, i) => (
                               <div key={i} className="col-span-1">
                                 <img
                                   src={fIcon.img.src}
-                                  className="lg:h-auto lg:w-auto "
+                                  className="h-full w-[50px]"
                                 />
                               </div>
                             ))}
@@ -316,7 +309,7 @@ const Footer = () => {
                     <div>
                       <p>
                         {" "}
-                        © All Copyright 2024 by Maricela's Cleaning Magnificence
+                        © All Copyright 2024 by Maricela's Cleaning Magnificence
                       </p>
                     </div>
                     <div className="flex gap-5 justify-center items-center text-center">
@@ -355,7 +348,7 @@ const Footer = () => {
           </div>
           <div className=" lg:col-span-3 lg:block hidden ">
             <p className=" 2xl:text-[16px] lg:text-[14px] text-[12px]  text-white">
-              © All Copyright 2024 by Maricela's Cleaning Magnificence
+              © All Copyright 2024 by Maricela's Cleaning Magnificence
             </p>
           </div>
           <div className=" lg:col-span-2  lg:block hidden">
