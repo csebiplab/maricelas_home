@@ -25,7 +25,6 @@ import {
   FaLinkedin,
   FaMapMarkedAlt,
 } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import "./footer.css";
 
 const footerIcon = [
@@ -95,17 +94,93 @@ const Footer = () => {
                   </div>
 
                   <div className="mt-4 lg:mt-[35px]">
-                    <h4 className="lg:text-xl text-base">Open Hours:</h4>
+                    {/* <h4 className="lg:text-xl text-base">Open Hours:</h4>
                     <p className="my-1 mt-2 lg:mt-5">
                       Mon - Fri: 07 am - 07 pm, <br /> Sunday: CLOSED
-                    </p>
+                    </p> */}
+
+                    <div className=" sm:col-span-3  items-center">
+                      <h3 className="font-semibold text-white lg:text-xl text-lg lg:mb-7 md:mb-5 mb-3">
+                        Contact Us
+                      </h3>
+                      <ul className=" ">
+                        <li>
+                          <a
+                            href="/"
+                            className="footer-link flex gap-4 items-center text-base text-white"
+                          >
+                            <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
+                            Houston,Texas
+                          </a>
+                        </li>
+                        <li className="py-2 lg:py-4">
+                          <a
+                            href="tel:(832)8204035"
+                            className="footer-link items-center text-base text-white"
+                          >
+                            <FaPhoneVolume className=" lg:h-7 lg:w-7 h-4 w-4" />{" "}
+                            (832) 820-4035
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="mailto:maricela.maldonado@maricelasmagnificence.com"
+                            className="footer-link items-center text-white max-w-full"
+                          >
+                            <Image
+                              src="/assets/icons/email.png"
+                              width={21}
+                              height={21}
+                              className="w-[21 px] h-[21px]"
+                              alt="mail"
+                            />
+                            {/* <span className="text-sm line-clamp-1"> */}
+                            <span className="text-base">
+                              maricela.maldonado@maricelasmagnificence.com
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* <>
+                      <a
+                        href="mailto:maricela.maldonado@maricelasmagnificence.com"
+                        className="footer-link items-center text-white max-w-full"
+                      >
+                        <Image
+                          src="/assets/icons/email.png"
+                          width={21}
+                          height={21}
+                          className="w-[21 px] h-[21px]"
+                          alt="mail"
+                        />
+                        <span className="text-sm">
+                          maricela.maldonado@maricelasmagnificence.com
+                        </span>
+                      </a>
+                    </> */}
                   </div>
 
-                  <div className=" flex gap-8 mt-8">
-                    <FaFacebook className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
-                    <FaXTwitter className=" lg:w-[30px]  lg:h-280px] w-auto h-auto" />
-                    <FaInstagram className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
-                    <FaLinkedin className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                  <div className="flex gap-12 mt-8">
+                    <a
+                      href="https://www.facebook.com/MaricelasMagnificence"
+                      target="_blank"
+                    >
+                      <FaFacebook className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/maricelasmagnificence?igsh=ZXdoY3lqa2MxeWd3"
+                      target="_blank"
+                    >
+                      <FaInstagram className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/maricela-maldonado-57a9a720a?trk=public_post_feed-actor-image"
+                      target="_blank"
+                    >
+                      <FaLinkedin className=" lg:w-[30px] lg:h-[28px] w-auto h-auto" />
+                    </a>
                   </div>
                 </div>
 
@@ -229,8 +304,8 @@ const Footer = () => {
                   </div>
 
                   {/* contact line  */}
-                  <div className=" sm:col-span-3  items-center">
-                    <h3 className="font-semibold text-white lg:text-xl text-lg lg:mb-7 md:mb-5 mb-3">
+                  <div className="sm:col-span-3  items-center">
+                    {/* <h3 className="font-semibold text-white lg:text-xl text-lg lg:mb-7 md:mb-5 mb-3">
                       Contact Us
                     </h3>
                     <ul className=" ">
@@ -240,7 +315,7 @@ const Footer = () => {
                           className="footer-link flex gap-4 items-center text-base text-white"
                         >
                           <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
-                          13809 Hollow Canyon Lane Rosharon, TX 77583
+                          Houston,Texas
                         </a>
                       </li>
                       <li className="py-2 lg:py-4">
@@ -254,8 +329,8 @@ const Footer = () => {
                       </li>
                       <li>
                         <a
-                          href="mailto:rhconusa@gmail.com"
-                          className="footer-link items-center text-white"
+                          href="mailto:maricela.maldonado@maricelasmagnificence.com"
+                          className="footer-link items-center text-white max-w-full"
                         >
                           <Image
                             src="/assets/icons/email.png"
@@ -264,49 +339,35 @@ const Footer = () => {
                             className="w-[21 px] h-[21px]"
                             alt="mail"
                           />
-                          <span className="box-content text-sm truncate">
+                          <span className="text-sm line-clamp-1">
                             maricela.maldonado@maricelasmagnificence.com
                           </span>
-                          {/* <span className="xs:block sm:hidden md:block lg:block xl:hidden 2xl:hidden 3xl:hidden 4xl:hidden 5xl:hidden text-xs">
-                            maricela.maldonado@
-                            <br />
-                            maricelasmagnificence.com
-                          </span> */}
                         </a>
                       </li>
-                      <div>
-                        <div className="">
-                          <div className="grid grid-cols-5 justify-center items-center gap-4 lg:gap-5 2xl:gap-10 my-6 lg:mb-10">
-                            {footerIcon.map((fIcon, i) => (
-                              <div key={i} className="col-span-1">
-                                <img
-                                  src={fIcon.img.src}
-                                  className="lg:h-auto lg:w-auto "
-                                />
-                              </div>
-                            ))}
-                          </div>
+                      
+                    </ul>
+                     */}
+                    <h4 className="lg:text-xl text-base">Open Hours:</h4>
+                    <p className="my-1 mt-2 lg:mt-5">
+                      Mon - Fri: 07 am - 07 pm, <br /> Sunday: CLOSED
+                    </p>
+
+                    <div>
+                      <div className="">
+                        <div className="grid grid-cols-5 justify-center items-center gap-2 lg:gap-3 2xl:gap-4 my-6 lg:mb-5">
+                          {footerIcon.map((fIcon, i) => (
+                            <div key={i} className="col-span-1">
+                              <img
+                                src={fIcon.img.src}
+                                className="h-full w-[50px]"
+                              />
+                            </div>
+                          ))}
                         </div>
                       </div>
-                    </ul>
-                  </div>
-                </div>
-
-                {/* This section show when screen sm or xs */}
-                {/* <div className="">
-                  <div>
-                    <div className="gap-5 flex justify-between items-center mb-8 ">
-                      {footerIcon.map((fIcon, i) => (
-                        <div key={i} className=" ">
-                          <img
-                            src={fIcon.img.src}
-                            className="h-auto w-full"
-                          ></img>
-                        </div>
-                      ))}
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
 
               {/* terms */}
@@ -316,7 +377,7 @@ const Footer = () => {
                     <div>
                       <p>
                         {" "}
-                        © All Copyright 2024 by Maricela's Cleaning Magnificence
+                        © All Copyright 2024 by Maricela's Cleaning Magnificence
                       </p>
                     </div>
                     <div className="flex gap-5 justify-center items-center text-center">
@@ -336,10 +397,10 @@ const Footer = () => {
       </div>
 
       {/* creater company credit */}
-      <div className=" footer-bottom-bg    ">
+      <div className="footer-bottom-bg    ">
         <div className="container grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
-          <div className=" lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
-            <p className=" lg:text-[16px] md:text-sm text-[8px]  ">
+          <div className="lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
+            <p className="lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}
               <b className="text-white text-sm">
                 WEBSITE DESIGN AND SEO BY :-
@@ -350,18 +411,18 @@ const Footer = () => {
               alt="gokundo"
               width={150}
               height={30}
-              className=" ml-2 "
+              className="ml-2 "
             />
           </div>
-          <div className=" lg:col-span-3 lg:block hidden ">
-            <p className=" 2xl:text-[16px] lg:text-[14px] text-[12px]  text-white">
-              © All Copyright 2024 by Maricela's Cleaning Magnificence
+          <div className="lg:col-span-3 lg:block hidden">
+            <p className="2xl:text-[16px] lg:text-[14px] text-[12px] text-white">
+              © All Copyright 2024 by Maricela's Cleaning Magnificence
             </p>
           </div>
-          <div className=" lg:col-span-2  lg:block hidden">
-            <ul className=" lg:text-[16px] text-xs  flex justify-evenly  ">
-              <li className="text-white  "> Terms & Condition </li>
-              <li className="text-white  "> Privacy Policy </li>
+          <div className="lg:col-span-2 lg:block hidden">
+            <ul className="lg:text-[16px] text-xs flex justify-evenly  ">
+              <li className="text-white">Terms & Condition </li>
+              <li className="text-white">Privacy Policy </li>
             </ul>
           </div>
         </div>

@@ -100,30 +100,28 @@ const ReasonWhyHireUsSection = () => {
             stopOnLastSlide: false,
           }}
           speed={3000}
-          allowTouchMove={false}
+          allowTouchMove={true}
         >
           {reasons?.map(({ title, img, details }, index) => (
-            <SwiperSlide key={index}>
-              <div className="w-full h-full md:w-[260px] md:h-auto">
-                <div className="bg__color py-6 flex flex-col items-center justify-center">
-                  <div className="flex justify-center">
-                    <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
-                      <Image
-                        src={img}
-                        alt="Icon"
-                        width={40}
-                        height={40}
-                        className="w-10 h-10"
-                      />
-                    </div>
+            <SwiperSlide key={index} className="!h-auto !md:h-full">
+              <div className="w-full md:w-full !h-auto !md:h-full bg__color py-6 px-1 flex flex-col items-center justify-center">
+                <div className="flex justify-center">
+                  <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
+                    <Image
+                      src={img}
+                      alt="Icon"
+                      width={40}
+                      height={40}
+                      className="w-10 h-10"
+                    />
                   </div>
-                  <h5 className="mt-3 mb-1 text-[20px] font-bold text-center">
-                    {title}
-                  </h5>
-                  <p className="px-2 text-base font-normal text-center">
-                    {details}
-                  </p>
                 </div>
+                <h5 className="mt-3 mb-1 text-[20px] font-bold text-center">
+                  {title}
+                </h5>
+                <p className="px-2 text-base font-normal text-center">
+                  {details}
+                </p>
               </div>
             </SwiperSlide>
           ))}

@@ -1,11 +1,11 @@
 "use client";
 
-import work1 from "../../../../../public/assets/images/working1.png";
-import work2 from "../../../../../public/assets/images/working2.png";
-import work3 from "../../../../../public/assets/images/working3.png";
-import work4 from "../../../../../public/assets/images/working4.png";
-import work5 from "../../../../../public/assets/images/working5.png";
-import work6 from "../../../../../public/assets/images/working6.png";
+import work1 from "../../../../../public/assets/images/scheduling-w1.png";
+import work2 from "../../../../../public/assets/images/ic-w2.png";
+import work3 from "../../../../../public/assets/images/prep-w3.png";
+import work4 from "../../../../../public/assets/images/exc-w4.png";
+import work5 from "../../../../../public/assets/images/qa-w5.png";
+import work6 from "../../../../../public/assets/images/cf-w6.png";
 import Image from "next/image";
 
 import Heading from "@/components/__ui/Heading";
@@ -34,10 +34,10 @@ const breakpoints = {
 const slideData = [
   {
     imgSrc: work1,
-    title: "Client Feedback",
-    description: `After completing the cleaning service, we welcome feedback from
-    our clients. We encourage them to share their thoughts and any
-    areas.`,
+    title: "Scheduling",
+    description: `Once the client approves the proposal, we work with them to
+    schedule the cleaning appointment at a time that is convenient
+    for them.`,
   },
   {
     imgSrc: work2,
@@ -47,29 +47,29 @@ const slideData = [
   },
   {
     imgSrc: work3,
-    title: "Scheduling",
-    description: `Once the client approves the proposal, we work with them to
-    schedule the cleaning appointment at a time that is convenient
-    for them.`,
-  },
-  {
-    imgSrc: work4,
     title: "Preparation",
     description: `Before the scheduled cleaning date, our team prepares all the
     necessary equipment, supplies, and tools needed for the job.`,
   },
   {
-    imgSrc: work5,
-    title: " Execution",
+    imgSrc: work4,
+    title: "Execution",
     description: `On the day of the cleaning appointment, our trained and
     experienced cleaning professionals arrive at the client's
     location promptly.`,
   },
   {
-    imgSrc: work6,
+    imgSrc: work5,
     title: "Quality Assurance",
     description: `Throughout the cleaning process, we maintain a high standard of
     quality and attention to detail.`,
+  },
+  {
+    imgSrc: work6,
+    title: "Client Feedback",
+    description: `After completing the cleaning service, we welcome feedback from
+    our clients. We encourage them to share their thoughts and any
+    areas.`,
   },
 ];
 
@@ -100,19 +100,22 @@ const OurWorkingProcessSection = () => {
             stopOnLastSlide: false,
           }}
           speed={3000}
-          allowTouchMove={false}
+          allowTouchMove={true}
           breakpoints={breakpoints}
           spaceBetween={12}
         >
           {slideData.map((slideInfo, index) => (
-            <SwiperSlide key={index} className={`px-[30px] md:px-0`}>
-              <div className="w-full card-sd bg-primary h-auto">
+            <SwiperSlide
+              key={index}
+              className={`px-[30px] md:px-0 !h-auto !md:h-full`}
+            >
+              <div className="w-full h-full card-sd bg-primary">
                 <Image
                   src={slideInfo?.imgSrc}
                   width={605}
                   height={190}
                   alt="sliderImage"
-                  className="w-full"
+                  className="w-full h-full xl:w-[605px] xl:h-[190px]"
                 />
                 <div className="text-center py-3 md:px-2 px-1">
                   <h4 className="text-[25px] font-bold py-1 md:py-2 text-white">

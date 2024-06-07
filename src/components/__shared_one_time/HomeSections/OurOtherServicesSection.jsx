@@ -3,19 +3,28 @@
 import Heading from "@/components/__ui/Heading";
 import { useState } from "react";
 import { MdArrowForwardIos } from "react-icons/md";
-import Brick from "../../../../public/assets/services/Brick.png";
-import Brown from "../../../../public/assets/services/Brown.png";
-import Kitchen from "../../../../public/assets/services/Kitchen.png";
+
 import Painting from "../../../../public/assets/services/Painting.png";
-import Plastering from "../../../../public/assets/services/Plastering.png";
+import Kitchen from "../../../../public/assets/services/Kitchen.png";
 import Plumbing from "../../../../public/assets/services/Plumbing.png";
-import Power from "../../../../public/assets/services/Power.png";
+import Plastering from "../../../../public/assets/services/Plastering.png";
 import Sheetrock from "../../../../public/assets/services/Sheetrock.png";
 import bathroom from "../../../../public/assets/services/bithrom.png";
-import Roofing from "../../../../public/assets/services/roofing.png";
-import Water from "../../../../public/assets/services/water.png";
-import Image from "next/image";
+import classroom from "../../../../public/assets/services/classroom.png";
+import vacation from "../../../../public/assets/services/vacation.png";
+import hospital from "../../../../public/assets/services/hospital.png";
+import financial from "../../../../public/assets/services/financial.png";
 
+import pdc from "../../../../public/assets/services/pdc.png";
+import maidservice from "../../../../public/assets/services/maidservice.png";
+import apc from "../../../../public/assets/services/apc.png";
+import cc from "../../../../public/assets/services/cc.png";
+import fhc from "../../../../public/assets/services/fhc.png";
+import mvinout from "../../../../public/assets/services/mvinout.png";
+import sc from "../../../../public/assets/services/sc.png";
+import apec from "../../../../public/assets/services/apec.png";
+
+import Image from "next/image";
 import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -74,34 +83,59 @@ const services = [
     img: Kitchen,
   },
   {
-    title: " Medical offices cleaning",
+    title: "Medical offices cleaning",
     img: Painting,
+  },
+  {
+    title: "Classrooms cleaning",
+    img: classroom,
+  },
+  {
+    title: "Vacation rentals cleaning",
+    img: vacation,
+  },
+  {
+    title: "Hospitals/Clinics cleaning",
+    img: hospital,
+  },
+  {
+    title: "Financial institutions cleaning",
+    img: financial,
   },
 ];
+
 const services2 = [
   {
-    title: "Roofing",
-    img: Roofing,
+    title: "Professional deep cleaning",
+    img: pdc,
   },
   {
-    title: "Pointing",
-    img: Painting,
+    title: "Maid services",
+    img: maidservice,
   },
   {
-    title: "Water Proofing",
-    img: Water,
+    title: "Apartment cleaning",
+    img: apc,
   },
   {
-    title: "Brown Stone Repair",
-    img: Brown,
+    title: "Condos cleaning",
+    img: cc,
   },
   {
-    title: "Brick Works",
-    img: Brick,
+    title: "Family homes cleaning",
+    img: fhc,
   },
   {
-    title: " Power Wash",
-    img: Power,
+    title: "Moving in/out of cleaning",
+    img: mvinout,
+  },
+  {
+    title: "Spring cleaning",
+    img: sc,
+  },
+  {
+    title: "After parties/events cleaning",
+    img: apec,
   },
 ];
 
@@ -207,7 +241,7 @@ const OurOtherServicesSection = () => {
                   stopOnLastSlide: false,
                 }}
                 speed={3000}
-                allowTouchMove={false}
+                allowTouchMove={true}
                 className="!px-5 md:px-0 !overflow-visible"
               >
                 {services.map((service, index) => (
@@ -237,31 +271,44 @@ const OurOtherServicesSection = () => {
             )}
 
             {isChecked && (
-              <div className="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 grid-cols-1   gap-5 gap-y-8">
+              <Swiper
+                modules={[Navigation, Autoplay]}
+                breakpoints={breakpoints}
+                loop={true}
+                autoplay={{
+                  delay: 3000,
+                  pauseOnMouseEnter: false,
+                  disableOnInteraction: false,
+                  stopOnLastSlide: false,
+                }}
+                speed={3000}
+                allowTouchMove={true}
+                className="!px-5 md:px-0 !overflow-visible"
+              >
                 {services2.map((service, index) => (
-                  <div
+                  <SwiperSlide
                     key={index}
-                    className="col-span-1 border-4 rounded border-primary-50 bg-white"
+                    className="bg-white border-4 rounded border-primary-50 !h-auto !md:h-full px-2 py-6 md:py-0"
                   >
-                    <div className="mx-auto rounded-lg relative">
-                      <div className=" py-7 ">
+                    <div className="mx-auto relative px-2">
+                      <div className="">
                         <p className="mt-4 py-5 mx-auto text-center font-bold text-base">
                           {service.title}{" "}
                         </p>
                       </div>
-                      <div className="absolute  top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                      <div className="absolute -top-10 md:-top-6 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                         <Image
                           src={service.img}
-                          height={80}
-                          width={80}
-                          className="lg:w-20 lg:h-20 w-14 h-14 bg-white rounded-full  border-primary-50"
+                          height={70}
+                          width={70}
+                          className="w-14 h-14 lg:w-16 lg:h-16 rounded-full border-primary-50"
                           alt="Profile"
                         />
                       </div>
                     </div>
-                  </div>
+                  </SwiperSlide>
                 ))}
-              </div>
+              </Swiper>
             )}
           </div>
         </div>

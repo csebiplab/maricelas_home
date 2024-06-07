@@ -63,13 +63,13 @@ const MessageFromManagerSection = () => {
                         Your best option <br className="hidden 5xl:block" /> for
                         Cleaning <br className="hidden 5xl:block" /> services
                       </h2>
-                      <p className="text-base lg:leading-[200%] mt-3 lg:mt-[19px] text-dark-200">
+                      <p className="text-base lg:leading-[200%] mt-3 lg:mt-[39px] text-dark-200">
                         Dear valued customers,
                         <br />
                         As the General Manager of our cleaning services, I want
-                        to ensure that you receive
-                        <br />
-                        nothing but
+                        to ensure that you receive nothing but the best
+                        experience when it comes to maintaining the cleanliness
+                        and hygiene of your spaces.
                       </p>
                     </div>
 
@@ -87,6 +87,7 @@ const MessageFromManagerSection = () => {
                               />
                             </div>
                           </div>
+                          {/* For small screen starts */}
                           <div className="block lg:hidden">
                             <h2 className="text-lg lg:text-2xl 2xl:text-[32px] mt-2 font-semibold text-[#1F1F1F]">
                               Your best option for Cleaning services
@@ -105,25 +106,26 @@ const MessageFromManagerSection = () => {
                             </p>
                             <div className="flex gap-x-3 items-center mt-3">
                               <div className="unknown__style" />
-                              <div className="text-sm text-center">
-                                <author className="font-bold">
+                              <div className="text-xs">
+                                <author className="font-medium text-xs">
                                   Maricela Maldonado
                                 </author>
-                                <span className="block mt-2">
+                                <span className="block mt-2 text-xs">
                                   General Manager
                                 </span>
                               </div>
                             </div>
                           </div>
+                          {/* For small screen ends */}
                         </div>
-                        <div className="hidden lg:block ml-4 text-center mt-2">
-                          <div className="flex gap-x-3 items-center">
+                        <div className="hidden lg:block ml-4 mt-2">
+                          <div className="flex gap-x-1 items-center">
                             <div className="unknown__style !h-[100px]" />
-                            <div className="text-sm text-center">
-                              <author className="font-bold py-1 lg:text-base text-sm">
+                            <div className="">
+                              <author className="font-bold py-1 text-[13px]">
                                 Maricela Maldonado
                               </author>
-                              <span className="block mt-2 lg:text-base text-xs">
+                              <span className="block mt-2 lg:text-sm text-xs">
                                 General Manager
                               </span>
                             </div>
@@ -133,13 +135,12 @@ const MessageFromManagerSection = () => {
                     </div>
                   </div>
 
-                  <p className="text-base lg:leading-[38px] mt-1 hidden lg:block">
-                    the best experience when it comes to maintaining the
-                    cleanliness and hygiene of your spaces. At our company, we
-                    take great pride in our commitment to excellence and
-                    customer satisfaction. With years of industry expertise and
-                    a dedicated team of professionals, we guarantee top-notch
-                    cleaning services tailored to meet your specific need.
+                  <p className="text-base lg:leading-[38px] hidden lg:block">
+                    At our company, we take great pride in our commitment to
+                    excellence and customer satisfaction. With years of industry
+                    expertise and a dedicated team of professionals, we
+                    guarantee top-notch cleaning services tailored to meet your
+                    specific need.
                   </p>
                 </div>
               </div>

@@ -23,10 +23,7 @@ const GiveUsFeedbackSection = () => {
                 </h2>
                 <div className=" flex gap-1 md:gap-2 items-start md:items-center text-center text-sm md:text-base font-normal lg:py-8 py-5 md:justify-start justify-center ">
                   <FaMapLocationDot className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <p className="text-white">
-                    {" "}
-                    13809 Hollow Canyon Lane Rosharon, TX 77583{" "}
-                  </p>
+                  <p className="text-white">Houston,Texas</p>
                 </div>
 
                 <a
@@ -128,7 +125,7 @@ const GiveUsFeedbackSection = () => {
                     </label>
                     <input
                       className="w-full  placeholder-primary rounded-lg bg-[#C477B126] shadow-sm shadow-black p-3 lg:pr-16 pr-3  text-sm font-normal"
-                      placeholder="+88 01764912536"
+                      placeholder="832 820-4035"
                       type="tel"
                       id="phone"
                     />
