@@ -1,8 +1,11 @@
 "use client";
 
-import app1 from "../../../../../public/assets/images/app1.png";
-import app2 from "../../../../../public/assets/images/app2.png";
-import app3 from "../../../../../public/assets/images/app3.png";
+import app1 from "../../../../../public/assets/da/da1.png";
+import app2 from "../../../../../public/assets/da/da2.png";
+import app4 from "../../../../../public/assets/da/da4.png";
+import app5 from "../../../../../public/assets/da/da5.png";
+import app6 from "../../../../../public/assets/da/da6.png";
+import app7 from "../../../../../public/assets/da/da7.png";
 import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import "swiper/css";
@@ -38,24 +41,25 @@ const slideData = [
     description: `We stay ahead of the curve by utilizing the latest cleaning technologies and techniques. From eco-friendly products to advanced equipment, we ensure that our cleaning methods are not only effective but also environmentally conscious. We stay ahead of the curve by utilizing.`,
   },
   {
-    imgSrc: app3,
+    imgSrc: app4,
     title: "Trained and Professional Staff",
     description: `Our team consists of highly trained and professional cleaners who are committed to delivering exceptional service. They undergo rigorous training and adhere to strict quality standards to ensure that every job is completed to perfection.`,
   },
   {
-    imgSrc: app1,
-    title: "Customized Cleaning Plans",
-    description: `At our commercial & residential cleaning service in Houston, TX, we believe in tailoring our approach to meet the unique needs of each client. We don't offer a one-size-fits-all solution; instead, we work closely with our customers to understand their specific requirements and preferences.`,
+    imgSrc: app5,
+    title: "Transparent Communication",
+    description: `
+    We prioritize clear and transparent communication with our clients. From initial consultations to ongoing updates, we keep our clients informed every step of the way, ensuring that their expectations are always met.`,
   },
   {
-    imgSrc: app2,
-    title: "Advanced Cleaning Techniques",
-    description: `We stay ahead of the curve by utilizing the latest cleaning technologies and techniques. From eco-friendly products to advanced equipment, we ensure that our cleaning methods are not only effective but also environmentally conscious. We stay ahead of the curve by utilizing.`,
+    imgSrc: app6,
+    title: "Flexible Scheduling",
+    description: `Recognizing that our clients have busy lives, we offer flexible scheduling options to accommodate their needs. Whether it's a one-time deep clean or regularly scheduled maintenance, we work around our client's schedules to provide convenience and peace of mind.`,
   },
   {
-    imgSrc: app3,
-    title: "Trained and Professional Staff",
-    description: `Our team consists of highly trained and professional cleaners who are committed to delivering exceptional service. They undergo rigorous training and adhere to strict quality standards to ensure that every job is completed to perfection.`,
+    imgSrc: app7,
+    title: "Commitment to Excellence",
+    description: `We strive for perfection in everything we do, and we're not satisfied until our clients are thrilled with the results.`,
   },
 ];
 
