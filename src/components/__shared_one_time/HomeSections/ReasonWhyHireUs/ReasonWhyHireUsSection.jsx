@@ -104,7 +104,7 @@ const ReasonWhyHireUsSection = () => {
         >
           {reasons?.map(({ title, img, details }, index) => (
             <SwiperSlide key={index} className="!h-auto !md:h-full">
-              <div className="w-full md:w-full !h-auto !md:h-full bg__color py-6 px-1 flex flex-col items-center justify-center">
+              <div className="w-full md:w-full !h-full bg__color py-6 px-1 flex flex-col items-center justify-center">
                 <div className="flex justify-center">
                   <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
                     <Image
