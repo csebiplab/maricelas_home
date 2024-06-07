@@ -47,9 +47,7 @@ const BrandSwiper = () => {
         }}
         speed={3000}
         allowTouchMove={true}
-        // scrollbar={{ draggable: false }}
         breakpoints={breakpoints}
-        className=""
       >
         <SwiperSlide className={`text-center`}>
           <div className="brand w-full">
@@ -58,10 +56,10 @@ const BrandSwiper = () => {
               width={66}
               height={37}
               alt="brand1"
-              className="mx-auto"
+              className="w-[66px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               #1 Cleaning Services Google
             </p>
@@ -74,10 +72,10 @@ const BrandSwiper = () => {
               width={44}
               height={37}
               alt="brand1"
-              className="mx-auto "
+              className="w-[44px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               Veteran Owned Small Business
             </p>
@@ -90,10 +88,10 @@ const BrandSwiper = () => {
               width={44}
               height={37}
               alt="brand1"
-              className="mx-auto"
+              className="w-[44px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               Texas HUB Certification
             </p>
@@ -106,10 +104,10 @@ const BrandSwiper = () => {
               width={44}
               height={37}
               alt="brand1"
-              className="mx-auto"
+              className="w-[44px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               Screened & Approved
             </p>
@@ -122,12 +120,12 @@ const BrandSwiper = () => {
               width={44}
               height={37}
               alt="brand1"
-              className="mx-auto"
+              className="w-[44px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
-              Veteran Business Certification
+              Veteran Business Certification
             </p>
           </div>
         </SwiperSlide>
@@ -138,10 +136,10 @@ const BrandSwiper = () => {
               width={65}
               height={37}
               alt="brand1"
-              className="mx-auto"
+              className="w-[65px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               Top rated Cleaning Services
             </p>
@@ -155,10 +153,10 @@ const BrandSwiper = () => {
               width={45}
               height={37}
               alt="brand1"
-              className="mx-auto"
+              className="w-[45px] h-[37px] mx-auto"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               We never used a cleaning service
             </p>
@@ -172,10 +170,10 @@ const BrandSwiper = () => {
               width={85}
               height={50}
               alt="brand1"
-              className="mx-auto mt-6"
+              className="w-[85px] h-auto mx-auto mt-6"
             />
             <p
-              className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
+              className={`rating__para font-medium text-xl pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
               What a pleasure it was working with Maricelaâ s
             </p>
