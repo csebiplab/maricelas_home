@@ -13,7 +13,7 @@ const UpperNavbar = () => {
             className="w-[16px] h-[17px]"
           />
           <p className="text-[10px]  xl:text-[16px] font-bold text-white">
-            Best Cleaning Company in Huston
+            Best Cleaning Company in Houston
           </p>
         </div>
 
@@ -27,7 +27,7 @@ const UpperNavbar = () => {
               className="w-[16px] h-[17px]"
             />
             <span className="text-[10px] xl:text-base text-white">
-            Houston,Texas
+              Houston,Texas
             </span>
           </div>
           <div>
@@ -56,7 +56,7 @@ const UpperNavbar = () => {
               className="w-[16px] h-[17px]"
             />
             <span className="text-[10px] xl:text-base text-white">
-            Monday-Friday 7:00am-7:00pm
+              Monday-Friday 7:00am-7:00pm
             </span>
           </div>
         </div>
