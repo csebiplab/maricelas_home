@@ -69,15 +69,15 @@ const Header = () => {
 
       <nav className="container py-[5px] main__header">
         <div className="flex items-center justify-between">
-          <div className="hidden md:block w-[135px] h-[67px]">
+          <Link href="/" className="hidden md:block w-[135px] h-[67px]">
             <Image
               src="/assets/images/brand.png"
               width={135}
               height={67}
               alt="brand"
-              className="w-full h-full"
+              className="w-full h-full lg:w-[135] lg:h-[67]"
             />
-          </div>
+          </Link>
           <div className="hidden lg:block">
             <ul className="flex items-center gap-x-8 xl:gap-x-10 2xl:gap-x-[75px]">
               {UtilsModule.navMenus.map(({ mainMenu, url }, index) => (
