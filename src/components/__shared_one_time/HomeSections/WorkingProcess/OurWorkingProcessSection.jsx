@@ -109,13 +109,13 @@ const OurWorkingProcessSection = () => {
               key={index}
               className={`px-[30px] md:px-0 !h-auto !md:h-full`}
             >
-              <div className="w-full h-full card-sd bg-primary">
+              <div className="w-full h-full card-sd bg-primary px-2">
                 <Image
                   src={slideInfo?.imgSrc}
                   width={605}
                   height={190}
                   alt="sliderImage"
-                  className="w-full h-full xl:w-[605px] xl:h-[190px]"
+                  className="w-full xl:w-[605px] h-[190px]"
                 />
                 <div className="text-center py-3 md:px-2 px-1">
                   <h4 className="text-[25px] font-bold py-1 md:py-2 text-white">
@@ -128,7 +128,10 @@ const OurWorkingProcessSection = () => {
               </div>
             </SwiperSlide>
           ))}
-          <SwiperNavButtons />
+          <div className="mt-10 md:mt-0">
+            {" "}
+            <SwiperNavButtons />
+          </div>
         </Swiper>
       </div>
     </div>
