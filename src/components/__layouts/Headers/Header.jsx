@@ -117,37 +117,41 @@ const Header = () => {
       {/* small device  */}
       <div className="w-full bg-white flex justify-between items-center px-3 sm:px-6 pb-4">
         <div className="block md:hidden">
-          <Button className="text-black nav__btn flex items-center gap-x-2">
-            <span className="text-black text-[10px] sm:text-base font-bold">
-              Get an Estimate
-            </span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="10"
-              height="14"
-              viewBox="0 0 10 14"
-              fill="none"
-            >
-              <path
-                d="M2.07589 0.0371094L0.298388 1.65039L5.695 6.54844L0.298388 11.4465L2.07589 13.0598L9.25 6.54844L2.07589 0.0371094Z"
-                fill="black"
-              />
-            </svg>
-          </Button>
+          <a href="tel:8328204035" className="!no-underline">
+            <Button className="text-black nav__btn flex items-center gap-x-2">
+              <span className="text-black text-[10px] sm:text-base font-bold">
+                Get an Estimate
+              </span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="10"
+                height="14"
+                viewBox="0 0 10 14"
+                fill="none"
+              >
+                <path
+                  d="M2.07589 0.0371094L0.298388 1.65039L5.695 6.54844L0.298388 11.4465L2.07589 13.0598L9.25 6.54844L2.07589 0.0371094Z"
+                  fill="black"
+                />
+              </svg>
+            </Button>
+          </a>
         </div>
 
         <div className="block md:hidden">
-          <Button className="text-white phone__icon flex items-center gap-x-2">
-            <Image
-              src="/assets/icons/phone__icon.png"
-              alt="phone icon"
-              width={20}
-              height={20}
-            />
-            <span className="text-white text-[10px] sm:text-base font-bold">
-              Click to Call
-            </span>
-          </Button>
+          <a href="tel:8328204035" className="!no-underline">
+            <Button className="text-white phone__icon flex items-center gap-x-2">
+              <Image
+                src="/assets/icons/phone__icon.png"
+                alt="phone icon"
+                width={20}
+                height={20}
+              />
+              <span className="text-white text-[10px] sm:text-base font-bold">
+                Click to Call
+              </span>
+            </Button>
+          </a>
         </div>
 
         <div className="block md:hidden">
