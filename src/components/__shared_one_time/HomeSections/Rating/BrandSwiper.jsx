@@ -150,10 +150,10 @@ const BrandSwiper = () => {
           <div className="brand w-full">
             <Image
               src={brand8}
-              width={60}
+              width={85}
               height={100}
               alt="brand1"
-              className="w-[60px] h-[100px] mx-auto"
+              className="w-[85px] h-[100px] mx-auto"
             />
             <p
               className={`rating__para text-xl pt-2 px-2 ${merriWeather.className}`}

@@ -8,7 +8,7 @@ import RatingProgressBar from "./RatingProgressBar";
 
 const RatingNReviewSection = () => {
   return (
-    <div className="mt-7 md:-mt-[50px]">
+    <div className="mt-7 !z-50">
       <div className="lg:w-[87.95%] md:w-full mx-auto">
         <div className="w-full xl:w-[980px] mx-auto bg-white rating-box">
           <div className="p-6 rounded-[8px]">

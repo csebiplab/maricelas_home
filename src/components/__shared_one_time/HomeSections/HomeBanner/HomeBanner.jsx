@@ -13,10 +13,10 @@ const HomeBanner = () => {
           <div className="banner__content grid grid-cols-1 md:grid-cols-8 items-center gap-10 py-[20px] md:py-[50px] lg:py-[80px] xl:py-[110px] 2xl:pt-[130px] 3xl:pt-[150px] 4xl:pt-[165px] 5xl:py-[180px]">
             <div className="md:col-span-4 flex items-center">
               <div className="">
-                <p className="text-4xl lg:text-[40px] xl:text-[44px] 2xl:text-[48px] 3xl:text-[52px] 4xl:text-[56px] 5xl:text-[55px] text-black font-medium text-center md:text-left leading-tight">
+                <h1 className="!text-4xl !lg:text-[40px] !xl:text-[44px] !2xl:text-[48px] !3xl:text-[52px] !4xl:text-[56px] !5xl:text-[55px] text-black font-medium text-center md:text-left leading-tight">
                   Commercial & <br /> Residential Cleaning <br />{" "}
                   <span className="text-primary">Services in Houston</span>
-                </p>
+                </h1>
                 <p className="text-lg lg:text-[20px] font-normal text-center md:text-left leading-[30px] lg:leading-[40px] pt-2">
                   Best <span className="!text-primary">Commercial</span> &{" "}
                   <span className="!text-primary">Residential</span> cleaning
@@ -57,11 +57,11 @@ const HomeBanner = () => {
       <div className="block md:hidden">
         <div className="small__banner__section w-auto h-[820px]">
           <div className="small__banner__section__content">
-            <h3 className="pt-[20px] pl-[30px] text-[30px] text-black font-bold">
+            <h2 className="pt-[20px] pl-[30px] !text-[30px] text-black font-bold">
               Commercial & <br />
               Residential Cleaning <br />{" "}
               <span className="text-primary">Services in Houston</span>
-            </h3>
+            </h2>
             <p className="px-[30px] pt-[8px] text-lg text-black font-normal">
               Best <span className="!text-primary">Commercial</span> &{" "}
               <span className="!text-primary">Residential</span> cleaning
