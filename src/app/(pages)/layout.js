@@ -17,19 +17,38 @@ export async function generateMetadata() {
     await dbConnect();
 
     const [homeMetaData, googleVerificationData] = await Promise.all([
-      homeRouteMetaData.find(),
-      verificationSite.find()
+      homeRouteMetaData.find({}),
+      verificationSite.find({})
     ]);
+
+
+
+
+    if (!homeMetaData) {
+      return {
+        title: "Maricela's Home",
+        description: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
+        keywords: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
+      };
+    }
 
     const googleConsoleKey = extractGoogleConsoleKey(googleVerificationData);
 
     const {
-      title = "Maricela's Home",
-      description = "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
-      keywords = "Maricela's Home",
+      title,
+      description,
+      keywords,
     } = homeMetaData?.[0] || {};
 
 
+    console.log({
+      title,
+      description,
+      keywords,
+      verification: {
+        google: googleConsoleKey,
+      }
+    }, "meta data")
 
     return {
       title,
