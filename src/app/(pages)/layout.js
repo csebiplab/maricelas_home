@@ -21,12 +21,23 @@ export async function generateMetadata() {
       verificationSite.find({})
     ]);
 
+
+
+
+    if (!homeMetaData) {
+      return {
+        title: "Maricela's Home",
+        description: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
+        keywords: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
+      };
+    }
+
     const googleConsoleKey = extractGoogleConsoleKey(googleVerificationData);
 
     const {
-      title = "Maricela's Home",
-      description = "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
-      keywords = "Maricela's Home",
+      title,
+      description,
+      keywords,
     } = homeMetaData?.[0] || {};
 
 
