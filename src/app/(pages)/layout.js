@@ -17,8 +17,8 @@ export async function generateMetadata() {
     await dbConnect();
 
     const [homeMetaData, googleVerificationData] = await Promise.all([
-      homeRouteMetaData.find(),
-      verificationSite.find()
+      homeRouteMetaData.find({}),
+      verificationSite.find({})
     ]);
 
     const googleConsoleKey = extractGoogleConsoleKey(googleVerificationData);
@@ -30,6 +30,14 @@ export async function generateMetadata() {
     } = homeMetaData?.[0] || {};
 
 
+    console.log({
+      title,
+      description,
+      keywords,
+      verification: {
+        google: googleConsoleKey,
+      }
+    }, "meta data")
 
     return {
       title,
