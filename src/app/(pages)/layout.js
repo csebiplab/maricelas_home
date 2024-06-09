@@ -41,14 +41,14 @@ export async function generateMetadata() {
     } = homeMetaData?.[0] || {};
 
 
-    console.log({
-      title,
-      description,
-      keywords,
-      verification: {
-        google: googleConsoleKey,
-      }
-    }, "meta data")
+    // console.log({
+    //   title,
+    //   description,
+    //   keywords,
+    //   verification: {
+    //     google: googleConsoleKey,
+    //   }
+    // }, "meta data")
 
     return {
       title,
