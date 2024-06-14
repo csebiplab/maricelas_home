@@ -14,8 +14,10 @@ const HomeBanner = () => {
             <div className="md:col-span-4 flex items-center">
               <div className="">
                 <h1 className="!text-4xl !lg:text-[40px] !xl:text-[44px] !2xl:text-[48px] !3xl:text-[52px] !4xl:text-[56px] !5xl:text-[55px] text-black font-medium text-center md:text-left leading-tight">
-                  Commercial & <br /> Residential Cleaning <br />{" "}
-                  <span className="text-primary">Services in Houston</span>
+                  Residential & Commercial Cleaning Services
+                  <br />
+                  {/* Commercial & <br /> Residential Cleaning <br />{" "} */}
+                  <span className="text-primary">in Houston</span>
                 </h1>
                 <p className="text-lg lg:text-[20px] font-normal text-center md:text-left leading-[30px] lg:leading-[40px] pt-2">
                   Best <span className="!text-primary">Commercial</span> &{" "}

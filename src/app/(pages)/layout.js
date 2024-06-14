@@ -5,26 +5,27 @@ import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Header from "@/components/__layouts/Headers/Header";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
-import dbConnect from "@/lib/db.connect";
-import homeRouteMetaData from "@/models/homeMetaDataFile";
-import verificationSite from "@/models/siteVerification";
+
 
 const roboto = Roboto_Slab({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
 const openSans = Open_Sans({ subsets: ["latin"] });
 
 export async function generateMetadata() {
   try {
-    await dbConnect();
-
     const [homeMetaData, googleVerificationData] = await Promise.all([
-      homeRouteMetaData.find({}),
-      verificationSite.find({})
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/home`, { cache: "no-store" }),
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/verificationUrl`, { cache: "no-store" }),
     ]);
 
+    const homeMeta = await homeMetaData.json();
+    const verificationIds = await googleVerificationData.json();
+
+    const { homeRouteAllMetaData } = homeMeta ?? {};
+    const { verificationUrl } = verificationIds ?? {};
 
 
 
-    if (!homeMetaData) {
+    if (homeRouteAllMetaData?.length === 0) {
       return {
         title: "Maricela's Home",
         description: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
@@ -32,30 +33,27 @@ export async function generateMetadata() {
       };
     }
 
-    const googleConsoleKey = extractGoogleConsoleKey(googleVerificationData);
+    let googleConsoleKey = ""
+
+    if (verificationUrl?.length > 0) {
+      googleConsoleKey = extractGoogleConsoleKey(verificationUrl);
+    }
+
 
     const {
       title,
       description,
       keywords,
-    } = homeMetaData?.[0] || {};
+    } = homeRouteAllMetaData?.[0] || {};
 
 
-    // console.log({
-    //   title,
-    //   description,
-    //   keywords,
-    //   verification: {
-    //     google: googleConsoleKey,
-    //   }
-    // }, "meta data")
 
     return {
       title,
       description,
       keywords,
       verification: {
-        google: googleConsoleKey,
+        google: verificationUrl?.length === 0 ? "" : googleConsoleKey,
       }
     };
   } catch (error) {
@@ -67,17 +65,13 @@ export async function generateMetadata() {
   }
 }
 
-function extractGoogleConsoleKey(googleVerificationData) {
+function extractGoogleConsoleKey(verificationUrl) {
   try {
-    if (!googleVerificationData || !googleVerificationData[0]?.title) return "";
-
-    const metaTagContent = googleVerificationData[0].title;
+    const metaTagContent = verificationUrl?.[0].title;
     const consoleKey = metaTagContent.split("=").pop().slice(1, -4);
-
 
     return consoleKey;
   } catch (error) {
-    console.error('Error extracting Google console key:', error);
     return "";
   }
 }
