@@ -3,6 +3,7 @@ import person1 from "../../../../public/assets/images/person1.png";
 import person2 from "../../../../public/assets/images/person2.png";
 import person3 from "../../../../public/assets/images/person3.png";
 import Image from "next/image";
+
 const AboutUsSection = () => {
   return (
     <div className="">
@@ -46,18 +47,20 @@ const AboutUsSection = () => {
             <Heading text={"About Us"} />
           </div>
           <h2 className="text-[28px] md:text-[32px] font-bold text-[#1F1F1F] mt-[15px]">
-            Welcome to Our Commercial & Residential Cleaning Services in Houston
+            About Our Cleaning Services in Houston
           </h2>
           <p className="text-base font-normal mt-[15px]  lg:leading-[32px]">
-            Welcome to Maricela's Cleaning Magnificence, a company of commercial
-            & residential cleaning services in Houston. Our current focus is on
-            catering to both commercial and residential clients in Houston,
-            Texas. We aim to provide our clients with comprehensive and
-            high-quality services that meet their specific needs and
-            requirements. Our team is composed of skilled professionals with
-            extensive experience in the industry, and we are committed to
-            delivering exceptional results that exceed our client's
-            expectations.
+            Welcome to Maricela's Cleaning Magnificence, a commercial &
+            residential cleaning company in Houston, Texas. With years of
+            experience, our main focus is providing the best cleaning services
+            in Houston, Texas for commercial and residential clients. We aim to
+            provide our clients with comprehensive, high-quality services that
+            meet their needs and requirements. Our team is composed of skilled
+            professionals with extensive experience in the industry, and we are
+            committed to delivering exceptional results that exceed our client's
+            expectations. Being the best company for residential & commercial
+            cleaning services in Houston, we pride ourselves on delivering
+            meticulous cleanliness and unparalleled customer satisfaction.
           </p>
         </div>
       </div>
