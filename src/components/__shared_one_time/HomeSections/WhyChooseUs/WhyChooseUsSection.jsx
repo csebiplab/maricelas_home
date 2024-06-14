@@ -76,7 +76,7 @@ const WhyChooseUsSection = () => {
 
           <p className="text-base font-normal text-dark-50 lg:leading-[200%] mb-5 md:mb-[25px] px-1">
             Maricela's Cleaning Magnificence stands out as a premier choice for
-            commercial & residential cleaning services in Houston due to our
+            residential & commercial cleaning services in Houston due to our
             unwavering commitment to excellence and customer satisfaction.
           </p>
         </div>
