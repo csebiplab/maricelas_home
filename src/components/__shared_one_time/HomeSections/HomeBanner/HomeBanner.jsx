@@ -14,14 +14,26 @@ const HomeBanner = () => {
             <div className="md:col-span-4 flex items-center">
               <div className="">
                 <h1 className="!text-4xl !lg:text-[40px] !xl:text-[44px] !2xl:text-[48px] !3xl:text-[52px] !4xl:text-[56px] !5xl:text-[55px] text-black font-medium text-center md:text-left leading-tight">
-                  Commercial & <br /> Residential Cleaning <br />{" "}
-                  <span className="text-primary">Services in Houston</span>
+                  Residential &
+                  <br />
+                  Commercial Cleaning Services
+                  <br />
+                  {/* Commercial & <br /> Residential Cleaning <br />{" "} */}
+                  <span className="text-primary">in Houston</span>
                 </h1>
                 <p className="text-lg lg:text-[20px] font-normal text-center md:text-left leading-[30px] lg:leading-[40px] pt-2">
-                  Best <span className="!text-primary">Commercial</span> &{" "}
+                  {/* Best <span className="!text-primary">Commercial</span> &{" "}
                   <span className="!text-primary">Residential</span> cleaning
                   services in Houston, we pride ourselves on delivering
-                  meticulous cleanliness and unparalleled customer satisfaction.
+                  meticulous cleanliness and unparalleled customer satisfaction. */}
+                  We provide professional{" "}
+                  <span className="!text-primary font-bold">Residential </span>
+                  and{" "}
+                  <span className="!text-primary font-bold">
+                    Commercial
+                  </span>{" "}
+                  cleaning services in Houston, delivering pristine spaces for
+                  clients, and ensuring spotless results every time.
                 </p>
                 <div className="flex justify-center md:justify-start py-6 z-50">
                   <a

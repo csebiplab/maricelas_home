@@ -12,7 +12,7 @@ const BestServicesSection = () => {
 
             <div>
               <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-[12px] pb-[12px] text-center md:text-start font-bold ">
-                Best Commercial & Residential Cleaning Services in Houston
+                Best Residential & Commercial Cleaning Services in Houston
               </h2>
             </div>
           </div>
