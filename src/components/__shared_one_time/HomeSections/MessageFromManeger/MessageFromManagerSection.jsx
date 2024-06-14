@@ -12,7 +12,9 @@ const MessageFromManagerSection = () => {
             <div className="">
               <div className="py-5 2xl:py-8 px-5 lg:px-10">
                 <div>
-                  <p className="text-sm md:text-lg font-semibold">Quality</p>
+                  <p className="text-sm md:text-lg font-semibold">
+                    Post-Constructuon Clean-Up
+                  </p>
                   <div className="w-full lg:w-[351px] mt-4 bg-[#54042C] h-[18px] text-center text-xs lg:text-[10px] text-[#FBCC21] rounded-[50px]">
                     100%
                   </div>
