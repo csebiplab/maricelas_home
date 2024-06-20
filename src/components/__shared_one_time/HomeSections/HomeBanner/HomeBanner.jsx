@@ -27,8 +27,9 @@ const HomeBanner = () => {
             <div className="banner__content grid grid-cols-1 md:grid-cols-8 items-center gap-10 py-[20px] md:py-[50px] lg:py-[80px] xl:py-[110px] 2xl:pt-[130px] 3xl:pt-[150px] 4xl:pt-[165px] 5xl:py-[180px]">
               <div className="md:col-span-4 flex items-center">
                 <div className="">
-                  <h1 className="text-4xl lg:text-[40px] xl:text-[44px] 2xl:text-[48px] 3xl:text-[52px] 4xl:text-[56px] 5xl:text-[55px] text-black font-medium text-center md:text-left leading-tight">
-                    Residential &<br />
+                  <h1 className="text-4xl 2xl:text-[40px] 3xl:text-[44px] 4xl:text-5xl 5xl:text-[52px] text-black font-medium text-center md:text-left leading-tight">
+                    Residential &
+                    <br />
                     Commercial Cleaning Services
                     <br />
                     <span className="text-primary">in Houston</span>
@@ -77,7 +78,7 @@ const HomeBanner = () => {
         <div className="block md:hidden">
           <div className="small__banner__section w-auto h-[820px]">
             <div className="small__banner__section__content">
-              <h1 className="pt-[20px] pl-[30px] text-[30px] text-black font-bold">
+              <h1 className="pt-[20px] pl-[30px] text-[30px] text-black font-bold leading-tight">
                 Residential & <br />
                 Commercial Cleaning <br />
                 <span className="text-primary">Services in Houston</span>
