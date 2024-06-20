@@ -70,13 +70,13 @@ const HomeBanner = () => {
         <div className="small__banner__section w-auto h-[820px]">
           <div className="small__banner__section__content">
             <h2 className="pt-[20px] pl-[30px] !text-[30px] text-black font-bold">
-              Commercial & <br />
-              Residential Cleaning <br />{" "}
+              Residential & <br />
+              Commercial Cleaning <br />{" "}
               <span className="text-primary">Services in Houston</span>
             </h2>
             <p className="px-[30px] pt-[8px] text-lg text-black font-normal">
-              Best <span className="!text-primary">Commercial</span> &{" "}
-              <span className="!text-primary">Residential</span> cleaning
+              Best <span className="!text-primary">Residential</span> &{" "}
+              <span className="!text-primary">Commercial</span> cleaning
               services in Houston, we pride ourselves on delivering meticulous
               cleanliness and unparalleled customer satisfaction.
             </p>

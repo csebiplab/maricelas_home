@@ -77,7 +77,7 @@ const ServicesAreaSection = () => {
                 <Heading text={"Service Area"} />
                 <div>
                   <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
-                    Maricela's Cleaning Magnificenc Service Area
+                    Maricela's Cleaning Magnificence Service Area
                   </h2>
                 </div>
               </div>

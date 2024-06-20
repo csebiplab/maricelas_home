@@ -67,15 +67,15 @@ const Header = () => {
         <UpperNavbar />
       </>
 
-      <nav className="container py-[5px] main__header">
+      <nav className="container pt-[5px] main__header">
         <div className="flex items-center justify-between">
-          <Link href="/" className="hidden md:block w-[135px] h-[67px]">
+          <Link href="/" className="hidden md:block w-[232px]">
             <Image
               src="/assets/images/brand.png"
-              width={135}
-              height={67}
+              width={232}
+              height={105}
               alt="brand"
-              className="w-full h-full lg:w-[135] lg:h-[67]"
+              className="w-full h-full lg:w-[232px]"
             />
           </Link>
           <div className="hidden lg:block">
@@ -115,7 +115,7 @@ const Header = () => {
       </nav>
 
       {/* small device  */}
-      <div className="w-full bg-white flex justify-between items-center px-3 sm:px-6 pb-4">
+      <div className="w-full bg-white flex justify-between items-center px-3 sm:px-6">
         <div className="block md:hidden">
           <a href="tel:8328204035" className="!no-underline">
             <Button className="text-black nav__btn flex items-center gap-x-2">
