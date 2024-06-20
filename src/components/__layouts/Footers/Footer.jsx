@@ -106,8 +106,9 @@ const Footer = () => {
                       <ul className=" ">
                         <li>
                           <a
-                            href="/"
+                            href="https://maps.app.goo.gl/rh3dXrHssMQMsNH27"
                             className="footer-link flex gap-4 items-center text-base text-white"
+                            target="_blank"
                           >
                             <FaMapMarkedAlt className=" lg:h-7 lg:w-7  h-4 w-4" />{" "}
                             Houston,Texas

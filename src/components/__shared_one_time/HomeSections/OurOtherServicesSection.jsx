@@ -173,12 +173,14 @@ const OurOtherServicesSection = () => {
                 every surface shines and every corner is spotless.
               </p>
               <div className=" flex md:block ">
-                <button
-                  type="submit"
-                  className="  rounded-md bg-[#FBCC21E4] px-8 py-2  font-semibold   items-center flex mt-4 "
-                >
-                  Book Now <MdArrowForwardIos className=" ml-2  " />
-                </button>
+                <a href="tel:(832)8204035">
+                  <button
+                    type="submit"
+                    className="  rounded-md bg-[#FBCC21E4] px-8 py-2  font-semibold   items-center flex mt-4 "
+                  >
+                    Book Now <MdArrowForwardIos className=" ml-2  " />
+                  </button>
+                </a>
               </div>
             </div>
           </div>

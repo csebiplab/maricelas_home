@@ -21,10 +21,14 @@ const GiveUsFeedbackSection = () => {
                 <h2 className="text-[28px] md:text-[32px] font-bold text-white md:text-start text-center  ">
                   Contact Us
                 </h2>
-                <div className=" flex gap-1 md:gap-2 items-start md:items-center text-center text-sm md:text-base font-normal lg:py-8 py-5 md:justify-start justify-center ">
+                <a
+                  href="https://maps.app.goo.gl/rh3dXrHssMQMsNH27"
+                  className=" flex gap-1 md:gap-2 items-start md:items-center text-center text-sm md:text-base font-normal lg:py-8 py-5 md:justify-start justify-center "
+                  target="_blank"
+                >
                   <FaMapLocationDot className="2xl:w-5 lg:h-5 w-auto h-auto fill-white" />
-                  <p className="text-white">Houston,Texas</p>
-                </div>
+                  <span className="text-white">Houston,Texas</span>
+                </a>
 
                 <a
                   href="tel:8328204035"

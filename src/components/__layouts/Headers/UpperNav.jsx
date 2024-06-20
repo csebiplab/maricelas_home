@@ -18,7 +18,11 @@ const UpperNavbar = () => {
         </div>
 
         <div className="flex items-center gap-x-2 xl:gap-x-4 5xl:gap-x-5">
-          <div className="flex items-center gap-x-[15px]">
+          <a
+            href="https://maps.app.goo.gl/rh3dXrHssMQMsNH27"
+            className="flex items-center gap-x-[15px]"
+            target="_blank"
+          >
             <Image
               src="/assets/icons/location.png"
               width={16}
@@ -29,7 +33,7 @@ const UpperNavbar = () => {
             <span className="text-[10px] xl:text-base text-white">
               Houston,Texas
             </span>
-          </div>
+          </a>
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
