@@ -173,10 +173,10 @@ const Header = () => {
         >
           <Image
             src="/assets/images/maricelas.png"
-            width={250}
-            height={105}
+            width={135}
+            height={60}
             alt="brand"
-            className="lg:w-[250px]"
+            className="h-[60px] w-[135px]"
           />
         </div>
       </div>

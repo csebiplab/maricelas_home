@@ -5,7 +5,7 @@ import { Button } from "@material-tailwind/react";
 import { useEffect, useState } from "react";
 
 const HomeBanner = () => {
-  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -34,7 +34,7 @@ const HomeBanner = () => {
                     <br />
                     <span className="text-primary">in Houston</span>
                   </h1>
-                  <p className="text-lg lg:text-[20px] font-normal text-center md:text-left leading-[30px] lg:leading-[40px] pt-2">
+                  <p className="text-lg lg:text-[20px] font-normal text-center md:text-left leading-[30px] lg:leading-[40px] pt-3">
                     We provide professional{" "}
                     <span className="text-primary font-bold">Residential </span>
                     and{" "}
@@ -83,7 +83,7 @@ const HomeBanner = () => {
                 Commercial Cleaning <br />
                 <span className="text-primary">Services in Houston</span>
               </h1>
-              <p className="px-[30px] pt-[8px] text-lg text-black font-normal">
+              <p className="px-[30px] pt-3 text-lg text-black font-normal">
                 We provide professional{" "}
                 <span className="text-primary font-bold">Residential </span>
                 and <span className="text-primary font-bold">
