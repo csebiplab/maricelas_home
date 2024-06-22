@@ -165,18 +165,25 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="block md:hidden">
+      <div className="block md:hidden pt-1 bg-white">
         <div
-          className={`w-full flex justify-center items-center pb-3 bg-white ${
+          className={`w-full flex justify-between items-center pb-3 px-3 ${
             isVisible ? "" : "hidden"
           }`}
         >
           <Image
             src="/assets/images/maricelas.png"
-            width={135}
-            height={60}
+            width={170}
+            height={80}
             alt="brand"
-            className="h-[60px] w-[135px]"
+            className="h-[80px] w-[170px]"
+          />
+          <Image
+            src="/assets/images/header-logo.jpg"
+            width={65}
+            height={80}
+            alt="brand"
+            className="h-[80px] w-[65px]"
           />
         </div>
       </div>
