@@ -65,7 +65,7 @@ const CleaningServicesSection = () => {
 
           <div className=" w-full lg:!w-[400px] bg-primary mx-auto card-sd text-center flex flex-col justify-center items-center my-4 py-4">
             <h2 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-white">
-              10+
+              5+
             </h2>
             <p className="lg:text-lg text-base font-semibold lg:leading-[22.5px] mt-1 text-white">
               Successful Years
