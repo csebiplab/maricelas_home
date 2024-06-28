@@ -110,6 +110,15 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <div>
+              <Image
+                src="/assets/images/header-logo.jpg"
+                width={65}
+                height={80}
+                alt="brand"
+                className="h-[80px] w-[65px]"
+              />
+            </div>
           </div>
         </div>
       </nav>
