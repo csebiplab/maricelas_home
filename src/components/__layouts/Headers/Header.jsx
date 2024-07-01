@@ -89,8 +89,8 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          <div className="flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8">
-            <div className="hidden md:block">
+          <div className="hidden md:flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8">
+            <div className="">
               <div className="flex items-center gap-2">
                 <Image
                   src="/assets/images/phone-call.png"
