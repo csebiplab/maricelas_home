@@ -1,49 +1,9 @@
-// import "./HomeBanner.css";
-
-// const HomeBanner = () => {
-//   return (
-//     <div className="container home-banner py-20 min-h-screen flex justify-center items-center bg-blend-multiply bg-dark-50">
-//       <div className="text-center banner-content">
-//         <div>
-//           <h1 className="text-white title text-3xl xl:text-4xl 2xl:text-[42px] 4xl:text-[45px] leading-10">
-//             Commercial & Residential Cleaning Services in Houston
-//           </h1>
-//           <p className="mt-8 leading-10 text-white text-base font-normal lg:px-20 text-center">
-//             Best commercial & residential cleaning services in Houston, we pride
-//             ourselves on delivering meticulous cleanliness and unparalleled
-//             customer satisfaction.
-//           </p>
-//           <div className="flex justify-center">
-//             <button className="flex items-center rounded-md z-40 btn__shadow bg-warning py-4 px-8 mt-8">
-//               <span className="text-dark text-base font-bold mr-3">
-//                 Get an Estimate
-//               </span>
-//               <svg
-//                 xmlns="http://www.w3.org/2000/svg"
-//                 width="9"
-//                 height="13"
-//                 viewBox="0 0 9 13"
-//                 fill="none"
-//               >
-//                 <path
-//                   d="M1.78711 0L0 1.61048L5.42578 6.5L0 11.3895L1.78711 13L9 6.5L1.78711 0Z"
-//                   fill="black"
-//                 />
-//               </svg>
-//             </button>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default HomeBanner;
 
 "use client"
 import Image from "next/image";
 import "./HomeBanner.css";
 import { Button } from "@material-tailwind/react";
+import Link from "next/link";
 
 const HomeBanner = () => {
   return (
@@ -65,6 +25,7 @@ const HomeBanner = () => {
                   unparalleled customer satisfaction.
                 </p>
                 <div className="flex justify-center md:justify-start py-6">
+                  <Link href="tel:(832) 820-4035">
                   <button
                     type="submit"
                     className="flex justify-center items-center w-[200px] lg:w-[274px] homeBtn px-6 lg:px-10 py-4 font-semibold "
@@ -83,6 +44,7 @@ const HomeBanner = () => {
                       />
                     </svg>
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
