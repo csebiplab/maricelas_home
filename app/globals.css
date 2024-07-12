@@ -13,7 +13,7 @@ footer * {
 }
 
 .container {
-  @apply max-w-screen-5xl px-3 md:px-5 lg:px-10 xl:px-20 2xl:px-28 3xl:px-40 4xl:px-52 5xl:px-[285px] mx-auto;
+  @apply max-w-screen-5xl px-3 md:px-8 lg:px-24 xl:px-28 2xl:px-32 3xl:px-40 4xl:px-52 5xl:px-[285px] mx-auto;
 }
 
 .full__section_r_p {

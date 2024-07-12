@@ -39,7 +39,7 @@ const CleaningServicesInRichmondBanner = () => {
             <Image
               width={928}
               height={782}
-              src="/assets/cleaningServices/hero-section.png"
+              src="/assets/cleaningServices/hero-section.jpg"
               alt="hero small image"
               className="hero-main-image mb-0"
             />
