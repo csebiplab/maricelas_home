@@ -6,6 +6,7 @@ import Footer from "../components/__layouts/Footers/Footer";
 import "./globals.css";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
 import BottomHeader from "@/components/__layouts/Headers/BottomHeader";
+import { NavbarHeader } from "@/components/__layouts/Headers/Navbar";
 
 
 const roboto = Roboto_Slab({ subsets: ['latin'], display: 'swap', adjustFontFallback: false })
@@ -24,8 +25,10 @@ export default function RootLayout({ children }) {
           <RoutingProgressBar />
         </Suspense>
         <>
-          <Header />
+          {/* <Header /> */}
+          <NavbarHeader/>
           {/* <BottomHeader/> */}
+
         </>
         {children}
         <>

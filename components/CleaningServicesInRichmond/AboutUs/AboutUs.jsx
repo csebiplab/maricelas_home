@@ -6,7 +6,7 @@ import Image from "next/image";
 const AboutUs = () => {
   return (
     <div className=" ">
-      <div className="padding__top full__section_r_p">
+      <div className="padding__top full__section_r_p pl-3 md:pl-0">
         <div className="grid md:grid-cols-6 grid-cols-1 gap-7">
           <div className="md:col-span-3 flex justify-end items-center md:items-start">
             <div className="">
@@ -24,9 +24,9 @@ const AboutUs = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.aboutUs__headingIconText}/>
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-normal text-center md:text-left">
+            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
             About Our Expert Cleaners 
-in Richmond
+            in Richmond
             </h3>
 
             <p className="text-[#111] text-lg font-normal mt-4 text-center md:text-left">

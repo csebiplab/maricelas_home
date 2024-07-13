@@ -9,7 +9,7 @@ import "./EnjoyableFreshly.css"
 const EnjoyableFreshly = () => {
   return (
     <div className=" ">
-      <div className="padding__top full__section_l_p">
+      <div className="padding__top full__section_l_p pr-3 md:pr-0">
         <div className="grid md:grid-cols-6 grid-cols-1 gap-7">
           <div className="order-2 md:col-span-3 flex justify-end items-center md:items-start">
             <div className="">
@@ -27,7 +27,7 @@ const EnjoyableFreshly = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.enjoyableFreshly__headingIconText}/>
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-normal text-center md:text-left">
+            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
             Enjoyable Freshly Cleaned Home
             </h3>
 

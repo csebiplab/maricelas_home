@@ -2,6 +2,7 @@
 "use client";
 
 
+import HeadingIcon from "@/components/__ui/HeadingIcon";
 import "./WhyWeSpecial.css";
 
 import "swiper/css";
@@ -10,9 +11,9 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/virtual";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import HeadingIcon from "@/components/ui/HeadingIcon";
-// import { headingIconText } from "@/utils/heading-text";
-// import { SwiperNavButtons } from "@/components/__one_time_used/LocationPageComponent/OurProcess/SwiperSliderButton";
+import { headingIconText } from "@/utils/heading-text";
+import { SwiperNavButtons } from "../ReviewSwipper/ReviewSlider/SwiperSliderButton";
+
 
 const breakpoints = {
   0: {
@@ -31,36 +32,32 @@ const breakpoints = {
 
 const slideData = [
   {
-    title: "Tailored Patterns",
-    description: `Easy Pools offer a myriad of vinyl patterns, from mosaics to geometric designs, allowing for a personalized touch that suits your aesthetic preferences.`,
+    title: "Health and Safety",
+    description: `We prioritize the well-being of our clients by using only chemical-free and non-toxic cleaning products. This ensures a clean environment without compromising health.`,
   },
   {
-    title: "Color Palette Diversity",
-    description: `Choose from a wide array of vinyl colors to harmonize with your outdoor space, creating a pool that seamlessly integrates into your landscape.`,
+    title: "Exceptional Quality",
+    description: `Our team is dedicated to delivering meticulous cleaning services with attention to detail. We strive for excellence in every aspect of our work, from routine cleaning to specialized.`,
   },
   {
-    title: "Texture Selection",
-    description: `Customizable vinyl textures provide a luxurious feel, enhancing both the visual and tactile appeal of your pool and elevating its overall elegance.`,
+    title: "Customized Service",
+    description: `We tailor our cleaning services to meet the specific needs and preferences of our clients, ensuring personalized care and satisfaction.`,
   },
   {
-    title: "Inlay Options",
-    description: `Our company allows for unique inlays, such as logos or intricate designs, adding a distinctive flair that transforms your pool into a true reflection of your style.`,
+    title: "Environmental Responsibility",
+    description: `We are committed to sustainability. By choosing eco-friendly practices and products, we minimize our impact on the environment while maintaining effective`,
   },
   {
-    title: "Border Varieties",
-    description: `Select from different border options, like decorative tiles or contrasting vinyl strips, to frame your pool and enhance its visual appeal.`,
+    title: "Trusted and Reliable",
+    description: `Clients in Richmond trust us for our reliability and consistency. We arrive on time, work efficiently, and ensure thorough cleaning results that meet or exceed expectations.`,
   },
   {
-    title: "Underwater Illumination",
-    description: `Enhance the nighttime ambiance by choosing vinyl with light-diffusing properties, transforming your pool into a captivating display with customizable.`,
+    title: "Customer Satisfaction",
+    description: `Your happiness is our priority. We strive to build long-term relationships with our clients by providing exceptional service and exceeding their cleaning expectations.`,
   },
   {
-    title: "Transition Effects",
-    description: `Our company provides options for gradient vinyl designs, allowing for subtle color transitions that create a visually stunning and dynamic effect.`,
-  },
-  {
-    title: "Custom Vinyl Murals",
-    description: `Commission bespoke vinyl murals that showcase your creativity, turning your pool into a one-of-a-kind art vinyl pool installation that captivates and inspires.`,
+    title: "Professionalism",
+    description: `Our team is experienced, trained, and professional in every interaction. We uphold high standards of conduct and respect for your home or business.`,
   }
   
 ];
@@ -72,9 +69,9 @@ const WhyWeSpecial = () => {
       <div className="">
         <div className="text-center pb-6">
           <div className="flex justify-center gap-[54px]">
-            {/* <HeadingIcon text={headingIconText.design__IconText}/> */}
+            <HeadingIcon text={headingIconText.whyWeSpecial__headingIconText}/>
           </div>
-          <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-normal text-center">
+          <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center">
           What Makes Our Company Special
           </h3>
         </div>
@@ -96,7 +93,7 @@ const WhyWeSpecial = () => {
         >
           {slideData.map((slideInfo, index) => (
             <SwiperSlide key={index} className={`px-[30px] md:px-0 !h-auto !md:h-full`}>
-              <div className="w-full !h-full  card-sd bg-primary py-6">
+              <div className="w-full !h-full  card-sd bg-primary">
                 <div className="text-center py-3 md:px-2 px-1">
                   <h4 className="text-[25px] font-bold py-1 md:py-2 text-center text-balck">
                     {slideInfo?.title}
@@ -108,7 +105,7 @@ const WhyWeSpecial = () => {
               </div>
             </SwiperSlide>
           ))}
-          {/* <SwiperNavButtons/> */}
+          <SwiperNavButtons/>
         </Swiper>
       </div>
     </div>

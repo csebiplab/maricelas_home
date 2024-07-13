@@ -15,6 +15,8 @@ import Professional from "./Professional/Professional";
 import ResidentialCleaning from "./ResidentialCleaning/ResidentialCleaning";
 import CommercialCleaning from "./CommercialCleaning/CommercialCleaning";
 import WhyWeSpecial from "./WhyWeSpecial/WhyWeSpecial";
+import ReviewSlider from "./ReviewSwipper/ReviewSlider/ReviewSlider";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 
 const CleaningServicesInRichmond = () => {
   return (
@@ -44,6 +46,10 @@ const CleaningServicesInRichmond = () => {
       </section>
 
       <section>
+        <HouseCleaning />
+      </section>
+
+      <section>
         <ResidentialCleaning />
       </section>
 
@@ -51,9 +57,7 @@ const CleaningServicesInRichmond = () => {
         <CommercialCleaning />
       </section>
       
-      <section>
-        <HouseCleaning />
-      </section>
+      
 
       <section>
         <ProjectGallerySection />
@@ -71,8 +75,16 @@ const CleaningServicesInRichmond = () => {
         <WhyWeSpecial/>
       </section>
 
+      <section className="container padding__top">
+        <ReviewSlider/>
+      </section>
+
       <section>
         <WeMakePepopleHappy />
+      </section>
+
+      <section>
+        <WhyChooseUs/>
       </section>
 
       <section>

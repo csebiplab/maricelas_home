@@ -199,13 +199,13 @@ const ProjectGallery = () => {
 
   return (
     <div className="bg-[#FFF9EE]">
-      <div className="custom-container  3xl:py-[85px] py-[50px]">
+      <div className="custom-container padding__top">
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
             <Heading text={"Project Gallery"} />
 
             <div>
-              <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] 3xl:pb-[30px] pb-[25px] text-center font-bold ">
+              <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] 3xl:pb-[30px] pb-[25px] text-center font-bold px-3 md:px-0">
                 Maricela's Cleaning Magnificence Gallery Of Past Projects
               </h2>
             </div>

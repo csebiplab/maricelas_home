@@ -10,4 +10,6 @@ export const headingIconText = {
     professional__headingIconText : "Professional",
     residentialCleaning__headingIconText : "Residential Cleaning",
     commercialCleaning__headingIconText : "Commercial Cleaning",
+    whyWeSpecial__headingIconText : "Why We Special",
+    whyChooseUs__headingIconText : "Why Choose Us",
 }
