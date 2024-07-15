@@ -29,6 +29,7 @@ import UpperNavbar from "./UpperNav";
 const our_service_menu_items = {
   interior: [
     { title: "Cleaning Services in Richmond", route: "/cleaning-services-in-richmond" },
+    { title: "House Cleaning Services in Katy TX", route: "/house-cleaning-services-in-katy-tx" },
     
   ],
 };
