@@ -8,7 +8,7 @@ const HouseCleaningServicesBanner = () => {
     <>
       <div className="hero-section full__section_l_p">
         <div className="md:flex items-center relative">
-          <div className="w-full md:w-[58%]">
+          <div className="w-full md:w-[50%]">
             <div className="py-14 md:py-0 px-4 md:pl-0">
               <h1 className="leading-normal text-[36px] md:text-[40px] lg:text-[43px] xl:text-[44px] 2xl:text-[46px] 3xl:text-[49px] 4xl:text-[52px] 5xl:text-[55px] font-bold text-left text-black">
               House Cleaning Services <br />{" "}

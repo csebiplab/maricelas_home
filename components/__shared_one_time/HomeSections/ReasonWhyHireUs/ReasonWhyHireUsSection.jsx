@@ -77,7 +77,7 @@ const reasons = [
 
 const ReasonWhyHireUsSection = () => {
   return (
-    <div className="bg__hire container">
+    <div className="bg__hire container mt-6 md:mt-0">
       <div className="py-20 lg:py-[120px] px-[35px] md:px-0">
         <div className="flex flex-col justify-center items-center">
           <Heading text="Reason why hire us" />
@@ -103,9 +103,9 @@ const ReasonWhyHireUsSection = () => {
           allowTouchMove={false}
         >
           {reasons?.map(({ title, img, details }, index) => (
-            <SwiperSlide key={index}>
-              <div className="w-full h-full md:w-[260px] md:h-auto">
-                <div className="bg__color py-6 flex flex-col items-center justify-center">
+            <SwiperSlide key={index} className="!h-auto !md:h-full">
+              <div className="w-full !h-full bg__color">
+                <div className=" py-6 flex flex-col items-center justify-center">
                   <div className="flex justify-center">
                     <div className="bg-primary w-[73px] h-[73px] rounded-full flex justify-center items-center">
                       <Image

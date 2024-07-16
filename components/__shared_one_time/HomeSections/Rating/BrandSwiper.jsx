@@ -128,7 +128,7 @@ const BrandSwiper = () => {
             <p
               className={`rating__para pt-2 px-2 ${Monotype_Corsiva.className}`}
             >
-              Veteran Business Certification
+              Veteran Business Certification
             </p>
           </div>
         </SwiperSlide>

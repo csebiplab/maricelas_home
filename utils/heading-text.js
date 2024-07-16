@@ -20,7 +20,7 @@ export const headingIconText = {
     aboutUs__headingIconText : "About Us",
     cleaningServices__headingIconText : "Cleaning Services",
     cleaningContractors__headingIconText : "Cleaning Contractors",
-    cleaningServices__headingIconText : "Cleaning Services",
+    homeCleaningServices__headingIconText : "Cleaning Services",
     poolCleaning__headingIconText : "Pool Cleaning",
     ourApproach__headingIconText : "Our Approach",
     trustUs__headingIconText : "Trust Us",

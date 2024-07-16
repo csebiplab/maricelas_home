@@ -6,7 +6,7 @@ import Image from "next/image";
 const CleaningContractors = () => {
   return (
     <div className=" ">
-      <div className="padding__top full__section_r_p">
+      <div className="padding__top full__section_r_p pl-3 md:pl-0">
         <div className="grid md:grid-cols-6 grid-cols-1 gap-7 ">
           <div className="md:col-span-3 flex justify-end items-center md:items-start">
             <div className="">

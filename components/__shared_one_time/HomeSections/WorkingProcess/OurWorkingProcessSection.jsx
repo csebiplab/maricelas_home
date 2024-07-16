@@ -107,9 +107,9 @@ const OurWorkingProcessSection = () => {
             spaceBetween={12}
           >
             {slideData.map((slideInfo, index) => (
-          <SwiperSlide key={index} className={`px-[30px] md:px-0`}>
+          <SwiperSlide key={index} className={`px-[30px] md:px-0 !h-auto !md:h-full`}>
               
-        <div className="w-full card-sd bg-primary h-auto">
+        <div className="w-full !h-full card-sd bg-primary ">
             <Image
               src={slideInfo?.imgSrc}
               width={605}
