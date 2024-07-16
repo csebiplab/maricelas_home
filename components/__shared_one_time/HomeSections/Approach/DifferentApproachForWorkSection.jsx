@@ -60,7 +60,7 @@ const slideData = [
 
 const DifferentApproachForWorkSection = () => {
   return (
-    <div className="">
+    <div className="container">
       <div className="3xl:py-[120px] lg:py-[100px] py-[60px] md:flex gap-2">
         <div className="flex justify-center lg:justify-normal md:text-start text-center md:me-4 me-0 lg:col-span-3 w-full md:w-4/12">
           <div>

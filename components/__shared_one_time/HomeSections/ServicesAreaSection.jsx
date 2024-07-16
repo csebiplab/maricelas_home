@@ -78,9 +78,9 @@ const ServicesAreaSection = () => {
               <div className="mx-auto   flex flex-col items-center justify-center">
                 <Heading text={"Service Area"} />
                 <div>
-                  <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
+                  <h3 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
                     Maricela's Cleaning Magnificenc Service Area
-                  </h2>
+                  </h3>
                 </div>
               </div>
 

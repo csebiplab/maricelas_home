@@ -8,13 +8,13 @@ import RatingProgressBar from "./RatingProgressBar";
 
 const RatingNReviewSection = () => {
   return (
-    <div className="mt-7 md:-mt-[50px]">
-      <div className="lg:w-[87.95%] md:w-full mx-auto">
-        <div className="w-full xl:w-[980px] mx-auto bg-white rating-box">
+    <div className="mt-10">
+      <div className="container">
+        <div className=" bg-white rating-box">
           <div className="p-6 rounded-[8px]">
-            <h2 className="text-[12px] md:text-lg lg:text-2xl lg:leading-[36px] mb-3">
+            <h5 className="text-[12px] md:text-lg lg:text-2xl lg:leading-[36px] mb-3">
               Ratings
-            </h2>
+            </h5>
             <div className="md:flex justify-between gap-5">
               {/* =========== Desktop View ============ */}
               <div className="md:w-[260px] md:block hidden">

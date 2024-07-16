@@ -26,12 +26,12 @@ export default function Home() {
         <div>
           <HomeBanner />
         </div>
-        <section>
+        <div>
           <RatingNReveiwSection />
-        </section>
-        <section>
+        </div>
+        <div>
           <AboutUsSection />
-        </section>
+        </div>
         <div>
           <WhyChooseUsSection />
         </div>
