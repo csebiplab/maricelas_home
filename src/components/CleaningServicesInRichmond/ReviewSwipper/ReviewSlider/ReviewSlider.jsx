@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
-import google from "@/public/assets/icons/google.png";
-import star from "@/public/assets/icons/star.png";
+import google from "../../../../../public/assets/icons/google.png"
+import star from "../../../../../public/assets/icons/star.png"
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";

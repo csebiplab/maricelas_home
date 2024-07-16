@@ -1,7 +1,7 @@
 
 "use client";
 
-import constants from "@/components/lib/constants";
+// import constants from "@/components/lib/constants";
 import {
   Bars3Icon,
   ChevronDownIcon,
