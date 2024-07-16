@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const AboutUsSection = () => {
   return (
-    <div className="">
+    <div className="container">
       <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-2 md:gap-3 3xl:gap-[56px] lg:gap-[30px] 3xl:py-[120px] lg:py-[100px] py-[60px]">
         {/* ============= Images Section Start ========== */}
         <div className="flex gap-2 lg:gap-[14px] w-full md:w-1/2">

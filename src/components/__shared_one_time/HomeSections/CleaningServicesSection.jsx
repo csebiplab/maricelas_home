@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const CleaningServicesSection = () => {
   return (
-    // <div className="py-[60px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full ">
-    <div className="my-[60px] md:my-[120px] flex flex-col lg:flex-row justify-center gap-4 md:gap-2 3xl:gap-16">
+    // <div className="py-[60px] lg:py-[80px] 3xl:py-[120px] flex justify-center mx-auto w-full border border-red-500">
+    <div className="my-[60px] md:my-[120px] flex flex-col lg:flex-row justify-center gap-4 md:gap-2 3xl:gap-16 px-3 md:px-0">
       {/* ------------BIG SCREEN------------ */}
       <div className="hidden lg:block">
         <div className="flex">
@@ -21,9 +21,9 @@ const CleaningServicesSection = () => {
             />
 
             <div className="lg:w-[183.329px] md:w-[80px] lg:h-[169.493px] md:h-[70px] bg-[#880769] mx-auto card-sd text-center flex flex-col justify-center items-center mt-2 lg:mt-4">
-              <h2 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-[#fff]">
-                5+
-              </h2>
+              <h5 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-[#fff]">
+                10+
+              </h5>
               <p className="lg:text-lg text-base font-semibold lg:leading-[22.5px] mt-1 text-[#fff]">
                 Successful Years
               </p>
@@ -64,9 +64,9 @@ const CleaningServicesSection = () => {
           </div>
 
           <div className=" w-full lg:!w-[400px] bg-primary mx-auto card-sd text-center flex flex-col justify-center items-center my-4 py-4">
-            <h2 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-white">
-              5+
-            </h2>
+            <h5 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-white">
+              10+
+            </h5>
             <p className="lg:text-lg text-base font-semibold lg:leading-[22.5px] mt-1 text-white">
               Successful Years
             </p>

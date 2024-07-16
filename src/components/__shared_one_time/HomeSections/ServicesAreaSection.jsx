@@ -56,15 +56,6 @@ const locations = [
 ];
 
 const ServicesAreaSection = () => {
-  // const [currentMap, setCurrentMap] = useState(0);
-
-  // const nextMap = () => {
-  //   setCurrentMap((prev) => (prev === maps.length - 1 ? 0 : prev + 1));
-  // };
-
-  // const prevMap = () => {
-  //   setCurrentMap((prev) => (prev === 0 ? maps.length - 1 : prev - 1));
-  // };
 
   return (
     <div>
@@ -72,54 +63,19 @@ const ServicesAreaSection = () => {
         <div className="custom-container">
           <div className="">
             <div className="py-[30px] 2xl:py-[55px] mx-[30px] md:mx-0">
-              {/* heading section */}
+              
               <div className="mx-auto   flex flex-col items-center justify-center">
                 <Heading text={"Service Area"} />
                 <div>
-                  <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
-                    Maricela's Cleaning Magnificence Service Area
-                  </h2>
+                  <h3 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
+                    Maricela's Cleaning Magnificenc Service Area
+                  </h3>
                 </div>
               </div>
 
-              {/* //   ======================= map Card ==================// */}
-
+             
               <div>
-                {/* <Swiper
-                  slidesPerView={5}
-                  modules={[Navigation]}
-                  className="grid 2xl:grid-cols-6 lg:grid-cols-3 sm:grid-cols-2 2xl:gap-[20px]  lg:gap-[15px] gap-[10px] "
-                >
-                  {maps.map((area, idx) => (
-                    <div key={idx}>
-                      <SwiperSlide
-                        className={`col-span-1 relative rounded-xl overflow-hidden ${
-                          area.id % 2 === 0 ? "" : "2xl:mt-8"
-                        }`}
-                      >
-                        <div className="shadow-md p-0 relative">
-                          <iframe
-                            src={area?.src}
-                            height="325"
-                            style={{ border: 0, width: "100%" }}
-                            allowFullScreen={false}
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            className="rounded-xl"
-                          ></iframe>
-                          <div className="absolute rounded-xl inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-                          <button className="bg-white py-2 px-4 rounded-lg shadow-md text-gray-800 hover:bg-gray-200 transition duration-300">
-                            Visit Map
-                          </button>
-                        </div>
-                          <p className="text-base py-4 px-10 bg-[#880769] text-center lg:text-[18px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
-                            {area?.location}
-                          </p>
-                        </div>
-                      </SwiperSlide>
-                    </div>
-                  ))}
-                </Swiper> */}
+                
                 <Swiper
                   modules={[Autoplay]}
                   loop={true}
@@ -166,76 +122,7 @@ const ServicesAreaSection = () => {
                 </Swiper>
               </div>
 
-              {/* when xs screen show this type of layout */}
-              {/* sm:hidden block */}
-              {/* <div className="hidden">
-                <div className="  flex justify-center items-center mt-4">
-                  <button
-                    onClick={prevMap}
-                    className=" hidden p-1 rounded-full border-2 border-[#049E43] hover:text-white hover:bg-[#049E43]  "
-                  >
-                    <FaChevronLeft className="fill-[#880769] hover:fill-white" />
-                  </button>
-
-                  <div className="px-[45px]">
-                    <div className="col-span-1 relative rounded-xl overflow-hidden">
-                      <div className="shadow-md p-0 relative">
-                        <iframe
-                          src={maps[currentMap].src}
-                          height="225"
-                          style={{ border: 0, width: "100%" }}
-                          allowFullScreen={false}
-                          loading="lazy"
-                          referrerPolicy="no-referrer-when-downgrade"
-                          className="rounded-xl"
-                        ></iframe>
-                        <div className="absolute rounded-xl inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
-                          <button className="bg-white py-2 px-4 rounded-lg shadow-md text-gray-800 hover:bg-gray-200 transition duration-300">
-                            Visit Map
-                          </button>
-                        </div>
-                        <p className="text-base py-2 px-10 bg-[#880769] text-center md:text-[18px]   text-[16px] absolute bottom-0 left-0 right-0 text-white rounded-b-2xl ">
-                          {maps[currentMap].location}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <button
-                    onClick={nextMap}
-                    className=" hidden hover:text-white bg-active hover:bg-[#880769] border-2 p-1  rounded-full  border-[#880769]  "
-                  >
-                    <FaChevronRight className="fill-[#880769] hover:fill-white" />
-                  </button>
-                </div>
-              </div> */}
-
-              {/* next prev button */}
-              {/* <div className="hidden ">
-                <div className="flex gap-8 mt-10 items-center justify-center py-5">
-                  ========= first line ========
-                  <div className="w-[330px] h-0.5  bg-[#880769] "></div>
-
-                  <div className="flex gap-5">
-                    onClick={handlePrev}
-                    <button
-                      onClick={prevMap}
-                      className="p-3 rounded-full border-2 border-[#880769] hover:text-white hover:bg-[#880769]  "
-                    >
-                      <FaChevronLeft className="fill-[#880769] hover:fill-white" />
-                    </button>
-                    onClick={handleNext}
-                    <button
-                      onClick={nextMap}
-                      className=" hover:text-white bg-active hover:bg-[#880769] border-2 p-3  rounded-full  border-[#880769]  "
-                    >
-                      <FaChevronRight className="fill-[#880769] hover:fill-white" />
-                    </button>
-                  </div>
-                  =============== second line =============
-                  <div className="w-[330px] h-0.5 bg-[#880769] "></div>
-                </div>
-              </div> */}
+             
             </div>
           </div>
         </div>

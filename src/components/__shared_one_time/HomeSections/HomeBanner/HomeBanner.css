@@ -1,6 +1,7 @@
+
 .banner__section {
   position: relative;
-  z-index: 1; /* Set a neutral z-index */
+  z-index: 1;
   background: linear-gradient(
     90deg,
     #fff3fc 0%,
@@ -56,13 +57,9 @@
 
 .small__banner__section {
   position: relative;
-  z-index: 0; /* Set a neutral z-index */
+  z-index: 1;
   background: linear-gradient(
-    90deg,
     #fff3fc 0%,
-    #fff3fc 40%,
-    rgba(255, 243, 252, 0) 60%,
-    rgba(255, 243, 252, 0) 100%
   );
 }
 

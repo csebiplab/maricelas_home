@@ -100,7 +100,7 @@ const OurWorkingProcessSection = () => {
             stopOnLastSlide: false,
           }}
           speed={3000}
-          allowTouchMove={true}
+          allowTouchMove={false}
           breakpoints={breakpoints}
           spaceBetween={12}
         >
@@ -109,13 +109,13 @@ const OurWorkingProcessSection = () => {
               key={index}
               className={`px-[30px] md:px-0 !h-auto !md:h-full`}
             >
-              <div className="w-full h-full card-sd bg-primary px-2">
+              <div className="w-full !h-full card-sd bg-primary ">
                 <Image
                   src={slideInfo?.imgSrc}
                   width={605}
                   height={190}
                   alt="sliderImage"
-                  className="w-full xl:w-[605px] h-[190px]"
+                  className="w-full"
                 />
                 <div className="text-center py-3 md:px-2 px-1">
                   <h4 className="text-[25px] font-bold py-1 md:py-2 text-white">
@@ -128,10 +128,6 @@ const OurWorkingProcessSection = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="mt-10 md:mt-0">
-            {" "}
-            <SwiperNavButtons />
-          </div>
         </Swiper>
       </div>
     </div>
