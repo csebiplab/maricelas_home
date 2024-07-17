@@ -4,7 +4,6 @@ import RatingNReviewSection from "../__shared_one_time/HomeSections/Rating/Ratin
 import AboutUs from "./AboutUs/AboutUs";
 import HouseCleaning from "./HouseCleaning/HouseCleaning";
 import CleanAnsFresh from "./CleanAnsFresh/CleanAnsFresh";
-import ProjectGallerySection from "./../__shared_one_time/HomeSections/ProjectGallerySection";
 import ServicesAreaSection from "../__shared_one_time/HomeSections/ServicesAreaSection";
 import WeMakePepopleHappy from "./WeMakePepopleHappy/WeMakePepopleHappy";
 import TrustedCleaning from "./TrustedCleaning/TrustedCleaning";
@@ -17,6 +16,7 @@ import CommercialCleaning from "./CommercialCleaning/CommercialCleaning";
 import WhyWeSpecial from "./WhyWeSpecial/WhyWeSpecial";
 import ReviewSlider from "./ReviewSwipper/ReviewSlider/ReviewSlider";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
+import ProjectGallery from "../HouseCleaningServicesInKatyTX/ProjectGallery/ProjectGallery";
 
 const CleaningServicesInRichmond = () => {
   return (
@@ -57,10 +57,8 @@ const CleaningServicesInRichmond = () => {
         <CommercialCleaning />
       </section>
       
-      
-
       <section>
-        <ProjectGallerySection />
+        <ProjectGallery />
       </section>
 
       <section>

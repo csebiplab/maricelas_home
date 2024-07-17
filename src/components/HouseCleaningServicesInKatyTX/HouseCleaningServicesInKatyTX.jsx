@@ -1,4 +1,5 @@
 import React from 'react';
+import "./HouseCleaningServicesInKatyTX.css"
 import HouseCleaningServicesBanner from './HouseCleaningServicesBanner/HouseCleaningServicesBanner';
 import AboutUs from './AboutUs/AboutUs'
 import RatingNReviewSection from '../__shared_one_time/HomeSections/Rating/RatingNReveiwSection';
@@ -14,6 +15,7 @@ import CustomizedCleaning from './CustomizedCleaning/CustomizedCleaning';
 import UniqueCleaning from './UniqueCleaning/UniqueCleaning';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 import OurApproach from './OurApproach/OurApproach';
+import ProjectGallery from './ProjectGallery/ProjectGallery';
 
 const HouseCleaningServicesInKatyTX = () => {
     return (
@@ -47,7 +49,7 @@ const HouseCleaningServicesInKatyTX = () => {
             </section>
 
             <section>
-                <ProjectGallerySection/>
+                <ProjectGallery/>
             </section>
 
             <section>
