@@ -1,4 +1,4 @@
-import { Open_Sans } from "next/font/google";
+// import { Open_Sans } from "next/font/google";
 import { Suspense } from "react";
 import "../globals.css";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
@@ -8,7 +8,7 @@ import { NavbarHeader } from "@/components/__layouts/Headers/Navbar";
 
 
 // const roboto = Roboto_Slab({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
-const openSans = Open_Sans({ subsets: ["latin"] });
+// const openSans = Open_Sans({ subsets: ["latin"] });
 
 export async function generateMetadata() {
   try {
@@ -79,7 +79,8 @@ function extractGoogleConsoleKey(verificationUrl) {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={openSans.className}>
+      {/* <body className={openSans.className}> */}
+      <body>
         <Suspense>
           <RoutingProgressBar />
         </Suspense>
