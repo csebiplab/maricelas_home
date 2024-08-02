@@ -8,7 +8,7 @@ import { NavbarHeader } from "@/components/__layouts/Headers/Navbar";
 
 
 // const roboto = Roboto_Slab({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
-const openSans = Open_Sans({ subsets: ["latin"] });
+// const openSans = Open_Sans({ subsets: ["latin"] });
 
 export async function generateMetadata() {
   try {
