@@ -1,16 +1,16 @@
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./Dashboard.css"
-import { Ubuntu } from "next/font/google";
+// import { Ubuntu } from "next/font/google";
 import ThemeProvider from "@/components/Dashboard/layout/ThemeProvider";
 import Nav from "@/components/Dashboard/layout/nav";
 import DashboardShell from "@/components/Dashboard/layout/shell";
 import DashboardHeader from "@/components/Dashboard/layout/DashboardHeader";
 
-const ubuntu = Ubuntu({
-    subsets: ["latin"],
-    weight: ["300", "400", "500", "700"],
-});
+// const ubuntu = Ubuntu({
+//     subsets: ["latin"],
+//     weight: ["300", "400", "500", "700"],
+// });
 
 export const metadata = {
     title: "Maricila's Cleaning Dashboard",
@@ -20,7 +20,8 @@ export const metadata = {
 export default async function DashboardLayout({ children }) {
     return (
         <html>
-            <body className={ubuntu.className}>
+            {/* <body className={ubuntu.className}> */}
+            <body>
                 <ThemeProvider attribute="class" disableTransitionOnChange>
                     <div className="flex flex-row p-3 gap-3 h-screen">
                         <aside
