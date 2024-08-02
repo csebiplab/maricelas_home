@@ -1,19 +1,20 @@
 import SiteMapComponent from "@/components/Dashboard/SiteMap/SiteMapComponent";
 
-async function getData(id) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/siteMap/${id}`, { cache: 'no-store' })
+// async function getData(id) {
+//   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/siteMap/${id}`, { cache: 'no-store' })
 
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
-  }
+//   if (!res.ok) {
+//     throw new Error('Failed to fetch data')
+//   }
 
-  return res.json()
-}
+//   return res.json()
+// }
 const page = async ({ params }) => {
   const { id } = params;
 
 
-  const data = await getData(id)
+  // const data = await getData(id)
+  const data = {}
 
   // console.log("data from", data)
 
