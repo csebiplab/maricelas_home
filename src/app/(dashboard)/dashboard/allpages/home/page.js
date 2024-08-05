@@ -1,28 +1,24 @@
 import ShareComponent from "@/components/Dashboard/Common/shareComponent/ShareComponent";
 
-// async function getData() {
-//   const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/home', { cache: 'no-store' })
+async function getData() {
+  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/home', { cache: 'no-store' })
 
-//   // console.log(res)
+  if (!res.ok) {
+    throw new Error('Failed to fetch data')
+  }
 
-//   if (!res.ok) {
-//     throw new Error('Failed to fetch data')
-//   }
-
-//   return res.json()
-// }
+  return res.json()
+}
 
 
 const page = async () => {
-  // const data = await getData()
-  const data = {};
+  const data = await getData()
 
   const editRoute = "dashboard/allpages/home/editHome";
   const endPoints = "home";
 
   const { homeRouteAllMetaData } = data ?? {};
 
-  // console.log(homeRouteAllMetaData)
 
   return (
     <>
