@@ -12,15 +12,14 @@ import { NavbarHeader } from "@/components/__layouts/Headers/Navbar";
 
 export async function generateMetadata() {
   try {
-    // const [homeMetaData, googleVerificationData] = await Promise.all([
-    //   fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/home`, { cache: "no-store" }),
-    //   fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/verificationUrl`, { cache: "no-store" }),
-    // ]);
+    const [homeMetaData, googleVerificationData] = await Promise.all([
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/home`, { cache: "no-store" }),
+      fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/verificationUrl`, { cache: "no-store" }),
+    ]);
 
-    // const homeMeta = await homeMetaData.json();
-    // const verificationIds = await googleVerificationData.json();
-    const homeMeta = {}
-    const verificationIds = {}
+    const homeMeta = await homeMetaData.json();
+    const verificationIds = await googleVerificationData.json();
+
 
     const { homeRouteAllMetaData } = homeMeta ?? {};
     const { verificationUrl } = verificationIds ?? {};
