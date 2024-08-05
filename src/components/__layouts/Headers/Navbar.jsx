@@ -1,4 +1,3 @@
-
 "use client";
 
 // import constants from "@/components/lib/constants";
@@ -28,9 +27,14 @@ import UpperNavbar from "./UpperNav";
 
 const our_service_menu_items = {
   interior: [
-    { title: "Cleaning Services in Richmond", route: "/cleaning-services-in-richmond" },
-    { title: "House Cleaning Services in Katy TX", route: "/house-cleaning-services-in-katy-tx" },
-    
+    {
+      title: "Cleaning Services in Richmond",
+      route: "/cleaning-services-in-richmond",
+    },
+    {
+      title: "House Cleaning Services in Katy TX",
+      route: "/house-cleaning-services-in-katy-tx",
+    },
   ],
 };
 
@@ -120,7 +124,7 @@ function NavList() {
           Home
         </ListItem>
       </Typography>
-      
+
       <Typography
         as={Link}
         href="/about-us"
@@ -175,27 +179,35 @@ export function NavbarHeader() {
   if (pathname.startsWith("/admin")) return null;
   return (
     <>
-      <header  className="sticky top-0 z-50">
+      <header className="sticky top-0 z-50">
         <>
-            <UpperNavbar/>
+          <UpperNavbar />
         </>
 
         <div className="custom-container main__nav">
           <Navbar className="container rounded-none py-2 shadow-none max-w-full">
             <div className="flex items-center justify-between text-blue-gray-900">
               <Link href="/" className="mr-4 cursor-pointer">
-              <Image
-              src="/assets/images/brand.png"
-              width={135}
-              height={67}
-              alt="brand"
-              className="w-auto h-[67px]"
-            />
+                <Image
+                  src="/assets/images/brand.png"
+                  width={135}
+                  height={67}
+                  alt="brand"
+                  className="w-auto h-[67px]"
+                />
               </Link>
               <div className="hidden lg:block">
                 <NavList />
               </div>
               <div className="flex items-center gap-x-4">
+                <div>
+                  <Image
+                    src="/assets/images/header-logo.jpg"
+                    width={50}
+                    height={70}
+                    className="w-14 h-14 2xl:w-[50px] 2xl:h-[50px]"
+                  />
+                </div>
                 <Image
                   src="/assets/images/phone-call.png"
                   width={37}
@@ -214,6 +226,7 @@ export function NavbarHeader() {
                   </a>
                 </div>
               </div>
+
               <IconButton
                 variant="text"
                 color="blue-gray"
@@ -245,7 +258,7 @@ export function NavbarHeader() {
       >
         <div className="mb-6 flex items-center justify-between">
           <Typography variant="h5" color="blue-gray">
-          Cleaning Services
+            Cleaning Services
           </Typography>
           <IconButton
             variant="text"
