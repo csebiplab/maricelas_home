@@ -171,7 +171,6 @@ function NavList() {
 export function NavHeader() {
   const pathname = usePathname();
   const [openNav, setOpenNav] = React.useState(false);
-  const [openNavbar, setOpenNavbar] = useState(false);
   const [hideOnScroll, setHideOnScroll] = useState(false);
 
   useEffect(() => {
@@ -386,9 +385,9 @@ export function NavHeader() {
             variant="text"
             color="blue-gray"
             className="lg:hidden"
-            onClick={() => setOpenNavbar(!openNavbar)}
+            onClick={() => setOpenNav(!openNav)}
           >
-            {openNavbar ? (
+            {openNav ? (
               <XMarkIcon className="h-6 w-6" strokeWidth={2} />
             ) : (
               <Image
