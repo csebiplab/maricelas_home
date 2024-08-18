@@ -4,7 +4,7 @@ import "../globals.css";
 import RoutingProgressBar from "@/components/common/RoutingProgressBar";
 import Footer from "@/components/__layouts/Footers/Footer";
 import ScrollToTopComponent from "@/components/common/ScrollToTop";
-import { NavbarHeader } from "@/components/__layouts/Headers/Navbar";
+import { NavHeader } from "@/components/__layouts/Header/NavHeader";
 
 
 const roboto = Roboto_Slab({ subsets: ['latin'], display: 'swap', adjustFontFallback: false });
@@ -85,8 +85,7 @@ export default function RootLayout({ children }) {
           <RoutingProgressBar />
         </Suspense>
         <>
-
-          <NavbarHeader />
+          <NavHeader/>
         </>
         {children}
         <>
