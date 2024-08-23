@@ -8,10 +8,7 @@ const HomeBanner = () => {
           <div className="text-start">
             <h1 className="text-4xl 2xl:text-[40px] 3xl:text-[44px] 4xl:text-5xl 5xl:text-[52px] text-black font-medium leading-tight">
               Residential &<br />
-              Commercial Cleaning{" "}
-              <span className="hidden md:inline">Services</span>
-              <br />
-              <span className="text-primary hidden md:inline">in Houston</span>
+              Commercial Cleaning <br />
               <span className="text-primary inline md:hidden">
                 Services in Houston
               </span>
