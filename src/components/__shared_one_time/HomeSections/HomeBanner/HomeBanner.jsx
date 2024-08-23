@@ -9,9 +9,7 @@ const HomeBanner = () => {
             <h1 className="text-4xl 2xl:text-[40px] 3xl:text-[44px] 4xl:text-5xl 5xl:text-[52px] text-black font-medium leading-tight">
               Residential &<br />
               Commercial Cleaning <br />
-              <span className="text-primary inline md:hidden">
-                Services in Houston
-              </span>
+              <span className="text-primary">Services in Houston</span>
             </h1>
             <p className="text-lg lg:text-[20px] font-normal leading-[30px] lg:leading-[40px] pt-3">
               We provide professional{" "}
