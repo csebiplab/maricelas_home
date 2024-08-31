@@ -67,9 +67,9 @@ const ServicesAreaSection = () => {
               <div className="mx-auto   flex flex-col items-center justify-center">
                 <Heading text={"Service Area"} />
                 <div>
-                  <h3 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
+                  <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
                     Maricela's Cleaning Magnificenc Service Area
-                  </h3>
+                  </h2>
                 </div>
               </div>
 
@@ -111,9 +111,9 @@ const ServicesAreaSection = () => {
                             className="rounded-lg"
                           />
 
-                          <h5 className=" text-center text-base py-4 px-3 lg:px-10 bg-[#880769] text-white">
+                          <p className=" text-center text-base py-4 px-3 lg:px-10 bg-[#880769] text-white">
                             {location?.address}
-                          </h5>
+                          </p>
                         </div>
                       </div>
                     </SwiperSlide>

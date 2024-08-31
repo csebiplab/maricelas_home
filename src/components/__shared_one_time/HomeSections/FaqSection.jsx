@@ -72,10 +72,10 @@ const FaqSection = () => {
                 </div>
 
                 <div>
-                  <p className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
+                  <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-3 md:mt-[15px] lg:mb-8 mb-5 font-semibold">
                     FAQ for Residential and Commercial Cleaning Services in
                     Houston
-                  </p>
+                  </h2>
                 </div>
               </div>
             </div>

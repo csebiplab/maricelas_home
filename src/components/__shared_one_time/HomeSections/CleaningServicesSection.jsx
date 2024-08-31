@@ -3,6 +3,7 @@ import clean1 from "../../../../public/assets/images/clean1.png";
 import clean2 from "../../../../public/assets/images/clean2.png";
 import clean3 from "../../../../public/assets/images/clean3.png";
 import Image from "next/image";
+import Link from "next/link";
 
 const CleaningServicesSection = () => {
   return (
@@ -21,9 +22,9 @@ const CleaningServicesSection = () => {
             />
 
             <div className="lg:w-[183.329px] md:w-[80px] lg:h-[169.493px] md:h-[70px] bg-[#880769] mx-auto card-sd text-center flex flex-col justify-center items-center mt-2 lg:mt-4">
-              <h5 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-[#fff]">
-                10+
-              </h5>
+              <p className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-[#fff]">
+                5+
+              </p>
               <p className="lg:text-lg text-base font-semibold lg:leading-[22.5px] mt-1 text-[#fff]">
                 Successful Years
               </p>
@@ -64,9 +65,9 @@ const CleaningServicesSection = () => {
           </div>
 
           <div className=" w-full lg:!w-[400px] bg-primary mx-auto card-sd text-center flex flex-col justify-center items-center my-4 py-4">
-            <h5 className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-white">
-              10+
-            </h5>
+            <p className="lg:text-[55px] text-lg font-semibold lg:leading-[47.25px] md:mb-[5px] xs:mb-0 text-white">
+              5+
+            </p>
             <p className="lg:text-lg text-base font-semibold lg:leading-[22.5px] mt-1 text-white">
               Successful Years
             </p>
@@ -93,8 +94,8 @@ const CleaningServicesSection = () => {
         </h2>
         <p className="text-base font-normal lg:leading-[170%] mt-2  text-dark-50 ">
           At Maricela's Cleaning Magnificence, we understand the importance of
-          reliability and professionalism when it comes to maintaining
-          cleanliness in both commercial and residential settings. Our trained
+          reliability and professionalism when it comes to maintaining 
+          <Link className="text-primary hover:underline" rel="nofollow" target="_blank" href="https://en.wikipedia.org/wiki/Cleanliness"> cleanliness</Link> in both commercial and residential settings. Our trained
           staff is committed to upholding the highest standards of quality and
           integrity in every job we undertake. From routine cleanings to deep
           sanitization, we prioritize customer satisfaction and strive to exceed
