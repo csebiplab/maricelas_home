@@ -4,7 +4,7 @@ import cost2 from "../../../../public/assets/images/cost_service2.png";
 import Image from "next/image";
 const CostForServicesSection = () => {
   return (
-    <div className="bg-[#FFF3FC]  w-full">
+    <div className="bg-[#FFF3FC]  container">
       <div className="3xl:py-[120px] lg:py-[100px] py-[60px]  w-full">
         <div className="block md:flex items-center gap-2 md:gap-x-7 lg:gap-x-10 2xl:gap-x-11 3xl:gap-x-12 4xl:gap-x-14 5xl:gap-[66px]  w-full">
           <div className="mb-5 md:mb-0 md:text-start text-center w-full ">
@@ -40,9 +40,9 @@ const CostForServicesSection = () => {
                 className="w-full "
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="text-[25px] font-bold py-1 md:py-2">
+                <p className="text-[25px] font-bold py-1 md:py-2">
                   Commercial spaces
-                </h4>
+                </p>
                 <p className="text-base font-normal md:px-1 text-[#252525] lg:leading-5">
                   For commercial spaces, prices can range from $0.05 to $0.25
                   per square foot
@@ -58,9 +58,9 @@ const CostForServicesSection = () => {
                 className="w-full "
               />
               <div className="text-center py-3 md:px-2 px-1">
-                <h4 className="text-base  md:text-[25px] font-bold py-1 md:py-2">
+                <p className="text-base  md:text-[25px] font-bold py-1 md:py-2">
                   Residential cleaning
-                </h4>
+                </p>
                 <p className="text-sm md:text-base font-normar md:px-1 text-[#252525] lg:leading-5">
                   Residential cleaning services typically charge by the hour,
                   with rates averaging between $25 to $50 per hour.

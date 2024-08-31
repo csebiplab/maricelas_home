@@ -147,25 +147,25 @@ const OurOtherServicesSection = () => {
   };
 
   return (
-    <div className="!overflow-hidden">
-      <div className="">
-        <div className="container lg:py-20 py-14">
+    <div className="">
+      <div className="container lg:py-20 py-14">
+        <div className="!overflow-hidden">
           <div className="grid grid-cols-1  lg:grid-cols-2 lg:gap-40 gap-4  p-5 items-end text-sm ">
             <div className="  ">
               <div className="flex justify-center lg:justify-normal items-center">
                 <Heading text={"Other Services"} />
               </div>
-              <h2 className="hidden lg:block text-[28px] md:text-[32px] font-bold text-[#1F1F1F] mt-[15px]">
+              <h2 className="text-[28px] md:text-[32px] text-center md:text-left font-bold text-[#1F1F1F] mt-[15px]">
                 Our Other <br className=" hidden lg:block" /> Cleaning Services{" "}
                 <br className=" hidden lg:block" /> in Houston
               </h2>
-              <h2 className="block lg:hidden text-[28px] md:text-[32px] font-bold text-center">
+              {/* <h2 className="block lg:hidden text-[28px] md:text-[32px] font-bold text-center">
                 Our Other Cleaning Services in Houston
-              </h2>
+              </h2> */}
             </div>
 
             <div className="hidden lg:block">
-              <h6 className="text-base font-bold">Commercial Cleaning</h6>
+              <p className="text-base font-bold">Commercial Cleaning</p>
               <p className=" mt-[15px] items-center text-sm font-normal leading-[20px]">
                 Experience pristine cleanliness with our professional commercial
                 cleaning services in Houston, TX. Our expert team employs

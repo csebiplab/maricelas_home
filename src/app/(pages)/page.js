@@ -21,8 +21,8 @@ import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/Clea
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <div className="">
+    <main className="">
+      <div className="custom-container">
         <div>
           <HomeBanner />
         </div>

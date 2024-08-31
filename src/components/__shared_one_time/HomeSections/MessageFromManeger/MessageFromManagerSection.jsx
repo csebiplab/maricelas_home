@@ -52,9 +52,9 @@ const MessageFromManagerSection = () => {
             <div className="flex flex-col lg:flex-row w-full lg:relative mt-5 lg:my-0">
               <div className="w-full lg:w-[498px] flex justify-center items-center bg-warning-50 text-black lg:rotate-[270deg] lg:absolute -left-[210px] top-[200px] p-6 rounded-tr-[10px] rounded-tl-[10px]">
                 <div className="">
-                  <h5 className="text-base lg:text-2xl lg:leading-[160%]">
+                  <p className="text-base font-semibold lg:text-2xl lg:leading-[160%]">
                     Message From Manager
-                  </h5>
+                  </p>
                 </div>
               </div>
               <div className="lg:ml-24">
@@ -91,9 +91,9 @@ const MessageFromManagerSection = () => {
                           </div>
                           {/* For small screen starts */}
                           <div className="block lg:hidden">
-                            <h2 className="text-lg lg:text-2xl 2xl:text-[32px] mt-2 font-semibold text-[#1F1F1F]">
+                            <p className="text-lg lg:text-2xl 2xl:text-[32px] mt-2 font-semibold text-[#1F1F1F]">
                               Your best option for Cleaning services
-                            </h2>
+                            </p>
                             <p className="text-base lg:leading-[200%] mb-1 mt-2">
                               Dear valued customers, As the General Manager of
                               our cleaning services, I want to ensure that you

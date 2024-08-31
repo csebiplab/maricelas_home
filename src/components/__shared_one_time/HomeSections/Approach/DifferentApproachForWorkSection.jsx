@@ -118,9 +118,9 @@ const DifferentApproachForWorkSection = () => {
                   className="w-full rounded-md"
                 />
                 <div className="text-center py-3 md:px-2 px-1 ">
-                  <h4 className="text-[20px] md:text-[25px] font-bold py-1 md:py-2">
+                  <p className="text-[20px] md:text-[25px] font-bold py-1 md:py-2">
                     {slideInfo?.title}
-                  </h4>
+                  </p>
                   <p className="text-base font-normal mt-1 md:mt-0  md:px-1 text-[#252525] leading-[25px]">
                     {slideInfo?.description}
                   </p>

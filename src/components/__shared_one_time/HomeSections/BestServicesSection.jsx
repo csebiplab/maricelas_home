@@ -29,7 +29,7 @@ const BestServicesSection = () => {
               integrity and attention to detail. We understand the importance of
               a clean and healthy environment, which is why we strive for
               perfection in every job we undertake. Let us handle the dirty work
-              while you focus on what matters most – enjoying a spotless space
+              while you focus on what matters most - enjoying a spotless space
               you can be proud of.
             </p>
           </div>
