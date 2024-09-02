@@ -63,7 +63,7 @@ const footerIcon = [
 const Footer = () => {
   return (
     <footer className="">
-      <div className=" footer__bg bg-blend-multiply px-[6px] lg:px-9  !text-white relative">
+      <div className="custom-container footer__bg bg-blend-multiply px-[6px] lg:px-9  !text-white relative">
         {/* star img */}
         <div className="absolute top-10 4xl:ml-[100px] lg:block hidden ">
           <Image src={star} height={60} width={70} alt="star" />
@@ -84,9 +84,9 @@ const Footer = () => {
 
                   </div> */}
                   <div>
-                    <h4 className=" lg:text-[25px] text-[20px]">
+                    <p className=" lg:text-[25px] text-[20px] font-semibold">
                       We Are Maricela's Cleaning Magnificence
-                    </h4>
+                    </p>
                     <p className="text-white lg:pt-6 pt-2 mb-2 ml-2 text-sm">
                       We work with a passion of taking challenges and creating
                       new ones in advertising sector.
@@ -100,9 +100,9 @@ const Footer = () => {
                     </p> */}
 
                     <div className=" sm:col-span-3  items-center">
-                      <h3 className="font-semibold text-white lg:text-xl text-lg lg:mb-7 md:mb-5 mb-3">
+                      <p className="font-semibold text-white lg:text-xl text-lg lg:mb-7 md:mb-5 mb-3">
                         Contact Us
-                      </h3>
+                      </p>
                       <ul className=" ">
                         <li>
                           <a
@@ -188,10 +188,10 @@ const Footer = () => {
                 <div className=" lg:col-span-5 md:col-span-2 grid sm:grid-cols-7 grid-cols-1 lg:gap-10 gap-3">
                   {/* news line */}
                   <div className="sm:col-span-2  ">
-                    <h3 className="font-semibold text-white  lg:text-xl  text-lg lg:mb-7 md:mb-5 mb-3 ">
+                    <p className="font-semibold text-white  lg:text-xl  text-lg lg:mb-7 md:mb-5 mb-3 ">
                       {" "}
                       News{" "}
-                    </h3>
+                    </p>
                     <ul className=" ">
                       <li className=" ">
                         <Link
@@ -243,9 +243,9 @@ const Footer = () => {
 
                   {/* services line */}
                   <div className=" sm:col-span-2  ">
-                    <h3 className="font-semibold text-white lg:text-xl text-lg  lg:mb-7 md:mb-5 mb-3 ">
+                    <p className="font-semibold text-white lg:text-xl text-lg  lg:mb-7 md:mb-5 mb-3 ">
                       Ours Services
-                    </h3>
+                    </p>
                     <ul className="">
                       <li className=" ">
                         <Link
@@ -348,7 +348,7 @@ const Footer = () => {
                       
                     </ul>
                      */}
-                    <h4 className="lg:text-xl text-base">Open Hours:</h4>
+                    <p className="lg:text-xl text-base">Open Hours:</p>
                     <p className="my-1 mt-2 lg:mt-5">
                       Mon - Fri: 07 am - 07 pm, <br /> Sunday: CLOSED
                     </p>
@@ -398,8 +398,8 @@ const Footer = () => {
       </div>
 
       {/* creater company credit */}
-      <div className="footer-bottom-bg    ">
-        <div className="container grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
+      <div className="">
+        <div className="footer-bottom-bg container grid lg:grid-cols-8 gap-5 lg:py-6 xs:py-2   items-center  md:mx-auto text-center ">
           <div className="lg:col-span-3 flex items-center justify-center lg:justify-normal gap-2  ">
             <p className="lg:text-[16px] md:text-sm text-[8px]  ">
               {" "}

@@ -51,7 +51,7 @@ const reviews = [
     address: "Houston",
   },
   {
-    reviewText: `Maricela’s cleaning really is magnificent. 
+    reviewText: `Maricela's cleaning really is magnificent. 
       She takes care of our office building Monday-Friday 
       and the place always looks immaculate. Highly recommend!`,
     author: "Kendyl Georgie",
@@ -83,7 +83,7 @@ const reviews = [
     address: "Houston",
   },
   {
-    reviewText: `We used Maricela’s team for the first time today and our house looks and smells like new! They were on time, brought their own equipment/supplies, and were very friendly. We will definitely use this service again!`,
+    reviewText: `We used Maricela's team for the first time today and our house looks and smells like new! They were on time, brought their own equipment/supplies, and were very friendly. We will definitely use this service again!`,
     author: "Shayla Alkire",
     address: "Houston",
   },
@@ -98,11 +98,11 @@ const ReviewSlider = () => {
   return (
     <div className="md:flex px-[30px] md:px-0 py-[44px]">
       {/* ============ For mobile view ========== */}
-      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-5/12 md:hidden mt-[7px] md:mt-0">
+      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-5/12 mt-[7px] md:mt-0">
         <div className="flex justify-center md:justify-start">
           <Heading text={"Review"} />
         </div>
-        <h2 className="md:leading-8 text-[28px] md:text-[32px] font-bold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center">
+        <h2 className="md:leading-8 text-[28px] md:text-[32px] font-bold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center md:text-left">
           Here's what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
@@ -147,7 +147,7 @@ const ReviewSlider = () => {
                 <p className="text-base mt-4  text-black leading-[22px] md:leading-6">
                   {reviewText}
                 </p>
-                <h6 className="font-semibold text-base mt-2">{author}</h6>
+                <p className="font-semibold text-base mt-2">{author}</p>
                 <p className="text-[#4A4A4A] text-sm">{address}</p>
               </div>
             </div>
@@ -158,13 +158,13 @@ const ReviewSlider = () => {
       </Swiper>
 
       {/* =========== For desktop view ========= */}
-      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 hidden md:block">
+      {/* <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 hidden md:block">
         <Heading text={"Review"} />
         <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">
-          Here’s what to expect when you hire us as your Cleaning Services in
+          Here's what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -24,9 +24,9 @@ const TrustUs = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.trustUs__headingIconText}/>
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
+            <h2 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
             Katy House Cleaning Services You Can Trust
-            </h3>
+            </h2>
 
             <p className="text-[#111] text-lg font-normal mt-4 text-center md:text-left">
             We pride ourselves on delivering meticulous cleaning solutions tailored to meet the unique needs of each home. Our dedicated team of cleaning professionals is committed to exceeding your expectations with every visit. Whether you require regular maintenance cleaning, deep cleaning, or specialized services for a special occasion, we have you covered. Our approach is rooted in attention to detail and using eco-friendly cleaning products to ensure a safe and healthy living space for you and your family. We customize our cleaning plans to address specific areas of concern and prioritize areas that matter most to you. With Maricela's Cleaning Magnificence, you can expect reliability, transparency, and exceptional customer service. We aim to build long-lasting relationships based on trust and satisfaction, making us the preferred choice for house cleaning services in Katy, TX. Let us take care of the cleaning, so you can enjoy more time doing what you love.

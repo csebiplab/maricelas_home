@@ -118,9 +118,9 @@ const ReasonWhyHireUsSection = () => {
                     </div>
                   </div>
                 </div>
-                <h5 className="mt-3 mb-1 text-[20px] font-bold text-center">
+                <p className="mt-3 mb-1 text-[20px] font-bold text-center">
                   {title}
-                </h5>
+                </p>
                 <p className="px-2 text-base font-normal text-center">
                   {details}
                 </p>

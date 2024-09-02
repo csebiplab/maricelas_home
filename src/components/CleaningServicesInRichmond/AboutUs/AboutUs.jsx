@@ -24,10 +24,10 @@ const AboutUs = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.aboutUs__headingIconText}/>
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
+            <h2 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
             About Our Expert Cleaners 
             in Richmond
-            </h3>
+            </h2>
 
             <p className="text-[#111] text-lg font-normal mt-4 text-center md:text-left">
             At Maricela's Cleaning Magnificence, we take pride in offering top-notch cleaning services in Richmond. Our expert cleaners are dedicated to transforming your spaces with meticulous attention to detail and a commitment to excellence. Whether it's your home or office, we use eco-friendly products and state-of-the-art equipment to ensure a spotless and healthy environment. With years of experience in the cleaning industry, we understand each client's unique needs and customize our services to meet them. Our expert cleaners are your go-to solution for a pristine space from regular maintenance cleaning to deep cleaning and special projects. We value your time and trust, offering flexible scheduling and competitive pricing to fit your lifestyle and budget. Experience the difference of a truly magnificent clean with our cleaning company - where quality meets perfection every time.

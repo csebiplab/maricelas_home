@@ -20,7 +20,7 @@ import ProjectGallery from "../HouseCleaningServicesInKatyTX/ProjectGallery/Proj
 
 const CleaningServicesInRichmond = () => {
   return (
-    <div>
+    <div className="custom-container">
       <section>
         <CleaningServicesInRichmondBanner />
       </section>

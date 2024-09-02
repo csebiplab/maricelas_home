@@ -24,9 +24,9 @@ const HouseCleaning = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.houseCleaning__headingIconText}/>
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
+            <h2 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
             House Cleaning Services Richmond
-            </h3>
+            </h2>
 
             <p className="text-[#111] text-lg font-normal mt-4 text-center md:text-left">
             Maricela's Cleaning Magnificence offers top-tier house cleaning services in Richmond. With a commitment to excellence, our skilled team ensures every corner of your home shines with cleanliness. From routine maintenance to deep cleaning, we tailor our services to meet your specific needs, using eco-friendly products for a healthier environment. Whether you need weekly, bi-weekly, or one-time cleaning, our reliable staff delivers impeccable results, leaving you with a fresh and inviting space to enjoy. From bathrooms, kitchens, and living rooms to bedrooms, we tackle dust, grime, and dirt with precision and care. With competitive pricing and flexible scheduling, we strive to make professional cleaning accessible and convenient for all our clients. Experience peace of mind knowing your home is in capable hands with our cleaning company, where we strive for nothing less than magnificence in every clean.

@@ -84,9 +84,9 @@ const WhyChooseUsSection = () => {
         {/* 2 card */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-4">
           <div className="card__chooseUs">
-            <h2 className="title-bg text-center py-1 lg:py-2  text-white text-xs lg:text-base !font-semibold">
+            <p className="title-bg text-center py-1 lg:py-2  text-white text-xs lg:text-base !font-semibold">
               Usual Cleaner Experience
-            </h2>
+            </p>
             <div className="grid grid-cols-2 py-4 px-4 lg:px-6 3xl:px-7">
               {usualPool.map((usual, idx) => (
                 <div
@@ -114,9 +114,9 @@ const WhyChooseUsSection = () => {
           </div>
 
           <div className="card__chooseUs h-full">
-            <h2 className="title-bg text-center py-1 lg:py-2  text-white text-xs lg:text-base !font-semibold">
+            <p className="title-bg text-center py-1 lg:py-2  text-white text-xs lg:text-base !font-semibold">
               Maricela's Cleaning Magnificence
-            </h2>
+            </p>
             <div className="grid grid-cols-2 gap-x-1 py-4 px-3 lg:pl-3">
               {benefits.map((usual, idx) => (
                 <div
