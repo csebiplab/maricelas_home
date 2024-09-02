@@ -24,9 +24,9 @@ const CleaningContractors = () => {
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.cleaningContractors__headingIconText}/>
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
+            <h2 className="text-black text-[32px] md:text-[33px] xl:text-[34px] 2xl:text-[36px] 3xl:text-[38px]4xl:text-[40px] 5xl:text-[42px] font-bold text-center md:text-left">
             Experienced Cleaning Contractors in Katy
-            </h3>
+            </h2>
 
             <p className="text-[#111] text-lg font-normal mt-4 text-center md:text-left">
             With years of expertise in the industry, we pride ourselves on delivering top-notch cleaning services tailored to meet the specific requirements of each client. Our skilled team of professionals is equipped with the latest cleaning techniques and high-quality products, ensuring a spotless and hygienic environment for your home or business. We offer a comprehensive range of services, including residential cleaning, commercial cleaning, carpet and upholstery cleaning, window cleaning, and more. Our commitment to excellence and attention to detail set our cleaners apart from the competition. We understand that every space is unique, and we work closely with our clients to create customized cleaning plans that fit their schedules and budgets.

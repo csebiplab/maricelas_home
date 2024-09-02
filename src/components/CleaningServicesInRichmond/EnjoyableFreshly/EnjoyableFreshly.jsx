@@ -40,7 +40,7 @@ const EnjoyableFreshly = () => {
             <path d="M1.78711 0L0 1.61048L5.42578 6.5L0 11.3895L1.78711 13L9 6.5L1.78711 0Z" fill="black"/>
             </svg></button>
             </a>
-            <h5 className="text-[30px] font-bold text-black"> <span>or Call Us:</span>  <a href="tel:(832) 820-4035"><span className="text-[#880769]"> (832) 820-4035 </span> </a> </h5>
+            <p className="text-[30px] font-bold text-black"> <span>or Call Us:</span>  <a href="tel:(832) 820-4035"><span className="text-[#880769]"> (832) 820-4035 </span> </a> </p>
           </div>
         </div>
       </div>
