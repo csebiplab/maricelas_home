@@ -8,7 +8,7 @@ const CommercialCleaning = () => {
     <div className="">
       <div className="container padding__top">
         <div className="grid md:grid-cols-6 grid-cols-1  gap-10">
-          <div className="order-2 md:col-span-3">
+          <div className="order-1 md:order-2 md:col-span-3">
             <div>
               <Image
                 src="/assets/cleaningServices/Commercial Cleaning.png"
@@ -18,7 +18,7 @@ const CommercialCleaning = () => {
               />
             </div>
           </div>
-          <div className="order-1 md:col-span-3">
+          <div className="order-2 md:order-1 md:col-span-3">
             <div className="flex justify-center md:justify-start ">
                 <HeadingIcon text={headingIconText.commercialCleaning__headingIconText}/>
             </div>

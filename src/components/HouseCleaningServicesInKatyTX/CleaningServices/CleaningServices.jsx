@@ -8,7 +8,7 @@ const CleaningServices = () => {
     <div className=" ">
       <div className="padding__top container">
         <div className="grid md:grid-cols-6 grid-cols-1 gap-7 ">
-          <div className="order-2 md:col-span-3 flex justify-end items-center md:items-start">
+          <div className="order-1 md:order-2 md:col-span-3 flex justify-end items-center md:items-start">
             <div className="">
               <Image
                 src="/assets/houseCleaningServices/Cleaning Services.png"
@@ -20,7 +20,7 @@ const CleaningServices = () => {
             </div>
           </div>
 
-          <div className="order-1 md:col-span-3 flex flex-col justify-center items-center md:items-start pt-6 md:pt-0">
+          <div className="order-2 md:order-1 md:col-span-3 flex flex-col justify-center items-center md:items-start pt-6 md:pt-0">
             <div className="flex md:justify-normal justify-center md:items-start items-center mb-4">
               <HeadingIcon text={headingIconText.cleaningServices__headingIconText}/>
             </div>
