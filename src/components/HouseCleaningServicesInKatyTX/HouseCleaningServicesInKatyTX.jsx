@@ -19,7 +19,7 @@ import ProjectGallery from './ProjectGallery/ProjectGallery';
 
 const HouseCleaningServicesInKatyTX = () => {
     return (
-        <div>
+        <div className="custom-container">
             <section>
                 <HouseCleaningServicesBanner/>
             </section>

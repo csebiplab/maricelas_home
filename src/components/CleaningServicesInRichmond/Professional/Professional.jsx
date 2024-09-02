@@ -24,9 +24,9 @@ const Professional = () => {
                 text={headingIconText.professional__headingIconText}
               />
             </div>
-            <h3 className="text-black text-[32px] md:text-[33px] lg:text-[34px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold  text-center md:text-left pt-[10px] py-3">
+            <h2 className="text-black text-[32px] md:text-[33px] lg:text-[34px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[40px] 4xl:text-[41px] 5xl:text-[42px] font-bold  text-center md:text-left pt-[10px] py-3">
               Professional Cleaning Services in Richmond
-            </h3>
+            </h2>
             <p className="text-lg font-normal text-[#111] text-center md:text-left pt-[10px]">
               Maricela's Cleaning Magnificence offers top-tier professional
               cleaning services in Richmond. With a dedicated team of
@@ -51,9 +51,9 @@ const Professional = () => {
                     width={53}
                     height={53}
                   />
-                  <h6 className="text-center text-[#880769] text-lg font-bold">
+                  <p className="text-center text-[#880769] text-lg font-bold">
                     Carpet and upholstery cleaning
-                  </h6>
+                  </p>
                 </div>
               </div>
 
@@ -66,9 +66,9 @@ const Professional = () => {
                     width={53}
                     height={53}
                   />
-                  <h6 className="text-center text-[#880769] text-lg font-bold">
+                  <p className="text-center text-[#880769] text-lg font-bold">
                     Window cleaning
-                  </h6>
+                  </p>
                 </div>
               </div>
 
@@ -81,9 +81,9 @@ const Professional = () => {
                     width={53}
                     height={53}
                   />
-                  <h6 className="text-center text-[#880769] text-lg font-bold">
+                  <p className="text-center text-[#880769] text-lg font-bold">
                     Pressure washing
-                  </h6>
+                  </p>
                 </div>
               </div>
 
@@ -96,9 +96,9 @@ const Professional = () => {
                     width={53}
                     height={53}
                   />
-                  <h6 className="text-center text-[#880769] text-lg font-bold">
+                  <p className="text-center text-[#880769] text-lg font-bold">
                     Green/eco-friendly cleaning
-                  </h6>
+                  </p>
                 </div>
               </div>
             </div>
