@@ -5,7 +5,6 @@ import AboutUs from './AboutUs/AboutUs'
 import RatingNReviewSection from '../__shared_one_time/HomeSections/Rating/RatingNReveiwSection';
 import ReviewSlider from '../CleaningServicesInRichmond/ReviewSwipper/ReviewSlider/ReviewSlider';
 import ServicesAreaSection from '../__shared_one_time/HomeSections/ServicesAreaSection';
-import ProjectGallerySection from "../__shared_one_time/HomeSections/ProjectGallerySection";
 import CleaningContractors from './CleaningContractors/CleaningContractors';
 import CleaningServices from './CleaningServices/CleaningServices';
 import HomeCleaningServices from './HomeCleaningServices/HomeCleaningServices';

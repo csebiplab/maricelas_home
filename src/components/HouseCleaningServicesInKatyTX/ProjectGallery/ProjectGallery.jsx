@@ -51,8 +51,8 @@ const ProjectGallery = () => {
   };
 
   return (
-    <div  className='bg__color'>
-      <div className="custom-container  3xl:py-[85px] py-[50px]">
+    <div  className=''>
+      <div className="custom-container  padding__top">
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
             <Heading text={"Project Gallery"} />
