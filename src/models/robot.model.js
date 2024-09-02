@@ -12,6 +12,6 @@ const robotSchema = new Schema(
   }
 );
 
-const robottxts =
-  mongoose.models.robottxts || mongoose.model("robottxts", robotSchema);
-export default robottxts;
+const RobotTxt =
+  mongoose.models.RobotTxt || mongoose.model("RobotTxt", robotSchema);
+export default RobotTxt;
