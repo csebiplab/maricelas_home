@@ -1,9 +1,10 @@
 import DashboardNav from "@/components/__dashboard/DashboardNav";
-import "../../globals.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import DashboardShell from "@/components/__dashboard/DashboardShell";
 import DashboardHeader from "@/components/__dashboard/DashboardHeader";
+
+import "../../globals.css";
 
 
 export default function DashboardLayout({ children }) {
