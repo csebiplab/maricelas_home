@@ -1,5 +1,5 @@
 import MyProfile from "@/components/__dashboard/MyProfile";
-import getCurrentUser from "@/libs/session";
+import getCurrentUser from "@/lib/session";
 
 const MyProfilePage = async () => {
     const user = await getCurrentUser();

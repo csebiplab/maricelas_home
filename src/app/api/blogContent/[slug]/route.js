@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
 import { ObjectId } from 'mongodb';
-import Blog from "@/models/blog.model";
+import connectMongoDB from "@/lib/db";
 import convertToLink from "@/helpers/trimSpace";
-import connectMongoDB from "@/libs/db";
+import Blog from "@/models/blog.model";
 
 
 export async function PATCH(request, { params }) {
@@ -10,7 +10,7 @@ export async function PATCH(request, { params }) {
 
   const updateField = await request.json();
 
-  const { blogTitle, metaTitle, customLink, metaDescription, metaKeywords, shortDescription, content } = updateField;
+  const { customLink } = updateField;
 
   const id = slug;
 
