@@ -1,12 +1,11 @@
-import dbConnect from "@/lib/db.connect";
-import verificationSite from "@/models/siteVerification";
+import connectMongoDB from "@/lib/db";
+import verificationSite from "@/models/site-verification.model";
 import { NextResponse } from "next/server";
-
 
 export async function PUT(request, { params }) {
   const { id } = params;
   const { title, url } = await request.json();
-  await dbConnect();
+  await connectMongoDB();
   const verificationData = await verificationSite.findByIdAndUpdate(id, {
     title,
     url,
@@ -16,7 +15,7 @@ export async function PUT(request, { params }) {
 
 export async function GET(request, { params }) {
   const { id } = params;
-  await dbConnect();
+  await connectMongoDB();
   const verificationData = await verificationSite.findOne({ _id: id });
   return NextResponse.json({ verificationData }, { status: 200 });
 }

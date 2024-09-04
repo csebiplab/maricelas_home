@@ -1,30 +1,47 @@
-import dbConnect from "@/lib/db.connect";
-import siteMap from "@/models/siteMap";
+import connectMongoDB from "@/lib/db";
+import Sitemap from "@/models/sitemap.model";
 import { NextResponse } from "next/server";
 
 
+
 export async function POST(request) {
-  const { title, url } = await request.json();
-  await dbConnect();
-  await siteMap.create({ title, url });
+  const { changefreq, loc, priority } = await request.json();
+  await connectMongoDB();
+
+  const data = await Sitemap.create({ changefreq, loc, priority });
+
   return NextResponse.json(
-    { message: "Site map url is generated" },
+    {
+      message: "Request success",
+      data: data
+    },
     { status: 201 }
   );
 }
 
 export async function GET() {
-  await dbConnect();
-  const sitemap = await siteMap.find();
-  return NextResponse.json({ sitemap });
+  await connectMongoDB();
+  const data = await Sitemap.find();
+  return NextResponse.json(
+    {
+      message: "Request success",
+      data: data
+    },
+    { status: 200 }
+  );
 }
 
 export async function DELETE(request) {
   const id = request.nextUrl.searchParams.get("id");
-  await dbConnect();
-  await siteMap.findByIdAndDelete(id);
+
+  await connectMongoDB();
+
+  await Sitemap.findByIdAndDelete(id);
+
   return NextResponse.json(
-    { message: "Sitemap url data is deleted" },
+    {
+      message: "Request success",
+    },
     { status: 200 }
   );
 }

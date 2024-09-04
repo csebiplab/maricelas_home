@@ -1,9 +1,6 @@
 "use client";
 
-import {
-  ChevronDownIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import {
   Button,
   Collapse,
@@ -21,11 +18,9 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import UpperNavbar from "./UpperNav";
 import "./NavHeader.css";
-
-
 
 // our services nav menu
 const our_service_menu_items = {
@@ -39,7 +34,6 @@ const our_service_menu_items = {
       route: "/house-cleaning-services-in-katy-tx",
     },
   ],
-  
 };
 
 function OurServiceManu() {
@@ -151,7 +145,6 @@ function NavList() {
           Blog
         </ListItem>
       </Typography>
-      
 
       <Typography
         as={Link}
@@ -182,10 +175,10 @@ export function NavHeader() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -199,19 +192,19 @@ export function NavHeader() {
   if (pathname.startsWith("/admin")) return null;
   return (
     <>
-        <UpperNavbar/>
+      <UpperNavbar />
       <header className="sticky top-0 z-[500000]">
         <div className="custom-container main__header">
           <Navbar className="container rounded-none py-2 shadow-none max-w-full">
             <div className="flex items-center justify-between text-blue-gray-900">
               <Link href="/">
-              <Image
-              src="/assets/images/maricelas.png"
-              width={217}
-              height={103}
-              alt="brand"
-              className="w-full h-full lg:w-[217px] hidden md:block"
-            />
+                <Image
+                  src="/assets/images/maricelas.png"
+                  width={217}
+                  height={103}
+                  alt="brand"
+                  className="w-full h-full lg:w-[217px] hidden md:block"
+                />
               </Link>
               <div className="hidden lg:block">
                 <NavList />
@@ -219,44 +212,44 @@ export function NavHeader() {
 
               <div className="flex ">
                 <div className="hidden md:flex items-center gap-x-6 md:gap-x-7 lg:gap-x-8">
-            <div className="">
-              <div className="flex items-center gap-2">
-                <Image
-                  src="/assets/images/phone-call.png"
-                  width={24}
-                  height={24}
-                  alt="Phone"
-                  className="w-[24px] h-[24px]"
-                />
-                <div className="">
-                  <span className="text-base block">Quick Contact</span>
-                  <a
-                    href="tel:(832) 820-4035"
-                    className="text-primary font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
-                  >
-                    (832) 820-4035
-                  </a>
+                  <div className="">
+                    <div className="flex items-center gap-2">
+                      <Image
+                        src="/assets/images/phone-call.png"
+                        width={24}
+                        height={24}
+                        alt="Phone"
+                        className="w-[24px] h-[24px]"
+                      />
+                      <div className="">
+                        <span className="text-base block">Quick Contact</span>
+                        <a
+                          href="tel:(832) 820-4035"
+                          className="text-primary font-bold xs:text-base sm:text-xl md:text-2xl 2xl:text-3xl"
+                        >
+                          (832) 820-4035
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <Image
+                      src="/assets/images/header-logo.jpg"
+                      width={65}
+                      height={80}
+                      alt="brand"
+                      className="h-[80px] w-[65px]"
+                    />
+                  </div>
                 </div>
-              </div>
-            </div>
-           
-            <div>
-              <Image
-                src="/assets/images/header-logo.jpg"
-                width={65}
-                height={80}
-                alt="brand"
-                className="h-[80px] w-[65px]"
-              />
-            </div>
-          </div>
               </div>
             </div>
           </Navbar>
         </div>
 
-      {/* small device  */}
-      {/* <div className="w-full bg-white flex justify-between items-center px-3 sm:px-6">
+        {/* small device  */}
+        {/* <div className="w-full bg-white flex justify-between items-center px-3 sm:px-6">
         <div className="block md:hidden">
           <a href="tel:(832) 820-4035" className="!no-underline">
             <Button className="text-black nav__btn flex items-center gap-x-2">
@@ -338,97 +331,94 @@ export function NavHeader() {
         </div>
       </div> */}
 
+        <div className="w-full bg-white flex justify-between items-center px-3 sm:px-6">
+          <div className="block md:hidden">
+            <a href="tel:(832) 820-4035" className="!no-underline">
+              <Button className="text-black nav__btn flex items-center gap-x-2">
+                <span className="text-black text-[10px] sm:text-base font-bold">
+                  Get an Estimate
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="10"
+                  height="14"
+                  viewBox="0 0 10 14"
+                  fill="none"
+                >
+                  <path
+                    d="M2.07589 0.0371094L0.298388 1.65039L5.695 6.54844L0.298388 11.4465L2.07589 13.0598L9.25 6.54844L2.07589 0.0371094Z"
+                    fill="black"
+                  />
+                </svg>
+              </Button>
+            </a>
+          </div>
 
-
-
-<div className="w-full bg-white flex justify-between items-center px-3 sm:px-6">
-        <div className="block md:hidden">
-          <a href="tel:(832) 820-4035" className="!no-underline">
-            <Button className="text-black nav__btn flex items-center gap-x-2">
-              <span className="text-black text-[10px] sm:text-base font-bold">
-                Get an Estimate
-              </span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="10"
-                height="14"
-                viewBox="0 0 10 14"
-                fill="none"
-              >
-                <path
-                  d="M2.07589 0.0371094L0.298388 1.65039L5.695 6.54844L0.298388 11.4465L2.07589 13.0598L9.25 6.54844L2.07589 0.0371094Z"
-                  fill="black"
+          <div className="block md:hidden">
+            <a href="tel:(832) 820-4035" className="!no-underline">
+              <Button className="text-white phone__icon flex items-center gap-x-2">
+                <Image
+                  src="/assets/icons/phone__icon.png"
+                  alt="phone icon"
+                  width={20}
+                  height={20}
                 />
-              </svg>
-            </Button>
-          </a>
+                <span className="text-white text-[10px] sm:text-base font-bold">
+                  Click to Call
+                </span>
+              </Button>
+            </a>
+          </div>
+
+          <div className="block md:hidden">
+            <IconButton
+              variant="text"
+              color="blue-gray"
+              className="lg:hidden"
+              onClick={() => setOpenNav(!openNav)}
+            >
+              {openNav ? (
+                <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+              ) : (
+                <Image
+                  src="/assets/icons/menu.png"
+                  width={22}
+                  height={22}
+                  alt="Menu"
+                  className="w-[22px] h-[22px]"
+                />
+              )}
+            </IconButton>
+          </div>
         </div>
 
-        <div className="block md:hidden">
-          <a href="tel:(832) 820-4035" className="!no-underline">
-            <Button className="text-white phone__icon flex items-center gap-x-2">
-              <Image
-                src="/assets/icons/phone__icon.png"
-                alt="phone icon"
-                width={20}
-                height={20}
-              />
-              <span className="text-white text-[10px] sm:text-base font-bold">
-                Click to Call
-              </span>
-            </Button>
-          </a>
+        <div
+          id="hideOnScroll"
+          className={`block md:hidden pt-1 bg-white ${
+            hideOnScroll ? "hidden" : ""
+          }`}
+        >
+          <div className="w-full flex justify-between items-center pb-3 px-3">
+            <Image
+              src="/assets/images/maricelas.png"
+              width={170}
+              height={80}
+              alt="brand"
+              className="h-[80px] w-[170px]"
+            />
+            <Image
+              src="/assets/images/header-logo.jpg"
+              width={65}
+              height={80}
+              alt="brand"
+              className="h-[80px] w-[65px]"
+            />
+          </div>
         </div>
 
-        <div className="block md:hidden">
-          <IconButton
-            variant="text"
-            color="blue-gray"
-            className="lg:hidden"
-            onClick={() => setOpenNav(!openNav)}
-          >
-            {openNav ? (
-              <XMarkIcon className="h-6 w-6" strokeWidth={2} />
-            ) : (
-              <Image
-                src="/assets/icons/menu.png"
-                width={22}
-                height={22}
-                alt="Menu"
-                className="w-[22px] h-[22px]"
-              />
-            )}
-          </IconButton>
-        </div>
-      </div>
-
-      <div
-        id="hideOnScroll"
-        className={`block md:hidden pt-1 bg-white ${hideOnScroll ? 'hidden' : ''}`}
-      >
-        <div className="w-full flex justify-between items-center pb-3 px-3">
-          <Image
-            src="/assets/images/maricelas.png"
-            width={170}
-            height={80}
-            alt="brand"
-            className="h-[80px] w-[170px]"
-          />
-          <Image
-            src="/assets/images/header-logo.jpg"
-            width={65}
-            height={80}
-            alt="brand"
-            className="h-[80px] w-[65px]"
-          />
-        </div>
-      </div>
-
-      {/* small device end  */}
+        {/* small device end  */}
       </header>
 
-
-       
       <Drawer
         placement="right"
         open={openNav}
@@ -436,7 +426,7 @@ export function NavHeader() {
         className="p-4 overflow-y-auto pb-24 !z-[1000000000000000000]"
       >
         <div className="mb-6 flex items-center justify-between">
-          <Typography variant="p" color="blue-gray">
+          <Typography variant="paragraph" color="blue-gray">
             Maricela's
           </Typography>
           <IconButton

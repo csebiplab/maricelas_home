@@ -1,26 +1,27 @@
-import SiteVerificationComponent from "@/components/Dashboard/SiteVerification/SiteVerification"
 
-async function getData() {
-  const res = await fetch(process.env.NEXT_PUBLIC_API_URL + '/api/verificationUrl', { cache: 'no-store' })
+import SiteVerificationComponent from "@/components/__dashboard/siteVerificationComponent/SiteVerificationComponent";
 
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
-  }
 
-  return res.json()
+export async function getData() {
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+
+  const res = await fetch(`${apiUrl}/api/siteMap`, {
+    cache: "no-store",
+  });
+  const { data } = await res.json();
+  return data;
 }
 
 
-export default async function SeoSiteVerification() {
-  const data = await getData()
+export default function SeoSiteVerification() {
 
-  const { verificationUrl } = data ?? {};
-
+  const { data } = getData()
 
 
   return (
     <>
-      <SiteVerificationComponent verificationUrl={verificationUrl} />
+      <SiteVerificationComponent data={data} />
     </>
   );
 }
+

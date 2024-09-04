@@ -1,23 +1,38 @@
-import dbConnect from "@/lib/db.connect";
-import siteMap from "@/models/siteMap";
+import connectMongoDB from "@/lib/db";
+import Sitemap from "@/models/sitemap.model";
 import { NextResponse } from "next/server";
 
-
-
-export async function PUT(request, { params }) {
+export async function PATCH(request, { params }) {
   const { id } = params;
-  const { title, url } = await request.json();
-  await dbConnect();
-  const sitemap = await siteMap.findByIdAndUpdate(id, {
-    title,
-    url,
+  const updatedFields = await request.json();
+
+  await connectMongoDB();
+
+  const data = await Sitemap.findByIdAndUpdate(id, {
+    ...updatedFields
   });
-  return NextResponse.json({ sitemap }, { status: 200 });
+
+  return NextResponse.json(
+    {
+      message: "Request success",
+      data: data
+    },
+    { status: 200 }
+  );
 }
 
 export async function GET(request, { params }) {
   const { id } = params;
-  await dbConnect();
-  const siteMapData = await siteMap.findOne({ _id: id });
-  return NextResponse.json({ siteMapData }, { status: 200 });
+
+  await connectMongoDB();
+
+  const data = await Sitemap.findOne({ _id: id });
+
+  return NextResponse.json(
+    {
+      message: "Request success",
+      data: data
+    },
+    { status: 200 }
+  );
 }
