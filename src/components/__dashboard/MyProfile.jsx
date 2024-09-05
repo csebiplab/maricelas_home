@@ -79,6 +79,7 @@ const MyProfile = ({ user }) => {
                   name="newUsername"
                   //   required
                   autoComplete="off"
+                  className="text-black"
                 />
               </div>
               <div className="flex flex-col">
@@ -89,6 +90,7 @@ const MyProfile = ({ user }) => {
                   name="currentPassword"
                   required
                   autoComplete="off"
+                  className="text-black"
                 />
               </div>
               <div className="flex flex-col">
@@ -97,8 +99,9 @@ const MyProfile = ({ user }) => {
                   type="password"
                   placeholder="********"
                   name="newPassword"
-                  //   required
+                  // required
                   autoComplete="off"
+                  className="text-black"
                 />
               </div>
             </div>
