@@ -1,27 +1,26 @@
-"use client";
-
 import RemoveBtnComponent from '@/components/__dashboard/SitemapComponents/RemoveButtonComponent';
-import useFetchData from '@/hooks/useFetchData';
 import Link from 'next/link';
 import React from 'react';
 import { HiPencilAlt } from 'react-icons/hi';
 
-const page = () => {
-    const baseAPIUrl = process.env.NEXT_PUBLIC_API_URL + `/api/siteMap`;
+export async function getData() {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
-    const { data, loading, error } = useFetchData(baseAPIUrl)
+    const res = await fetch(`${apiUrl}/api/siteMap`, {
+        cache: "no-store",
+    });
+    const { data } = await res.json();
+    return data;
+}
 
-    if (loading) {
-        return <p>Loading...</p>;
-    }
 
-    if (error) {
-        return <p>Error: {error.message}</p>;
-    }
+const page = async () => {
+    const data = await getData() ?? {}
+    console.log(data, "sitemap")
 
     return (
         <div>
-            {data?.data?.length > 0 ? (
+            {data?.length > 0 ? (
                 <div className="relative mt-4 overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         <thead className="text-sm text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -41,7 +40,7 @@ const page = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {data?.data?.map((item) => (
+                            {data?.map((item) => (
                                 <tr
                                     key={item._id}
                                     className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700"
