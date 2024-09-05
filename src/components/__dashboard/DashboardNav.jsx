@@ -3,10 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Icon } from "@iconify/react";
-import { dashboardConfig } from "@/constants/dashboard/dashboard.constants";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Icons } from "../__ui/__dashboard_ui/icons";
+import { dashboardConfig } from "@/constants/dashboard/dashboard.constants";
 
 export default function DashboardNav() {
   return (
