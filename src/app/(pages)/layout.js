@@ -63,7 +63,7 @@ export async function generateMetadata() {
         google: googleConsoleKey,
       },
       alternates: {
-        canonical: `${process.env.NEXT_PUBLIC_API_URL}/${pathname}`,
+        canonical: `${process.env.NEXT_PUBLIC_API_URL}${pathname}`,
       },
       robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
     };
