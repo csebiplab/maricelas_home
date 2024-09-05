@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -40,7 +41,7 @@ const RobotTxtPage = () => {
   };
 
   return (
-    <div>
+    <div className="pl-12">
       <h3 className="mb-3">Add Robot</h3>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="mb-3">
@@ -89,6 +90,15 @@ const RobotTxtPage = () => {
           Submit
         </button>
       </form>
+
+      <div className="mt-20 text-center">
+        <Link
+          href="/dashboard/robottxt/show-robots"
+          className="px-5 py-3 bg-primary-700  text-white"
+        >
+          Show All Robots
+        </Link>
+      </div>
     </div>
   );
 };
