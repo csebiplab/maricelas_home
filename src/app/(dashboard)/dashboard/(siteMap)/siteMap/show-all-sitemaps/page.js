@@ -14,8 +14,9 @@ export async function getData() {
 }
 
 
-const page = () => {
-    const { data } = getData() ?? {}
+const page = async () => {
+    const data = await getData() ?? {}
+    console.log(data, "sitemap")
 
     return (
         <div>
@@ -39,7 +40,7 @@ const page = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            {data?.data?.map((item) => (
+                            {data?.map((item) => (
                                 <tr
                                     key={item._id}
                                     className="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700"
