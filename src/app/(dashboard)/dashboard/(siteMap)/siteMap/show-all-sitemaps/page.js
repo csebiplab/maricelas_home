@@ -1,27 +1,25 @@
-"use client";
-
 import RemoveBtnComponent from '@/components/__dashboard/SitemapComponents/RemoveButtonComponent';
-import useFetchData from '@/hooks/useFetchData';
 import Link from 'next/link';
 import React from 'react';
 import { HiPencilAlt } from 'react-icons/hi';
 
+export async function getData() {
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+
+    const res = await fetch(`${apiUrl}/api/siteMap`, {
+        cache: "no-store",
+    });
+    const { data } = await res.json();
+    return data;
+}
+
+
 const page = () => {
-    const baseAPIUrl = process.env.NEXT_PUBLIC_API_URL + `/api/siteMap`;
-
-    const { data, loading, error } = useFetchData(baseAPIUrl)
-
-    if (loading) {
-        return <p>Loading...</p>;
-    }
-
-    if (error) {
-        return <p>Error: {error.message}</p>;
-    }
+    const { data } = getData() ?? {}
 
     return (
         <div>
-            {data?.data?.length > 0 ? (
+            {data?.length > 0 ? (
                 <div className="relative mt-4 overflow-x-auto shadow-md sm:rounded-lg">
                     <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         <thead className="text-sm text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
