@@ -1,13 +1,11 @@
 export const pageName = {
-    home: "home",
-    contactus: "contactus",
-    blog: "blog",
-    barrie: "barrie",
+    home: "Home",
+    contactus: "Contact us",
+    blog: "Blog",
 
     // Service Pages
-    fiberglass: "fiberglass",
-    vaughanPool: "vaughan pool",
-    vinylPool: "vinyl pool",
-    markhamPool: "markham pool",
+    CLEANING_SERVICES_IN_RICHMOND: "Cleaning services in richmond",
+    HOUSE_CLEANING_SERVICES_IN_KATY_TX: "House cleaning services in katy tx",
+
 
 }
