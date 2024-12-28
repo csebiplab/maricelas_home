@@ -2,7 +2,6 @@
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
 import WhyChooseUsSection from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUsSection";
-import BestServicesSection from "@/components/__shared_one_time/HomeSections/BestServicesSection";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
 import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
 import DifferentApproachForWorkSection from "@/components/__shared_one_time/HomeSections/Approach/DifferentApproachForWorkSection";
@@ -12,11 +11,12 @@ import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSection
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
 import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
-import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
 import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
 import AboutUs from "@/components/__shared_one_time/HomeSections/AboutUs/AboutUs";
 import CleaningServices from "@/components/__shared_one_time/HomeSections/CleaningServices/CleaningServices";
+import Experienced from "@/components/__shared_one_time/HomeSections/Experienced/Experienced";
+import Faq from "@/components/__shared_one_time/HomeSections/Faq/Faq";
 
 
 export default function Home() {
@@ -43,9 +43,10 @@ export default function Home() {
           <CleaningServices/>
         </section>
 
-        <div>
-          <BestServicesSection />
-        </div>
+        <section>
+          <Experienced/>
+        </section>
+
         <div>
           <MessageFromManagerSection />
         </div>
@@ -74,7 +75,7 @@ export default function Home() {
           <ServicesAreaSection />
         </div>
         <div>
-          <FaqSection />
+          <Faq />
         </div>
         <div>
           <GiveUsFeedbackSection />

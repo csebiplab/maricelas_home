@@ -5,7 +5,7 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className="full__section_r_p padding__top">
+        <div className="full__section_r_p pl-3 md:pl-0 padding__top">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[20px] lg:gap-[22px] xl:gap-[24px] 2xl:gap-[26px] 3xl:gap-[28px] 4xl:gap-[30px] 5xl:gap-[32px]">
                 <div className='md:col-span-1'>
                     <Image src="/assets/homePage/about-us.png" alt='about us' width={820} height={830}/>

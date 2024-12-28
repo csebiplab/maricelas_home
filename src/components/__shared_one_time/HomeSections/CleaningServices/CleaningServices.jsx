@@ -5,7 +5,7 @@ import React from 'react';
 
 const CleaningServices = () => {
     return (
-        <div className="full__section_r_p padding__top">
+        <div className="full__section_r_p pl-3 md:pl-0 padding__top">
             <div className="grid grid-cols-1 md:grid-cols-5 gap-[20px] lg:gap-[22px] xl:gap-[24px] 2xl:gap-[26px] 3xl:gap-[28px] 4xl:gap-[30px] 5xl:gap-[32px]">
                 <div className='md:col-span-2'>
                     <Image src="/assets/homePage/cleaning-services.png" alt='cleaning service' width={607} height={542}/>

@@ -1,6 +1,11 @@
 export const headingIconText = {
-    // Cleaning Services in Richmond page 
+    // home page 
+    aboutUs__headingIconText : "About Us",
+    cleaningServices__headingIconText : "Cleaning Services",
+    experiencedCleaining__headingIconText : "Experienced Cleaning Contractors",
+    faq__headingIconText : "FAQ",
 
+    // Cleaning Services in Richmond page 
     aboutUs__headingIconText : "About us",
     houseCleaning__headingIconText : "House Cleaning",
     cleanAndFresh__headingIconText : "Clean and Fresh",
