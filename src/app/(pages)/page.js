@@ -17,6 +17,7 @@ import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/Ser
 import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
 import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
+import AboutUs from "@/components/__shared_one_time/HomeSections/AboutUs/AboutUs";
 
 
 export default function Home() {
@@ -28,6 +29,9 @@ export default function Home() {
         </div>
         <section>
           <RatingNReviewSection />
+        </section>
+        <section>
+          <AboutUs/>
         </section>
         <section>
           <AboutUsSection />
