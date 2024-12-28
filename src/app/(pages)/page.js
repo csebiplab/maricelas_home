@@ -1,9 +1,7 @@
 
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
-import AboutUsSection from "@/components/__shared_one_time/HomeSections/AboutUsSection";
 import WhyChooseUsSection from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUsSection";
-import CleaningServicesSection from "@/components/__shared_one_time/HomeSections/CleaningServicesSection";
 import BestServicesSection from "@/components/__shared_one_time/HomeSections/BestServicesSection";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
 import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
@@ -18,6 +16,7 @@ import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
 import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
 import AboutUs from "@/components/__shared_one_time/HomeSections/AboutUs/AboutUs";
+import CleaningServices from "@/components/__shared_one_time/HomeSections/CleaningServices/CleaningServices";
 
 
 export default function Home() {
@@ -27,21 +26,23 @@ export default function Home() {
         <div>
           <HomeBanner />
         </div>
+
         <section>
           <RatingNReviewSection />
         </section>
+
         <section>
           <AboutUs/>
         </section>
-        <section>
-          <AboutUsSection />
-        </section>
+
         <div>
           <WhyChooseUsSection />
         </div>
+
         <section>
-          <CleaningServicesSection />
+          <CleaningServices/>
         </section>
+
         <div>
           <BestServicesSection />
         </div>
