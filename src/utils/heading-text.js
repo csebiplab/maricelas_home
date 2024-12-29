@@ -1,9 +1,20 @@
 export const headingIconText = {
     // home page 
     aboutUs__headingIconText : "About Us",
+    whyChooseUs__headingIconText : "Why Choose Us",
     cleaningServices__headingIconText : "Cleaning Services",
+    howDoesWork__headingIconText : "How Does Work",
     experiencedCleaining__headingIconText : "Experienced Cleaning Contractors",
+    benefits__headingIconText : "Benefits",
+    services__headingIconText : "Services",
+    projectGallery__headingIconText : "Project Gallery",
+    ourApproach__headingIconText : "Our Approach",
+    howMuchDoesCost__headingIconText : "How Much Does Cost",
+    review__headingIconText : "Review",
+    hireUs__headingIconText : "Hire Us",
+    getAreaCleaned__headingIconText : "Get Area Cleaned With Us",
     faq__headingIconText : "FAQ",
+    serviceArea__headingIconText : "Service Area",
 
     // Cleaning Services in Richmond page 
     aboutUs__headingIconText : "About us",
