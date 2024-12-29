@@ -17,6 +17,7 @@ import AboutUs from "@/components/__shared_one_time/HomeSections/AboutUs/AboutUs
 import CleaningServices from "@/components/__shared_one_time/HomeSections/CleaningServices/CleaningServices";
 import Experienced from "@/components/__shared_one_time/HomeSections/Experienced/Experienced";
 import Faq from "@/components/__shared_one_time/HomeSections/Faq/Faq";
+import OurApproach from "@/components/__shared_one_time/HomeSections/OurApproach/OurApproach";
 
 
 export default function Home() {
@@ -68,6 +69,11 @@ export default function Home() {
         <div>
           <ProjectGallerySection />
         </div>
+
+        <section>
+          <OurApproach/>
+        </section>
+        
         <div>
           <ReasonWhyHireUsSection />
         </div>
