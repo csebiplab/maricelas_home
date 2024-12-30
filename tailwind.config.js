@@ -68,9 +68,11 @@ module.exports = withMT({
                 },
                 danger: {
                     DEFAULT: "#DC0000",
+                    
                 },
                 gray: {
                     DEFAULT: "#D9D9D9",
+                    50: "#717171",
                 },
                 'gray-1': "var(--gray-1)",
                 'gray-2': "var(--gray-2)",

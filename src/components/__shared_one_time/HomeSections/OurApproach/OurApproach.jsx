@@ -56,6 +56,7 @@ const OurApproach = () => {
               <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
               Our Approach To Cleaning Service Is Different
               </h2>
+              <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal leading-normal text-dark mt-[10px] text-center">Experience the difference of a cleaning service that's truly committed to your satisfaction. Choose Maricelas Cleaning Magnificence for a level of care and <br/> professionalism that stands out. Contact us today to see how our unique approach can transform your space!</p>
             </div>
             {/* cart part */}
             {/* large device  */}

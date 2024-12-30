@@ -1,7 +1,6 @@
 
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
-import WhyChooseUsSection from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUsSection";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
 import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
 import DifferentApproachForWorkSection from "@/components/__shared_one_time/HomeSections/Approach/DifferentApproachForWorkSection";
@@ -18,6 +17,8 @@ import CleaningServices from "@/components/__shared_one_time/HomeSections/Cleani
 import Experienced from "@/components/__shared_one_time/HomeSections/Experienced/Experienced";
 import Faq from "@/components/__shared_one_time/HomeSections/Faq/Faq";
 import OurApproach from "@/components/__shared_one_time/HomeSections/OurApproach/OurApproach";
+import Benefits from "@/components/__shared_one_time/HomeSections/Benefits/Benefits";
+import WhyChooseUs from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUs";
 
 
 export default function Home() {
@@ -36,9 +37,9 @@ export default function Home() {
           <AboutUs/>
         </section>
 
-        <div>
-          <WhyChooseUsSection />
-        </div>
+        <section>
+          <WhyChooseUs/>
+        </section>
 
         <section>
           <CleaningServices/>
@@ -46,6 +47,10 @@ export default function Home() {
 
         <section>
           <Experienced/>
+        </section>
+
+        <section>
+          <Benefits />
         </section>
 
         <div>
