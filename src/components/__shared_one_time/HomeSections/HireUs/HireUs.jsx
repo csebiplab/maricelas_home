@@ -1,6 +1,5 @@
 "use client";
 
-import "./HireUs.css";
 import Image from "next/image";
 import HeadingIcon from '@/components/__ui/HeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
@@ -8,57 +7,57 @@ import { headingIconText } from '@/utils/heading-text';
 const benefitsData = [
   {
     id: 1,
-    img: "/assets/primeBasementHomePage/benefits/benefits1.png",
-    title: "Increased Home Value",
-    desc: "Whether you're adding a rental suite, home theater, or extra living space, our transformations provide a great return on investment.",
+    img: "/assets/homePage/hire-us/hu1.png",
+    title: "Reputation and Reviews",
+    desc: "Look for cleaning agencies with positive reviews and a favorable reputation in the community.",
   },
   {
     id: 2,
-    img: "/assets/primeBasementHomePage/benefits/benefits2.png",
-    title: "Customized Designs",
-    desc: "We don't believe in one size fits all. Our expert design team works with you to create a basement that fits your style, needs, and lifestyle, from layout to finishing touches.",
+    img: "/assets/homePage/hire-us/hu2.png",
+    title: "Services Offered",
+    desc: "Ensure the company offers the specific magnificent cleaning services in Houston you need, whether it's residential, commercial, deep cleaning, etc.",
   },
   {
     id: 3,
-    img: "/assets/primeBasementHomePage/benefits/benefits3.png",
-    title: "High-Quality Craftsmanship",
-    desc: "With years of experience in the industry, our contractors take pride in delivering superior craftsmanship. From sturdy framing to flawless finishes, we use only the best materials and techniques.",
+    img: "/assets/homePage/hire-us/hu3.png",
+    title: "Experience and expertise",
+    desc: "To ensure quality service, choose a company with experienced and well-trained employees.",
   },
   {
     id: 4,
-    img: "/assets/primeBasementHomePage/benefits/benefits4.png",
-    title: "Timely completion",
-    desc: "Our team is committed to completing your project on schedule without compromising quality, allowing you to enjoy your new space as soon as possible.",
+    img: "/assets/homePage/hire-us/hu4.png",
+    title: "Licensing and Insurance",
+    desc: "Every cleaning company in Houston has the required licenses and insurance to protect you and your property.",
   },
   {
     id: 5,
-    img: "/assets/primeBasementHomePage/benefits/benefits5.png",
-    title: "Expert Project Management",
-    desc: "Our experienced project managers handle every detail of your basement renovation, ensuring smooth communication, coordination, and timely delivery.",
+    img: "/assets/homePage/hire-us/hu5.png",
+    title: "Friendly Cleaning Products",
+    desc: "If you value sustainability, consider companies that use environmentally friendly cleaning products and methods.",
   },
   {
     id: 6,
-    img: "/assets/primeBasementHomePage/benefits/benefits6.png",
-    title: "Energy Efficiency",
-    desc: "We help optimize your basement's energy efficiency by suggesting eco-friendly solutions, such as better insulation, energy-efficient lighting, and climate control systems, keeping your space comfortable year-round.",
+    img: "/assets/homePage/hire-us/hu6.png",
+    title: "Customization Options",
+    desc: "Seek out companies that offer customizable cleaning plans to tailor services to your needs.",
   },
   {
     id: 7,
-    img: "/assets/primeBasementHomePage/benefits/benefits7.png",
-    title: "Seamless Integration with Your Home",
-    desc: "Your basement will feel like an integral part of your home, not an afterthought. We ensure the renovation complements your existing home's design, layout, and flow.",
+    img: "/assets/homePage/hire-us/hu7.png",
+    title: "Pricing and Transparency",
+    desc: "Compare pricing structures and ensure the company is transparent about costs and potential additional fees.",
   },
   {
     id: 8,
-    img: "/assets/primeBasementHomePage/benefits/benefits8.png",
-    title: "Safety and Code Compliance",
-    desc: "We adhere to all local building codes and regulations, ensuring that your renovation meets safety standards. You can rest assured that all electrical, plumbing, and structural work is done to code.",
+    img: "/assets/homePage/hire-us/hu8.png",
+    title: "Availability and Flexibility",
+    desc: "Choose a cleaning service that can accommodate your schedule and offers flexible appointment times.",
   },
   {
     id: 9,
-    img: "/assets/primeBasementHomePage/benefits/benefits9.png",
-    title: "No Hidden Costs",
-    desc: "From the initial estimate to the final invoice, we ensure you are fully informed of all costs, helping you avoid unexpected expenses.",
+    img: "/assets/homePage/hire-us/hu9.png",
+    title: "Customer Service",
+    desc: "To ensure a smooth experience, evaluate the company's customer service responsiveness and professionalism.",
   },
 ];
 
@@ -74,8 +73,8 @@ const HireUs = () => {
             <div className="flex justify-center lg:justify-normal items-center">
             <HeadingIcon text={headingIconText.hireUs__headingIconText}/>
             </div>
-            <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black text-center leading-normal">
-              Benefits of Your Basement Renovation With Us
+            <h2 className="text-[32px] md:text-[33px] lg:text-[34px] xl:text-[36px] 2xl:text-[38px] 3xl:text-[39px] 4xl:text-[41px] 5xl:text-[42px] font-bold text-black leading-normal mb-[10px] text-center">
+            What to Consider First When You Want to Hire a Cleaning Company?
             </h2>
           </div>
           {/* first div  */}
@@ -84,7 +83,7 @@ const HireUs = () => {
               return (
                 <div
                   key={data.id}
-                  className="cart__bg__benefits px-[18px] pt-[16px] pb-[22px]"
+                  className="bg-white border-t border-x border-[#880769] px-[18px] pt-[16px] pb-[22px]"
                 >
                   <Image
                     src={data.img}
@@ -93,10 +92,10 @@ const HireUs = () => {
                     height={62}
                     className="w-[62px] h-[62px]"
                   />
-                  <p className="text-[20px] font-bold text-left text-black leading-normal mt-[10px]">
+                  <p className="text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-left text-dark-50 leading-normal mt-[10px]">
                     {data.title}
                   </p>
-                  <p className="text-lg font-normal text-black text-left leading-normal mt-[5px]">
+                  <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black text-left leading-normal mt-[5px]">
                     {data.desc}
                   </p>
                 </div>
@@ -105,56 +104,35 @@ const HireUs = () => {
           </div>
           {/* second div  */}
           <div className="grid grid-cols-1 md:grid-cols-3">
-            <div className="md:col-span-1 cart__bg__benefits px-[18px] pt-[16px] pb-[22px]">
+            <div className="md:col-span-1 bg-white border border-[#880769] px-[18px] pt-[16px] pb-[22px]">
               <Image
-                src="/assets/primeBasementHomePage/benefits/benefits10.png"
+                src="/assets/homePage/hire-us/hu10.png"
                 alt="benefits image"
                 width={62}
                 height={62}
                 className="w-[62px] h-[62px]"
               />
               <p className="text-[20px] font-bold text-left text-black leading-normal mt-[10px]">
-                Stress-Free Experience
+              Guarantees & Satisfaction Policies
               </p>
               <p className="text-lg font-normal text-black text-left leading-normal mt-[5px]">
-                Our team takes care of everything, minimizing disruption to your
-                daily life. We aim to make the renovation process as smooth and
-                hassle-free as possible, from start to finish.
+              Look for companies that offer satisfaction guarantees or policies to address any issues that may arise during or after cleaning.
               </p>
             </div>
-            <div className="md:col-span-2 cart__bg__benefits px-[18px] pt-[16px] pb-[22px]">
+            <div className="md:col-span-2 bg-white border border-[#880769] px-[18px] pt-[16px] pb-[22px]">
               <Image
-                src="/assets/primeBasementHomePage/benefits/benefits11.png"
+                src="/assets/homePage/hire-us/hu11.png"
                 alt="benefits image"
                 width={62}
                 height={62}
                 className="w-[62px] h-[62px]"
               />
               <p className="text-[20px] font-bold text-left text-black leading-normal mt-[10px]">
-                Get Your Free Basement Renovation Consultation
+              Choosing the Right Cleaning Service in Houston
               </p>
               <p className="text-lg font-normal text-black text-left leading-normal mt-[5px]">
-                "Ready to transform your basement? Book a free consultation with
-                Toronto's trusted renovation experts at Prime Basement
-                Renovations. Let's bring your vision to life!"
+              Finding the perfect cleaning service in Houston involves several key considerations. Start by researching companies with positive reviews and a strong reputation in the community. Ensure they offer the specific services you need, whether it's residential, commercial, or deep cleaning.
               </p>
-              <div className="mt-[25px]">
-                <button className="flex items-center gap-[10px] py-[15px] px-[12px] text-base font-bold text-white leading-normal rounded-[8px] bg-primary-700">
-                  Get a Consultant{" "}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="22"
-                    height="12"
-                    viewBox="0 0 22 12"
-                    fill="none"
-                  >
-                    <path
-                      d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM21.5303 6.53033C21.8232 6.23744 21.8232 5.76256 21.5303 5.46967L16.7574 0.696699C16.4645 0.403806 15.9896 0.403806 15.6967 0.696699C15.4038 0.989593 15.4038 1.46447 15.6967 1.75736L19.9393 6L15.6967 10.2426C15.4038 10.5355 15.4038 11.0104 15.6967 11.3033C15.9896 11.5962 16.4645 11.5962 16.7574 11.3033L21.5303 6.53033ZM1 6.75H21V5.25H1V6.75Z"
-                      fill="white"
-                    />
-                  </svg>
-                </button>
-              </div>
             </div>
           </div>
         </div>

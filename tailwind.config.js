@@ -61,6 +61,7 @@ module.exports = withMT({
                 },
                 dark: {
                     DEFAULT: "#111111",
+                    50: "#1F1D20",
                 },
                 warning: {
                     DEFAULT: "#FBCC21",
