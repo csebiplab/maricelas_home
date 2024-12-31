@@ -48,7 +48,7 @@ const ourApproachData = [
 const OurApproach = () => {
   return (
     <div className="">
-      <div data-aos="zoom-in" className="custom-container padding__top">
+      <div data-aos="zoom-in" className="custom-container padding__all">
         <div className="">
           <div className="flex flex-col justify-center items-center">
           <HeadingIcon text={headingIconText.ourApproach__headingIconText}/>

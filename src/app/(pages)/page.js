@@ -20,6 +20,7 @@ import OurApproach from "@/components/__shared_one_time/HomeSections/OurApproach
 import Benefits from "@/components/__shared_one_time/HomeSections/Benefits/Benefits";
 import WhyChooseUs from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUs";
 import HireUs from "@/components/__shared_one_time/HomeSections/HireUs/HireUs";
+import HowMuchDoesCost from "@/components/__shared_one_time/HomeSections/HowMuchDoesCost/HowMuchDoesCost";
 
 
 export default function Home() {
@@ -78,6 +79,10 @@ export default function Home() {
 
         <section>
           <OurApproach/>
+        </section>
+
+        <section>
+          <HowMuchDoesCost/>
         </section>
 
         <section>
