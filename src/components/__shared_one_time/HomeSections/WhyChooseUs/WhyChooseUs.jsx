@@ -77,7 +77,7 @@ const easyPool = [
 const WhyChooseUs = () => {
   return (
     <div className="">
-      <div className="padding__top ">
+      <div className="">
         <div className="container bg-primary py-[25px] xl:py-[24px] 2xl:py-[26px] 3xl:py-[28px] 4xl:py-[30px] 5xl:py-[32px]">
           <div className=" grid md:grid-cols-3 gap-[25px] md:gap-[30px] lg:gap-[40px] xl:gap-[40px] 2xl:gap-[60px] 3xl:gap-[70px] 4xl:gap-[80px] 5xl:gap-[87px]">
             <div className="mx-auto flex flex-col items-center justify-center">

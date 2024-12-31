@@ -38,8 +38,8 @@ const ourRenovatorData1 = [
 
 const Benefits = () => {
   return (
-    <div>
-      <div data-aos="zoom-in" className="container padding__top">
+    <div className="bg-white py-[25px] xl:py-[30px] 5xl:py-[35px]">
+      <div data-aos="zoom-in" className="container ">
         <div className="flex flex-col items-center justify-center">
         <HeadingIcon text={headingIconText.benefits__headingIconText}/>
           <h2 className="text-[25px] md:text-[27px] lg:text-[30px] xl:text-[33px] 2xl:text-[35px] 3xl:text-[38px] 4xl:text-[40px] 5xl:tex-[42px] font-bold text-black leading-tight 5xl:leading-normal mb-[10px] text-center">

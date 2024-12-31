@@ -2,10 +2,6 @@
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
-import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
-import DifferentApproachForWorkSection from "@/components/__shared_one_time/HomeSections/Approach/DifferentApproachForWorkSection";
-import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
-import CostForServicesSection from "@/components/__shared_one_time/HomeSections/CostForServicesSection";
 import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
 import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
@@ -27,9 +23,9 @@ export default function Home() {
   return (
     <main className="">
       <div className="custom-container">
-        <div>
+        <section>
           <HomeBanner />
-        </div>
+        </section>
 
         <section>
           <RatingNReviewSection />
@@ -52,24 +48,13 @@ export default function Home() {
         </section>
 
         <section>
+        <MessageFromManagerSection />
+        </section>
+
+        <section>
           <Benefits />
         </section>
 
-        <div>
-          <MessageFromManagerSection />
-        </div>
-        <div>
-          <OurWorkingProcessSection />
-        </div>
-        <section>
-          <DifferentApproachForWorkSection />
-        </section>
-        <div>
-          <OurOtherServicesSection />
-        </div>
-        <section>
-          <CostForServicesSection />
-        </section>
         <div>
           <UserReviewNRatingSection />
         </div>

@@ -5,7 +5,7 @@ import React from 'react';
 
 const Experienced = () => {
     return (
-        <div className="full__section_l_p pr-3 md:pr-0 padding__top">
+        <div className="full__section_l_p pr-3 md:pr-0 padding__all bg-dark-200">
             <div className="grid grid-cols-1 md:grid-cols-5 gap-[20px] lg:gap-[22px] xl:gap-[24px] 2xl:gap-[26px] 3xl:gap-[28px] 4xl:gap-[30px] 5xl:gap-[32px]">
                 <div className='order-2 md:col-span-2'>
                     <Image src="/assets/homePage/experienced.png" alt='experienced' width={615} height={650}/>
