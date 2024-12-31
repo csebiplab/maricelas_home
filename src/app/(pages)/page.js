@@ -4,10 +4,8 @@ import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Ra
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
 import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
-import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
-import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
 import AboutUs from "@/components/__shared_one_time/HomeSections/AboutUs/AboutUs";
 import CleaningServices from "@/components/__shared_one_time/HomeSections/CleaningServices/CleaningServices";
 import Experienced from "@/components/__shared_one_time/HomeSections/Experienced/Experienced";
@@ -73,22 +71,18 @@ export default function Home() {
         <section>
           <HireUs/>
         </section>
-        
-        <div>
-          <ReasonWhyHireUsSection />
-        </div>
-        <div>
-          <ServicesAreaSection />
-        </div>
-        <div>
+
+        <section>
           <Faq />
-        </div>
-        <div>
+        </section>
+
+        <section>
+          <ServicesAreaSection />
+        </section>
+
+        <section>
           <GiveUsFeedbackSection />
-        </div>
-        <div>
-          <CleanWithUsSection />
-        </div>
+        </section>
       </div>
     </main>
   );
