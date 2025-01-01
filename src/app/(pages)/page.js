@@ -15,6 +15,7 @@ import Benefits from "@/components/__shared_one_time/HomeSections/Benefits/Benef
 import WhyChooseUs from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUs";
 import HireUs from "@/components/__shared_one_time/HomeSections/HireUs/HireUs";
 import HowMuchDoesCost from "@/components/__shared_one_time/HomeSections/HowMuchDoesCost/HowMuchDoesCost";
+import HowDoseWork from "@/components/__shared_one_time/HomeSections/HowDoseWork/HowDoseWork";
 
 
 export default function Home() {
@@ -39,6 +40,10 @@ export default function Home() {
 
         <section>
           <CleaningServices/>
+        </section>
+
+        <section>
+          <HowDoseWork/>
         </section>
 
         <section>
