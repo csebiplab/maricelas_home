@@ -52,12 +52,12 @@ const Benefits = () => {
             return (
               <div
                 key={data.id}
-                className="benefits__cart__bg pt-[14px] pb-[21px] px-2"
+                className="group benefits__cart__bg hover:bg-primary pt-[14px] pb-[21px] px-2"
               >
-                <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:tex5-[25px] text-center font-bold text-black leading-normal">
+                <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:tex5-[25px] text-center font-bold text-black group-hover:text-white leading-normal">
                   {data.title}
                 </p>
-                <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black leading-[35px] text-center">
+                <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black group-hover:text-white leading-[35px] text-center">
                   {data.desc}
                 </p>
               </div>
@@ -67,19 +67,19 @@ const Benefits = () => {
 
         {/* second part  */}
         <div className="w-full flex flex-col md:flex-row justify-center mt-[18px] 2xl:mt-[21px] 3xl:mt-[24px] 4xl:mt-[27px] 5xl:mt-[30px] gap-[18px] 2xl:gap-[21px] 3xl:gap-[24px] 4xl:gap-[27px] 5xl:gap-[30px] mt-[25px]">
-          <div className="w-full md:w-1/3 benefits__cart__bg pt-[14px] pb-[21px] px-2">
-            <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:tex5-[25px] text-center font-bold text-black leading-normal">
+          <div className="w-full md:w-1/3 group benefits__cart__bg hover:bg-primary pt-[14px] pb-[21px] px-2">
+            <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:tex5-[25px] text-center font-bold text-black group-hover:text-white leading-normal">
             Healthier Environment
             </p>
-            <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black leading-[35px] text-center">
+            <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black group-hover:text-white leading-[35px] text-center">
             A clean space always promotes a healthier lifestyle. Our deep cleaning services in Houston reduce dust, allergens, and germs, making your home or office safer for everyone.
             </p>
           </div>
-          <div className="w-full md:w-1/3 benefits__cart__bg pt-[14px] pb-[21px] px-2">
-            <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:tex5-[25px] text-center font-bold text-black leading-normal">
+          <div className="w-full md:w-1/3 group benefits__cart__bg hover:bg-primary pt-[14px] pb-[21px] px-2">
+            <p className="text-[20px] xl:text-[21px] 2xl:text-[22px] 3xl:text-[23px] 4xl:text-[24px] 5xl:tex5-[25px] text-center font-bold text-black group-hover:text-white leading-normal">
             Satisfaction Guaranteed
             </p>
-            <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black leading-[35px] text-center">
+            <p className="text-base 4xl:text-[17px] 5xl:text-lg font-normal text-black group-hover:text-white leading-[35px] text-center">
             Your happiness is our priority. If you're ever unsatisfied with our work, we'll make it right—because we're not happy until you are.
             </p>
           </div>

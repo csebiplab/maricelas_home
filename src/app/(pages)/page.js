@@ -16,6 +16,7 @@ import WhyChooseUs from "@/components/__shared_one_time/HomeSections/WhyChooseUs
 import HireUs from "@/components/__shared_one_time/HomeSections/HireUs/HireUs";
 import HowMuchDoesCost from "@/components/__shared_one_time/HomeSections/HowMuchDoesCost/HowMuchDoesCost";
 import HowDoseWork from "@/components/__shared_one_time/HomeSections/HowDoseWork/HowDoseWork";
+import GetAreaCleanedWithUs from "@/components/__shared_one_time/HomeSections/GetAreaCleanedWithUs/GetAreaCleanedWithUs";
 
 
 export default function Home() {
@@ -58,12 +59,9 @@ export default function Home() {
           <Benefits />
         </section>
 
-        <div>
-          <UserReviewNRatingSection />
-        </div>
-        <div>
+        <section>
           <ProjectGallerySection />
-        </div>
+        </section>
 
         <section>
           <OurApproach/>
@@ -74,7 +72,15 @@ export default function Home() {
         </section>
 
         <section>
+          <UserReviewNRatingSection />
+        </section>
+
+        <section>
           <HireUs/>
+        </section>
+
+        <section>
+          <GetAreaCleanedWithUs/>
         </section>
 
         <section>

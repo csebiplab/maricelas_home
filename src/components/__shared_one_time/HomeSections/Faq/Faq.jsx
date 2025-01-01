@@ -121,7 +121,7 @@ const Faq = () => {
 
   return (
     <div>
-      <div>
+      <div className="bg-dark-200">
         <div className="container 3xl:py-[120px] lg:py-[100px] py-[60px]">
           <div>
             <div className="flex justify-center items-center">

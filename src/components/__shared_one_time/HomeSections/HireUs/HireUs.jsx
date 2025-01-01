@@ -63,7 +63,7 @@ const benefitsData = [
 
 const HireUs = () => {
   return (
-    <div className=" ">
+    <div className="bg-dark-200">
       <div
         data-aos="zoom-in"
         className="container padding__top"

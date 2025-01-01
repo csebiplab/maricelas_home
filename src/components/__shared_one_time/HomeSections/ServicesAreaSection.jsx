@@ -1,6 +1,7 @@
 "use client";
 
-import Heading from "@/components/__ui/Heading";
+import HeadingIcon from '@/components/__ui/HeadingIcon';
+import { headingIconText } from '@/utils/heading-text';
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/effect-coverflow";
@@ -59,13 +60,13 @@ const ServicesAreaSection = () => {
 
   return (
     <div>
-      <div>
+      <div className="bg-dark-200">
         <div className="custom-container">
           <div className="">
             <div className="py-[30px] 2xl:py-[55px] mx-[30px] md:mx-0">
               
               <div className="mx-auto   flex flex-col items-center justify-center">
-                <Heading text={"Service Area"} />
+              <HeadingIcon text={headingIconText.serviceArea__headingIconText}/>
                 <div>
                   <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] mt-2 md:mt-[15px]  mb-5 text-center font-bold">
                     Maricela's Cleaning Magnificenc Service Area

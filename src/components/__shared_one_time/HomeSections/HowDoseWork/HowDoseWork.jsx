@@ -77,13 +77,13 @@ const HowDoseWork = () => {
             return (
               <div
                 key={data.id}
-                className="howDoesWork__cart__bg pl-[18px] 5xl:pl-[22px] pt-[18px] 5xl:pt-[22px] pb-[25px] 5xl:pb-[30px] pr-[12px] 5xl:pr-[15px]"
+                className="group howDoesWork__cart__bg hover:howDoesWork__cart__hover__bg pl-[18px] 5xl:pl-[22px] pt-[18px] 5xl:pt-[22px] pb-[25px] 5xl:pb-[30px] pr-[12px] 5xl:pr-[15px]"
               >
                 <Image src={data.img} alt="how does work" width={57} height={57} className="w-[67px] h-[67px] border border-black border-opacity-20 shadow-md p-3 rounded-full bg-white "/>
-                <p className="text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-dark-50 leading-normal">
+                <p className="text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold text-dark-50 group-hover:text-white leading-normal">
                   {data.title}
                 </p>
-                <p className="text-base 4xl:text-[17px] 5xl:text-lg font-light text-black leading-[30px]">
+                <p className="text-base 4xl:text-[17px] 5xl:text-lg font-light text-black group-hover:text-white leading-[30px]">
                   {data.desc}
                 </p>
               </div>

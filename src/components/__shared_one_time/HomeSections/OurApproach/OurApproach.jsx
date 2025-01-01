@@ -47,7 +47,7 @@ const ourApproachData = [
 
 const OurApproach = () => {
   return (
-    <div className="">
+    <div className="bg-dark-200">
       <div data-aos="zoom-in" className="custom-container padding__all">
         <div className="">
           <div className="flex flex-col justify-center items-center">
