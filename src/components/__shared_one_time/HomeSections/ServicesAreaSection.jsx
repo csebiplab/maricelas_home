@@ -8,7 +8,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/virtual";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { SwiperNavButtons } from "./ReviewSwipper/ReviewSlider/SwiperSliderButton";
+import { SwiperNavButtons } from './Review/SwiperSliderButton';
 
 const breakpoints = {
   0: {

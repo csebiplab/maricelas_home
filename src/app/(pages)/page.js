@@ -2,7 +2,6 @@
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
-import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
@@ -18,6 +17,7 @@ import HowMuchDoesCost from "@/components/__shared_one_time/HomeSections/HowMuch
 import HowDoseWork from "@/components/__shared_one_time/HomeSections/HowDoseWork/HowDoseWork";
 import GetAreaCleanedWithUs from "@/components/__shared_one_time/HomeSections/GetAreaCleanedWithUs/GetAreaCleanedWithUs";
 import Services from "@/components/__shared_one_time/HomeSections/Services/Services";
+import Review from "@/components/__shared_one_time/HomeSections/Review/Review";
 
 
 export default function Home() {
@@ -77,7 +77,7 @@ export default function Home() {
         </section>
 
         <section>
-          <UserReviewNRatingSection />
+          <Review/>
         </section>
 
         <section>
