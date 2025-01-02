@@ -11,7 +11,7 @@ import contactImg from "../../../../public/assets/images/contact__us.png";
 
 const GiveUsFeedbackSection = () => {
   return (
-    <div className="custom-container">
+    <div className=" custom-container">
       <div className="px-2">
         <div className="grid lg:grid-cols-10 md:grid-cols-7 lg:relative 2xl:py-16 py-10 px-2 md:mx-0">
           {/* contact part */}

@@ -114,7 +114,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-[14px] xl:text-base 2xl:text-lg text-black"
       >
-        <ListItem className="flex items-center text-lg text-dark-100 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
+        <ListItem className="flex items-center text-lg text-black font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
           Home
         </ListItem>
       </Typography>
@@ -125,12 +125,12 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm lg:text-[14px] xl:text-base 2xl:text-lg text-black"
       >
-        <ListItem className="flex items-center text-lg text-dark-100 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
+        <ListItem className="flex items-center text-lg text-black font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
           About Us
         </ListItem>
       </Typography>
 
-      <div className="mt-[6px]">
+      <div className="mt-[1px]">
         <OurServiceManu />
       </div>
 
@@ -141,7 +141,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-[14px] xl:text-base 2xl:text-lg text-black"
       >
-        <ListItem className="flex items-center text-lg text-dark-100 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
+        <ListItem className="flex items-center text-lg text-black font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
           Blog
         </ListItem>
       </Typography>
@@ -153,7 +153,7 @@ function NavList() {
         color="blue-gray"
         className="font-medium rounded-full text-sm md:text-[14px] xl:text-base 2xl:text-lg text-black"
       >
-        <ListItem className="flex items-center text-lg text-dark-100 font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
+        <ListItem className="flex items-center text-lg text-black font-bold px-1 lg:px-4 xl:px-5 2xl:px-6">
           Contact Us
         </ListItem>
       </Typography>

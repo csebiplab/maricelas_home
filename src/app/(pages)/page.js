@@ -1,82 +1,104 @@
 
 import HomeBanner from "@/components/__shared_one_time/HomeSections/HomeBanner/HomeBanner";
 import RatingNReviewSection from "@/components/__shared_one_time/HomeSections/Rating/RatingNReveiwSection";
-import AboutUsSection from "@/components/__shared_one_time/HomeSections/AboutUsSection";
-import WhyChooseUsSection from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUsSection";
-import CleaningServicesSection from "@/components/__shared_one_time/HomeSections/CleaningServicesSection";
-import BestServicesSection from "@/components/__shared_one_time/HomeSections/BestServicesSection";
 import MessageFromManagerSection from "@/components/__shared_one_time/HomeSections/MessageFromManeger/MessageFromManagerSection";
-import OurWorkingProcessSection from "@/components/__shared_one_time/HomeSections/WorkingProcess/OurWorkingProcessSection";
-import DifferentApproachForWorkSection from "@/components/__shared_one_time/HomeSections/Approach/DifferentApproachForWorkSection";
-import OurOtherServicesSection from "@/components/__shared_one_time/HomeSections/OurOtherServicesSection";
-import CostForServicesSection from "@/components/__shared_one_time/HomeSections/CostForServicesSection";
 import UserReviewNRatingSection from "@/components/__shared_one_time/HomeSections/UserReviewNRatingSection";
 import ProjectGallerySection from "@/components/__shared_one_time/HomeSections/ProjectGallerySection";
-import ReasonWhyHireUsSection from "@/components/__shared_one_time/HomeSections/ReasonWhyHireUs/ReasonWhyHireUsSection";
 import ServicesAreaSection from "@/components/__shared_one_time/HomeSections/ServicesAreaSection";
-import FaqSection from "@/components/__shared_one_time/HomeSections/FaqSection";
 import GiveUsFeedbackSection from "@/components/__shared_one_time/HomeSections/GiveUsFeedbackSection";
-import CleanWithUsSection from "@/components/__shared_one_time/HomeSections/CleaningWithUs/CleanWithUsSection";
+import AboutUs from "@/components/__shared_one_time/HomeSections/AboutUs/AboutUs";
+import CleaningServices from "@/components/__shared_one_time/HomeSections/CleaningServices/CleaningServices";
+import Experienced from "@/components/__shared_one_time/HomeSections/Experienced/Experienced";
+import Faq from "@/components/__shared_one_time/HomeSections/Faq/Faq";
+import OurApproach from "@/components/__shared_one_time/HomeSections/OurApproach/OurApproach";
+import Benefits from "@/components/__shared_one_time/HomeSections/Benefits/Benefits";
+import WhyChooseUs from "@/components/__shared_one_time/HomeSections/WhyChooseUs/WhyChooseUs";
+import HireUs from "@/components/__shared_one_time/HomeSections/HireUs/HireUs";
+import HowMuchDoesCost from "@/components/__shared_one_time/HomeSections/HowMuchDoesCost/HowMuchDoesCost";
+import HowDoseWork from "@/components/__shared_one_time/HomeSections/HowDoseWork/HowDoseWork";
+import GetAreaCleanedWithUs from "@/components/__shared_one_time/HomeSections/GetAreaCleanedWithUs/GetAreaCleanedWithUs";
+import Services from "@/components/__shared_one_time/HomeSections/Services/Services";
 
 
 export default function Home() {
   return (
     <main className="">
       <div className="custom-container">
-        <div>
+        <section>
           <HomeBanner />
-        </div>
+        </section>
+
         <section>
           <RatingNReviewSection />
         </section>
+
         <section>
-          <AboutUsSection />
+          <AboutUs/>
         </section>
-        <div>
-          <WhyChooseUsSection />
-        </div>
+
         <section>
-          <CleaningServicesSection />
+          <WhyChooseUs/>
         </section>
-        <div>
-          <BestServicesSection />
-        </div>
-        <div>
-          <MessageFromManagerSection />
-        </div>
-        <div>
-          <OurWorkingProcessSection />
-        </div>
+
         <section>
-          <DifferentApproachForWorkSection />
+          <CleaningServices/>
         </section>
-        <div>
-          <OurOtherServicesSection />
-        </div>
+
         <section>
-          <CostForServicesSection />
+          <HowDoseWork/>
         </section>
-        <div>
-          <UserReviewNRatingSection />
-        </div>
-        <div>
+
+        <section>
+          <Experienced/>
+        </section>
+
+        <section>
+        <MessageFromManagerSection />
+        </section>
+
+        <section>
+          <Benefits />
+        </section>
+        
+        <section>
+          <Services />
+        </section>
+
+        <section>
           <ProjectGallerySection />
-        </div>
-        <div>
-          <ReasonWhyHireUsSection />
-        </div>
-        <div>
+        </section>
+
+        <section>
+          <OurApproach/>
+        </section>
+
+        <section>
+          <HowMuchDoesCost/>
+        </section>
+
+        <section>
+          <UserReviewNRatingSection />
+        </section>
+
+        <section>
+          <HireUs/>
+        </section>
+
+        <section>
+          <GetAreaCleanedWithUs/>
+        </section>
+
+        <section>
+          <Faq />
+        </section>
+
+        <section>
           <ServicesAreaSection />
-        </div>
-        <div>
-          <FaqSection />
-        </div>
-        <div>
+        </section>
+
+        <section>
           <GiveUsFeedbackSection />
-        </div>
-        <div>
-          <CleanWithUsSection />
-        </div>
+        </section>
       </div>
     </main>
   );

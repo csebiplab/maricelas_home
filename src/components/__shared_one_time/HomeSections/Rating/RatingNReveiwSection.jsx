@@ -8,7 +8,7 @@ import RatingProgressBar from "./RatingProgressBar";
 
 const RatingNReviewSection = () => {
   return (
-    <div className="mt-10">
+    <div className="pt-10 bg-dark-200">
       <div className="container">
         <div className=" bg-white rating-box">
           <div className="p-6 rounded-[8px]">

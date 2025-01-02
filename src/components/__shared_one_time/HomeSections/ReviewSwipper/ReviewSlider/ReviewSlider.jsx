@@ -11,8 +11,8 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
 import { SwiperNavButtons } from "./SwiperSliderButton";
-
-import Heading from "@/components/__ui/Heading";
+import HeadingIcon from "@/components/__ui/HeadingIcon";
+import { headingIconText } from "@/utils/heading-text";
 import "./ReviewSlider.css";
 
 const breakpoints = {
@@ -23,6 +23,9 @@ const breakpoints = {
     slidesPerView: 2,
   },
   1024: {
+    slidesPerView: 2,
+  },
+  1536: {
     slidesPerView: 3,
   },
 };
@@ -96,75 +99,77 @@ const reviews = [
 
 const ReviewSlider = () => {
   return (
-    <div className="md:flex px-[30px] md:px-0 py-[44px]">
-      {/* ============ For mobile view ========== */}
-      <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-5/12 mt-[7px] md:mt-0">
-        <div className="flex justify-center md:justify-start">
-          <Heading text={"Review"} />
+    <div className="bg-dark-200">
+      <div className="md:flex px-[30px] md:px-0 py-[44px]">
+        {/* ============ For mobile view ========== */}
+        <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-5/12 mt-[7px] md:mt-0">
+          <div className="flex justify-center md:justify-start">
+            <HeadingIcon text={headingIconText.review__headingIconText} />
+          </div>
+          <h2 className="md:leading-8 text-[28px] md:text-[32px] font-bold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center md:text-left">
+            Here's what to expect when you hire us as your Cleaning Services in
+            Houston
+          </h2>
         </div>
-        <h2 className="md:leading-8 text-[28px] md:text-[32px] font-bold md:py-3 py-2 text-[#1F1F1F] leading-normal text-center md:text-left">
-          Here's what to expect when you hire us as your Cleaning Services in
-          Houston
-        </h2>
-      </div>
 
-      <Swiper
-        spaceBetween={21}
-        // slidesPerView={3}
-        modules={[Autoplay, Navigation]}
-        breakpoints={breakpoints}
-        loop={true}
-        autoplay={{
-          delay: 3000,
-          pauseOnMouseEnter: false,
-          disableOnInteraction: false,
-          stopOnLastSlide: false,
-        }}
-        speed={3000}
-        allowTouchMove={true}
-      >
-        {reviews.map(({ address, author, reviewText }, i) => (
-          <SwiperSlide
-            key={i}
-            className={`text-center py-4 !h-auto !md:h-full swiper-slide__reveiw`}
-          >
-            <div className="px-[14px] md:mx-0 mx-auto ">
-              <Image
-                src={google}
-                width={89.92}
-                height={51}
-                alt="google"
-                className="mb-2"
-              />
-              <Image
-                src={star}
-                width={97}
-                height={13.9}
-                alt="google"
-                className=""
-              />
-              <div className="text-start">
-                <p className="text-base mt-4  text-black leading-[22px] md:leading-6">
-                  {reviewText}
-                </p>
-                <p className="font-semibold text-base mt-2">{author}</p>
-                <p className="text-[#4A4A4A] text-sm">{address}</p>
+        <Swiper
+          spaceBetween={21}
+          // slidesPerView={3}
+          modules={[Autoplay, Navigation]}
+          breakpoints={breakpoints}
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            pauseOnMouseEnter: false,
+            disableOnInteraction: false,
+            stopOnLastSlide: false,
+          }}
+          speed={3000}
+          allowTouchMove={true}
+        >
+          {reviews.map(({ address, author, reviewText }, i) => (
+            <SwiperSlide
+              key={i}
+              className={`text-center py-4 !h-auto !md:h-full swiper-slide__reveiw`}
+            >
+              <div className="px-[14px] md:mx-0 mx-auto ">
+                <Image
+                  src={google}
+                  width={89.92}
+                  height={51}
+                  alt="google"
+                  className="mb-2"
+                />
+                <Image
+                  src={star}
+                  width={97}
+                  height={13.9}
+                  alt="google"
+                  className=""
+                />
+                <div className="text-start">
+                  <p className="text-base mt-4  text-black leading-[22px] md:leading-6">
+                    {reviewText}
+                  </p>
+                  <p className="font-semibold text-base mt-2">{author}</p>
+                  <p className="text-[#4A4A4A] text-sm">{address}</p>
+                </div>
               </div>
-            </div>
-          </SwiperSlide>
-        ))}
+            </SwiperSlide>
+          ))}
 
-        <SwiperNavButtons />
-      </Swiper>
+          <SwiperNavButtons />
+        </Swiper>
 
-      {/* =========== For desktop view ========= */}
-      {/* <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 hidden md:block">
+        {/* =========== For desktop view ========= */}
+        {/* <div className="md:text-start text-center lg:py-10 md:py-5 px-3 w-full md:w-4/12 hidden md:block">
         <Heading text={"Review"} />
         <h2 className="lg:leading-8 text-base lg:text-[32px] font-semibold md:py-3 py-2 text-[#1F1F1F]">
           Here's what to expect when you hire us as your Cleaning Services in
           Houston
         </h2>
       </div> */}
+      </div>
     </div>
   );
 };

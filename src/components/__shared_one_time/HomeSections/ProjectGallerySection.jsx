@@ -20,7 +20,8 @@ import GalImg13 from "../../../../public/assets/gallery/gallery10.png";
 import GalImg14 from "../../../../public/assets/gallery/gallery11.png";
 import GalImg15 from "../../../../public/assets/gallery/gallery12.png";
 
-import Heading from "@/components/__ui/Heading";
+import HeadingIcon from '@/components/__ui/HeadingIcon';
+import { headingIconText } from '@/utils/heading-text';
 
 const galImgs = [GalImg1, GalImg2, GalImg3, GalImg4, GalImg5, GalImg3];
 
@@ -47,11 +48,11 @@ const ProjectGallerySection = () => {
   };
 
   return (
-    <div className="bg-[#FFF9EE]">
+    <div className="bg-dark-200">
       <div className="custom-container  3xl:py-[85px] py-[50px]">
         <div className="">
           <div className=" flex flex-col justify-center items-center ">
-            <Heading text={"Project Gallery"} />
+          <HeadingIcon text={headingIconText.projectGallery__headingIconText}/>
 
             <div>
               <h2 className="text-[28px] md:text-[32px]  text-[#1F1F1F] 3xl:pb-[30px] pb-[25px] text-center font-bold ">

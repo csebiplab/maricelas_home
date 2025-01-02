@@ -59,15 +59,23 @@ module.exports = withMT({
                     DEFAULT: "#049E43",
                     50: "#89A3BD",
                 },
+                dark: {
+                    DEFAULT: "#111111",
+                    50: "#1F1D20",
+                    100: "#AFAFAF",
+                    200: "#F7F7F7",
+                },
                 warning: {
                     DEFAULT: "#FBCC21",
                     50: "#FBCD22",
                 },
                 danger: {
                     DEFAULT: "#DC0000",
+                    
                 },
                 gray: {
                     DEFAULT: "#D9D9D9",
+                    50: "#717171",
                 },
                 'gray-1': "var(--gray-1)",
                 'gray-2': "var(--gray-2)",
