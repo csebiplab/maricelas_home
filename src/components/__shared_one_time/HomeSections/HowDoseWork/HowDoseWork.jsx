@@ -72,7 +72,7 @@ const ourRenovatorData1 = [
 ];
 
 const HowDoseWork = () => {
-  const [hoverCart, setHoverCart] = useState(true);
+  const [hoverCart, setHoverCart] = useState("");
   return (
     <div className="bg-white py-[25px] xl:py-[30px] 5xl:py-[35px]">
       <div data-aos="zoom-in" className="container ">
@@ -97,12 +97,13 @@ const HowDoseWork = () => {
                 <div
                   key={data.id}
                   className="relative"
-                  onMouseEnter={() => setHoverCart(false)}
-                  onMouseLeave={() => setHoverCart(true)}
+                  
+                  onMouseEnter={() => setHoverCart(data.id)}
+                  onMouseLeave={() => setHoverCart("")}
                 >
-                  {hoverCart ? (
+                  {hoverCart !== data.id ? (
                     <>
-                      <div className="group howDoesWork__cart__bg pl-[18px] 5xl:pl-[22px] pt-[18px] 5xl:pt-[22px] pb-[25px] 5xl:pb-[30px] pr-[12px] 5xl:pr-[15px]">
+                      <div className="w-[330px] 5xl:w-[430px] h-[240px] group howDoesWork__cart__bg pl-[18px] 5xl:pl-[22px] pt-[18px] 5xl:pt-[22px] pb-[25px] 5xl:pb-[30px] pr-[12px] 5xl:pr-[15px]">
                         <Image
                           src={data.img}
                           alt="how does work"
@@ -120,7 +121,7 @@ const HowDoseWork = () => {
                     </>
                   ) : (
                     <>
-                      <div>
+                      <div className="w-[330px] 5xl:w-[430px] h-[240px]">
                         <Image
                           src={data?.bgImg}
                           alt="how does work bg"
@@ -129,7 +130,9 @@ const HowDoseWork = () => {
                           className="w-full h-full"
                         />
                       </div>
+
                       <div className="absolute inset-0 group pl-[18px] 5xl:pl-[22px] pt-[18px] 5xl:pt-[22px] pb-[25px] 5xl:pb-[30px] pr-[12px] 5xl:pr-[15px]">
+                      <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity"></div>
                         <Image
                           src={data.img}
                           alt="how does work"
