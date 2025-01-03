@@ -77,8 +77,7 @@ const Services = () => {
   const [isMouseOver, setIsMouseOver] = useState(false);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [hoveredButtonIndex, setHoveredButtonIndex] = useState(null);
-  const [commercialCleaning, setCommercialCleaning] = useState(false);
-  const [residentialCleaning, setResidentialCleaning] = useState(false);
+  const [serviceName, setServiceName] = useState("commercialCleaning")
 
   useEffect(() => {
     if (!isMouseOver) {
@@ -103,6 +102,10 @@ const Services = () => {
     setIsMouseOver(false);
   };
 
+  const handleService = (serviceName)=>{
+    setServiceName(serviceName)
+  }
+
   return (
     <div
       data-aos="fade-up"
@@ -117,12 +120,12 @@ const Services = () => {
         </h2>
         <div className="flex items-center justify-center gap-[20px] 5xl:gap-[25px]">
           <button
-            onClick={() => setCommercialCleaning(!commercialCleaning)}
-            className="service_btn_bg1 text-lg 4xl:text-[19px] 5xl:text-[20px] text-black font-bold leading-[30px] 5xl:leading-[36px] py-[10px] 2xl:py-[11px] 3xl:py-[12px] 4xl:py-[13px] 5xl:py-[14px] px-[24px] 2xl:px-[26px] 3xl:px-[28px] 4xl:px-[30px] 5xl:px-[32px]"
+            onClick={() => handleService("commercialCleaning")}
+            className={`${serviceName === "commercialCleaning" ? "bg-[#880769] text-white" : "bg-[#D2D2D2] text-black"}  service_btn_bg1 text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold leading-[30px] 5xl:leading-[36px] py-[10px] 2xl:py-[11px] 3xl:py-[12px] 4xl:py-[13px] 5xl:py-[14px] px-[24px] 2xl:px-[26px] 3xl:px-[28px] 4xl:px-[30px] 5xl:px-[32px]`}
           >
             Commercial Cleaning Services in Houston
           </button>
-          <button onClick={() => setResidentialCleaning(!residentialCleaning)} className="service_btn_bg2 text-lg 4xl:text-[19px] 5xl:text-[20px] text-white font-bold leading-[30px] 5xl:leading-[36px] py-[10px] 2xl:py-[11px] 3xl:py-[12px] 4xl:py-[13px] 5xl:py-[14px] px-[24px] 2xl:px-[26px] 3xl:px-[28px] 4xl:px-[30px] 5xl:px-[32px]">
+          <button onClick={() => handleService("residentialCleaning")} className={`${serviceName === "residentialCleaning" ? "bg-[#880769] text-white" : "bg-[#D2D2D2] text-black"} service_btn_bg2 text-lg 4xl:text-[19px] 5xl:text-[20px] font-bold leading-[30px] 5xl:leading-[36px] py-[10px] 2xl:py-[11px] 3xl:py-[12px] 4xl:py-[13px] 5xl:py-[14px] px-[24px] 2xl:px-[26px] 3xl:px-[28px] 4xl:px-[30px] 5xl:px-[32px]`}>
             Residential Cleaning Services in Houston
           </button>
         </div>
@@ -135,7 +138,7 @@ const Services = () => {
       </div>
 
       {/* large device  */}
-      {commercialCleaning && (
+      {serviceName === "commercialCleaning" && (
         <div className="hidden md:block relative mt-[15px]">
           {/* Background Image */}
           <Image
@@ -212,7 +215,7 @@ const Services = () => {
         </div>
       )}
       {/* second part  */}
-      {residentialCleaning && (
+      {serviceName === "residentialCleaning" && (
         <div className="hidden md:block relative mt-[15px]">
           {/* Background Image */}
           <Image

@@ -1,12 +1,12 @@
 .service_btn_bg1{
     border-radius: 16px;
     border: 5px solid #FFF;
-    background: #D2D2D2;
+    /* background: #D2D2D2; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .service_btn_bg2{
     border-radius: 16px;
     border: 5px solid #FFF;
-    background: #880769;
+    /* background: #880769; */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }

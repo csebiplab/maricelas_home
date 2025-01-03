@@ -94,6 +94,129 @@ const howMuchDoesCostData = [
     ],
   },
 ];
+const CommercialCleaningCostsData = [
+  {
+    id: 1,
+    title: "Office Cleaning (Routine)",
+    description: [
+      {
+        desc: (
+          <>
+            <strong>Average Cost:</strong> $50-$150 per hour or $0.10-$0.50 per square foot.
+          </>
+        ),
+      },
+      {
+        desc: (
+          <>
+            <strong>Includes:</strong> Cleaning desks, floors, trash removal, and restroom sanitization.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Deep Cleaning for Commercial Spaces",
+    description: [
+      {
+        desc: (
+          <>
+            <strong>Average Cost:</strong> $0.20-$0.60 per square foot.
+          </>
+        ),
+      },
+      {
+        desc: (
+          <>
+            <strong>Includes:</strong> Detailed floor cleaning, sanitizing workstations, and high-touch surface disinfection.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Specialized Commercial Services",
+    description: [
+      {
+        desc: (
+          <>
+            <strong>Floor Stripping and Waxing:</strong> $0.25-$1.00 per square foot.
+          </>
+        ),
+      },
+      {
+        desc: (
+          <>
+            <strong>Post-Construction Cleaning:</strong> $0.30-$0.75 per square foot.
+          </>
+        ),
+      },
+    ],
+  }
+];
+const FactorsThatInfluenceCostsData = [
+  {
+    id: 1,
+    title: "Size of the Space",
+    description: [
+      {
+        desc: (
+          <>
+            Larger homes or offices require more time and resources, increasing price.
+          </>
+        ),
+      }
+    ],
+  },
+  {
+    id: 2,
+    title: "Frequency of Service",
+    description: [
+      {
+        desc: (
+          <>
+            <strong>Weekly/Bi-Weekly Services:</strong> Typically discounted compared to one-time cleanings.
+          </>
+        ),
+      },
+      {
+        desc: (
+          <>
+            <strong>One-Time Cleaning:</strong> Higher due to the effort involved in initial cleanups.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Condition of the Space",
+    description: [
+      {
+        desc: (
+          <>
+            Heavily soiled or neglected areas may require more intensive cleaning, affecting costs.
+          </>
+        ),
+      }
+    ],
+  },
+  {
+    id: 4,
+    title: "Custom Requests",
+    description: [
+      {
+        desc: (
+          <>
+            Specific tasks, such as upholstery cleaning or pressure washing, may have additional charges.
+          </>
+        ),
+      },
+    ],
+  },
+];
 
 const HowMuchDoesCost = () => {
   return (
@@ -142,7 +265,7 @@ const HowMuchDoesCost = () => {
                 <p className="text-[20px] 4xl:text-[21px] 5xl:text-[25px] text-black font-bold leading-normal pt-[16px] 2xl:pt-[18px] 3xl:pt-[20px] 4xl:pt-[22px] 5xl:pt-[24px] pl-[14px] xl:pl-[16px] 5xl:pl-[18px]">Residential Cleaning Costs</p>
               </div>
               <div className="md:col-span-3">
-                {howMuchDoesCostData?.map((data) => {
+                {CommercialCleaningCostsData?.map((data) => {
                   return (
                     <div key={data?.id} className={`py-[10px] 5xl:py-[12px] px-[8px] 5xl:px-[10px] border border-dark-100 ${data?.id === 1 || data?.id === 3 ? "bg-white" : "bg-dark-200"}`}>
                       <p className="text-base 4xl:text-[17px] 5xl:text-lg font-bold text-black leading-[30px] 5xl:leading-[35px]">{data?.title}</p>
@@ -164,7 +287,7 @@ const HowMuchDoesCost = () => {
                 <p className="text-[20px] 4xl:text-[21px] 5xl:text-[25px] text-black font-bold leading-normal pt-[16px] 2xl:pt-[18px] 3xl:pt-[20px] 4xl:pt-[22px] 5xl:pt-[24px] pl-[14px] xl:pl-[16px] 5xl:pl-[18px]">Residential Cleaning Costs</p>
               </div>
               <div className="md:col-span-3">
-                {howMuchDoesCostData?.map((data) => {
+                {FactorsThatInfluenceCostsData?.map((data) => {
                   return (
                     <div key={data?.id} className={`py-[10px] 5xl:py-[12px] px-[8px] 5xl:px-[10px] border border-dark-100 ${data?.id === 1 || data?.id === 3 ? "bg-white" : "bg-dark-200"}`}>
                       <p className="text-base 4xl:text-[17px] 5xl:text-lg font-bold text-black leading-[30px] 5xl:leading-[35px]">{data?.title}</p>
